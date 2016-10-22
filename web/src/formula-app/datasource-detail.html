@@ -1,0 +1,154 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<link rel="import" href="./contact-dropdown.html">
+
+
+<dom-module id="datasource-detail">
+    <style>
+        paper-card {
+            margin: 20px;
+            width: 50%;
+            border-radius: 10px;
+            --paper-card-header: {
+                background-color: var(--paper-blue-900);
+            };
+            --paper-card-header-color: #fff
+        }
+        .paper-content {
+            padding: 20px;
+        }
+        .paper-actions {
+            padding: 20px;
+        }
+        iron-icon {
+            margin-right: 30px;
+        }
+        .datetime {
+            font-size: 10px;
+        }
+    </style>
+
+    <template>
+        <iron-ajax
+            id="updateContactReq"
+            method="PUT"
+            url={{_url}}
+            handle-as="json"
+            on-response="_updateContactHandler"
+            headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+        <paper-card heading="{{_dsSelected.name}}" elevation="3" id="container">
+            <div class="paper-content">
+                <div><h2><iron-icon icon="icons:list"></iron-icon>{{_dsSelected.numOfFormulas}}</h2></div>
+                <div class="datetime"><iron-icon icon="icons:alarm-add"></iron-icon><span>{{_addedDate}}</span></div>
+                <div class="datetime"><iron-icon icon="icons:alarm-on"></iron-icon><span>{{_modifiedDate}}</span></div>
+                <div><contact-dropdown selected="{{selectedContact}}" class="fit-top"></contact-dropdown></div>            
+            </div>
+            <div class="paper-actions">
+                <paper-button raised on-click="_fireUpdateContactReq">
+                    <iron-icon icon="icons:save"></iron-icon>
+                    UPDATE
+                </paper-button>
+            </div>
+            <paper-toast id="toastStatus"></paper-toast>
+        </paper-card>
+    
+    </template>
+
+    <script>
+        Polymer({
+            is: 'datasource-detail',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    value: '../../api'
+                },
+
+                items : {
+                    type: Array,
+                },
+                selected : {
+                    type: Number,
+                },
+
+                selectedContact : {
+                    type: String,
+                },
+
+                // Computed properties
+                _addedDate : {
+                    type: String,
+                    computed: '_computedAddedDate(_dsSelected)'
+                },
+                _modifiedDate: {
+                    type: String,
+                    computed: '_computedModifiedDate(_dsSelected)'
+                },
+                _dsSelected : {
+                    type: Object,
+                    computed: '_computedSelectedItem(items, selected)'
+                },
+                _url: {
+                    type: String,
+                    computed: '_computedURL(endpoint)'
+                }
+
+            },
+
+            obs: function(s){
+                console.log('observer: ' + s);
+            },
+
+            _computedSelectedItem: function(items, selected){
+                return items[selected];
+            },
+            _computedAddedDate: function(ds){
+                //return this._convertDateStringFormat(ds.created);
+                return ds.created;
+            },
+            _computedModifiedDate: function(ds){
+               // return this._convertDateStringFormat(ds.modified);
+               return ds.modified;
+            },
+            _convertDateStringFormat: function(orig){
+                var d = Date(orig);
+                console.log('convert date string function invoked!!');
+                return d.toLocaleFormat('%Y/%b/%d');
+            },
+            _computedURL: function(endpoint){
+                return endpoint + '/datasource'
+            },
+
+            _fireUpdateContactReq: function(){
+                var req = this.$.updateContactReq;
+                req.body = JSON.stringify({
+                    id: this.items[this.selected].id,
+                    contact: this.selectedContact
+                });
+                req.generateRequest();
+            },
+
+            _updateContactHandler: function(e){
+                console.log('Server responsed');
+                // Update and show paper-toast
+                var t = this.$.toastStatus
+                if(e.detail.xhr.status >= 200 && e.detail.xhr.status <= 300){
+                    t.text = "Update contact to " + this.items[this.selected].name + " successfully"
+                }
+                else{
+                    t.text = "Oops!! HTTP(" + e.detail.xhr.status + ") : " + e.detail.xhr.statusText;
+                }
+
+                t.fitInto = this.$.container;
+                t.show();
+            }
+
+
+
+        });
+    </script>
+</dom-module>

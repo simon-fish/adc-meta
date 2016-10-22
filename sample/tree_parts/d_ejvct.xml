@@ -1,0 +1,353 @@
+﻿<d id="D_EJVCT" n="CMO/ABS Tranche (EJV)" m="CMO" d="CMO/ABS (EJV)." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_EJVCT_TD" n="Description (TD)" d="Description" m="TD">
+		<i id="I_EJVCT_TD_Class" n="EJV.TD.Class" l="Class" d="Unique name to identify a tranche within a deal." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">Tranche</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Type" n="EJV.TD.Type" l="Type" d="A characteristic of a CMO tranche that describes the coupon payment rate." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CreditPrincipalCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Group" n="EJV.TD.Group" l="Group" d="A number indicating the association between tranche and collateral group(s) within the deal." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CompositeGroup</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CurrPayDate" n="EJV.TD.CurrPayDate" l="Current Payment Date" d="The current payment/factor date." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CurrentFactorDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Characteristics" n="EJV.TD.Characteristics" l="Characteristics" d="The tranche description." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">Description</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OrigPACLow" n="EJV.TD.OrigPACLow" l="Original PAC Low" d="Original effective range low band." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalEffectivePACLow</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OrigPACHigh" n="EJV.TD.OrigPACHigh" l="Original PAC High" d="Original effective range high band." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalEffectivePACHigh</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CurrPACLow" n="EJV.TD.CurrPACLow" l="Current PAC Low" d="Current effective range low band." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">PresentPACLow</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CurrPACHigh" n="EJV.TD.CurrPACHigh" l="Current PAC High" d="Current effective range high band." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">PresentPACHigh</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_DatedDate" n="EJV.TD.DatedDate" l="Dated Date" d="Date for which the PAC band is current." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalDatedDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_MaturityDate" n="EJV.TD.MaturityDate" l="Maturity Date" d="The final stated maturity date as per the prospectus." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">RatedMaturityDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OrigBalance" n="EJV.TD.OrigBalance" l="Original Balance" d="The original principal dollar amount stated on the prospectus." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalBalance</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CouponRate" n="EJV.TD.CouponRate" l="Coupon Rate" d="Stated interest rate on this tranche." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="CMOcc" pc="CMOpc" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_COUPON_HIST</in:sp>
+			<in:sp k="c">CouponRate</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+			<in:sp k="rule">pastOrNextDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Factor" n="EJV.TD.Factor" l="Factor" d="Factor for the tranche." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="CMOcc" pc="CMOpc" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_FACTOR_HIST</in:sp>
+			<in:sp k="c">Factor</in:sp>
+			<in:sp k="date">FactorDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_ScheduledPrincipalType" n="EJV.TD.ScheduledPrincipalType" l="Scheduled Principal Type" d="A characteristic of a CMO tranche which describes the rules for allocating principal payments from the underlying collateral." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">ScheduledPrincipalCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_SecondaryPrincipalType" n="EJV.TD.SecondaryPrincipalType" l="Secondary Principal Type" d="A characteristic of a CMO tranche that in conjunction with the Scheduled Principal Characteristic describes the treatment of principal payments to the tranche." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">SecondaryPrincipalCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CreditPrincipalType" n="EJV.TD.CreditPrincipalType" l="Credit Principal Type" d="A characteristic of a CMO tranche that describes the priority of the tranche with respect to default." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CreditPrincipalCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_AccrualBondType" n="EJV.TD.AccrualBondType" l="Accrual Bond Type" d="A characteristic of a CMO tranche that describes the way in which interest accrues. This characteristic identifies &quot;Z&quot; bonds, Accretion Directed bonds, and other such tranche types." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">AccrualBondCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_VariableInterestType" n="EJV.TD.VariableInterestType" l="Variable Interest Type" d="A characteristic of a CMO tranche that in conjunction with the coupon type characteristic describes the coupon payments of the tranche. This characteristic may be thought of as a modifier for variable and indexed coupons." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">VariableInterestCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Currency" n="EJV.TD.Currency" l="Currency" d="Currency Code." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">Currency</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CurrencyDesc" n="EJV.TD.CurrencyDesc" l="Currency Description" d="Currency code description." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CurrencyDescription</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OrigAvgLife" n="EJV.TD.OrigAvgLife" l="Original Average Life" d="Original average life of the tranche." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalAverageLife</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_IndexName" n="EJV.TD.IndexName" l="Index Name" d="Index name." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">BaseIndexDescription</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_IndexShortName" n="EJV.TD.IndexShortName" l="Index Short Name" d="Index short name." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">BaseIndexShortDescription</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_IndexCode" n="EJV.TD.IndexCode" l="Index Code" d="Index code." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">BaseIndex</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_LifeCap" n="EJV.TD.LifeCap" l="Life Cap" d="The life cap applied to the accrual rate." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">FloatLifeCap</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_LifeFloor" n="EJV.TD.LifeFloor" l="Life Floor" d="The life floor applied to the accrual rate." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">FloatLifeFloor</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Multiplier" n="EJV.TD.Multiplier" l="Multiplier" d="Index coefficient by which the index rate is multiplied when calculating the current interest rate on a floating rate index. (that is, interest rate = (multiplier *index rate) + offset)." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">FloatMultiplier</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OffSet" n="EJV.TD.OffSet" l="Offset" d="Increment added to calculation when calculating the current interest rate on a floating rate index." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">FloatOffset</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_FirstResetDate" n="EJV.TD.FirstResetDate" l="First Reset Date" d="Payment date on which the first reset coupon applies." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">FloatFirstResetDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CouponType" n="EJV.TD.CouponType" l="Coupon Type" d="A characteristic of a CMO tranche that describes whether the coupon is paid at a fixed rate, a variable rate, or floats off an index." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">CouponCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_DelayDays" n="EJV.TD.DelayDays" l="Delay Days" d="Actual number of days after the coupon accumulation period before the coupon payment is made." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">ActualDelayDays</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CouponFreq" n="EJV.TD.CouponFreq" l="Coupon Frequency" d="Description of the interest payment frequency." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">InterestPaymentFrequency</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_AccrualBasis" n="EJV.TD.AccrualBasis" l="Accrual Basis Code" d="Indicates the day count convention for the tranche used in calculating accrued interest, price/yield, and so on." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">DayCountCode</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_AccrualBasisName" n="EJV.TD.AccrualBasisName" l="Accrual Basis" d="Description of the accrual basis." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">DayCountLongDescription</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_OrigSettleDate" n="EJV.TD.OrigSettleDate" l="Original Settle Date" d="The original Settle Date." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">OriginalDatedDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_CollateralSummary" d="The collateral summary." l="Collateral Summary" n="EJV.TD.CollateralSummary" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DescriptionDetail</in:sp>
+		</i>
+		<i id="I_EJVCT_TD_Insurer" n="EJV.TD.Insurer" l="Insurer" d="Code representing the insurer." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_TRANCHE</in:sp>
+			<in:sp k="c">Insurer</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TP" n="Val. Price Info (C)" d="Val. Price Info." m="C">
+		<i id="I_EJVCT_TP_PricingBidPrice" d="Bid Price." l="Bid Price" n="EJV.C.PricingBidPrice" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_PricingAskPrice" d="Ask Price." l="Ask Price" n="EJV.C.PricingAskPrice" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_PricingBidAskSpread" d="Difference between the bid and ask prices for the security." l="Bid Ask Spread" n="EJV.C.PricingBidAskSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_TradeDate" d="Date for which the record applies." l="Trade Date" n="EJV.C.TradeDate" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_PricingPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.PricingPrepayModel" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_PricingPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.PricingPrepaySpeed" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_PricingSource" d="Source of the closing price. Defaults to EJV." l="Pricing Source" n="EJV.C.PricingSource" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_AccruedInterest" d="Amount of interest that the buyer owes the seller of the security on the settlement date." l="Accrued Interest" n="EJV.C.AccruedInterest" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_NumberAccruedDays" d="Number of days used to calculate accrued interest for the given settlement date." l="Number Accrued Days" n="EJV.C.NumberAccruedDays" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_AccrualDate" d="Date the accrual of interest begins for the bond." l="Accrual Date" n="EJV.C.AccrualDate" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TP_SettleDate" d="Date cash payments for purchases are due and accrued interest and price/yield relationships are computed." l="Settlement Date" n="EJV.C.SettleDate" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TM" n="Val. Maturity Analytics (C)" d="Val. Maturity Analytics." m="C">
+		<i id="I_EJVCT_TM_MaturityEquivalentPSA" d="Prepayment speed that results in the same average life as that computed using Maturity Prepay Model." l="PSA" n="EJV.C.MaturityEquivalentPSA" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.MaturityPrepayModel" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.MaturityPrepaySpeed" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityStandardYield" d="Yield to maturity expressed in terms that are standard for the current security." l="Yield To Maturity" n="EJV.C.MaturityStandardYield" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpStandardSpread" d="Spread computed by taking the difference between the yield on the bond and the corresponding yield on the Treasury curve. This differs from the OTR spread in that the Treasury yield is interpolated from the two on-the-run issues that bracket the average life rather than set equal to the nearest on-the-run issue. Calculated using the cash-flow assumptions described in Maturity Corp OTR Point." l="Interpolated Spread" n="EJV.C.MaturityCorpStandardSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpModDuration" d="Measure of interest rate risk. Represents the percentage change in value per unit shift in the yield curve. Calculated using the cash-flow assumptions described in Maturity Average Life." l="Modified Duration" n="EJV.C.MaturityCorpModDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpConvexity" d="Convexity of the security. Calculated using the cash-flow assumptions described in Maturity Average Life. Convexity measures the degree of curvature of the price/yield curve at the given price." l="Convexity" n="EJV.C.MaturityCorpConvexity" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityAverageLife" d="Average life of the security, calculated with the cash-flow assumption that corporate and government securities trade to maturity. For mortgage backed securities, Reuters applies consensus prepayment speeds." l="Average Life" n="EJV.C.MaturityAverageLife" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpDV01" d="Approximate change in price for a one basis point change in corporate bond equivalent yield. Calculated using the cash-flow assumptions that corporate and government securities trade to maturity." l="DV01" n="EJV.C.MaturityCorpDV01" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpOTRSpread" d="Difference between the corporate bond equivalent yield and the yield on the nearest on-the-run Treasury. Calculated using the cash-flow assumptions described in Maturity Average Life." l="OTR Spread Value" n="EJV.C.MaturityCorpOTRSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpOTRPoint" d="On-the-run issue that is nearest to Maturity Average Life." l="OTR Spread Date" n="EJV.C.MaturityCorpOTRPoint" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TM_MaturityCorpMacDuration" d="Measure of interest rate risk. Calculated by taking a present value weighted average of the time until receipt of cash flows using the cash-flow assumptions described in Maturity Average Life." l="Mac. Duration" n="EJV.C.MaturityCorpMacDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TE" n="Val. Econometric Analytics (C)" d="Val. Econometric Analytics." m="C">
+		<i id="I_EJVCT_TE_EconometricEquivalentPSA" d="PSA" l="PSA" n="EJV.C.EconometricEquivalentPSA" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.EconometricPrepayModel" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.EconometricPrepaySpeed" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricStandardYield" d="Yield on the bond expressed in the standard form for the current security. Calculated using the cash-flow assumptions that represent expected outcome." l="Yield to Econometric" n="EJV.C.EconometricStandardYield" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpStandardSpread" d="Calculated using the cash-flow assumptions described in Econometric Average Life. The spread is computed by taking the difference between the yield on the bond and the corresponding yield of the Treasury curve. This differs from the OTR spread in that the Treasury yield is interpolated from the two on-the-run issues that bracket the average life, rather than set equal to the nearest on-the-run issue." l="Interpolated Spread" n="EJV.C.EconometricCorpStandardSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpModDuration" d="Calculated using the cash-flow assumptions described in DS_EconometricAverageLife. Like Macaulay duration, modified duration is a measure of interest risk but is expressed such that it represents the percentage change in value per unit shift in the yield curve." l="Modified Duration" n="EJV.C.EconometricCorpModDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpConvexity" d="Convexity, calculated using the cash-flow assumptions described in DS_EconometricAverageLife. Convexity measures the degree of curvature of the price/yield curve at the given price." l="Convexity" n="EJV.C.EconometricCorpConvexity" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricAverageLife" d="Average life, computed using cash-flow assumptions that represent expected outcome. For mortgage backed securities, EJV prepayment model assumptions are used. For corporate and government securities, Reuters determines the worst call and sinking fund speed and the best put, and uses these as assumptions." l="Average Life" n="EJV.C.EconometricAverageLife" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpDV01" d="Change in price for a security given a one basis point change in corporate bond equivalent yield. Calculated using the cash-flow assumptions described in Econometric Average Life." l="DV01" n="EJV.C.EconometricCorpDV01" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpOTRSpread" d="Difference between the cash-flow yield and the yield on the on-the-run Treasury whose term is closest to the average life of the mortgage. Cash flows and average life are derived using the projected PSA or CPR." l="OTR Spread Value" n="EJV.C.EconometricCorpOTRSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpOTRPoint" d="On-the-run issue nearest to Econometric Average Life." l="OTR Spread Date" n="EJV.C.EconometricCorpOTRPoint" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TE_EconometricCorpMacDuration" d="Calculated using the cash-flow assumptions described in Econometric Average Life. Macaulay duration is a measure of interest rate risk and is calculated by taking a present value weighted average of the time until receipt of cash flows." l="Mac. Duration" n="EJV.C.EconometricCorpMacDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TO" n="Val. OA Analytics (C)" d="Val. OA Analytics." m="C">
+		<i id="I_EJVCT_TO_OptionAdjustedPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.OptionAdjustedPrepayModel" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.OptionAdjustedPrepaySpeed" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedYield" d="Yield to maturity adjusted for the value of embedded options." l="Yield To Maturity" n="EJV.C.OptionAdjustedYield" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedDuration" d="Modified duration of a security calculated using an option-based model that accounts for embedded options. The OA duration indicates how cash flows change when interest rates change. Also known as “rate duration” and “OA duration.”." l="Effective Duration" n="EJV.C.OptionAdjustedDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedConvexity" d="Measure of the curvature of the price-yield relationship of a fixed income security, calculated using a model that accounts for any embedded options." l="Effective Convexity" n="EJV.C.OptionAdjustedConvexity" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedUp25Price" d="Price of the security, assuming constant option-adjusted spread, when the term structure is shifted up 25-basis points." l="Price (+25bp)" n="EJV.C.OptionAdjustedUp25Price" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedDown25Price" d="Price of the security, assuming constant option-adjusted spread, when the term structure is shifted down 25-basis points." l="Price (-25bp)" n="EJV.C.OptionAdjustedDown25Price" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedOptionValue" d="Dollar value of the security’s embedded options." l="Option Value" n="EJV.C.OptionAdjustedOptionValue" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedDV01" d="DV01 of a security, calculated from an option-based model that accounts for any embedded options." l="DV01" n="EJV.C.OptionAdjustedDV01" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedZeroVolSpread" d="Identical to Option Adjusted Spread, but with the assumption of zero volatility. The difference between Option Adjusted Spread and Option Adjusted Zero Vol Spread can be viewed as the cost in basis points of the imbedded options." l="ZC Volatility" n="EJV.C.OptionAdjustedZeroVolSpread" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedSpreadDuration" d="Spread duration is the duration with respect to a change in the option adjusted spread. Calculation is identical to the option adjusted duration except that Reuters shifts OAS rather than term structure." l="Spread Duration" n="EJV.C.OptionAdjustedSpreadDuration" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedOptionCost" d="Difference in basis points between the option-adjusted spread calculated with Reuters default volatility assumptions and the option-adjusted spread calculated with zero volatility." l="Option Cost" n="EJV.C.OptionAdjustedOptionCost" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedALVolatility" d="Standard deviation of the average life derived from each of the interest rate paths in the Monte Carlo option simulation. A measure of average life risk." l="Average Life Volatility" n="EJV.C.OptionAdjustedALVolatility" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVCT_TO_OptionAdjustedAvgLife" d="Calculated mean average life of each path in the option adjusted spread." l="Average Life Volume" n="EJV.C.OptionAdjustedAvgLife" s="EJVCOMMON" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TR" n="Rating (TR)" d="Rating" m="TR">
+		<i id="I_EJVCT_TR_Rating" n="EJV.TR.Rating" l="Rating" d="Code indicating the current published or announced rating from this source." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="EjvRatingSourceCMO" pc="CMORPC" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_RATING_HIST</in:sp>
+			<in:sp k="c">Rating</in:sp>
+			<in:sp k="date">AsOfDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TR_RatingRank" n="EJV.TR.RatingRank" l="Rating Rank" d="Rating Rank." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="EjvRatingSourceCMO" pc="CMORPC" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_RATING_HIST</in:sp>
+			<in:sp k="c">RatingRank</in:sp>
+			<in:sp k="date">AsOfDate</in:sp>
+		</i>
+		<i id="I_EJVCT_TR_RatingEquivalentRank" n="EJV.TR.RatingEquivalentRank" l="Rating SP Equivalent Rank" d="Rating SP Equivalent Rank." i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="EjvRatingSourceCMO" pc="CMORPC" s="EJVAN" isScreen="false">
+			<in:sp k="view">CMO_RATING_HIST</in:sp>
+			<in:sp k="c">RatingSPEquivalentRank</in:sp>
+			<in:sp k="date">AsOfDate</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVCT_TH" d="Holding." n="Holding (H)">
+		<i id="I_EJVCT_TH_REPORTDATE" d="Date when the par held by the managing company on the instrument was last reported." l="Reported Date" n="EJV.H.REPORTDATE" s="EJVEMAXX" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="EJVHolding" pc="TopRec" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="c">CompanyHoldingDate</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+		<i id="I_EJVCT_TH_PARHELD" d="Par held by the company on the last reported date in USD by default when no conversion is requested." l="Par Held" n="EJV.H.PARHELD" s="EJVEMAXX" i="A:27 A:1M A:3V A:3Z A:40 A:41 A:B1 A:A A:B2 A:B3 A:B4 A:B5 A:7P A:7N A:B6 A:B7 A:B8 A:7Q A:B9 A:BA A:BB A:BC A:BD A:BE" cc="EJVHolding" pc="TopRec" vu="T" isScreen="false">
+			<in:sp k="c">HoldingSize</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+	</c>
+</d>

@@ -1,0 +1,192 @@
+﻿<d id="D_DSO" n="Options" d="Options" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSO_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSO_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_OptionTicker" n="TR.OptionTicker" l="Option Exchange Ticker Symbol" d="The exchange root ticker symbol." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OPTCODE</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_OptionExchange" n="TR.OptionExchange" l="Option Exchange" d="The exchange the option contract is traded." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OEX</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_OptionType" n="TR.OptionType" l="Option Type" d="Displays either Call or Put." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OTYP</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_OptionUnderlyingInstrumentType" n="TR.OptionUnderlyingInstrumentType" l="Option Underlying Instrument Type" d="The instrument type of the option underlying instrument. Note: BD for bond, EQ for equity, IN for Index, FU for future and FX for Exchange Rate." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OPTYPE</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_UnderlyingMnem" n="TR.UnderlyingMnem" l="Underlying Mnem" d="The Datastream mnemonic of the option underlying instrument." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OUI</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_UnderlyingName" n="TR.UnderlyingName" l="Underlying Name" d="Displays the full name of the future contract." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OUN</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_ExpiryStyle" n="TR.ExpiryStyle" l="Expiry Style" d="The option expiry style. American or European only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OEXT</in:sp>
+		</i>
+		<i id="I_DSO_SQ_TR_TradingCycle" n="TR.TradingCycle" l="Trading Cycle" d="The trading cycle of the contract. For example if the contract trades March, June, September and December expiry months TCYCLE will return &quot;MAR JUN SEP DEC&quot;. If all months are traded &quot;ALL&quot; is returned." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TCYCLE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSO_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSO_P_TR_Price" n="TR.Price" l="Price" d="The price issued by an exchange or third party." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">P</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_SettlementPrice" n="TR.SettlementPrice" l="Settlement Price" d="The official daily settlement price issued by the exchange." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PS</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_VolumeofContracts" n="TR.VolumeofContracts" l="Volume of Contracts" d="The total number of contracts traded for the day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VM</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_PriceCurrency" n="TR.PriceCurrency" l="Price - Currency" d="This is the currency of issue." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PCUR</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_MarketPrice" n="TR.MarketPrice" l="Market Price" d="Where the exchange issues a settlement price this value will be stored. For exchanges which do not issue a settlement price (OTOB, AEX, CBOE, AMEX and PHLX), the following price will be stored: Last traded price provided last trade is within bid/ask range at the end of the closing session. Otherwise the nearest bid or ask price to the last trade price will be stored. In the event that the option has not traded, the last mid bid/ask price will be calculated and stored. In the event that only bid or ask is available on that day, this value will be stored" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_OpenInterest" n="TR.OpenInterest" l="Open Interest" d="The total open positions for all individual option series. The total number of options contracts that have been entered into and not yet liquidated. Some exchanges such as MONEP and CME will display open interest in 'gross' whilst other exchanges such as LIFFE will display the open interest value in 'net'." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OI</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_UnderlyingPrice" n="TR.UnderlyingPrice" l="Underlying Price" d="The price of the underlying series at the close of the option market. For options on British Telecom, for example,the underlying series price is for British Telecom taken at the time the options market closes." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OU</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_LotSize" n="TR.LotSize" l="Lot Size" d="The lot size of the option, also known as the contract size or contract value. The contract size is stated in the contract specification. The contract size is the actual amount of a commodity represented in a contract." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OLOT</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_UnderlyingSeriesPrice" n="TR.UnderlyingSeriesPrice" l="Underlying Series Price" d="The price of the underlying series at the close of the option market. For options on British Telecom, for example, the underlying series price is for British Telecom, taken at the time the options market closes." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OUP</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_ExercisePrice" n="TR.ExercisePrice" l="Exercise Price" d="Displays the exercise price of an option." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OXCP</in:sp>
+		</i>
+		<i id="I_DSO_P_TR_ExpiryDate" n="TR.ExpiryDate" l="Expiry Date" d="Displays the expiry date of an option." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OXPD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSO_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSO_PA_TR_ImpliedVolatility" n="TR.ImpliedVolatility" l="Implied Volatility" d="The market’s current estimate of future volatility. Implied volatility is available for individual and continuous option series'." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VL</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatilityInter" n="TR.ImpliedVolatilityInter" l="Implied Volatility - At The Money Interpolated" d="The nearest two options series at-the-money are used: One above and one below the underlying price." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VI</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_Delta" n="TR.Delta" l="Delta" d="Change of Option price, when underlying security price increases one unit." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DZ</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_Gamma" n="TR.Gamma" l="Gamma" d="Change of Delta when underlying security price increases one unit." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">GM</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_Theta" n="TR.Theta" l="Theta" d="Change of option price, per day the option moves nearer to expiry (time decay). This is the price drop of the option per business day (252 days per year), assuming the instrument price does not change. In the rare event of a negative value being returned, this would indicate a price increase in the option. To calculate 'theta' per actual day, multiply the returned value by 252/365. To adopt the terminology of a negative theta then multiply the returned value by -1." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TA</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_AtTheMoneyStrikePrice" n="TR.AtTheMoneyStrikePrice" l="At The Money Strike Price" d="Displays the option strike price nearest the money." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OS</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility1Month" n="TR.ImpliedVolatility1Month" l="Implied Volatility - 1 Month Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 30 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">O1</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility2Month" n="TR.ImpliedVolatility2Month" l="Implied Volatility - 2 Month Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 60 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">O2</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility3Month" n="TR.ImpliedVolatility3Month" l="Implied Volatility - 3 Month Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 90 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">O3</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility6Month" n="TR.ImpliedVolatility6Month" l="Implied Volatility - 6 Month Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 180 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">O6</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility9Month" n="TR.ImpliedVolatility9Month" l="Implied Volatility - 9 Month Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 270 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">ON</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility1Year" n="TR.ImpliedVolatility1Year" l="Implied Volatility - 1 Year Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of 365 days." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OY</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility2Year" n="TR.ImpliedVolatility2Year" l="Implied Volatility - 2 Year Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of two years." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">I2</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility3Year" n="TR.ImpliedVolatility3Year" l="Implied Volatility - 3 Year Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of three years." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">I3</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility4Year" n="TR.ImpliedVolatility4Year" l="Implied Volatility - 4 Year Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of four years." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">I4</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility5Year" n="TR.ImpliedVolatility5Year" l="Implied Volatility - 5 Year Constant Maturity" d="Displays implied volatility At-the-Money (ATM) with a constant time to maturity of five years." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">I5</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_AtTheMoneyOptionPrice" n="TR.AtTheMoneyOptionPrice" l="At The Money Option Price" d="Displays the market price of the option series nearest the money." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OM</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatilityTradeWeighted" n="TR.ImpliedVolatilityTradeWeighted" l="Implied Volatility - Trade Weighted" d="Weighted is based on the day's volume. If volume is 0 then all options series are given equal weighting. This is recalculated daily as many Exchanges provide official figures the following day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VX</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_FairValue" n="TR.FairValue" l="Fair Value" d="A theoretical price for the option series based on the relevant option model." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">FV</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_OptionModelCalc" n="TR.OptionModelCalc" l="Option Model Calculation" d="The option model used to calculate the option volatility datatypes including the greeks." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OPMOD</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatilityAtTheMoneyNearestStrike" n="TR.ImpliedVolatilityAtTheMoneyNearestStrike" l="Implied Volatility - At The Money Nearest Strike" d="Displays the options volatility of the nearest option strike price to the money." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OV</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_VegaKappa" n="TR.VegaKappa" l="Vega, Kappa" d="Change in option price, when volatility moves by one percentage point." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VG</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatilitySpotWeekConstant" n="TR.ImpliedVolatilitySpotWeekConstant" l="Implied Volatility - Spot - Week Constant Maturity" d="Implied Volatility - Spot - Week Constant Maturity" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OC</in:sp>
+		</i>
+		<i id="I_DSO_PA_TR_ImpliedVolatility1WeekConstantMat" n="TR.ImpliedVolatility1WeekConstantMat" l="Implied Volatility - 1 Week Constant Maturity" d="Implied Volatility - 1 Week Constant Maturity" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OD</in:sp>
+		</i>
+	</c>
+</d>

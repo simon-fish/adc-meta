@@ -1,0 +1,20 @@
+﻿<d id="D_AGG" d="AggregateCache" m="AGC" n="AggregateCache" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_D_AGG" n="AggregateCache" d="AggregateCache" m="">
+		<i id="AGG_CACHE_ITEM" n="TR.AggregateCacheItem" l="Aggregate Cache Item" d="AggregateCacheItem" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISEAGGCACHE" ss="VECTORWISE" vu="N" pc="AggCache" cc="aggRicGroupValue" dt="Float" rnk="99999" isScreen="true" isAggs="false" alias="Cached Aggregate Item">
+			<out:p id="hidden" />
+			<in:sp k="fn">aggregateitemcache</in:sp>
+			<in:sp k="id">aggregateitemcache</in:sp>
+			<in:sp k="idt">ISSUEID</in:sp>
+		</i>
+		<i id="HIST_AGG_INDEX_ITEM" n="TR.HistAggregateIndexItem" l="Histocal Aggregate Item" d="HistoricalAggregateCacheItem" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISEAGGCACHE" ss="VECTORWISE" vu="N" pc="HistAggCache" cc="aggRicDateValue" dt="Float" rnk="99999" isScreen="true" isAggs="false" alias="Cached Historical Aggregate Item">
+			<out:p id="hidden" />
+			<in:sp k="fn">histaggregateitemcache</in:sp>
+			<in:sp k="id">aggregateitemcache</in:sp>
+			<in:sp k="idt">ISSUEID</in:sp>
+		</i>
+		<i id="I_ALL_HISTORICAL_AGGREGATES" n="TR.AllHistoricalAggregates" l="Historical Aggregates, All" d="Provides all the persisted historical aggregates" s="AggCacheHandler" vu="N" cc="ricValues" dt="String" isScreen="false" i="A:1L" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="columnNames">Aggregates Field;Index ID;Index Code;Index Name</in:sp>
+		</i>
+	</c>
+</d>

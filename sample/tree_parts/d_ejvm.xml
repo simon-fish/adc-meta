@@ -1,0 +1,904 @@
+﻿<d id="D_EJVM" d="Mortgage Backed Securities." m="EJVM" n="Mortgage Backed Securities (EJV)" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_EJVM_C" d="General Information." n="General Information (C)">
+		<i id="I_EJVM_C_AssetID" d="Unique Reuters system-assigned identifier for the security." l="Asset ID" n="EJV.C.AssetID" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AssetStatus" d="Code representing the status of the asset. Many status updates are performed programmatically." l="Asset Status" n="EJV.C.AssetStatus" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AssetStatusDescription" d="Description of the Asset Status code." l="Asset Status Description" n="EJV.C.AssetStatusDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AverageOrigDate" d="Average Orig Date." l="Average Orig Date" n="EJV.C.AverageOrigDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ContributorSource" d="Contributor Source." l="Contributor Source" n="EJV.C.ContributorSource" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Country" d="Code representing the country in which the security was issued." l="Issue Country Code" n="EJV.C.Country" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CountryName" d="Description of the Country Name." l="Country Name" n="EJV.C.CountryName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponClass" d="Coupon payment applicable to the asset." l="Coupon Class" n="EJV.C.CouponClass" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponFreqShortDescription" d="Abbreviated description of Coupon Frequency Description." l="Coupon Frequency Short Description" n="EJV.C.CouponFreqShortDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponFrequency" d="Code representing the frequency of coupon payments for the asset." l="Coupon Frequency" n="EJV.C.CouponFrequency" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponFrequencyDescription" d="Description of the Coupone Frequency Code." l="Coupon Frequency Description" n="EJV.C.CouponFrequencyDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponRate" d="Pass-through coupon rate on a pool. Net coupon is equal to the gross coupon minus servicing fees." l="Coupon Rate" n="EJV.C.CouponRate" s="EJVAN" i="A:D" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="view">GOVCORP_RATE_SCHED</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+			<in:sp k="rule">pastOrNextDate</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponType" d="Type of coupon payment applicable to the asset." l="Coupon Type" n="EJV.C.CouponType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponTypeDescription" d="Description of Coupon Type." l="Coupon Type Description" n="EJV.C.CouponTypeDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CouponTypeShortDescription" d="Abbreviated description of Coupon Type." l="Coupon Type Short Description" n="EJV.C.CouponTypeShortDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Currency" d="Code representing the denomination of the security." l="Currency" n="EJV.C.Currency" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CurrencyActiveFlag" d="Currency Active Flag." l="Currency Active Flag" n="EJV.C.CurrencyActiveFlag" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_CurrencyDescription" d="Currency Description." l="Currency Description" n="EJV.C.CurrencyDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DayCount" d="Description of Day Count Code." l="Day Count" n="EJV.C.DayCount" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DayCountCode" d="Code representing the number of days in a month and the number of days assumed in a year. ACT signifies actual count." l="Day Count Code" n="EJV.C.DayCountCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DayCountLongDescription" d="Long Description of Day Count Code." l="Day Count Long Description" n="EJV.C.DayCountLongDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Description" d="Descriptive field containing items that identify the security, such as ticker, coupon, maturity date." l="Description" n="EJV.C.Description" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="f">CommonName</in:sp>
+			<in:sp k="category">SA</in:sp>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DescriptionDetail" d="Thirty-character field that, when used with description, produces a detailed description of the asset." l="Description Detail" n="EJV.C.DescriptionDetail" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DistributionSource" d="Distribution Source." l="Distribution Source" n="EJV.C.DistributionSource" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DistributionSourceDescription" d="Distribution Source Description." l="Distribution Source Description" n="EJV.C.DistributionSourceDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Domicile" d="Domicile" l="Domicile" n="EJV.C.Domicile" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DomicileName" d="Domicile Name." l="Domicile Name" n="EJV.C.DomicileName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FaceIssuedTotal" d="Principal amount of the new security issued." l="Face Issued Total" n="EJV.C.FaceIssuedTotal" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FirmID" d="Firm to which the issuer belongs. System supplied issuers have the firm identifier for Reuters. User supplied issuers have the firm identifier of the user." l="Firm ID" n="EJV.C.FirmID" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatIndexType" d="Index used in the reset calculation for the bond (for example, the 3-month US LIBOR)." l="Float Index Type" n="EJV.C.FloatIndexType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatLifeCap" d="The maximum interest rate increase limitation per interest adjustment." l="Float Life Cap" n="EJV.C.FloatLifeCap" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatLifeFloor" d="Float Life Floor." l="Float Life Floor" n="EJV.C.FloatLifeFloor" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatMultiplier" d="Index coefficient by which index rate is multiplied when calculating the current interest rate on a floating rate index. The floater interest rate is calculated as: interest rate = float multiplier * index rate + float offset." l="Float Multiplier" n="EJV.C.FloatMultiplier" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatOffset" d="Increment added to the current interest rate calculation on a floating rate index." l="Float Offset" n="EJV.C.FloatOffset" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatPeriodCap" d="Maximum interest rate increase limitation per interest adjustment." l="Float Period Cap" n="EJV.C.FloatPeriodCap" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_FloatPeriodFloor" d="Minimum interest rate decrease limitation per interest adjustment." l="Float Period Floor" n="EJV.C.FloatPeriodFloor" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IsAssetActive" d="Code indicating the security’s asset status." l="Is Asset Active" n="EJV.C.IsAssetActive" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IsConvertible" d="Y/N flag indicating whether the underlying mortgages of a pool can be converted from floating to fixed-rate loans." l="Is Convertible" n="EJV.C.IsConvertible" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IsFloater" d="Y/N flag indicating whether the bond has a floating rate coupon." l="Is Floater" n="EJV.C.IsFloater" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ISOLongCountryCode" d="Code representing the ISO denomination of the security." l="ISO Long Country Code" n="EJV.C.ISOLongCountryCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ISOShortCountryCode" d="ISO Short Country Code." l="ISO Short Country Code" n="EJV.C.ISOShortCountryCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IsPutable" d="Y/N flag indicating whether put terms and put schedules apply to the asset." l="Is Putable" n="EJV.C.IsPutable" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IssueDate" d="Date of issuance of the asset (for example, the date of initial settlement)." l="Issue Date" n="EJV.C.IssueDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IssuerCapitalName" d="Issuer Capital Name." l="Issuer Capital Name" n="EJV.C.IssuerCapitalName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IssuerDescription" d="Long name of the company." l="Issuer Description" n="EJV.C.IssuerDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IssuerID" d="Unique Reuters system-assigned identifier for the issuer." l="Issuer ID" n="EJV.C.IssuerID" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_IssuerName" d="Name of the company." l="Issuer Name" n="EJV.C.IssuerName" s="EJVIS" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<!-- common case -->
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">LongName</in:sp>
+			<!--For @OrgId identifiers-->
+			<in:sp k="view2">GOVCORP_PARTY</in:sp>
+			<in:sp k="c2">IssuerLongName</in:sp>
+			<in:sp k="instr2">IssuerOrganization</in:sp>
+			<!-- Search settings for requests with lang="ja-JP" attribute -->
+			<in:sp k="f">DocumentTitle</in:sp>
+			<in:sp k="sf">SubjectName</in:sp>
+			<in:sp k="category">SA</in:sp>
+		</i>
+		<i id="I_EJVM_C_LastChangeDate" d="Last date on which asset structure information was changed in the system." l="Last Change Date" n="EJV.C.LastChangeDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Loc" d="Location code for the security." l="Location" n="EJV.C.Loc" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_LocDescription" d="Description of the Location code." l="Location Description" n="EJV.C.LocDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_LongName" d="Long name of the issuer." l="Long Name" n="EJV.C.LongName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_MaturityDate" d="Date the asset pays the remaining total principal amount to the holder in a redemption transaction. For an extendible security, the maturity date will change on each extend date from the current extend date to the next extend date." l="Maturity Date" n="EJV.C.MaturityDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_MaturityRedemIndex" d="Integer value identifying the redemption event that was assumed in calculating cash flows." l="Maturity Redemption Index" n="EJV.C.MaturityRedemIndex" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PropertyTypeCode" d="Code representing the property type." l="Property Type Code" n="EJV.C.PropertyTypeCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Region" d="Code indicating the global region." l="Region" n="EJV.C.Region" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ShortName" d="Short name for the issuer." l="Short Name" n="EJV.C.ShortName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_SIC" d="Industry of the issuer based on the Bureau of the Budget Standard Industrial Classification (SIC) code. Structure uses the standard four-digit SIC." l="SIC" n="EJV.C.SIC" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_SPIndustry" d="Company’s main industry or line of business as defined by Standard and Poor’s." l="SP Industry" n="EJV.C.SPIndustry" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_StandardYieldType" d="Equivalent yield type to be used for comparison of yields across security types." l="Standard Yield Type" n="EJV.C.StandardYieldType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_StandardYieldTypeDescription" d="Description of the yield type code used to indicate standard yield convention, which is the yield generally used when quoting yields for the bond." l="Standard Yield Type Description" n="EJV.C.StandardYieldTypeDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Ticker" d="Equity ticker for the issuer of the asset. NYSE ticker is used if one exists. If an asset has more than one ticker, NYSE is recognized by Reuters as the ticker for the asset. If there is no NYSE symbol, Thomson Reuters will use another exchange symbol or assign an internal ticker." l="Ticker" n="EJV.C.Ticker" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ValuationLoc" d="Code identifying from where the valuation information for the security comes." l="Valuation Location" n="EJV.C.ValuationLoc" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ValuationSource" d="Price source used to calculate derived values. Defaults to EJV." l="Valuation Source" n="EJV.C.ValuationSource" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Vendor" d="Code representing the vendor who provides the rate or index from the original source to Thomson Reuters." l="Vendor" n="EJV.C.Vendor" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_VendorName" d="Vendor Name." l="Vendor Name" n="EJV.C.VendorName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_BaseIndex" d="Base Index." l="Base Index" n="EJV.C.BaseIndex" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_BaseIndexDescription" d="Base Index Description." l="Base Index Description" n="EJV.C.BaseIndexDescription" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_BaseIndexShortDescription" d="Base Index Short Description." l="Base Index Short Description" n="EJV.C.BaseIndexShortDescription" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_HasAggregate" d="Has Aggregate." l="Has Aggregate" n="EJV.C.HasAggregate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PoolNum" d="Pool Num." l="Pool Num" n="EJV.C.PoolNum" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PoolPrefix" d="Pool Prefix." l="Pool Prefix" n="EJV.C.PoolPrefix" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PoolSuffix" d="Pool Suffix." l="Pool Suffix" n="EJV.C.PoolSuffix" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PoolTypeMnemonicDescription" d="Pool Type Mnemonic Description." l="Pool Type Mnemonic Description" n="EJV.C.PoolTypeMnemonicDescription" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_ServicerName" d="Servicer Name." l="Servicer Name" n="EJV.C.ServicerName" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_TPMDiscount" d="Percentage subtracted from the stated gross coupon. Used to calculate the first year coupon rate paid by the borrower." l="TPM Discount" n="EJV.C.TPMDiscount" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PaymentGrowthYears" d="Number of years of the graduation period for growing equity and graduated payment mortgages." l="Payment Growth Years" n="EJV.C.PaymentGrowthYears" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_PaymentGrowthRate" d="Annual percentage increase for graduated payment mortgages or growing equity mortgages during the graduated period." l="Payment Growth Rate" n="EJV.C.PaymentGrowthRate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_NetCoupon" d="Accrual rate on a pool. Net coupon is equal to the gross coupon minus servicing fees." l="Net Coupon" n="EJV.C.NetCoupon" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_GrossCoupon" d="Weighted average of the loan rates for the mortgages in the pool." l="Gross Coupon" n="EJV.C.GrossCoupon" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DelayDays" d="Actual number of days after the coupon accumulation period before the coupon payment is made." l="Delay Days" n="EJV.C.DelayDays" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_BalloonTerm" d="Number of months from the mortgage origination date of each mortgage to the date the borrower must repay all remaining principal. Used for pools with balloon mortgages." l="Balloon Term" n="EJV.C.BalloonTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AmortizationTypeDescription" d="Description of Amortization Type codes." l="Amortization Type Description" n="EJV.C.AmortizationTypeDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AmortizationType" d="Code representing the scheduled mortgage principal amortization method." l="Amortization Type" n="EJV.C.AmortizationType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_Agency" d="Code indicating the issuing agency of a MBS." l="Agency" n="EJV.C.Agency" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AgencyID" d="Internal system-created identifier for the mortgage-backed agency issuers." l="Agency ID" n="EJV.C.AgencyID" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AgencyLongName" d="Long name for the agencies issuing mortgage-backed securities." l="Agency Long Name" n="EJV.C.AgencyLongName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AgencyName" d="Descriptions for the agencies issuing mortgage-backed securities." l="Agency Name" n="EJV.C.AgencyName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AgencyShortDescription" d="Short description for the agencies issuing mortgage-backed securities." l="Agency Short Description" n="EJV.C.AgencyShortDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_AgencyShortName" d="Short name for the agencies issuing mortgage-backed securities." l="Agency Short Name" n="EJV.C.AgencyShortName" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_WAMTerm" d="Weighted average remaining term in months for the generic." l="WAM Term" n="EJV.C.WAMTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DbSubType" d="Code representing a subclassification of the security." l="Db Subclassification Type" n="EJV.C.DbSubType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DbType" d="Code classifying the security according to a Reuters security classification." l="Db Type" n="EJV.C.DbType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_C_DbSubTypeDescription" d="Description for the code representing a subclassification of the security." l="Db Subclassification Type Description" n="EJV.C.DbSubTypeDescription" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_A" d="ARM Information." n="ARM Information (A)">
+		<i id="I_EJVM_A_ARMAsOfDate" d="ARM As Of Date." l="ARM As Of Date" n="EJV.A.ARMAsOfDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMClass" d="ARM Class." l="ARM Class" n="EJV.A.ARMClass" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMConvertStartDate" d="ARM Convert Start Date." l="ARM Convert Start Date" n="EJV.A.ARMConvertStartDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMConvertStopDate" d="ARM Convert Stop Date." l="ARM Convert Stop Date" n="EJV.A.ARMConvertStopDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMFirstPaymentResetDate" d="ARM First Payment Reset Date." l="ARM First Payment Reset Date" n="EJV.A.ARMFirstPaymentResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMFirstRateResetCap" d="ARM First Rate Reset Cap." l="ARM First Rate Reset Cap" n="EJV.A.ARMFirstRateResetCap" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMFirstRateResetDate" d="ARM First Rate Reset Date." l="ARM First Rate Reset Date" n="EJV.A.ARMFirstRateResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMFirstRateResetFloor" d="ARM First Rate Reset Floor." l="ARM First Rate Reset Floor" n="EJV.A.ARMFirstRateResetFloor" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMGrossMargin" d="ARM Gross Margin." l="ARM Gross Margin" n="EJV.A.ARMGrossMargin" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMIndexName" d="ARM Index Name." l="ARM Index Name" n="EJV.A.ARMIndexName" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMIsConvertible" d="ARM Is Convertible." l="ARM Is Convertible" n="EJV.A.ARMIsConvertible" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMIsPaymentCapped" d="ARM Is Payment Capped." l="ARM Is Payment Capped" n="EJV.A.ARMIsPaymentCapped" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMMargin" d="ARM Margin." l="ARM Margin" n="EJV.A.ARMMargin" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMMinimumIndexMove" d="ARM Minimum Index Move." l="ARM Minimum Index Move" n="EJV.A.ARMMinimumIndexMove" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMMonthsToNextRateReset" d="ARM Months To Next Rate Reset." l="ARM Months To Next Rate Reset" n="EJV.A.ARMMonthsToNextRateReset" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMNegativeAmortCap" d="ARM Negative Amort Cap." l="ARM Negative Amort Cap" n="EJV.A.ARMNegativeAmortCap" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMNegativeAmortType" d="ARM Negative Amort Type." l="ARM Negative Amort Type" n="EJV.A.ARMNegativeAmortType" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMNextPaymentResetDate" d="ARM Next Payment Reset Date." l="ARM Next Payment Reset Date" n="EJV.A.ARMNextPaymentResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMNextRateResetDate" d="ARM Next Rate Reset Date." l="ARM Next Rate Reset Date" n="EJV.A.ARMNextRateResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentCapTerm" d="ARM Payment Cap Term." l="ARM Payment Cap Term" n="EJV.A.ARMPaymentCapTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentLookbackDays" d="ARM Payment Lookback Days." l="ARM Payment Lookback Days" n="EJV.A.ARMPaymentLookbackDays" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentResetCap" d="ARM Payment Reset Cap." l="ARM Payment Reset Cap" n="EJV.A.ARMPaymentResetCap" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentResetFloor" d="ARM Payment Reset Floor." l="ARM Payment Reset Floor" n="EJV.A.ARMPaymentResetFloor" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentResetTerm" d="ARM Payment Reset Term." l="ARM Payment Reset Term" n="EJV.A.ARMPaymentResetTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentTeaserTerm" d="ARM Payment Teaser Term." l="ARM Payment Teaser Term" n="EJV.A.ARMPaymentTeaserTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentUnlimResetStart" d="ARM Payment Unlim Reset Start." l="ARM Payment Unlim Reset Start" n="EJV.A.ARMPaymentUnlimResetStart" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMPaymentUnlimResetTerm" d="ARM Payment Unlim Reset Term." l="ARM Payment Unlim Reset Term" n="EJV.A.ARMPaymentUnlimResetTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateCapTerm" d="ARM Rate Cap Term." l="ARM Rate Cap Term" n="EJV.A.ARMRateCapTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateCapType" d="ARM Rate Cap Type." l="ARM Rate Cap Type" n="EJV.A.ARMRateCapType" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateLookbackDays" d="ARM Rate Lookback Days." l="ARM Rate Lookback Days" n="EJV.A.ARMRateLookbackDays" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateOriginalLifeCap" d="ARM Rate Original Life Cap." l="ARM Rate Original Life Cap" n="EJV.A.ARMRateOriginalLifeCap" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateOriginalLifeFloor" d="ARM Rate Original Life Floor." l="ARM Rate Original Life Floor" n="EJV.A.ARMRateOriginalLifeFloor" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateResetCap" d="ARM Rate Reset Cap." l="ARM Rate Reset Cap" n="EJV.A.ARMRateResetCap" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateResetFloor" d="ARM Rate Reset Floor." l="ARM Rate Reset Floor" n="EJV.A.ARMRateResetFloor" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateResetsPerCapPeriod" d="ARM Rate Resets Per Cap Period." l="ARM Rate Resets Per Cap Period" n="EJV.A.ARMRateResetsPerCapPeriod" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateResetTerm" d="ARM Rate Reset Term." l="ARM Rate Reset Term" n="EJV.A.ARMRateResetTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateTeaser" d="ARM Rate Teaser." l="ARM Rate Teaser" n="EJV.A.ARMRateTeaser" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMRateTeaserTerm" d="ARM Rate Teaser Term." l="ARM Rate Teaser Term" n="EJV.A.ARMRateTeaserTerm" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMStructureType" d="ARM Structure Type." l="ARM Structure Type" n="EJV.A.ARMStructureType" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_A_ARMTransferType" d="ARM Transfer Type." l="ARM Transfer Type" n="EJV.A.ARMTransferType" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_CP" d="Val. Price Info." n="Val. Price Info (C)">
+		<i id="I_EJVM_CP_AccrualDate" d="Date the accrual of interest begins for the bond." l="Accrual Date" n="EJV.C.AccrualDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_AccruedInterest" d="Amount of interest that the buyer owes the seller of the security on the settlement date." l="Accrued Interest" n="EJV.C.AccruedInterest" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_CurrentYield" d="Coupon divided by price, expressed as a percent." l="Current Yield" n="EJV.C.CurrentYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricEquivalentPSA" d="PSA" l="PSA" n="EJV.C.EconometricEquivalentPSA" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.EconometricPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.EconometricPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricPrinEndDate" d="Last date principal is paid by the tranche when using the prepayment assumptions used to compute econometric cash flows." l="Econometric Principal End Date" n="EJV.C.EconometricPrinEndDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricPrinStartDate" d="First date principal is paid by the tranche when using the prepayment assumptions used to compute econometric cash flows." l="Econometric Principal Start Date" n="EJV.C.EconometricPrinStartDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricRedemDate" d="Date on which Econometric Redemption Event occurs." l="Econometric Redemption Date" n="EJV.C.EconometricRedemDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricRedemEvent" d="Redemption event scheduled for Econometric Redem Date." l="Econometric Redemption Event" n="EJV.C.EconometricRedemEvent" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricRedemIndex" d="Integer value identifying the redemption event that was assumed for the computation of the econometric cash flows." l="Econometric Redemption Index" n="EJV.C.EconometricRedemIndex" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricRedemPrice" d="Price as a percentage of par at which the holder of an asset can redeem it on Econometric Redem Date." l="Econometric Redemption Price" n="EJV.C.EconometricRedemPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EconometricYearsToRedem" d="Number of years to Econometric Redem Date." l="Econometric Years To Redemption" n="EJV.C.EconometricYearsToRedem" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EOMPrepayModel" d="EOM Prepay Model." l="EOM Prepay Model" n="EJV.C.EOMPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_EOMPrepaySpeed" d="EOM Prepay Speed." l="EOM Prepay Speed" n="EJV.C.EOMPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_FaceOutstanding" d="Total face amount of the security currently outstanding. For Treasuries, this is the total amount outstanding, not the amount outstanding public." l="Face Outstanding" n="EJV.C.FaceOutstanding" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_Factor" d="Factor" l="Factor" n="EJV.C.Factor" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_FactorDate" d="Factor Date." l="Factor Date" n="EJV.C.FactorDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityEquivalentPSA" d="Prepayment speed that results in the same average life as that computed using Maturity Prepay Model." l="PSA" n="EJV.C.MaturityEquivalentPSA" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.MaturityPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.MaturityPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityPrinEndDate" d="Last date principal is paid by the tranche under the given prepayment assumptions. Calculated for CMOs only." l="Maturity Principal End Date" n="EJV.C.MaturityPrinEndDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityPrinStartDate" d="First date principal is paid by the tranche under the given prepayment assumptions. Calculated for CMOs only." l="Maturity Principal Start Date" n="EJV.C.MaturityPrinStartDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityRedemDate" d="Maturity date for governments and corporates. NULL for mortgages and CMOs." l="Maturity Redemption Date" n="EJV.C.MaturityRedemDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityRedemEvent" d="Maturity for corporates and governments. NULL for mortgages and CMOs." l="Maturity Redem Event" n="EJV.C.MaturityRedemEvent" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityRedemPrice" d="Price as a percentage of par at maturity." l="Maturity Redemption Price" n="EJV.C.MaturityRedemPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_MaturityYearsToRedem" d="Number of years from the settlement date to the maturity date." l="Maturity Years To Redemption" n="EJV.C.MaturityYearsToRedem" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_NextPaymentResetDate" d="Next date the payment will be reset." l="Next Payment Reset Date" n="EJV.C.NextPaymentResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_NextRateResetDate" d="Next date the rate will be reset." l="Next Rate Reset Date" n="EJV.C.NextRateResetDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_NumberAccruedDays" d="Number of days used to calculate accrued interest for the given settlement date." l="Number Accrued Days" n="EJV.C.NumberAccruedDays" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_OptionAdjustedPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.OptionAdjustedPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_OptionAdjustedPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.OptionAdjustedPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_Price" d="Flat price for the security." l="Price" n="EJV.C.Price" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingAskPrice" d="Ask Price." l="Ask Price" n="EJV.C.PricingAskPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingAskYield" d="Ask Yield." l="Ask Yield" n="EJV.C.PricingAskYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkCurve" d="Short name for the benchmark curve." l="Pricing Benchmark Curve" n="EJV.C.PricingBenchmarkCurve" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkID" d="Asset ID or CUSIP for the benchmark used in the pricing recipe." l="Pricing Benchmark ID" n="EJV.C.PricingBenchmarkID" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkPoint" d="Short name for the benchmark." l="Pricing Benchmark Point" n="EJV.C.PricingBenchmarkPoint" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkTerm" d="Time to maturity for the benchmark security used in pricing the given security." l="Pricing Benchmark Term" n="EJV.C.PricingBenchmarkTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkType" d="Identifies the pricing benchmark type: an on-the-run Treasury, a benchmark derived from the interpolated curve or a specific security." l="Pricing Benchmark Type" n="EJV.C.PricingBenchmarkType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkTypeCode" d="Code representing the benchmark type." l="Pricing Benchmark Type Code" n="EJV.C.PricingBenchmarkTypeCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBenchmarkValue" d="Value assigned to the benchmark to price the security. Can be yield-based or price-based." l="Pricing Benchmark Value" n="EJV.C.PricingBenchmarkValue" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBidAskSpread" d="Difference between the bid and ask prices for the security." l="Bid Ask Spread" n="EJV.C.PricingBidAskSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBidPrice" d="Bid Price." l="Bid Price" n="EJV.C.PricingBidPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingBidYield" d="Bid Yield." l="Bid Yield" n="EJV.C.PricingBidYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingClosingPrice" d="Closing price assigned to the security by the Reuters Evaluations Desk. Generally, the same as Price." l="Closing Price" n="EJV.C.PricingClosingPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingClosingYield" d="Closing yield assigned to the security by the Reuters Evaluations Desk. Generally, the same as Yield to Worst." l="Closing Yield" n="EJV.C.PricingClosingYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingLoc" d="Code identifying from where the pricing information for the security comes." l="Pricing Loc" n="EJV.C.PricingLoc" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMeanPrice" d="Mean price of the security." l="Mean Price" n="EJV.C.PricingMeanPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMeanYield" d="Mean yield of the security." l="Mean Yield" n="EJV.C.PricingMeanYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMethodCode" d="Code representing the method used to price the security." l="Method Code" n="EJV.C.PricingMethodCode" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMethodValue" d="Value assigned to the security based on the method used to price the security." l="Method Value" n="EJV.C.PricingMethodValue" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMidPrice" d="Pricing Mid Price." l="Pricing Mid Price" n="EJV.C.PricingMidPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingMidYield" d="Pricing Mid Yield." l="Pricing Mid Yield" n="EJV.C.PricingMidYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingPrepayModel" d="Prepay Model." l="Prepay Model" n="EJV.C.PricingPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingPrepaySpeed" d="Prepay Speed." l="Prepay Speed" n="EJV.C.PricingPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingRedemDate" d="Date for the redemption event used in the pricing recipe." l="Pricing Redemption Date" n="EJV.C.PricingRedemDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingRedemEvent" d="Redemption event chosen, given the pricing recipe. Possible values include called, put, or traded to maturity." l="Pricing Redemption Event" n="EJV.C.PricingRedemEvent" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingRedemType" d="Redemption type used to determine the redemption event used in the pricing." l="Pricing Redemption Type" n="EJV.C.PricingRedemType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingSource" d="Source of the closing price. Defaults to EJV." l="Pricing Source" n="EJV.C.PricingSource" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingTradeDate" d="Trade date used to price the security." l="Trade Date" n="EJV.C.PricingTradeDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingTradingStatus" d="Pricing Trading Status." l="Pricing Trading Status" n="EJV.C.PricingTradingStatus" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingVolatility" d="Degree to which the security's price or yield is expected to rise or fall sharply within a short-term period." l="Pricing Volatility" n="EJV.C.PricingVolatility" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingYearsToRedem" d="Years to redemption for the redemption date used in the pricing recipe." l="Pricing Years To Redemption" n="EJV.C.PricingYearsToRedem" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_PricingYieldType" d="Yield convention used for stating DS_PricingClosingYield for example, corporate bond yield, treasury yield, or mortgage yield." l="Pricing Yield Type" n="EJV.C.PricingYieldType" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_SettleDate" d="Date cash payments for purchases are due and accrued interest and price/yield relationships are computed." l="Settlement Date" n="EJV.C.SettleDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_TradeDate" d="Date for which the record applies." l="Trade Date" n="EJV.C.TradeDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CP_WAMDate" d="WAM Date." l="WAM Date" n="EJV.C.WAMDate" s="EJVCOMMON" i="A:D" cc="ricValue" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_CM" d="Val. Maturity Analytics." n="Val. Maturity Analytics (C)">
+		<i id="I_EJVM_CM_MaturityAverageLife" d="Average life of the security, calculated with the cash-flow assumption that corporate and government securities trade to maturity. For mortgage backed securities, Reuters applies consensus prepayment speeds." l="Average Life" n="EJV.C.MaturityAverageLife" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityAverageLifeDate" d="As-of-date for Maturity Average Life." l="Maturity Average Life Date" n="EJV.C.MaturityAverageLifeDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpConvexity" d="Convexity of the security. Calculated using the cash-flow assumptions described in Maturity Average Life. Convexity measures the degree of curvature of the price/yield curve at the given price." l="Convexity" n="EJV.C.MaturityCorpConvexity" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpDV01" d="Approximate change in price for a one basis point change in corporate bond equivalent yield. Calculated using the cash-flow assumptions that corporate and government securities trade to maturity." l="DV01" n="EJV.C.MaturityCorpDV01" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpMacDuration" d="Measure of interest rate risk. Calculated by taking a present value weighted average of the time until receipt of cash flows using the cash-flow assumptions described in Maturity Average Life." l="Mac. Duration" n="EJV.C.MaturityCorpMacDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpModDuration" d="Measure of interest rate risk. Represents the percentage change in value per unit shift in the yield curve. Calculated using the cash-flow assumptions described in Maturity Average Life." l="Modified Duration" n="EJV.C.MaturityCorpModDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpOTRPoint" d="On-the-run issue that is nearest to Maturity Average Life." l="OTR Spread Date" n="EJV.C.MaturityCorpOTRPoint" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpOTRSpread" d="Difference between the corporate bond equivalent yield and the yield on the nearest on-the-run Treasury. Calculated using the cash-flow assumptions described in Maturity Average Life." l="OTR Spread Value" n="EJV.C.MaturityCorpOTRSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpOTRTerm" d="Term to maturity (in years) to Maturity Corp OTR Point." l="Maturity Corp OTR Term" n="EJV.C.MaturityCorpOTRTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpOTRYield" d="Yield on the on-the-run issue identified by Maturity Corp OTR Point." l="Maturity Corp OTR Yield" n="EJV.C.MaturityCorpOTRYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpStandardSpread" d="Spread computed by taking the difference between the yield on the bond and the corresponding yield on the Treasury curve. This differs from the OTR spread in that the Treasury yield is interpolated from the two on-the-run issues that bracket the average life rather than set equal to the nearest on-the-run issue. Calculated using the cash-flow assumptions described in Maturity Corp OTR Point." l="Interpolated Spread" n="EJV.C.MaturityCorpStandardSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityCorpYield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Maturity Average Life." l="Corporate Yield" n="EJV.C.MaturityCorpYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityDiscountMargin" d="Spread over the index rate that results in discount rates that produce a present value of discounted cash flows equal to the settlement price. Used to analyze floating rate securities. Calculated using the cash-flow assumptions described in Maturity Average Life." l="Maturity Discount Margin" n="EJV.C.MaturityDiscountMargin" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturitySpotAnalyticSpread" d="Basis point spread to the Treasury spot curve used to discount the cash flows to maturity." l="Maturity Spot Analytic Spread" n="EJV.C.MaturitySpotAnalyticSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityStandardOTRSpread" d="Difference between the yield to maturity of the bond and the yield to maturity of the nearest on-the-run Treasury security." l="Maturity Standard OTR Spread" n="EJV.C.MaturityStandardOTRSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityStandardOTRTerm" d="Number of years to maturity of the on-the-run Treasury that is nearest to the maturity of the bond being analyzed." l="Maturity Standard OTR Term" n="EJV.C.MaturityStandardOTRTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityStandardOTRYield" d="Yield to maturity of the on-the-run Treasury used for the calculation of the OTR spread." l="Maturity Standard OTR Yield" n="EJV.C.MaturityStandardOTRYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CM_MaturityStandardYield" d="Yield to maturity expressed in terms that are standard for the current security." l="Yield To Maturity" n="EJV.C.MaturityStandardYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_CE" d="Val. Econometric Analytics." n="Val. Econometric Analytics (C)">
+		<i id="I_EJVM_CE_EconometricAverageLife" d="Average life, computed using cash-flow assumptions that represent expected outcome. For mortgage backed securities, EJV prepayment model assumptions are used. For corporate and government securities, Reuters determines the worst call and sinking fund speed and the best put, and uses these as assumptions." l="Average Life" n="EJV.C.EconometricAverageLife" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricAverageLifeDate" d="As-of-date for Econometric Average Life." l="Econometric Average Life Date" n="EJV.C.EconometricAverageLifeDate" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpConvexity" d="Convexity, calculated using the cash-flow assumptions described in DS_EconometricAverageLife. Convexity measures the degree of curvature of the price/yield curve at the given price." l="Convexity" n="EJV.C.EconometricCorpConvexity" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpDV01" d="Change in price for a security given a one basis point change in corporate bond equivalent yield. Calculated using the cash-flow assumptions described in Econometric Average Life." l="DV01" n="EJV.C.EconometricCorpDV01" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpMacDuration" d="Calculated using the cash-flow assumptions described in Econometric Average Life. Macaulay duration is a measure of interest rate risk and is calculated by taking a present value weighted average of the time until receipt of cash flows." l="Mac. Duration" n="EJV.C.EconometricCorpMacDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpModDuration" d="Calculated using the cash-flow assumptions described in DS_EconometricAverageLife. Like Macaulay duration, modified duration is a measure of interest risk but is expressed such that it represents the percentage change in value per unit shift in the yield curve." l="Modified Duration" n="EJV.C.EconometricCorpModDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpOTRPoint" d="On-the-run issue nearest to Econometric Average Life." l="OTR Spread Date" n="EJV.C.EconometricCorpOTRPoint" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpOTRSpread" d="Difference between the cash-flow yield and the yield on the on-the-run Treasury whose term is closest to the average life of the mortgage. Cash flows and average life are derived using the projected PSA or CPR." l="OTR Spread Value" n="EJV.C.EconometricCorpOTRSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpOTRTerm" d="Number of years to maturity of the on-the-run Treasury that is nearest to the average life of the MBS being analyzed. Cash flows and average life are derived using the projected PSA or CPR." l="Econometric Corp OTR Term" n="EJV.C.EconometricCorpOTRTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpOTRYield" d="Yield on the on-the-run Treasury whose term is closest to the average life of the mortgage. Cash flows and average life are derived using the projected PSA or CPR." l="Econometric Corp OTR Yield" n="EJV.C.EconometricCorpOTRYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpStandardSpread" d="Calculated using the cash-flow assumptions described in Econometric Average Life. The spread is computed by taking the difference between the yield on the bond and the corresponding yield of the Treasury curve. This differs from the OTR spread in that the Treasury yield is interpolated from the two on-the-run issues that bracket the average life, rather than set equal to the nearest on-the-run issue." l="Interpolated Spread" n="EJV.C.EconometricCorpStandardSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricCorpYield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Econometric Average Life." l="Econometric Corp Yield" n="EJV.C.EconometricCorpYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricDiscountMargin" d="Spread over the index rate that results in discount rates that produce a present value of discounted cash flows equal to the settlement price. Used to analyze floating rate securities. Calculated using the cash-flow assumptions described in Econometric Average Life." l="Econometric Discount Margin" n="EJV.C.EconometricDiscountMargin" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricSpotAnalyticSpread" d="Basis point spread to the Treasury spot curve that, when used to discount econometric cash flows, results in the value of the security." l="Econometric Spot Analytic Spread" n="EJV.C.EconometricSpotAnalyticSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricStandardOTRSpread" d="The spread is computed by taking the difference between the yield on the bond and the corresponding yield of the treasury curve." l="Econometric Standard OTR Spread" n="EJV.C.EconometricStandardOTRSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricStandardOTRTerm" d="Number of years to maturity of the on-the-run Treasury that is nearest in term to the worst call on the bond being analyzed." l="Econometric Standard OTR Term" n="EJV.C.EconometricStandardOTRTerm" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricStandardOTRYield" d="Yield to maturity of the on-the-run Treasury used for the calculation of the OTR Spread." l="Econometric Standard OTR Yield" n="EJV.C.EconometricStandardOTRYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CE_EconometricStandardYield" d="Yield on the bond expressed in the standard form for the current security. Calculated using the cash-flow assumptions that represent expected outcome." l="Yield to Econometric" n="EJV.C.EconometricStandardYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_CO" d="Val. OA Analytics." n="Val. OA Analytics (C)">
+		<i id="I_EJVM_CO_OptionAdjustedALVolatility" d="Standard deviation of the average life derived from each of the interest rate paths in the Monte Carlo option simulation. A measure of average life risk." l="Average Life Volatility" n="EJV.C.OptionAdjustedALVolatility" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedAvgLife" d="Calculated mean average life of each path in the option adjusted spread." l="Average Life Volume" n="EJV.C.OptionAdjustedAvgLife" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedConvexity" d="Measure of the curvature of the price-yield relationship of a fixed income security, calculated using a model that accounts for any embedded options." l="Effective Convexity" n="EJV.C.OptionAdjustedConvexity" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedDown25Price" d="Price of the security, assuming constant option-adjusted spread, when the term structure is shifted down 25-basis points." l="Price (-25bp)" n="EJV.C.OptionAdjustedDown25Price" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedDuration" d="Modified duration of a security calculated using an option-based model that accounts for embedded options. The OA duration indicates how cash flows change when interest rates change. Also known as “rate duration” and “OA duration.”." l="Effective Duration" n="EJV.C.OptionAdjustedDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedDV01" d="DV01 of a security, calculated from an option-based model that accounts for any embedded options." l="DV01" n="EJV.C.OptionAdjustedDV01" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedOptionCost" d="Difference in basis points between the option-adjusted spread calculated with Reuters default volatility assumptions and the option-adjusted spread calculated with zero volatility." l="Option Cost" n="EJV.C.OptionAdjustedOptionCost" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedOptionValue" d="Dollar value of the security’s embedded options." l="Option Value" n="EJV.C.OptionAdjustedOptionValue" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedPriceVolatility" d="Standard deviation of the prices derived from each of the interest rate paths in the Monte Carlo option simulation. A measure of price risk." l="Option Adjusted Price Volatility" n="EJV.C.OptionAdjustedPriceVolatility" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedSpread" d="Measure of the security’s extra return over the return of a comparable Treasury security after accounting for any embedded options." l="Option Adjusted Spread" n="EJV.C.OptionAdjustedSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedSpreadConvexity" d="Spread convexity is the convexity with respect to a change in the option adjusted spread. Calculation is identical to the option adjusted convexity except that Reuters shifts OAS rather than term structure." l="Convexity" n="EJV.C.OptionAdjustedSpreadConvexity" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedSpreadDuration" d="Spread duration is the duration with respect to a change in the option adjusted spread. Calculation is identical to the option adjusted duration except that Reuters shifts OAS rather than term structure." l="Spread Duration" n="EJV.C.OptionAdjustedSpreadDuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedUp25Price" d="Price of the security, assuming constant option-adjusted spread, when the term structure is shifted up 25-basis points." l="Price (+25bp)" n="EJV.C.OptionAdjustedUp25Price" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedYield" d="Yield to maturity adjusted for the value of embedded options." l="Yield To Maturity" n="EJV.C.OptionAdjustedYield" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedZeroVolSpread" d="Identical to Option Adjusted Spread, but with the assumption of zero volatility. The difference between Option Adjusted Spread and Option Adjusted Zero Vol Spread can be viewed as the cost in basis points of the imbedded options." l="ZC Volatility" n="EJV.C.OptionAdjustedZeroVolSpread" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CO_OptionAdjustedZeroVolEquivPSA" d="Option Adjusted Zero Vol Equiv PSA." l="Option Adjusted Zero Vol Equiv PSA" n="EJV.C.OptionAdjustedZeroVolEquivPSA" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_CH" d="Val. Historic Valuations." n="Val. Historic Valuations (C)">
+		<i id="I_EJVM_CH_EOMAmountOutstanding" d="Amount outstanding for the issue as of the end of the prior month." l="EOM Amount Outstanding" n="EJV.C.EOMAmountOutstanding" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMCouponReturn" d="Return arising from interest payments since the end of the prior month." l="EOM Coupon Return" n="EJV.C.EOMCouponReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMOADuration" d="Option-adjusted duration for the security as of the end of the prior month." l="EOM OA Duration" n="EJV.C.EOMOADuration" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMOAS" d="Option-adjusted spread on the security as of the end of the prior month." l="EOM OA Spread" n="EJV.C.EOMOAS" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMOASChange" d="Change in option-adjusted spread between the end of the prior month and yesterday’s close." l="EOM OA Spread Change" n="EJV.C.EOMOASChange" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMPrice" d="Price of the security at the end of the prior month." l="EOM Price" n="EJV.C.EOMPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMPriceChange" d="Change in price between the end of the prior month and yesterday’s close." l="EOM Price Change" n="EJV.C.EOMPriceChange" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMPriceReturn" d="Return on the security that arises from a change in price since the end of the prior month." l="EOM Price Return" n="EJV.C.EOMPriceReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMPrincipalReturn" d="Return on principal payments received by the investors since the end of the prior month. Principal payments can come from sinking funds, calls, scheduled principal payouts, or prepayments." l="EOM Principal Return" n="EJV.C.EOMPrincipalReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMReinvReturn" d="Return arising from the earned interest on all the cash flows paid out and reinvested since the end of the prior month." l="EOM Reinvestment Return" n="EJV.C.EOMReinvReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_EOMTotalReturn" d="Total cash-flow payments made to investors since the end of the prior month. Total cash flow includes accrued interest, coupon income, principal payments, and interest on reinvested cash flows." l="EOM Total Return" n="EJV.C.EOMTotalReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevOAS" d="Value of the option-adjusted spread at the close of the previous business day." l="Previous OA Spread" n="EJV.C.PrevOAS" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevOASChange" d="Change in option-adjusted spread since the previous business day." l="Previous OA Spread Change" n="EJV.C.PrevOASChange" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPriceReturn" d="Return on the security since the close of the previous business day due to a change in price." l="Previous Price Return" n="EJV.C.PrevPriceReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPrincipalReturn" d="Return on the security since the close of the previous business day that is due to return of principal. Can come from sinking funds, calls, scheduled principal payouts, or prepayments." l="Previous Principal Return" n="EJV.C.PrevPrincipalReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevTotalReturn" d="Total cash-flow payments made to investors since the close of the previous business day. Includes accrued interest, coupon income, principal payments, and interest on reinvested cash flows." l="Previous Total Return" n="EJV.C.PrevTotalReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPrepayModel" d="Prepayment model used to price the security on the previous business day." l="Previous Prepay Model" n="EJV.C.PrevPrepayModel" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPrepaySpeed" d="Prepayment speed used to price the security on the previous business day." l="Previous Prepay Speed" n="EJV.C.PrevPrepaySpeed" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevCouponReturn" d="Interest return on the security since the previous business day." l="Previous Coupon Return" n="EJV.C.PrevCouponReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPrice" d="Price of the security at the close of the previous business day." l="Previous Price" n="EJV.C.PrevPrice" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevPriceChange" d="Change in the price of the security since the close of the previous business day." l="Previous Price Change" n="EJV.C.PrevPriceChange" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVM_CH_PrevReinvReturn" d="Reinvestment return since the previous business day. Always equal to zero and only included for completeness." l="Previous Reinvestment Return" n="EJV.C.PrevReinvReturn" s="EJVCOMMON" i="A:D" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVM_H" d="Holding" n="Holding (H)">
+		<i id="I_EJVM_H_REPORTDATE" d="Date when the par held by the managing company on the instrument was last reported." l="Reported Date" n="EJV.H.REPORTDATE" s="EJVEMAXX" i="A:D" cc="EJVHolding" pc="TopRec" vu="N" isScreen="false">
+			<in:sp k="c">CompanyHoldingDate</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+		<i id="I_EJVM_H_PARHELD" d="Par held by the company on the last reported date in USD." l="Par Held" n="EJV.H.PARHELD" s="EJVEMAXX" i="A:D" cc="EJVHolding" pc="TopRec" vu="T" isScreen="false">
+			<in:sp k="c">HoldingSize</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+	</c>
+</d>

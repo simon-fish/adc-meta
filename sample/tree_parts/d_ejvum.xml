@@ -1,0 +1,531 @@
+﻿<d id="D_EJVUM" d="US Municipal Bond." m="EJVUM" n="US Municipal Bond (EJV)" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_EJVUM_C" d="General Info." n="General Info (C)">
+		<i id="I_EJVUM_C_IssueName" d="Issue Name" l="Issue Name" n="EJV.C.IssueName" s="EJVAN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<in:sp k="view">MUNI_ASSET</in:sp>
+			<in:sp k="c">IssueDescription</in:sp>
+		</i>
+		<i id="I_EJVUM_C_Description" d="Descriptive field containing items that identify the security, such as ticker, coupon, maturity date." l="Description" n="EJV.C.Description" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="f">CommonName</in:sp>
+			<in:sp k="category">SA</in:sp>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IsCallable" d="Y/N flag indicating whether the bond is callable." l="Is Callable" n="EJV.C.IsCallable" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IsPutable" d="Y/N flag indicating whether put terms and put schedules apply to the asset." l="Is Putable" n="EJV.C.IsPutable" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IsSinkable" d="Y/N flag indicating whether the bond has a sinking fund." l="Is Sinkable" n="EJV.C.IsSinkable" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_TaxStatus" d="Code indicating whether the municipal bond is tax exempt or subject to alternative minimum tax." l="Tax Status" n="EJV.C.TaxStatus" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_TaxStatusDescription" d="Tax Status Description." l="Tax Status Description" n="EJV.C.TaxStatusDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_AssetStatus" d="Code representing the status of the asset. Many status updates are performed programmatically." l="Asset Status" n="EJV.C.AssetStatus" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_AssetStatusDescription" d="Description of the Asset Status code." l="Asset Status Description" n="EJV.C.AssetStatusDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IssuerDescription" d="Long name of the company." l="Issuer Description" n="EJV.C.IssuerDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IssuerName" d="Name of the company." l="Issuer Name" n="EJV.C.IssuerName" s="EJVIS" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<!-- common case -->
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">LongName</in:sp>
+			<!--For @OrgId identifiers-->
+			<in:sp k="view2">GOVCORP_PARTY</in:sp>
+			<in:sp k="c2">IssuerLongName</in:sp>
+			<in:sp k="instr2">IssuerOrganization</in:sp>
+			<!-- Search settings for requests with lang="ja-JP" attribute -->
+			<in:sp k="f">DocumentTitle</in:sp>
+			<in:sp k="sf">SubjectName</in:sp>
+			<in:sp k="category">SA</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponClass" d="Coupon payment applicable to the asset." l="Coupon Class" n="EJV.C.CouponClass" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponClassDescription" d="Description of the Coupon Class." l="Coupon Class Description" n="EJV.C.CouponClassDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponClassShortDescription" d="Short Description of the Coupon Class." l="Coupon Class Short Description" n="EJV.C.CouponClassShortDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponCurrency" d="Code representing the currency in which the scheduled interest payments are made." l="Coupon Currency" n="EJV.C.CouponCurrency" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponCurrencyDescription" d="Description of the Coupon Currency." l="Coupon Currency Description" n="EJV.C.CouponCurrencyDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_Currency" d="Code representing the denomination of the security." l="Currency" n="EJV.C.Currency" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CurrencyDescription" d="CurrencyDescription" l="Currency Description" n="EJV.C.CurrencyDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PreferredRIC" d="Preferred RIC." l="Preferred RIC" n="EJV.C.M_PreferredRIC" s="EJVAN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<in:sp k="view">MUNI_ASSET</in:sp>
+			<in:sp k="c">RIC</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PrincipalCurrency" d="Code indicating the currency in which principal payments are made." l="Principal Currency" n="EJV.C.PrincipalCurrency" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PrincipalCurrencyDescription" d="PrincipalCurrencyDescription" l="Principal Currency Description" n="EJV.C.PrincipalCurrencyDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponEffectiveDate" d="Coupon Effective Date." l="Coupon Effective Date" n="EJV.C.CouponEffectiveDate" s="EJVAN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">GOVCORP_RATE_SCHED</in:sp>
+			<in:sp k="c">RateEffectiveDate</in:sp>
+			<in:sp k="date">RateEffectiveDate</in:sp>
+			<in:sp k="rule">nextOrPast</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponFreqShortDescription" d="Abbreviated description of Coupon Frequency Description." l="Coupon Frequency Short Description" n="EJV.C.CouponFreqShortDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponFrequency" d="Code representing the frequency of coupon payments for the asset." l="Coupon Frequency" n="EJV.C.CouponFrequency" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponFrequencyDescription" d="Description of the Coupon Frequency Code." l="Coupon Frequency Description" n="EJV.C.CouponFrequencyDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponType" d="Type of coupon payment applicable to the asset." l="Coupon Type" n="EJV.C.CouponType" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponTypeDescription" d="Description of Coupon Type." l="Coupon Type Description" n="EJV.C.CouponTypeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_CouponTypeShortDescription" d="Abbreviated description of Coupon Type." l="Coupon Type Short Description" n="EJV.C.CouponTypeShortDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DebtType" d="Code representing the class of debt, including the type of collateral backing the debt." l="Debt Type" n="EJV.C.DebtType" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DebtTypeDescription" d="Description of Debt Type." l="Debt Type Description" n="EJV.C.DebtTypeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DebtTypeShortDescription" d="Short Description of Debt Type." l="Debt Type Short Description" n="EJV.C.DebtTypeShortDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_ProjectName" d="Name of the project for which the municipal offering was made." l="Project Name" n="EJV.C.ProjectName" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PrivatePlacementFlag" d="Y/N flag indicating whether the security is issued by private placement. A private placement does not have to be registered with the Securities and Exchange Commission, as a public offering does." l="Private Placement Flag" n="EJV.C.PrivatePlacementFlag" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_Purpose" d="Code representing the registrant's planned use of its proceeds from the offering." l="Purpose" n="EJV.C.Purpose" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PurposeDescription" d="Description of DS_Purpose codes." l="Purpose Description" n="EJV.C.PurposeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_PurposeShortDescription" d="Short description of Purpose codes." l="Purpose Short Description" n="EJV.C.PurposeShortDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_OfferingType" d="Code representing the nature of the registration." l="Offering Type" n="EJV.C.OfferingType" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_OfferingTypeDescription" d="Description of Offering Type codes." l="Offering Type Description" n="EJV.C.OfferingTypeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_FaceIssuedTotal" d="Principal amount of the new security issued." l="Face Issued Total" n="EJV.C.FaceIssuedTotal" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_FaceOutstanding" d="Total face amount of the security currently outstanding. For Treasuries, this is the total amount outstanding, not the amount outstanding public." l="Face Outstanding" n="EJV.C.FaceOutstanding" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_FaceOutstandingDate" d="Effective date of the current outstanding amount expressed in the currency of the issue." l="Face Outstanding Date" n="EJV.C.FaceOutstandingDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IssueDate" d="Date of issuance of the asset (for example, the date of initial settlement)." l="Issue Date" n="EJV.C.IssueDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_IssuePrice" d="Price to the public of an issue on an original issue date." l="Issue Price" n="EJV.C.IssuePrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_MaturityDate" d="Date the asset pays the remaining total principal amount to the holder in a redemption transaction. For an extendible security, the maturity date will change on each extend date from the current extend date to the next extend date." l="Maturity Date" n="EJV.C.MaturityDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_FirstCouponDate" d="Date of the first coupon for the asset if the first coupon date does not fall within the regular payment cycle of the asset. Used to calculate long/short first payment amount for the purposes of cash-flow determination." l="First Coupon Date" n="EJV.C.FirstCouponDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_LastCouponDate" d="Last coupon or dividend payment date prior to maturity of the asset. Used to calculate long/short last payment amount for cash-flow determination or accrued interest." l="Last Coupon Date" n="EJV.C.LastCouponDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DayCount" d="Description of Day Count Code." l="Day Count" n="EJV.C.DayCount" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DayCountLongDescription" d="Long Description of Day Count Code." l="Day Count Long Description" n="EJV.C.DayCountLongDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextCallDate" d="Next date the issuer can call the bond before maturity. If the bond is callable now, the next call date is the date on which the call price changes." l="Call Date" n="EJV.C.NextCallDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextCallPrice" d="Redemption price on the next scheduled call date." l="Call Price" n="EJV.C.NextCallPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextPutDate" d="Date of the next scheduled put." l="Put Date" n="EJV.C.NextPutDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextPutPrice" d="Redemption price on the next scheduled put date." l="Put Price" n="EJV.C.NextPutPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_WorstRedemEvent" d="Value identifying whether the bond is assumed to be put, called, or matured on Worst Redem Date." l="Worst Redem Event" n="EJV.C.WorstRedemEvent" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextSinkAmount" d="Scheduled sinking fund amount on the next scheduled sinking fund date." l="Sink Amount" n="EJV.C.NextSinkAmount" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NextSinkDate" d="Next scheduled date the issuer can or must make a sinking fund redemption." l="Sink Date" n="EJV.C.NextSinkDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_Series" d="Unique name to identify the deal from the issuer." l="Series" n="EJV.C.Series" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DenominationType" d="Code representing the denomination type." l="Denomination Type" n="EJV.C.DenominationType" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_DenominationTypeDescription" d="Description of Denomination Type." l="Denomination Type Description" n="EJV.C.DenominationTypeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NativeYieldType" d="Code indicating the formula, including day count and compounding conventions, used for price/yield calculations." l="Yield Type" n="EJV.C.NativeYieldType" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_NativeYieldTypeDescription" d="Description of Native Yield Type codes." l="Yield Type Description" n="EJV.C.NativeYieldTypeDescription" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_C_M_FaceOutstanding" n="EJV.C.M_FaceOutstanding" l="Face Outstanding" d="Total face amount of the security currently outstanding. For Treasuries, this is the total amount outstanding, not the amount outstanding public." i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_AMT_OUTSD_HIST</in:sp>
+			<in:sp k="c">FaceOutstanding</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+		</i>
+		<i id="I_EJVUM_C_M_CouponRate" n="EJV.C.M_CouponRate" l="Coupon Rate" d="Stated interest rate on this tranche." i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_RATE_SCHED</in:sp>
+			<in:sp k="c">CouponRate</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+			<in:sp k="rule">pastOrNextDate</in:sp>
+		</i>
+		<i id="I_EJVUM_C_RefundTypeCode" n="EJV.C.RefundTypeCode" l="Refund Type Code" d="Code representing the type of refunding event." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">RefundType</in:sp>
+		</i>
+		<i id="I_EJVUM_C_RefundTypeDesc" n="EJV.C.RefundTypeDesc" l="Refund Type" d="Type of refunding event." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">RefundTypeDescription</in:sp>
+		</i>
+		<i id="I_EJVUM_C_RefundPrice" n="EJV.C.RefundPrice" l="Refund Price" d="The price bondholders receive at redemption." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">MuniRefundPrice</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_C_RefundDate" n="EJV.C.RefundDate" l="Refund Date" d="Date on which the municipal security is called." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">MuniRefundDate</in:sp>
+			<in:sp k="dt">7</in:sp>
+		</i>
+		<i id="I_EJVUM_C_BondInsuranceCode" n="EJV.C.BondInsuranceCode" l="Bond Insurance Code" d="Code representing the kind of insurance contract written by a commercial insurance company providing payment to bondholders in the event of default." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">BondInsurance</in:sp>
+		</i>
+		<i id="I_EJVUM_C_BondInsuranceDesc" n="EJV.C.BondInsuranceDesc" l="Bond Insurance" d="Insurance contract written by a commercial insurance company providing payment to bondholders in the event of default." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">BondInsuranceDescription</in:sp>
+		</i>
+		<i id="I_EJVUM_C_MortgageInsuranceCode" n="EJV.C.MortgageInsuranceCode" l="Mortgage Insurance Code" d="Code specifying the type of insurance policy that guarantees the payment of the underlying mortgages associated with the municipal security." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">MortgageInsurance</in:sp>
+		</i>
+		<i id="I_EJVUM_C_MortgageInsuranceDesc" n="EJV.C.MortgageInsuranceDesc" l="Mortgage Insurance" d="Type of insurance policy that guarantees the payment of the underlying mortgages associated with the municipal security." i="A:A8" cc="ricValue" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">MortgageInsuranceDescription</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_BE" d="Bond Enhancements." n="Bond Enhancements (C)">
+		<i id="I_EJVUM_BE_GuarantorName" n="EJV.E.GuarantorName" l="Guarantor Name" d="Indicates the liable entity in case of the borrower default." s="EJVAN" i="A:A8" cc="hiddenPeriod" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">GuarantorName</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_EJVUM_BE_AdditionalCreditTypeCode" n="EJV.E.AdditionalCreditTypeCode" l="Enh Credit Type Code" d="Code indicating the type of credit enhancement." s="EJVAN" i="A:A8" cc="hiddenPeriod" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">AdditionalCreditType</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_EJVUM_BE_AdditionalCreditType" n="EJV.E.AdditionalCreditType" l="Enh Credit Type" d="Type of credit enhancement." s="EJVAN" i="A:A8" cc="hiddenPeriod" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">AdditionalCreditTypeDescription</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_EJVUM_BE_EnhanceStartDate" n="EJV.E.EnhanceStartDate" l="Enhancement Start Date" d="Date on which the enhancement credit becomes effective." s="EJVAN" i="A:A8" cc="hiddenPeriod" pc="EJVDATERP" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">EnhancementStartDate</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_EJVUM_BE_EnhanceEndDate" n="EJV.E.EnhanceEndDate" l="Enhancement End Date" d="Last date for which the credit enhancement is effective." s="EJVAN" i="A:A8" cc="hiddenPeriod" pc="EJVDATERP" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">EnhancementEndDate</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_X" d="Basic Info." n="Basic Info (X)">
+		<i id="I_EJVUM_X_REDCALL" d="The next specified price that the issuer has to pay in the event that he decides to exercise his call option." l="Redemption Call" n="EJV.X.REDCALL" s="ADFIN" i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDPUT" d="The next specified price at which the bondholder has the option to sell the bond back to the issuer." l="Redemption Put" n="EJV.X.REDPUT" s="ADFIN" i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDPNOT" d="Displays the minimum number of days before the put date the bond holder must notify the issuer that the bond will be redeemed." l="Days Put Min Notification" n="EJV.X.REDPNOT" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">9</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDCNOT" d="Displays the minimum number of days before the call date the issuer must notify the holder that the bond will be called." l="Days Call Min Notification" n="EJV.X.REDCNOT" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">9</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDCTYP" d="Indicates when the call option can be exercised." l="Type Call" n="EJV.X.REDCTYP" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDAMT" d="The next sinking fund principal amount that the issuer must redeem, as specified in the bond documentation (prospectus)." l="Redemption Next Amount" n="EJV.X.REDAMT" s="ADFIN" i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDPRICE" d="The next price at which the principal is retired." l="Redemption Price" n="EJV.X.REDPRICE" s="ADFIN" i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_X_REDEXT" d="The redemption extend." l="Redemption Extend" n="EJV.X.REDEXT" s="ADFIN" i="A:A8" cc="priceHistory" pc="EJVDATERP" vu="N" isScreen="false">
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_XM" d="Data Mapping." n="Data Mapping (X)">
+		<i id="I_EJVUM_XM_ADF_BONDSTRUCTERR" d="Bond Structure Error." l="Bond Structure Error" n="EJV.X.ADF_BONDSTRUCTERR" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_BONDSTRUCTURE" d="Retrieves the BondStructure of a bond regardless of the bond type (FRN, Index-linked or Bond). Warning! The data returned by this field may be spread over multiple cells. Users must plan an appropriate number of empty cells." l="Bond Structure" n="EJV.X.ADF_BONDSTRUCTURE" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_COUPON" d="The (annualized) rate of interest paid by the bond in the current period." l="Coupon" n="EJV.X.ADF_COUPON" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dr">RO</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_INDEXNAME" d="Name of the underlying index to which a floating rate note is indexed, e.g. LIUSD6M for 6 month USD Libor." l="FRN Index" n="EJV.X.ADF_INDEXNAME" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_MARGIN" d="The spread to the index that determines a floating rate notes coupon." l="FRN Margin" n="EJV.X.ADF_MARGIN" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dr">RO</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_MATDATE" d="The date on which the bond will be redeemed completely." l="Maturity Date" n="EJV.X.ADF_MATDATE" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">7</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_RATESTRUCTERR" d="Rate Structure Error." l="Rate Structure Error" n="EJV.X.ADF_RATESTRUCTERR" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_RATESTRUCTURE" d="Retrieves the RateStructure of an instrument." l="Rate Structure" n="EJV.X.ADF_RATESTRUCTURE" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_SETTLE" d="String giving the rule used by Adfin to determine a settlement date using the BdSettle function." l="Settlement Rule" n="EJV.X.ADF_SETTLE" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_STRUCTERR" d="Structure Error." l="Structure Error" n="EJV.X.ADF_STRUCTERR" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_STRUCTURE" d="Retrieves a string made up with a series of parameters. Depending on the bond type, this parameter is either the bond structure for vanilla bonds, ILStructure for Index Linked bonds or FRN structure for FRN bonds." l="Structure" n="EJV.X.ADF_STRUCTURE" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_EJVUM_XM_ADF_STRUCTUREINDICATOR" d="Indicator to determine the Structure that should be used with the bond." l="Structure Indicator" n="EJV.X.ADF_STRUCTUREINDICATOR" s="ADFIN" i="A:A8" cc="ricValue" vu="N" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_CP" d="Val. Price Info." n="Val. Price Info (C)">
+		<i id="I_EJVUM_CP_AccrualDate" d="Date the accrual of interest begins for the bond." l="Accrual Date" n="EJV.C.AccrualDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_AccruedInterest" d="Amount of interest that the buyer owes the seller of the security on the settlement date." l="Accrued Interest" n="EJV.C.AccruedInterest" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_CurrentYield" d="Coupon divided by price, expressed as a percent." l="Current Yield" n="EJV.C.CurrentYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_MaturityRedemEvent" d="Maturity for corporates and governments. NULL for mortgages and CMOs." l="Maturity Redem Event" n="EJV.C.MaturityRedemEvent" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_Price" d="Flat price for the security." l="Price" n="EJV.C.Price" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingAskPrice" d="Ask Price." l="Ask Price" n="EJV.C.PricingAskPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingAskYield" d="Ask Yield." l="Ask Yield" n="EJV.C.PricingAskYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingBidAskSpread" d="Difference between the bid and ask prices for the security." l="Bid Ask Spread" n="EJV.C.PricingBidAskSpread" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingBidPrice" d="Bid Price." l="Bid Price" n="EJV.C.PricingBidPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingBidYield" d="Bid Yield." l="Bid Yield" n="EJV.C.PricingBidYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingClosingPrice" d="Closing price assigned to the security by the Reuters Evaluations Desk. Generally, the same as Price." l="Closing Price" n="EJV.C.PricingClosingPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingClosingYield" d="Closing yield assigned to the security by the Reuters Evaluations Desk. Generally, the same as Yield to Worst." l="Closing Yield" n="EJV.C.PricingClosingYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMeanPrice" d="Mean price of the security." l="Mean Price" n="EJV.C.PricingMeanPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMeanYield" d="Mean yield of the security." l="Mean Yield" n="EJV.C.PricingMeanYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMethodCode" d="Code representing the method used to price the security." l="Method Code" n="EJV.C.PricingMethodCode" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMethodValue" d="Value assigned to the security based on the method used to price the security." l="Method Value" n="EJV.C.PricingMethodValue" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMidPrice" d="PricingMidPrice" l="Pricing Mid Price" n="EJV.C.PricingMidPrice" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingMidYield" d="PricingMidYield" l="Pricing Mid Yield" n="EJV.C.PricingMidYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingSource" d="Source of the closing price. Defaults to EJV." l="Pricing Source" n="EJV.C.PricingSource" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_PricingTradeDate" d="Trade date used to price the security." l="Trade Date" n="EJV.C.PricingTradeDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_SettleDate" d="Date cash payments for purchases are due and accrued interest and price/yield relationships are computed." l="Settlement Date" n="EJV.C.SettleDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_SettleDateConvention" d="Settlement Date Convention." l="Settlement Date Convention" n="EJV.C.SettleDateConvention" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CP_TradeDate" d="Date for which the record applies." l="Trade Date" n="EJV.C.TradeDate" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_CM" d="Val. Maturity Analytics." n="Val. Maturity Analytics (C)">
+		<i id="I_EJVUM_CM_MaturityAverageLife" d="Average life of the security, calculated with the cash-flow assumption that corporate and government securities trade to maturity. For mortgage backed securities, Reuters applies consensus prepayment speeds." l="Average Life" n="EJV.C.MaturityAverageLife" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CM_MaturityCorpConvexity" d="Convexity of the security. Calculated using the cash-flow assumptions described in Maturity Average Life. Convexity measures the degree of curvature of the price/yield curve at the given price." l="Convexity" n="EJV.C.MaturityCorpConvexity" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CM_MaturityCorpYield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Maturity Average Life." l="Corporate Yield" n="EJV.C.MaturityCorpYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_CW" d="Val. Worst Analytics." n="Val. Worst Analytics (C)">
+		<i id="I_EJVUM_CW_WorstAverageLife" d="Average life computed using cash-flow assumptions that represent expected outcome. For mortgage-backed securities, Reuters applies consensus prepayment speeds. For corporates and governments, Reuters determines the worst sinking fund and call and the best put." l="Worst Average Life" n="EJV.C.WorstAverageLife" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CW_WorstCorpModDuration" d="Measure of interest rate risk. Expressed as the percentage change in value per unit shift in the yield curve. Calculated using the cash-flow assumptions described in Worst Average Life." l="Worst Corp Mod Duration" n="EJV.C.WorstCorpModDuration" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+		<i id="I_EJVUM_CW_WorstCorpYield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Worst Average Life." l="Worst Corporate Yield" n="EJV.C.WorstCorpYield" s="EJVCOMMON" i="A:A8" cc="ricValue" vu="N" pc="SEG" isScreen="false">
+			<in:sp k="view">COMMON</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_MR" d="Bond Rating." n="Municipal Bond Rating (MR)">
+		<i id="I_EJVUM_MR_Rating" n="EJV.MR.Rating" l="Rating" d="Code assigned by a rating agency indicating the investment quality of the offered security." i="A:A8" cc="EjvRatingSource" pc="MunRating" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">Rating</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+		</i>
+		<i id="I_EJVUM_MR_RatingRank" n="EJV.MR.RatingRank" l="Rating Rank" d="Code representing the rating rank." i="A:A8" cc="EjvRatingSource" pc="MunRating" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingRank</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+		</i>
+		<i id="I_EJVUM_MR_RatingSPEquivalentRank" n="EJV.MR.RatingSPEquivalentRank" l="Rating SP Equivalent Rank" d="RatingSPEquivalentRank" i="A:A8" cc="EjvRatingSource" pc="MunRating" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingSPEquivalentRank</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+		</i>
+		<i id="I_EJVUM_MR_RatingSourceCode" n="EJV.MR.RatingSourceCode" l="Rating Source Code" d="Code of the rating source which publish the credit rating." i="A:A8" cc="EjvRatingSource" pc="MunRating" vu="N" s="EJVAN" isScreen="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingSource</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+		</i>
+	</c>
+	<c id="C_EJVUM_H" d="Holding." n="Holding (H)">
+		<i id="I_EJVUM_H_REPORTDATE" d="Date when the par held by the managing company on the instrument was last reported." l="Reported Date" n="EJV.H.REPORTDATE" s="EJVEMAXX" i="A:A8" cc="EJVHolding" pc="TopRec" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="c">CompanyHoldingDate</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+		<i id="I_EJVUM_H_PARHELD" d="Par held by the company on the last reported date in USD by default when no conversion is requested." l="Par Held" n="EJV.H.PARHELD" s="EJVEMAXX" i="A:A8" cc="EJVHolding" pc="TopRec" vu="T" isScreen="false">
+			<in:sp k="c">HoldingSize</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+		</i>
+	</c>
+</d>

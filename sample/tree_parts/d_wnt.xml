@@ -1,0 +1,679 @@
+﻿<d id="D_WNT" d="Warrants" n="Warrants" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_WNT_BT" n="Warrant Basic Terms" d="Warrant Basic Terms.">
+		<i id="I_WNT_BT_WarrantType" n="TR.WarrantType" l="Warrant Type" d="The warrant type. Examples include Standard, Up and In, Down and In, Up and Out, Down and Out, Chooser, Lookback and Lookforward." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">WarrantDefinitionId</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_TypeName" n="TR.WarrantTypeName" l="Warrant" d="The full name for the combination of warrant and option type. Examples include Range, Up and In Put, Down and In Step and Lookback Call." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">WarrantDefinitionId</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_Description" n="TR.WarrantDescription" l="Warrant Description" d="Textual description of the warrant type." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">WarrantDefinitionId</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_OptionType" n="TR.WarrantOptionType" l="Option Type" d="The option type of the warrant. Possible values include Call, Put or None." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">WarrantDefinitionId</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_TrancheReference" n="TR.WarrantTrancheReference" l="Tranche Reference" d="The Tranche Reference as it appears on the issue document. Typical examples would be single-letter values to distinguish two tranches, such as 'A' and 'B'." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">TrancheReference</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_CoverageType" n="TR.WarrantCoverageType" l="Coverage Type" d="The type of coverage or guaranteed by a third party. Possible values include Company Warrant, Fully Covered, Not Covered or Partly Covered." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">CoverageType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_CountryOfIssue" n="TR.WarrantCountryOfIssue" l="Country Of Issue" d="The country where the warrant was issued." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">CountryOfIssue</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_GoverningCountry" n="TR.WarrantGoverningCountry" l="Governing Country" d="The country whose laws govern the issue." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">GoverningCountry</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_AnnouncementDate" n="TR.WarrantAnnouncementDate" l="Announcement Date" d="The date on which the warrant was announced." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">AnnouncementDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_UIssueDate" n="TR.WarrantIssueDate" l="Issue Date" d="The date of the warrant issue. This is also the date when the warrant terms and conditions are fixed." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_ExpiryDate" n="TR.WarrantExpiryDate" l="Expiry Date" d="The expiry date of the warrant. For perpetual warrants, the date is set to null." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">ExpiryDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_PaymentDate" n="TR.WarrantPaymentDate" l="Payment Date" d="The date by which the warrants must be paid for." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">PaymentDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePrice" n="TR.WarrantIssuePrice" l="Issue Price" d="The price paid by the subscribers to the original issue. Issue price is only applicable if the warrant is issued separately. A warrant will have either a Issue price, Issue Price Percentage or Issue Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePriceCurrency" n="TR.WarrantIssuePriceCurrency" l="Issue Price Currency" d="The Currency of the Issue Price." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePrice</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePricePercentage" n="TR.WarrantIssuePricePercentage" l="Issue Price Percentage" d="The price paid by the subscribers to the original issue. Issue price is only applicable if the warrant is issued separately. A warrant will have either a Issue price, Issue Price Percentage or Issue Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePricePercentage</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePriceFormula" n="TR.WarrantIssuePriceFormula" l="Issue Price Formula" d="The price paid by the subscribers to the original issue. Issue price is only applicable if the warrant is issued separately. A warrant will have either a Issue price, Issue Price Percentage or Issue Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePriceFormula</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_BondPricePercentage" n="TR.WarrantBondPricePercentage" l="Bond Price Percentage" d="The price of the warrant expressed as a percentage of the face value of the bond it is attached to, if applicable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">BondPricePercentage</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">BondPricePercentageSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssueQuantity" n="TR.WarrantIssueQuantity" l="Issue Quantity" d="The original number of warrants issued in the primary market." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueQuantity</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssueSpotPrice" n="TR.WarrantIssueSpotPrice" l="Issue Spot Price" d="The spot price of the underlying at the time the warrant is issued. This value provides reference in calculating Premium, Gearing, Delta and Elasticity values at issue." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueSpotPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssueSpotPriceCurrency" n="TR.WarrantIssueSpotPriceCurrency" l="Issue Spot Price Currency" d="The Currency of the Issue Spot Price." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueSpotPrice</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssueSpotForexRate" n="TR.WarrantIssueSpotForexRate" l="Issue Spot Forex Rate" d="The exchange rate applied in the calculation of Premium, Gearing, Delta and Elasticity values, if the currencies are different. It is used as a basis of comparison to rates that exist later in the market." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueSpotForexRate</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IssueSpotForexRateSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePremium" n="TR.WarrantIssuePremium" l="Issue Premium" d="For calls, the premium measures the extra outlay for buying the warrant and immediately exercising it versus buying the stock directly. For puts, it measures the extra outlay of a warrant bought and exercised immediately versus a short position in the underlying asset. This is NOT the theoretical value of the warrant (as in option premium)." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePremium</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IssuePremiumSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssuePremiumPerAnnum" n="TR.WarrantIssuePremiumPerAnnum" l="Issue Premium Per Annum" d="Issue premium expressed per annum." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssuePremiumPerAnnum</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IssuePremiumPerAnnumSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_DenominatedAmount" n="TR.WarrantDenominatedAmount" l="Denominated Amount" d="The denomination of a warrant. The number of shares to which the holder of the warrant will be entitled upon exercise of such warrant is calculated by dividing (a) the denominated amount multiplied by the number of warrants deposited at the same time by (b) the exercise price applicable on the exercise date." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">DenominatedAmount</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_DenominatedAmountCurrency" n="TR.WarrantDenominatedAmountCurrency" l="Denominated Amount Currency" d="The currency of the denominated amount." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">DenominatedAmountCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_Delta" n="TR.WarrantDelta" l="Delta" d="Delta is a measure of the change in the warrant price for a small change in the price of the underlying instrument. For call warrants, values range from 0 to 1 and for put warrants from -1 to 0." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">Delta</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DeltaSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_Elasticity" n="TR.WarrantElasticity" l="Elasticity" d="Elasticity is the expected change of stock return variance for a given change in the stock price. It is an attempt to model the often exhibited inverse non-linear relationship between volatility of stock returns and the price of the stock. It is important for measuring warrant values because stocks with a high elasticity will tend to exhibit lower variance of returns as the stock price moves higher, and hence reduce the value of the warrant by decreasing the chance that the stock will move even higher. The original issue variance is the value that is originally reported when the warrant is issued." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">Elasticity</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ElasticitySpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_Gearing" n="TR.WarrantGearing" l="Gearing" d="Gearing is a measure of the ratio of the underlying price to the warrant price. It measures the amount exposure to the underlying that the warrant provides versus buying the underlying directly." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">Gearing</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">GearingSpecified</in:sp>
+		</i>
+		<i id="I_WNT_BT_RedemptionMethod" n="TR.WarrantRedemptionMethod" l="Redemption Method" d="The warrant redemption method. The warrant can be redeemed at issuer's option, holder's option, option of the issuer or holder or it could be not redeemable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">RedemptionMethod</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_RegistrationType" n="TR.WarrantRegistrationType" l="Registration Type" d="The registration type of the warrant. Examples include Bearer, Registered, Certificated or Bearer and Book Entry." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">RegistrationType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_Status" n="TR.WarrantStatus" l="Status" d="This status indicates the exceptional state of the security. Valid statuses are dependent on the type of security and include Not Issued, Redeemed, Indicative, Suspended and In Default." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">Status</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_StatusDate" n="TR.WarrantStatusDate" l="Status Date" d="The date (inclusive) from which the Status becomes effective." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">StatusDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IssueAttachedTo" n="TR.WarrantIssueAttachedTo" l="Issue Attached To" d="The issue identifier for the asset the warrant is attached to or detached from. In most cases, the asset is a fixed income security." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IssueAttachedTo</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_AttachedQuantity" n="TR.WarrantAttachedQuantity" l="Attached Quantity" d="The number of warrants attached to the security specified in Instrument Attached To." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">AttachedQuantity</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_DetachedStatus" n="TR.WarrantDetachedStatus" l="Detached Status" d="The status indicates whether a warrant attached to a bond is detachable, has been detached, or is not detachable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">DetachedStatus</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_DetachableDate" n="TR.WarrantDetachableDate" l="Detachable Date" d="The date when the warrant becomes detachable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">DetachableDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_BT_IsFromPrivatePlacement" n="TR.WarrantIsFromPrivatePlacement" l="Is From Private Placement" d="True/False flag indicating whether the warrant was issued via a private placement." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">BT</in:sp>
+			<in:sp k="field">IsFromPrivatePlacement</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsFromPrivatePlacementSpecified</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_ET" n="Exotic Terms" d="Exotic Terms.">
+		<i id="I_WNT_ET_Name" n="TR.WarrantExoticName" l="Exotic Name" d="A descriptive name for the Exotic Value Code. Examples include Cap, Upper Barrier Schedule and Lower Asset Price." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ValueCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_ValueType" n="TR.WarrantExoticValueType" l="Exotic Value Type" d="The type of the exotic value, including Numeric, Schedule and Level." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ValueCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_ExoticValue" n="TR.WarrantExoticValue" l="Exotic Value" d="The exotic value contains the actual value of the exotic parameter. There are three kinds of values, Numeric, Schedule and Level. In the case of numeric, only one value exists. For a scheduled value, begin date and end dates are also populated. For a levelled value, no begin or end dates exist but multiple values are possible." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ExoticValue</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ExoticValueSpecified</in:sp>
+		</i>
+		<i id="I_WNT_ET_ExoticValueCurrency" n="TR.WarrantExoticValueCurrency" l="Exotic Value Currency" d="The currency of the Exotic Value." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ExoticValueCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_ScheduleBeginDate" n="TR.WarrantScheduleBeginDate" l="Exotic Schedule Begin Date" d="The begin date for the exotic value of type Schedule." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ScheduleBeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_ScheduleEndDate" n="TR.WarrantScheduleEndDate" l="Exotic Schedule End Date" d="The end date for the exotic value of type Schedule." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ScheduleEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_WarrantType" n="TR.WarrantExoticType" l="Exotic Warrant Type" d="The exotic warrant type. Examples include Standard, Up and In, Down and In, Up and Out, Down and Out, Chooser, Lookback and Lookforward." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ValueCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_ET_Description" n="TR.WarrantExoticDescription" l="Exotic Description" d="Text description of the Exotic Warrant Type and Exotic Value Code combination." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">True</in:sp>
+			<in:sp k="category">ET</in:sp>
+			<in:sp k="field">ValueCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_CE" n="Contractual Events" d="Contractual Events.">
+		<i id="I_WNT_CE_EventType" n="TR.WarrantContractualEventType" l="Event Type" d="The contractual event type. Possible values include Notice, Settlement and Valuation." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.EventType">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">CE</in:sp>
+			<in:sp k="field">EventType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_CE_PeriodNumber" n="TR.WarrantPeriodNumber" l="Period Number" d="The number of days, weeks or months for the period type." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.PeriodNumber">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">CE</in:sp>
+			<in:sp k="field">PeriodNumber</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_CE_PeriodFrequency" n="TR.WarrantPeriodFrequency" l="Period Frequency" d="The frequency of the contractual event period. Examples include Daily, Weekly, Monthly, Quarterly, Every 4 months, Semi-Annual, Annual or Non-Periodic." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.PeriodFrequency">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">CE</in:sp>
+			<in:sp k="field">PeriodFrequency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_CE_DayType" n="TR.WarrantDayType" l="Day Type" d="The period day type, including Business, Calendar or Trading." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">CE</in:sp>
+			<in:sp k="field">DayType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_SR" n="Selling Rules" d="Selling Rules.">
+		<i id="I_WNT_SR_Country" n="TR.WarrantCountry" l="Selling Rule Country" d="The country in which the selling rule is applicable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">SR</in:sp>
+			<in:sp k="field">Country</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_SR_CoverageType" n="TR.WarrantSellingRuleCoverageType" l="Selling Rule Coverage Type" d="The selling rule coverage type. Possible values are Complete and Partial." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">SR</in:sp>
+			<in:sp k="field">CoverageType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_UI" n="Underlying Instruments" d="Underlying Instruments.">
+		<i id="I_WNT_UI_UnderlyingType" n="TR.WarrantUnderlyingType" l="Underlying Type" d="The underlying type identifies the type of deliverable. Examples include Stock, Currency, Bond, Commodity, Index or Basket." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">UnderlyingType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_Instrument" n="TR.WarrantInstrument" l="Instrument" d="The RIC identifier of the underlying instrument quote." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">Instrument</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_EntitledQuantity" n="TR.WarrantEntitledQuantity" l="Entitled Quantity" d="The number of units (underlying assets) to which each warrant holder is entitled." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">EntitledQuantity</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">EntitledQuantitySpecified</in:sp>
+		</i>
+		<i id="I_WNT_UI_SettlementType" n="TR.WarrantSettlementType" l="Settlement Type" d="The settlement type indicates whether it is possible to receive a cash equivalent rather than physical delivery of the underlying instrument or component of a asset upon exercise of the warrant." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">SettlementType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_SettlementCurrency" n="TR.WarrantSettlementCurrency" l="Settlement Currency" d="The currency relating to cash settlement, if applicable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">SettlementCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_DeliveryType" n="TR.WarrantDeliveryType" l="Delivery Type" d="The delivery type of the underlying asset. Possible values include Cash, Security, Index or Cash or Security." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">DeliveryType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_CashDeliveryCurrency" n="TR.WarrantCashDeliveryCurrency" l="Cash Delivery Currency" d="The currency of the cash amount to be delivered, if applicable." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">CashDeliveryCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_UI_UnitType" n="TR.WarrantUnitType" l="Unit Type" d="The type of units applicable to the underlying asset quantity the warrant holder is entitled to. Examples include Barrel for oil, Shares for a security, etc." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">UI</in:sp>
+			<in:sp k="field">UnitType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_EXT" n="Exercise Terms" d="Exercise Terms.">
+		<i id="I_WNT_EXT_ExerciseStyle" n="TR.WarrantExerciseStyle" l="Exercise Style" d="The option exercise style. Possible values are European, American, Event Linked or Schedule." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExerciseStyle</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExercisePrice" n="TR.WarrantExercisePrice" l="Exercise Price" d="The price at which the warrant can be exercised. A warrant will have either a Exercise Price, Exercise Price Percentage or Exercise Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExercisePrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExercisePricePercentage" n="TR.WarrantExercisePricePercentage" l="Exercise Price Percentage" d="The price at which the warrant can be exercised. A warrant will have either a Exercise Price, Exercise Price Percentage or Exercise Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExercisePricePercentage</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExercisePriceFormula" n="TR.WarrantExercisePriceFormula" l="Exercise Price Formula" d="The price at which the warrant can be exercised. A warrant will have either a Exercise Price, Exercise Price Percentage or Exercise Price Formula." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExercisePriceFormula</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExercisePriceCurrency" n="TR.WarrantExercisePriceCurrency" l="Exercise Price Currency" d="The currency of the exercise price." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExercisePriceCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_IsBondExercisePayment" n="TR.WarrantIsBondExercisePayment" l="Is Bond Exercise Payment" d="Yes/No flag indicating whether the associated bond may be used as payment for exercise of the warrant." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">IsBondExercisePayment</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsBondExercisePaymentSpecified</in:sp>
+		</i>
+		<i id="I_WNT_EXT_SettlementForexRate" n="TR.WarrantSettlementForexRate" l="Settlement Forex Rate" d="Foreign exchange rate between the currency of the exercise price and currency of the settlement amount." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">SettlementForexRate</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">SettlementForexRateSpecified</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExerciseQuantity" n="TR.WarrantExerciseQuantity" l="Exercise Quantity" d="The warrants part of the exercise ratio. In other words, in order for an investor to receive the number of underlying units, he/she will have to exercise this given number of warrants. Exercise ratio = Exercise Quantity/Underlying Asset Quantity." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExerciseQuantity</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ExerciseQuantitySpecified</in:sp>
+		</i>
+		<i id="I_WNT_EXT_UnderlyingAssetQuantity" n="TR.WarrantUnderlyingAssetQuantity" l="Underlying Asset Quantity" d="The underlying asset part of the exercise ratio. In other words, an investor who exercises the number of warrants will receive this number of underlying units. Exercise ratio = Exercise Quantity/Underlying Asset Quantity." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">UnderlyingAssetQuantity</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_IncrementalExerciseLot" n="TR.WarrantIncrementalExerciseLot" l="Incremental Exercise Lot" d="The incremental lot size for exercise of the warrants. The incremental lot combined with the minimum lot gives all the possible exercise lots." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">IncrementalExerciseLot</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_MinimumExerciseLot" n="TR.WarrantMinimumExerciseLot" l="Minimum Exercise Lot" d="The minimum number of warrants which must be exercised at the same time." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">MinimumExerciseLot</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_MaximumExerciseLot" n="TR.WarrantMaximumExerciseLot" l="Maximum Exercise Lot" d="The maximum number of warrants which may be exercised on one day by an individual warrant holder." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">MaximumExerciseLot</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExerciseBeginDate" n="TR.WarrantExerciseBeginDate" l="Exercise Begin Date" d="The begin date for the warrant exercise period." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExerciseBeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_ExerciseEndDate" n="TR.WarrantExerciseEndDate" l="Exercise End Date" d="The end date for the warrant exercise period." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">ExerciseEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_PeriodNumber" n="TR.WarrantExcercisePeriodNumber" l="Period Number" d="The number of period frequency periods to use when determining the time when the exercise period becomes active." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.PeriodNumber">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">PeriodNumber</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_PeriodFrequency" n="TR.WarrantExcercisePeriodFrequency" l="Period Frequency" d="The frequency to use when determining the time when the exercise period becomes active. Examples include Daily, Weekly, Monthly, Quarterly, Every 4 months, Semi-Annual, Annual or Non-Periodic." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.PeriodFrequency">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">PeriodFrequency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_PeriodCalendarType" n="TR.WarrantPeriodCalendarType" l="Period Calendar Type" d="The period calendar indicates the calendar to use when determining the time when the exercise period becomes active, including Business, Calendar or Trading." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">PeriodCalendarType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_OffsetNumber" n="TR.WarrantOffsetNumber" l="Offset Number" d="The number of offset frequency periods after the event when the exercise period will be activated." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">OffsetNumber</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_OffsetFrequency" n="TR.WarrantOffsetFrequency" l="Offset Frequency" d="The frequency to use when determining the offset of the exercise period from the indicated event. Examples include Daily, Weekly, Monthly, Quarterly, Every 4 months, Semi-Annual, Annual or Non-Periodic." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">OffsetFrequency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EXT_OffsetCalendarType" n="TR.WarrantOffsetCalendarType" l="Offset Calendar Type" d="The offset calendar indicates the calendar to use when determining the offset of the exercise period from the indicated event, including Business, Calendar or Trading." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EXT</in:sp>
+			<in:sp k="field">OffsetCalendarType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_WN" n="Warrant Notes" d="Warrant Notes.">
+		<i id="I_WNT_WN_Notes" n="TR.WarrantNotes" l="Notes" d="Contains textual information on the warrant which is either not quantifiable or not eligible for storage in the current data structure." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">WN</in:sp>
+			<in:sp k="field">Notes</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_WN_NoteType" n="TR.WarrantNoteType" l="Note Type" d="The type of note. Examples include Corporate Action, Settlement and Offer Terms." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">WN</in:sp>
+			<in:sp k="field">NoteType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_EH" n="Event History" d="Event History.">
+		<i id="I_WNT_EH_EventType" n="TR.WarrantEventType" l="Event Type" d="The type of change event for the warrant terms and conditions such as Change in Exercise Price, Change in Expiry Date and Increase in Issue Quantity." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false" lid="RW.CE.EventType">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EH</in:sp>
+			<in:sp k="field">EventType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EH_PreviousValue" n="TR.WarrantPreviousValue" l="Previous Value" d="The previous value for the event as specified by the event type." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EH</in:sp>
+			<in:sp k="field">PreviousValue</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_EH_ChangeDate" n="TR.WarrantChangeDate" l="Change Date" d="The date of the event affecting the warrant. For example, the warrant exercise price after a 2-for-1 stock split is reduced to half on the ex-date for the underlying stock." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">EH</in:sp>
+			<in:sp k="field">ChangeDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_WNT_SP" n="Financial Service Providers" d="Financial Service Providers.">
+		<i id="I_WNT_SP_Organisation" n="TR.WarrantOrganisation" l="Organisation" d="The Financial Service Provider organisation." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">SP</in:sp>
+			<in:sp k="field">Organisation</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_WNT_SP_Role" n="TR.WarrantRole" l="Role" d="The role of the Financial Service Provider. Examples include Clearing House, Registration Agent, Lead Manager and Sponsor." i="A:AA A:3E A:63 A:64 A:G2 A:G3 A:65 A:G4 A:66 A:G5 A:G6 A:G7 A:6G A:68 A:6C A:6H A:6D A:6E A:69 A:6F A:G8 A:6I" s="Warrants" vu="N" cc="ricValue" isScreen="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="ref">False</in:sp>
+			<in:sp k="category">SP</in:sp>
+			<in:sp k="field">Role</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+</d>

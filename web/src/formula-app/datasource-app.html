@@ -1,0 +1,64 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="./datasource-list.html">
+<link rel="import" href="./datasource-detail.html">
+<link rel="import" href="./admin-upload.html">
+<link rel="import" href="./stats-dashboard.html">
+
+<dom-module id="datasource-app">
+    <style is="custom">
+        datasource-list {
+            margin: 20px;
+        }
+
+    </style>
+
+    <template>
+        <iron-ajax
+            auto 
+            method="GET"
+            handle-as="json"
+            last-response={{datasourceItems}}
+            url={{_url}}></iron-ajax>
+        <div>
+            <datasource-detail items={{datasourceItems}} selected={{selectedIndex}}></datasource-detail>
+            <stats-dashboard items=[[datasourceItems]]></stats-dashboard>
+        <div>
+        <datasource-list items={{datasourceItems}} selected={{selectedIndex}}></datasource-list>
+        <admin-upload></admin-upload>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'datasource-app',
+
+            properties: {
+                datasourceItems : {
+                    type: Array,
+                    notify: true
+                },
+                selectedIndex: {
+                    type: Number,
+                    notify: true,
+                    value: null    // Initialize to 0 --> select none
+                },
+                endpoint: {
+                    type: String,
+                    value: '../../api',
+                    notify: true
+                },
+                _url: {
+                    type: String,
+                    computed: '_computedURL(endpoint)'
+                }
+            },
+
+            // Computed properties
+            _computedURL: function(endpoint){
+                return endpoint + '/datasource'
+            }
+        }); 
+    </script>
+</dom-module>

@@ -1,0 +1,37 @@
+﻿<d id="D_REV" n="Events (REV)" d="Events" m="REV" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_REV_CE" n="Company Events (CE)" d="Company Events." m="CE">
+		<i id="I_REV_CE_Title" n="REV.CE.Title" d="Event title. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Event Title" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">Name</in:sp>
+		</i>
+		<i id="I_REV_CE_Status" n="REV.CE.Status" d="Event status, defines whether the event date has been estimated (True) or confirmed by the company (False). Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Event Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">IsEstimate</in:sp>
+		</i>
+		<i id="I_REV_CE_Country" n="REV.CE.Country" d="Country where events takes place. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Event Country" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">Country</in:sp>
+		</i>
+		<i id="I_REV_CE_LastUpdate" n="REV.CE.LastUpdate" d="The last update date of the event. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." cc="EventDP" l="Event Last Update Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">LastUpdate</in:sp>
+		</i>
+		<i id="I_REV_CE_StartDate" n="REV.CE.StartDate" d="Event start date. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Event Start Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">StartDateTime</in:sp>
+		</i>
+		<i id="I_REV_CE_StartTime" n="REV.CE.StartTime" d="Event start time. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." cc="EventDP" l="Event Start Time" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">StartDateTime</in:sp>
+		</i>
+		<i id="I_REV_CE_EndDate" n="REV.CE.EndDate" d="Event end date. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Event End Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">EndDateTime</in:sp>
+		</i>
+		<i id="I_REV_CE_EndTime" n="REV.CE.EndTime" d="Event end time. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." cc="EventDP" l="Event End Time" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">EndtDateTime</in:sp>
+		</i>
+		<i id="I_REV_CE_StartQualifier" n="REV.CE.StartQualifier" d="Additional information on the start of the event. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="Start Qualifier" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">StartQualifier</in:sp>
+		</i>
+		<i id="I_REV_CE_EndQualifier" n="REV.CE.EndQualifier" d="Additional information on the end of the event. Please note that you are unable to request both forward looking and historical events in the same request." cc="EventDP" l="End Qualifier" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" pc="CompanyEventsParams" vu="N" isScreen="false">
+			<in:sp k="id">EndQualifier</in:sp>
+		</i>
+	</c>
+</d>

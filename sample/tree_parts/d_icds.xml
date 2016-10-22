@@ -1,0 +1,208 @@
+﻿<d id="D_ICDS" n="Index CDS (ICDS)" d="Index CDS (ICDS)." m="ICDS" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_ICDS_D" n="CDS Index Definition (D)" d="CDS Indices Definition (D)." m="D">
+		<i id="I_ICDS_D_CDSRIC" n="ICDS.D.CDSRIC" d="The RIC for this CDS index quote." cc="ricValue" l="RIC Code" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSRIC</in:sp>
+		</i>
+		<i id="I_ICDS_D_CDSCCYCode" n="ICDS.D.CDSCCYCode" d="The ISO 3 currency code for this CDS index quote." cc="ricValue" l="Currency Code" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSCurrency</in:sp>
+		</i>
+		<i id="I_ICDS_D_QuoteName" n="ICDS.D.QuoteName" d="The Quote level short name for this CDS RIC." cc="ricValue" l="Ref Entity" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">QuoteName</in:sp>
+		</i>
+		<i id="I_ICDS_D_IsSuperRIC" n="ICDS.D.IsSuperRIC" d="Y if the RIC ends with = N otherwise." cc="ricValue" l="Is Super RIC" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsSuperRIC</in:sp>
+		</i>
+		<i id="I_ICDS_D_IsBenchmarkRIC" n="ICDS.D.IsBenchmarkRIC" d="Y if this is a benchmark RIC, N otherwise. Note: a benchmark is not necessarily the super RIC. There can be a benchmark for each contributor." cc="ricValue" l="Is Benchmark RIC" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsBenchmarkRIC</in:sp>
+		</i>
+		<i id="I_ICDS_D_BenchmarkRIC" n="ICDS.D.BenchmarkRIC" d="Benchmark (continuation) RIC for this index quote. Each combination of TICKER, TENOR, TRANCHE_TIER and CDS_CONTRIBUTOR_ CODE will have a different benchmark (but the benchmark does not change with SERIES or VERSION)." cc="ricValue" l="Benchmark RIC" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">BenchmarkRIC</in:sp>
+		</i>
+		<i id="I_ICDS_D_IsPrimaryCDSRIC" n="ICDS.D.IsPrimaryCDSRIC" d="Will be set to Y if this is the primary CDS RIC for this series &amp; version of the index, N otherwise." cc="ricValue" l="Is Primary RIC" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsPrimaryCDSRIC</in:sp>
+		</i>
+		<i id="I_ICDS_D_CDSContributorCode" n="ICDS.D.CDSContributorCode" d="The code of the price contributor of this CDS quote." cc="ricValue" l="Contributor Code" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSContributor</in:sp>
+		</i>
+		<i id="I_ICDS_D_CDSContributorShortName" n="ICDS.D.CDSContributorShortName" d="The Short Name of the price contributor of this CDS quote." cc="ricValue" l="Contributor" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSContributorShortName</in:sp>
+		</i>
+		<i id="I_ICDS_D_CDSType" n="ICDS.D.CDSType" d="The type of index e.g. C=CDS, L=loan." cc="ricValue" l="CDS Type" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSType</in:sp>
+		</i>
+		<!-- [RDN 218479] - DO NOT DELETE AS USED BY CALCULATORS -->
+		<i id="I_ICDS_D_ISTrange" n="ICDS.D.ISTrange" d="Y if this record is an Index Tranche, N otherwise." cc="ricValue" l="Is Tranche" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsTranche</in:sp>
+		</i>
+		<i id="I_ICDS_D_ISTranche" n="ICDS.D.ISTranche" d="Y if this record is an Index Tranche, N otherwise." cc="ricValue" l="Is Tranche" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsTranche</in:sp>
+		</i>
+		<i id="I_ICDS_D_RCSCode" n="ICDS.D.RCSCode" d="The RCS asset class code for this contract." cc="ricValue" l="Contract Type" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">RCSClass</in:sp>
+		</i>
+		<i id="I_ICDS_D_MarkitTradeID" n="ICDS.D.MarkitTradeID" d="The unique trading ID used to trade an index series under a particular maturity." cc="ricValue" l="Markit Trade" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">MarkITTradeID</in:sp>
+		</i>
+		<i id="I_ICDS_D_ContactName" n="ICDS.D.ContactName" d="The name of this CDS index contract, as maintained by Thomson Reuters." cc="ricValue" l="Contract Name" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">ContractName</in:sp>
+		</i>
+		<i id="I_ICDS_D_IsOnTheRun" n="ICDS.D.IsOnTheRun" d="Indicates that this is the latest series &amp; version of this index." cc="ricValue" l="On the Run" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsOnTheRun</in:sp>
+		</i>
+		<i id="I_ICDS_D_RICRoot" n="ICDS.D.RICRoot" d="The RIC ROOT of this CDS contract. Note that for on-the-run indices, this is the RIC ROOT of the series RIC, not the benchmark RIC." cc="ricValue" l="RIC Root" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">RICRoot</in:sp>
+		</i>
+		<i id="I_ICDS_D_Tenor" n="ICDS.D.Tenor" d="The tenor (term) of this CDS contract." cc="ricValue" l="Tenor" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Tenor</in:sp>
+		</i>
+		<i id="I_ICDS_D_Seniority" n="ICDS.D.Seniority" d="The Seniority of the Index." cc="ricValue" l="Seniority" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Seniority</in:sp>
+		</i>
+		<i id="I_ICDS_D_FixedRate" n="ICDS.D.FixedRate" d="The fixed rate on the index contract, shown as a decimal fraction (e.g. 1% shown as 0.01)." cc="ricValue" l="Fixed Rate" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">FixedRate</in:sp>
+		</i>
+		<i id="I_ICDS_D_EffectiveDate" n="ICDS.D.EffectiveDate" d="The date from which the index series is effective." cc="ricValue" l="Effective Date" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">EffectiveDate</in:sp>
+		</i>
+		<i id="I_ICDS_D_FirstPaymentDate" n="ICDS.D.FirstPaymentDate" d="The first payment date for the fixed return on the index as specified in the annex." cc="ricValue" l="First Payment Date" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">FirstPaymentDate</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexPaymentFrequency" n="ICDS.D.IndexPaymentFrequency" d="The frequency of payments of the fixed rate in M or Y." cc="ricValue" l="Frequency" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexPaymentFrequency</in:sp>
+		</i>
+		<i id="I_ICDS_D_MaturityDate" n="ICDS.D.MaturityDate" d="Date on which the index matures." cc="ricValue" l="Maturity Date" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">MaturityDate</in:sp>
+		</i>
+		<i id="I_ICDS_D_TrancheTier" n="ICDS.D.TrancheTier" d="The tranche tier for this contract." cc="ricValue" l="Tier" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">TrancheTier</in:sp>
+		</i>
+		<i id="I_ICDS_D_AttachmentPoint" n="ICDS.D.AttachmentPoint" d="Attachment point of the tranche expressed as a percentage. Only populated for tranches." cc="ricValue" l="Attachment Point" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">AttachmentPoint</in:sp>
+		</i>
+		<i id="I_ICDS_D_DetachmentPoint" n="ICDS.D.DetachmentPoint" d="Detachment point of the tranche expressed as a percentage. Only populated for tranches." cc="ricValue" l="Detachment Point" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">DetachmentPoint</in:sp>
+		</i>
+		<i id="I_ICDS_D_HasTranches" n="ICDS.D.HasTranches" d="Y if this Index Series/Version &amp; Tenor has any tranches, N otherwise. Note: this does not mean that this particular contract is a tranche – use IS_TRANCHE for that." cc="ricValue" l="Has Tranches" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">HasTranches</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexRED9" n="ICDS.D.IndexRED9" d="The RED9 code of the index series/version." cc="ricValue" l="Red9" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexRED9</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexName" n="ICDS.D.IndexName" d="The Markit-supplied index name. Note that the Markit Index name includes the series &amp; version." cc="ricValue" l="Index Name" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexName</in:sp>
+		</i>
+		<i id="I_ICDS_D_AnnexDate" n="ICDS.D.AnnexDate" d="The publication date of the annex." cc="ricValue" l="Annex Date" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">AnnexDate</in:sp>
+		</i>
+		<i id="I_ICDS_D_Series" n="ICDS.D.Series" d="The index series number." cc="ricValue" l="Series" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">SeriesNumber</in:sp>
+		</i>
+		<i id="I_ICDS_D_Version" n="ICDS.D.Version" d="The index version number." cc="ricValue" l="Version" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Version</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexCCYCode" n="ICDS.D.IndexCCYCode" d="The index currency code." cc="ricValue" l="Index Currency Code" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexCurrency</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexFactor" n="ICDS.D.IndexFactor" d="Sum of all constituents weightings. Will be 1 unless there has been a default." cc="ricValue" l="Index Factor" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexFactor</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexTicker" n="ICDS.D.IndexTicker" d="The TICKER for this index." cc="ricValue" l="Index Ticker" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexTicker</in:sp>
+		</i>
+		<i id="I_ICDS_D_IndexFamily" n="ICDS.D.IndexFamily" d="The index family code." cc="ricValue" l="Index Family" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IndexFamily</in:sp>
+		</i>
+		<i id="I_ICDS_D_OrgID" n="ICDS.D.OrgID" d="The ORG_ID for the index administrator." cc="ricValue" l="Org Id" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationID</in:sp>
+		</i>
+		<i id="I_ICDS_D_OrgShortName" n="ICDS.D.OrgShortName" d="The 20-character Short Name for the index administrator." cc="ricValue" l="Organisation" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationShortName</in:sp>
+		</i>
+		<i id="I_ICDS_D_OrgCommonName" n="ICDS.D.OrgCommonName" d="The long name for the index administrator." cc="ricValue" l="Organisation Name" i="A:4M A:BL" s="CDSQUOTE" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationCommonName</in:sp>
+		</i>
+	</c>
+	<c id="C_ICDS_C" n="CDS Index Constituents (C)" d="CDS Index Constituents (C)." m="C">
+		<i id="I_ICDS_C_ConstRED9" n="ICDS.C.ConstRED9" d="The Markit RED9 code which uniquely identifies the obligation and its issuer/guarantor." cc="CDSCC" pc="CDSCPC" l="Pair CLIP" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentRED9</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstISIN" n="ICDS.C.ConstISIN" d="The ISIN code of the reference obligation." cc="CDSCC" pc="CDSCPC" l="Ref Oblig. ISIN" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentIsin</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstCUSIP" n="ICDS.C.ConstCUSIP" d="The CUSIP code of the constituent reference obligation." cc="CDSCC" pc="CDSCPC" l="Ref Oblig. CUSIP" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentCusip</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstFITIID" n="ICDS.C.ConstFITIID" d="The fixed-income TI_ID of the constituent reference obligation." cc="CDSCC" pc="CDSCPC" l="Reference FI TI Id" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentFixedIncomeTIID</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstWeight" n="ICDS.C.ConstWeight" d="The constituent weight, expressed as a decimal." cc="CDSCC" pc="CDSCPC" l="Weight" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentWeight</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstRED6" n="ICDS.C.ConstRED6" d="The Markit Reference Entity Database 6-character code (RED6) for the constituent reference entity." cc="CDSCC" pc="CDSCPC" l="Red 6" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentRED6</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+		<i id="I_ICDS_C_ConstOrgName" n="ICDS.C.ConstOrgName" d="The Short Name of the constituent." cc="CDSCC" pc="CDSCPC" l="Constituent Name" i="A:4M A:BL" s="CDSINDCONST" vu="N" isScreen="false">
+			<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+			<in:sp k="c">ConstituentOrganizationShortName</in:sp>
+			<in:sp k="instr">INDEXRED9</in:sp>
+		</i>
+	</c>
+</d>

@@ -1,0 +1,34 @@
+﻿<d id="D_FundHoldEquity" lid="D_MFH" n="Mutual Fund Holdings" d="Mutual Fund Holdings." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_FundHoldEquity_TO" n="Top Owners" d="Top Owners.">
+		<i id="I_FundHoldEquity_TO_LipperID" n="TR.HoldingFundLipperID" l="Lipper ID" d="Lipper ID of the Fund holding the Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" pc="UnityLippOwnRP" cc="LippownDP" vc="LipperID" dt="String" isScreen="false" isGrid = "false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_FundHoldEquity_TO_Name" n="TR.HoldingFundName" l="Fund Name" d="Fund Name" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" pc="UnityLippOwnRP" cc="LippownDP" vc="FundName" dt="String" isScreen="false" isGrid = "false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_FundHoldEquity_TO_DataDate" n="TR.HoldingFundDataDate" l="Data Date" d="Data Date of the holding" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" pc="UnityLippOwnRP" cc="LippownDP" vc="DataDate" dt="Date" isScreen="false" isGrid = "false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_FundHoldEquity_TO_NumberOfShares" n="TR.HoldingFundNumberOfShares" l="Number of Shares" d="Number of Shares." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" pc="UnityLippOwnRP" cc="LippownDP" dt="Float" isScreen="false" isGrid = "false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_FundHoldEquity_TO_TotalNumberOfMutualFunds" n="TR.HoldingFundTotalNumberOfMutualFunds" l="Total Number of Mutual Funds" d="Number of mutual funds which own the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" cc="ricValue" dt="Integer" isScreen="false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">TotalMutualFunds</in:sp>
+			<in:sp k="vt">3</in:sp>
+		</i>
+		<i id="I_FundHoldEquity_TO_TotalNumberOfShares" n="TR.HoldingFundTotalNumberOfShares" l="Total Number of Shares" d="Total number of shares held by mutual funds." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<in:sp k="m">UnityOwnershipTopOwners</in:sp>
+			<in:sp k="vp">SharesHeldByMutualFunds</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+	</c>
+</d>

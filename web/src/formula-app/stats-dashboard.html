@@ -1,0 +1,86 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/vaadin-icons/vaadin-icons.html">
+
+<dom-module id="stats-dashboard">
+    <style is="custom">
+        paper-card {
+            width: 35%;
+            margin: 20px;
+            border-radius: 10px;
+            --paper-card-header: {
+                background-color: var(--paper-blue-900);
+            };
+
+            --paper-card-header-color: #fff
+        }
+        .paper-content {
+            padding: 20px;
+        }
+        
+        iron-icon {
+            margin-right: 30px;
+        }
+    </style>
+
+    <template>
+        <paper-card heading="{{title}}" elevation="3">
+            <div class="paper-content">
+                <div class="contents">                   
+                    <h1><iron-icon icon="vaadin-icons:database"></iron-icon>
+                        {{stats.ds}}
+                    </h1>
+                </div>
+                <div>                  
+                    <h1><iron-icon icon="vaadin-icons:superscript"></iron-icon>
+                        {{stats.formula}}
+                    </h1>
+                </div>
+                <div>
+                    <h1> <iron-icon icon="vaadin-icons:specialist"></iron-icon>
+                    {{stats.contact}}
+                    </h1>
+                </div>
+            </div>
+        </paper-card>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'stats-dashboard',
+
+            properties: {
+                title: {
+                    type: String,
+                    value: "Stats"
+                },
+                items: {
+                    type: Array,
+                },
+                stats: {
+                    type: Object,
+                    computed: '_computedStats(items)'
+                }
+            },
+
+            /**
+             * Compute stats from data items
+             */
+            _computedStats: function(items){
+                var stats = {
+                    ds: 0,
+                    formula: 0,
+                    contact: 0
+                };
+
+                items.forEach(function(item){
+                    stats.ds++;
+                    stats.formula += parseInt(item.numOfFormulas);
+                });
+
+                return stats;
+            }
+        });
+    </script>
+</dom-module>

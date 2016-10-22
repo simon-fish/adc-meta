@@ -1,0 +1,61 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
+<link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../../bower_components/vaadin-upload/vaadin-upload.html">
+
+<!--
+    Custom elements
+    -->
+
+<link rel="import" href="./test-upload.html">
+
+<dom-module id="formula-contact">
+    <style>
+        div#secondary {
+            font-size: 8px;
+        }
+    </style>
+
+    <template>
+            <paper-listbox>
+                <paper-icon-item>
+                    <iron-icon icon="communication:mail-outline" item-icon>
+                    </iron-icon>
+                    <paper-item-body two-line>
+                        <div>{{contact.name}}</div>
+                        <div secondary>{{contact.email}}</div>
+                    </paper-item-body>
+                </paper-icon-item>
+            </paper-listbox>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'formula-contact',
+
+            properties: {
+                contact: {
+                    type: Object,
+                    notify: true
+                },
+                id: {
+                    type: String,
+                },
+                endpoint: {
+                    type: String,
+                }, 
+                url: {
+                    type: String,
+                    computed: '_buildUrl(endpoint, id)'
+                },
+            },
+
+            _buildUrl: function(endpoint, id){
+                return endpoint + '/' + 'contact/' + id;
+            },
+        });
+    </script>
+
+</dom-module>

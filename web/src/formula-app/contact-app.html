@@ -1,0 +1,93 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="./contact-list.html">
+<link rel="import" href="./contact-detail.html">
+<link rel="import" href="./contact-dropdown.html">
+
+<dom-module id="contact-app">
+    <style>
+
+    </style>
+
+    <template>
+        <div>
+            <div class="detail" id="detailDiv">
+                <template is="dom-if" if="{{_hasAlreadyCreated}}">
+                    <contact-detail contact="{{selectedContact}}"></contact-detail>
+                </template>
+                <!-- populate when user click the list -->
+            </div>
+            <div class="list">
+                <contact-list selected={{selectedContact}}></contact-list>
+            </div>
+
+
+        </div>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'contact-app',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    value: '../api',
+                    notify: true
+                },
+                _url: {
+                    type: String,
+                    computed: '_buildURL(endpoint)',
+                },
+                selectedContact: {
+                    type: Object,
+                    notify: true,
+                },
+                _hasAlreadyCreated: {
+                    type: Boolean,
+                    value: true,
+                    notify: true
+                }
+            },
+
+            observers: [
+                'selectedChange(selectedContact.*, filter)',
+            ],
+
+            selectedChange: function(){
+                //this._notifyContactDetail(this.selectContact);
+                console.log('clicked');
+                if (this._hasAlreadyCreated){
+                    this._hasAlreadyCreated = false;
+                }
+                else {
+                    this._hasAlreadyCreated = true;
+                }
+               // this._hasAlreadyCreated = true;
+                var tmp = this.selectedContact;
+                this.selectedContact = {};
+                this.selectedContact = tmp;
+            },
+
+            _buildURL: function(endpoint){
+                return endpoint + '/contact';
+            },
+
+            _notifyContactDetail: function(selected){
+                // Notify contact-detail component to change data to selected item
+                var divContainer = this.$.detailDiv;
+                var contactDetail = divContainer.querySelector('contact-detail');
+
+                // First time to create contact-detail element
+                if (contactDetail == null){
+                    var contactDetail = document.createElement("contact-detail");
+                    contactDetail.setAttribute('contact', this.selectedContact);
+                    divContainer.appendChild(contactDetail);
+
+                }
+
+            }
+        });
+    </script>
+</dom-module>

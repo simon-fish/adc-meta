@@ -1,0 +1,278 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
+
+<dom-module id="contact-detail">
+    <style is="custom-style">
+        paper-button.custom {
+            --paper-button-ink-color: var(--paper-pink-a200);
+            /* These could also be individually defined for each of the
+            specific css classes, but we'll just do it once as an example */
+            --paper-button-flat-keyboard-focus: {
+            background-color: var(--paper-pink-a200);
+            color: white !important;
+            };
+            --paper-button-raised-keyboard-focus: {
+            background-color: var(--paper-pink-a200) !important;
+            color: white !important;
+            };
+        }
+        paper-button.custom:hover {
+            background-color: var(--paper-indigo-100);
+        }
+        paper-button.pink {
+            color: var(--paper-pink-a200);
+
+        }
+        paper-button.red {
+            background-color: var(--paper-red-500);
+            color: white;
+        }
+        paper-button.indigo {
+            background-color: var(--paper-indigo-500);
+            color: white;
+            --paper-button-raised-keyboard-focus: {
+            background-color: var(--paper-pink-a200) !important;
+            color: white !important;
+            };
+        }
+        paper-button.green {
+            background-color: var(--paper-green-500);
+            color: white;
+        }
+        paper-button.green[active] {
+            background-color: var(--paper-red-500);
+        }
+        paper-button.disabled {
+            color: white;
+        }
+        paper-button {
+            margin: 5px;
+        }
+        paper-input {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        paper-card {
+            margin: 20px;
+        }
+    </style>
+
+    <template>
+        <iron-ajax
+            id="ajaxUpdate"
+            url={{_url}}
+            handle-as="json"
+            method="PUT"
+            on-response="handleUpdateContactResponse"
+            headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+        <iron-ajax
+            id="ajaxCreate"
+            url={{_url}}
+            handle-as="json"
+            method="POST"
+            on-response="handleCreateContactResponse"
+            headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+        <iron-ajax
+            id="ajaxDelete"
+            url={{_url}}
+            handle-as="json"
+            method="DELETE"
+            on-response="handleDeleteContactResponse"></iron-ajax>
+
+
+        <paper-card heading="Edit Contact" elevation="3">
+            <div class="paper-content">
+                <paper-input label="Contact Name" value="{{contact.name}}"></paper-input>
+                <paper-input label="Email" value="{{contact.email}}"></paper-input>
+            </div>
+            <div class="paper-actions">
+                <paper-button raised class="custom red"
+                    on-click="createContactDB">
+                    <iron-icon icon="social:person-add"></iron-icon>
+                    NEW
+                </paper-button>
+                <paper-button raised class="custom red"
+                    on-click="deleteContactDB">
+                    <iron-icon icon="icons:delete"></iron-icon>
+                    DELETE
+                </paper-button>
+                <paper-button raised disabled={{saveDisabled}} class$="{{_getButtonClasses(saveDisabled)}}"
+                    on-click="updateContactDB">
+                    <iron-icon icon="icons:save"></iron-icon>
+                    SAVE
+                </paper-button>
+            </div>
+
+        </paper-card>
+        <paper-toast id="toastRequestStatus" class="fit-bottom" text=""></paper-toast>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'contact-detail',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    value: '../../api',
+                    notify: true
+                },
+                _url: {
+                    type: String,
+                    computed: '_buildURL(endpoint)'
+                },
+                contact : {
+                    type: Object,
+                    notify: true,
+                },
+                contactTmp : {
+                    type: Object,
+                    notify: true
+                },
+                saveDisabled : {
+                    type: Boolean,
+                    notify: true,
+                    computed: '_setDirty(contact, contactTmp)'
+                }
+            },
+
+            observers: [
+                'contactChanged(contact.*, filter)',
+            ],
+
+            contactChanged: function(){
+                console.log(this.contact.name);
+                this.contactOrig = this.contact;
+                var tmp = this.contact;
+                this.contact = {};
+                this.contact = tmp;
+            },
+
+            ready : function(){
+                console.log('ready!!');
+                this.contactTmp = JSON.parse(JSON.stringify(this.contact));
+            },
+
+            _buildURL: function(endpoint){
+                return endpoint + '/contact'
+            },
+
+            _setDirty: function(org, current){
+                if (org.name != current.name){
+                    return false;
+                }
+                else{
+                    if(org.email != current.email) return false;
+                }
+                return true;
+                console.log("dirty");
+            },
+
+
+            // Update css style on 'SAVE' button.
+            // It's originally created with 'disabled' until something changes in the input box.
+            // After user make a text changes, and we enable the button, this function is to set the style
+            // of the button 'custom indigo' which are defined in <style></style> above. 
+            _getButtonClasses: function(flag){
+                var classes = 'custom';
+                if (flag) classes += ' disabled';
+                else classes += ' indigo';
+                return classes;
+            },
+
+
+
+            /**
+             * Event handlers for create/update/delete contact
+             * These events will bind to action buttons.
+             */
+            updateContactDB: function(event){
+                var ajax = this.$.ajaxUpdate;
+
+                var payload = {
+                    _id: this.contact._id,
+                    name: this.contact.name,
+                    email: this.contact.email
+                }
+
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+            },
+
+            deleteContactDB: function(e){
+                var ajax = this.$.ajaxDelete;
+                var urlTmp = ajax.url;
+                ajax.url += '/' + this.contact._id;
+                ajax.generateRequest();
+                ajax.url = urlTmp;
+            },
+
+            createContactDB: function(e){
+                var ajax = this.$.ajaxCreate;
+                var payload = {
+                    name: this.contact.name,
+                    email: this.contact.email
+                };
+
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+            },
+
+            /**
+             * Handlers the response from backend when user perform
+             * Create/Update/Delete contact.
+             * Just pop-up toast with status text.
+             */
+            handleCreateContactResponse: function(e){
+                var t = document.querySelector('#toastRequestStatus');
+                if(e.detail.xhr.status >= 200 && e.detail.xhr.status <= 300){
+                    // Delete success.
+                    t.text = "Contact has been successfully created";
+                    console.log(e.detail.request.response);
+                }
+                else{
+                    t.text += 'Oops!! HTTP(' + e.detail.xhr.status + ') : ' + e.detail.xhr.statusText;
+                }
+
+                t.show();
+            },
+
+            handleDeleteContactResponse: function(e){
+                var t = document.querySelector('#toastRequestStatus');
+                if(e.detail.xhr.status == 200){
+                    // Delete success.
+                    t.text = "Contact has been successfully deleted";
+                }
+                else{
+                    t.text += 'Oops!! HTTP(' + e.detail.xhr.status + ') : ' + e.detail.xhr.statusText;
+                }
+
+                t.show();
+            },
+
+            handleUpdateContactResponse: function(e){
+                var t = document.querySelector('#toastRequestStatus');
+
+                if (e.detail.xhr.status == 201){
+                    // Open toast
+                    t.text = "Update Contact successful";
+                }
+                else{
+                    t.text += 'Oops!! HTTP(' + e.detail.xhr.status + ') : ' + e.detail.xhr.statusText;
+                }
+
+                t.show();
+            }
+
+            
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,226 @@
+﻿<d id="D_TM" d="Taxonomy Map." m="TM" n="Taxonomy Map (TM)" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_TM_RTR" d="Reuters (RTR)." n="Reuters (RTR)" m="RTR">
+		<c id="C_TM_RTR_SL" d="Reuters Security Classification." n="Security Classification (SL)" m="SL">
+			<i id="I_TM_RTR_SL_Ric" d="Security Ric code." l="Security Ric code" n="TM.RTR.SL.Ric" s="KDB" cc="ric" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.ric</in:sp>
+			</i>
+		</c>
+		<c id="C_TM_RTR_C" d="Reuters Coverage." n="Coverage (C)" m="C">
+			<i id="I_TM_RTR_C_BrokerCode" n="TM.RTR.C.BrokerCode" d="Broker Code." cc="codeName" l="Broker Code" s="VECTORWISE" ss="VECTORWISE" pc="BrokerCodeFullDomainPC"  vu="U">
+				<out:p id="hidden" />
+				<in:sp k="fn">brokercoveragehandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_AnalystCode" d="Analyst Code." l="Analyst Code" n="TM.RTR.C.AnalystCode" s="KDB" cc="analystCodeName" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.analyst_code</in:sp>
+			</i>
+			<i id="I_TM_RTR_TR_AllEarningsSeason" d="Earnings season calendar details" l="Analyst Code" n="TR.AllEarningsSeason" s="VECTORWISE" pc="EarningsSeasonPC" cc="EarningsSeasonCalCC" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">allearningsseasonhandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_AllAnalystCodesByRic" d="Analyst Code." l="Analyst Code" n="TR.AllAnalystCodesByRic" s="VECTORWISE" pc="CoveredAnalysts" cc="compAnalystCodeName" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">analystcodehandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_Periods" n="TM.RTR.ListofPeriodsEst" d="List of Estimate Periods available, if Measure is not defined then TR.EPSMeanEst is delivered." pc="ListofPeriodsPC" cc="ListofPeriodsCC" l="Measure" s="VECTORWISE" ss="VECTORWISE" vu="N">
+				<out:p id="hidden" />
+				<in:sp k="fn">periodshandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_EstPeriods" n="TM.RTR.EstPeriods" d="Company Estimate Periods details." pc="EstPeriodsPC" cc="EstPeriodsCC" l="Estimate Periods details" s="VECTORWISE" ss="VECTORWISE" vu="N">
+				<out:p id="hidden" />
+				<in:sp k="fn">periodsstubhandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_UniverseCode" n="TM.RTR.ListofMeasures" d="List of Summary Measures available." pc="PeriodPC" cc="ricCodeDisplayName" l="Measure" s="VECTORWISE" ss="VECTORWISE" vu="N">
+				<out:p id="hidden" />
+				<in:sp k="fn">universecodehandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_EstimateMeasureDefinition" n="TR.EstimateMeasureDefinition" d="List of all measures and definitions." cc="EstMeasureDefCC" l="Estimate Measure Definition" s="VECTORWISE" ss="VECTORWISE" vu="N">
+				<out:p id="hidden" />
+				<in:sp k="fn">measuredefinitionhandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_ListOfProducts" n="TM.RTR.ListofProducts" d="List of Company Products available." pc="ListofProductsPC" cc="ListofProductsCC" l="List of Company Products." s="VECTORWISE" ss="VECTORWISE" vu="N">
+				<out:p id="hidden" />
+				<in:sp k="fn">productshandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_PreferredEstMeasure" n="TM.RTR.C.PreferredEstMeasure" d="Analysts usually issue estimates for multiple income statement items—multiple measures. For each
+company, Thomson Reuters applies a preferred measure indicating the income statement item that best reflects its earnings. Earnings Per Share (EPS) is the most popular measure. But in certain industries and countries, other measures better reflect the earnings of a company or are more widely accepted by analysts and investors. For example, the North American real estate industry favors FFO, or funds from operations.." cc="ricValue" l="Preferred Measure" s="VECTORWISE" ss="VECTORWISE" vu="U">
+				<out:p id="hidden" />
+				<in:sp k="fn">preferredmeasurehandler</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_PreferredMeasureCode" n="TR.PreferredMeasureCode" d="Preferred Earnings Type." cc="PreferredMeasureCC" l="Preferred Earnings Type" s="VECTORWISE" ss="VECTORWISE" vu="U">
+				<out:p id="hidden" />
+				<in:sp k="fn">preferredmeasureexthandler</in:sp>
+				<in:sp k="id">preferred_esttype</in:sp>
+			</i>
+			<i id="I_TM_RTR_C_PreferredMeasurePerShareFlag" n="TR.PreferredMeasurePerShareFlag" d="A preferred measure per-share flag - True (1) if a preferred measure is a per share or False (0)" cc="PreferredMeasurePerShareCC" l="Preferred Earnings Per-Share Flag" s="VECTORWISE" ss="VECTORWISE" vu="U">
+				<out:p id="hidden" />
+				<in:sp k="fn">preferredmeasureexthandler</in:sp>
+				<in:sp k="id">preferred_ispershare</in:sp>
+			</i>
+		</c>
+		<c id="C_TM_RTR_LI" d="Lipper" n="Lipper (LI)" m="LI">
+			<i id="I_TM_RTR_LI_ClassScheme" d="Lipper Classification Code." l="Lipper Classification Code" n="TM.RTR.LI.ClassScheme" s="LIPPERFUNDS" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="m">Classifications</in:sp>
+			</i>
+			<i id="I_TM_RTR_LI_Crossref" d="Lipper Cross Reference ID's." l="Lipper Cross Reference ID's" n="TM.RTR.LI.Crossref" s="LIPPERFUNDS" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="m">CrossReferences</in:sp>
+			</i>
+			<i id="I_TM_RTR_LI_CountryCode" d="List of country codes." l="List Of Country Codes" n="TM.RTR.LI.CountryCode" s="LIPPERFUNDS" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="m">RegisteredCountriesOfSale</in:sp>
+			</i>
+			<i id="I_TM_RTR_LI_UniverseCode" d="List of country codes." l="List Of Country Codes" n="TM.RTR.LI.UniverseCode" s="LIPPERUNIVERSE" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="m">RegisteredUniversesOfSale</in:sp>
+			</i>
+		</c>
+		<c id="C_TM_RTR_RI" d="Reference Information." n="Reference Information (RI)" m="RI">
+			<i id="I_TM_RTR_RI_BusinessSector" d="The Name of the Business Sector." l="The Name Of The Business Sector" n="TM.RTR.RI.BusinessSector" s="BUSINESSSECTOR" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+			</i>
+			<i id="I_TM_RTR_RI_ListofIndices" d="The Name of the Index." l="The Name Of The Index" n="TM.RTR.RI.ListofIndices" s="MEMBERSHIP" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+			</i>
+		</c>
+		<c id="C_TM_RTR_EJV" d="EJV" n="EJV (EJV)" m="EJV">
+			<i id="I_TM_RTR_EJV_BondIdentifiersNameandCode" n="TM.RTR.EJV.BondIdentifiersNameandCode" s="EJVAN" l="Bond Identifiers Name and Code" d="Bond Identifiers Name and Code." cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_ASSET_IDENT</in:sp>
+				<in:sp k="code">IdentifierType</in:sp>
+				<in:sp k="name">IdentifierDescription</in:sp>
+				<in:sp k="extra_inputs">identifiertype=ABI,ART,AST,AUS,BAS,BCU,BCV,BEU,BFX,BLC,BMV,CAV,CCS,CHN,CMU,COB,DEN,DEU,ERF,EUC,FIN,HGY,HKC,HMA,INF,ISR,KEN,LIM,LIP,LOC,LUX,MAE,MAL,MFV,MTV,NAS,NET,NOR,NST,OLO,OSL,PAN,PLC,PYC,RBA,REG,RRC,SEL,SEN,SHG,SHZ,SIA,SIC,SIN,SLV,SND,SWE,TAI,TRM,UGA,VLF,WGN,WKA,ZPG,CDL,CIN,COM,CSP,ISM,ISN,SED,SVM,VAL,WPK,UAC,UAI,RSC,RSI,RSO,RSS,UAO,URC,URI,URO;</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_BondOutlookRatingSource" n="TM.RTR.EJV.BondOutlookRatingSource" s="EJVAN" l="Bond Outlook Rating Source" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_RATING_OUTLOOK_HIST</in:sp>
+				<in:sp k="code">OutlookRatingSource</in:sp>
+				<in:sp k="name">OutlookRatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_BondWatchRatingSource" n="TM.RTR.EJV.BondWatchRatingSource" s="EJVAN" l="Bond Watch Rating Source" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_RATING_WATCH_HIST</in:sp>
+				<in:sp k="code">WatchRatingSource</in:sp>
+				<in:sp k="name">WatchRatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_CDSConstituent" n="TM.RTR.EJV.CDSConstituent" d="CDS Index Constituents." cc="codeName" l="CDS Index Constituents" s="CDSINDCONST" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">CDS_INDEX_CONSTITUENT_DISTINCT</in:sp>
+				<in:sp k="code">ConstituentRED6</in:sp>
+				<in:sp k="name">ConstituentOrganizationShortName</in:sp>
+				<in:sp k="instr">INDEXRED9</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_CMORatingSourceNameAndCode" n="TM.RTR.EJV.CMORatingSourceNameAndCode" l="Rating Source" d="Name and Code for Rating Source." s="EJVAN" cc="codeName" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">CMO_RATING_HIST</in:sp>
+				<in:sp k="code">RatingSource</in:sp>
+				<in:sp k="name">RatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_ContributorNameAndCode" n="TM.RTR.EJV.ContributorNameAndCode" l="Contributor name and code" s="BONDQUOTES" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="code">ContributorCode</in:sp>
+				<in:sp k="name">ContributorCommonName,PriceSourceCode</in:sp>
+				<in:sp k="category">SA</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_PriceQuality" n="TM.RTR.EJV.PriceQuality" l="Price Quality" s="BONDQUOTES" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="code">PriceQuality</in:sp>
+				<in:sp k="name">PriceQuality</in:sp>
+				<in:sp k="category">SA</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_IssuerOutlookRatingSource" n="TM.RTR.EJV.IssuerOutlookRatingSource" s="EJVFI" l="Issuer Outlook Rating Source" d="Issuer Outlook Rating Source." cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+				<in:sp k="code">OutlookRatingSource</in:sp>
+				<in:sp k="name">OutlookRatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_IssuerWatchRatingSource" n="TM.RTR.EJV.IssuerWatchRatingSource" s="EJVFI" l="Issuer Watch Rating Source" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+				<in:sp k="code">WatchRatingSource</in:sp>
+				<in:sp k="name">WatchRatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_MunRatingSourceNameAndCode" d="Name and Code for Rating Source." l="Name and Code for Rating Source" n="TM.RTR.EJV.MunRatingSourceNameAndCode" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">MUNI_RATINGS</in:sp>
+				<in:sp k="code">RatingSource</in:sp>
+				<in:sp k="name">RatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_NoteTypeNameAndCode" d="Name and Code for Note Type." l="Name and Code for Note Type" n="TM.RTR.EJV.NoteTypeNameAndCode" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_NOTES</in:sp>
+				<in:sp k="code">NoteType</in:sp>
+				<in:sp k="name">NoteTypeDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_RatingSource" d="Rating Source." l="Rating Source" n="TM.RTR.EJV.RatingSource" s="EJVFI" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+				<in:sp k="code">RatingSource</in:sp>
+				<in:sp k="name">RatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_RatingSourceNameAndCode" d="Name and Code for Rating Source." l="Rating Source Name and Code" n="TM.RTR.EJV.RatingSourceNameAndCode" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_RATINGS</in:sp>
+				<in:sp k="code">RatingSource</in:sp>
+				<in:sp k="name">RatingSourceDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_UnderwriterNameAndCode" d="Name and Code for the Underwriter Dynamic Parameter." l="Underwriter" n="TM.RTR.EJV.UnderwriterNameAndCode" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_UNDERWRITERS</in:sp>
+				<in:sp k="code">UnderwriterID</in:sp>
+				<in:sp k="name">UnderwriterName</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_UnderwriterTypeNameAndCode" d="Name and Code for the Underwriter Type Dynamic Parameter." l="Underwriter Type" n="TM.RTR.EJV.UnderwriterTypeNameAndCode" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_UNDERWRITERS</in:sp>
+				<in:sp k="code">Ranking</in:sp>
+				<in:sp k="name">RankingDescription</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_ConversionLeg" d="" l="Conversion Leg" n="TM.RTR.EJV.ConversionLeg" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_CONVERTIBLES</in:sp>
+				<in:sp k="code">ConversionLegNumber</in:sp>
+				<in:sp k="name">AssetId</in:sp>
+				<in:sp k="rule">customName</in:sp>
+			</i>
+			<i id="I_TM_RTR_EJV_CoCoLeg" d="" l="CoCo Leg Number" n="TM.RTR.EJV.CoCoLeg" s="EJVAN" cc="codeName" vu="N" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="view">GOVCORP_CONVERTIBLE_COCO</in:sp>
+				<in:sp k="code">CoCoLegNumber</in:sp>
+				<in:sp k="name">AssetId</in:sp>
+				<in:sp k="rule">customName</in:sp>
+			</i>
+		</c>
+		<c id="C_TM_RTR_U" d="Universe" n="Universe (U)" m="U">
+			<i id="I_TM_RTR_U_ListofPortfolios" d="A dynamic list of a specific users portfolio’s" l="Portfolio" n="TM.RTR.U.ListofPortfolios" s="PW_LISTOFPORTFOLIOS" cc="portfolio" vu="U" isScreen="false">
+				<out:p id="hidden" />
+			</i>
+		</c>
+	</c>
+	<c id="C_TM_RBSS" d="RBSS (RBSS)." n="RBSS (RBSS)" m="RBSS">
+		<c id="C_TM_RBSS_IC" d="Reuters RBSS Classification." n="Industry Classification (IC)" m="IC">
+			<i id="I_TM_RBSS_IC_AllLevels" d="RBSS Tree." l="GICS Name" n="TM.RBSS.IC.AllLevels" s="RBSS" cc="codeValue" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.rbss.all_levels</in:sp>
+			</i>
+			<i id="I_TM_RBSS_IC_EconomicSectorCode" d="RBSS Economic Sector Code." l="GICS Sector Code" n="TM.RBSS.IC.EconomicSectorCode" s="RBSS" cc="codeValue" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.rbss.economic_sector_code</in:sp>
+			</i>
+			<i id="I_TM_RBSS_IC_BusinessSectorCode" d="RBSS Business Sector Code." l="GICS Industry Group Code" n="TM.RBSS.IC.BusinessSectorCode" s="RBSS" cc="codeValue" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.rbss.business_sector_code</in:sp>
+			</i>
+			<i id="I_TM_RBSS_IC_IndustryGroupCode" d="RBSS Industry Group Code." l="GICS Industry Code" n="TM.RBSS.IC.IndustryGroupCode" s="RBSS" cc="codeValue" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.rbss.industry_group_code</in:sp>
+			</i>
+			<i id="I_TM_RBSS_IC_IndustryCode" d="RBSS Industry Code." l="GICS Sub-Industry Code" n="TM.RBSS.IC.IndustryCode" s="RBSS" cc="codeValue" vu="U" isScreen="false">
+				<out:p id="hidden" />
+				<in:sp k="fn">.tm.rbss.industry_code</in:sp>
+			</i>
+		</c>
+	</c>
+</d>

@@ -1,0 +1,93 @@
+﻿<d id="D_ECON" lid="D_EI" n="Economic Indicators" d="Economic Indicators." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_ECON_ID" lid="C_EI_ID" n="Indicator Details" d="Indicator Details." m="">
+		<i id="I_ECON_ID_IndicatorName" n="TR.IndicatorName" l="Indicator Name" d="The Name of the Economic Indicator." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.IndicatorName" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">110</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">EwFinCat,EwFinSubCat,EwSubSubCat,SysDescr</in:sp>
+		</i>
+		<i id="I_ECON_ID_IndicatorType" n="TR.IndicatorType" l="Indicator Type" d="The Indicator Type." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.IndicatorType" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">8</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">EwCat</in:sp>
+		</i>
+		<i id="I_ECON_ID_Source" n="TR.IndicatorSource" l="Source" d="The full name of the organisation that publishes the Economic Indicator in question." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.Source" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">80</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">EwSrc</in:sp>
+		</i>
+		<i id="I_ECON_ID_StartDate" n="TR.IndicatorStartDate" l="Start Date" d="The earliest date for which a value is stored for the Economic Indicator in question." i="M:E5" vu="N" cc="ricValue" dt="Date" s="ECONOMICINDICATORS" lid="EI.ID.StartDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="attr_id">StartDate</in:sp>
+		</i>
+		<i id="I_ECON_ID_LastObservationDate" n="TR.IndicatorLastObservationDate" l="Last Observation Date" d="The latest date for which a value is stored for the Economic Indicator in question." i="M:E5" vu="N" cc="ricValue" dt="Date" s="ECONOMICINDICATORS" lid="EI.ID.LastObservationDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="attr_id">EndDate</in:sp>
+		</i>
+		<i id="I_ECON_ID_Periodicity" n="TR.IndicatorPeriodicity" l="Periodicity" d="The reporting frequency of the specified indicator. Possible frequencies are: Weekly; Monthly; Quarterly; Semi-Annually or Yearly." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.Periodicity" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">3</out:p>
+			<in:sp k="attr_id">Periodicity</in:sp>
+		</i>
+		<i id="I_ECON_ID_BaseYear" n="TR.IndicatorBaseYear" l="Base Year" d="The base year for inflation adjustments for indicators that are either 'Inflation Adjusted' or 'Both Seasonally and Inflation Adjusted'." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.BaseYear" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">5</out:p>
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="attr_id">EwBase</in:sp>
+		</i>
+		<i id="I_ECON_ID_Currency" n="TR.IndicatorReportCurrency" l="Currency" d="The currency that the indicator Reports in." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.Currency" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">3</out:p>
+			<in:sp k="attr_id">SysCur</in:sp>
+		</i>
+		<i id="I_ECON_ID_CountryName" n="TR.IndicatorCountryName" l="Country Name" d="The Country of origin of the Economic Indicator in question." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.CountryName" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">3</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">EwCountry</in:sp>
+		</i>
+		<i id="I_ECON_ID_ScalingFactor" n="TR.IndicatorScalingFactor" l="Scaling Factor" d="Indicates the magnitude of numerical values." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.ScalingFactor" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">5</out:p>
+			<out:p id="xtra_dt">9</out:p>
+			<out:p id="hidden" />
+			<in:sp k="attr_id">SysScale</in:sp>
+		</i>
+		<i id="I_ECON_ID_Unit" n="TR.IndicatorUnit" l="Unit" d="An alpha or numerical code which is used to indicate units such as percent, per hour, grams, USD etc." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.Unit" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">5</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">SysUnit</in:sp>
+		</i>
+		<i id="I_ECON_ID_SeasonalAdj" n="TR.IndicatorSeasonalAdj" l="Seasonally Adjusted" d="Seasonally Adjusted Flag." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.SeasonalAdj" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">3</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="attr_id">EwIsSeasAdj</in:sp>
+		</i>
+		<i id="I_ECON_ID_TrendAdj" n="TR.IndicatorTrendAdj" l="Trend Adjusted" d="Trend Adjustment Flag." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.TrendAdj" isScreen="false" enableHeatMap="false">
+			<in:sp k="attr_id">EwIsTrendAdj</in:sp>
+		</i>
+		<i id="I_ECON_ID_CalendarAdj" n="TR.IndicatorCalendarAdj" l="Calendar Adjusted" d="Calendar Adjustrment Flag." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.CalendarAdj" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">1</out:p>
+			<in:sp k="attr_id">EwIsCalAdj</in:sp>
+		</i>
+		<i id="I_ECON_ID_AnnualRateAdj" n="TR.IndicatorAnnualRateAdj" l="Annual Rate Adjusted" d="Annual Rate Adjustment Flag." i="M:E5" vu="N" cc="ricValue" dt="String" s="ECONOMICINDICATORS" lid="EI.ID.AnnualRateAdj" isScreen="false" enableHeatMap="false">
+			<in:sp k="attr_id">SysTimeDim</in:sp>
+		</i>
+	</c>
+	<c id="C_ECON_IH" n="Indicator History" d="Indicator History." m="">
+		<i id="I_ECON_IH_IndicatorDate" n="TR.IndicatorDate" l="Economic Indicator Date" d="The announcement date associated to each time series value." i="M:E5" vu="N" cc="EconnpConsEst" pc="Econconstituents" vc="date" dt="Date" s="ECONOMICINDICATORS" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="attr_id">SysCur</in:sp>
+			<in:sp k="vp">Timestamp</in:sp>
+		</i>
+		<i id="I_ECON_IH_IndicatorCurrency" n="TR.IndicatorCurrency" l="Economic Indicator Currency" d="The currency associated to each time series value." i="M:E5" vu="N" cc="EconnpConsEst" pc="Econconstituents" vc="currency" dt="String" s="ECONOMICINDICATORS" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="attr_id">SysCur</in:sp>
+			<in:sp k="vp">SysCur</in:sp>
+		</i>
+		<i id="I_ECON_IH_IndicatorTimeSeries" n="TR.IndicatorTimeSeries" l="Economic Indicator Time Series" d="The announced value of the Economic Indicator in question." i="M:E5" vu="N" cc="EconnpConsEst" pc="Econconstituents" dt="String" s="ECONOMICINDICATORS" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="attr_id">SysCur</in:sp>
+		</i>
+	</c>
+</d>

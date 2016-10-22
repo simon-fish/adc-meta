@@ -1,0 +1,304 @@
+﻿<d id="D_DSBI" n="Bond Indices" d="Bond Indices" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSBI_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSBI_D_TR_ExpandedCoName" n="TR.ExpandedCoName" l="Expanded Company Name" d="Expanded Company Name" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECNAME</in:sp>
+		</i>
+		<i id="I_DSBI_D_TR_ExpandedName" n="TR.ExpandedName" l="Expanded Name" d="It is the expanded name of the equity/company/index as stored on the Datastream database." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENAME</in:sp>
+		</i>
+		<i id="I_DSBI_D_TR_NumberofEquities" n="TR.NumberofEquities" l="Number of Equities" d="Number of equities is the total number of equities included in the index" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NE</in:sp>
+		</i>
+		<i id="I_DSBI_D_TR_NumberofIssues" n="TR.NumberofIssues" l="Number of Issues" d="Number of issues in the index in that month." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NOIS</in:sp>
+		</i>
+		<i id="I_DSBI_D_TR_BaseDate" n="TR.BaseDate" l="Base Date" d="The base date is the date from which Datastream holds information about the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+		<i id="I_DSBI_D_TR_EuroConRestructuringType" n="TR.EuroConRestructuringType" l="Euro Conversion - Restructuring Type" d="Full restructuring (CR) The full-restructuring clause was the standard contract term in the 1999 ISDA credit derivatives definitions. Under this contract option, any restructuring event qualifies as a credit event (and any bond of maturity up to 30 years is deliverable). The problems with this arrangement became clear in 2000, when the bank debt of Conseco Finance, restructured to include increased coupons and new guarantees, and thus not disadvantageous to holders of the previous debt, still constituted a credit event and triggered payments under the ISDA guidelines.4 Some banks delivered long-dated bonds to profit from buying discounted lower-priced bonds and receiving par value in return, which was perceived as a distortion of the CDS market. Modified restructuring (MR, introduced in 2001) In 2001, to limit the scope of opportunistic behaviour by sellers in the event of restructuring agreements that did not cause loss, ISDA published a modified restructuring clause. While restructuring agreements still counted as credit events, the clause limited the deliverable obligations to those with a maturity of 30 months or less after the termination date of the CDS contract. Under this contract option, any restructuring event (except restructuring of bilateral loans) qualifies as a credit event. Modified-modified restructuring (MM, introduced in 2003) In 2003, a further modification of the modified restructuring clause was introduced, in response to the perception on the part of some market participants (particularly in Europe) that the modified restructuring had been too severe in its limitation of deliverable obligations. Under the modifiedmodified restructuring term, the remaining maturity of deliverable assets must be shorter than 60 months for restructured obligations and 30 months for all other obligations. No restructuring (XR) Under this contract option, all restructuring events are excluded under the contract as “trigger events”. The advantage to this contract is that so-called “soft” credit events under restructuring that do not constitute a true loss for the protection buyers, but still might encourage opportunistic behaviour on their part, are ruled out." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RT</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBI_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSBI_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_DSCodeBefEuro" n="TR.DSCodeBefEuro" l="Datastream Code Before Euro" d="The NCDSCD datatype refers to the Datastream code on which the original currency price history is stored. A Datastream code is a unique 6-character code allocated to every Bond by Datastream. All Bonds with actual prices that were trading in a currency now converted into Euro, have both Euro and original currency price history stored on Datatstream. Applicable to Bonds that have actual prices only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCDSCD</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_Time" n="TR.Time" l="Time - Latest Value" d="TIME shows the date of the latest value in a DD/MM/YY format." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TIME</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_DSCodeforEuroSeries" n="TR.DSCodeforEuroSeries" l="Datastream Code for Euro Series" d="Datastream Code for Euro Series" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_BenchmarkChanges10" n="TR.BenchmarkChanges10" l="Benchmark Changes 10" d="Returns the last 10 benchmark underlying bond changes." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BMCON10</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_BenchmarkChanges20" n="TR.BenchmarkChanges20" l="Benchmark Changes 20" d="Returns the last 20 benchmark underlying bond changes." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BMCON20</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_BenchmarkChanges50" n="TR.BenchmarkChanges50" l="Benchmark Changes 50" d="Returns the last 50 benchmark underlying bond changes." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BMCON50</in:sp>
+		</i>
+		<i id="I_DSBI_SQ_TR_BenchmarkChanges100" n="TR.BenchmarkChanges100" l="Benchmark Changes 100" d="Returns the last 100 benchmark underlying bond changes." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BMCON100</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBI_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSBI_P_TR_Price" n="TR.Price" l="Price" d="The price issued by an exchange or third party." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">P</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_PriceIndex" n="TR.PriceIndex" l="Price Index" d="This is the default datatype for equity indices. Datastream calculates its own aggregate sector and market price indices, together with associated aggregations such as sector price/earnings ratio (PE) and dividend yield (DY). Sector and market aggregations are weighted by market value and are calculated using a representative list of shares." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PI</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_AverageCoupon" n="TR.AverageCoupon" l="Average Coupon" d="The average coupon CO of an index at a given point in time." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CO</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_InterestAccrued" n="TR.InterestAccrued" l="Interest Accrued" d="Interest Accrued" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IA</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexLife" n="TR.IndexLife" l="Life (Index)" d="The average life L of a bond at a given point in time." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">L</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexCurrency" n="TR.IndexCurrency" l="Index Currency" d="Stock index currency (SICUR) - underlying currency of an index." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SICUR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CleanPriceIndex" n="TR.CleanPriceIndex" l="Clean Price Index" d="The clean (or flat) price index reflects the position when the accrued interest element is stripped out of the gross price index. It reflects the capital performance, but not the cost of purchasing." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CI</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CDSPremBid" n="TR.CDSPremBid" l="Credit Default Swap Premium Bid" d="Bid Rate – This shows the bid rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BPB</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CDSPremMid" n="TR.CDSPremMid" l="Credit Default Swap Premium Mid" d="Mid Rate – This shows the mid rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BPM</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CDSPremOff" n="TR.CDSPremOff" l="Credit Default Swap Premium Offered" d="Offer Rate – This shows the offer rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BPO</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_AssetSwapSpread" n="TR.AssetSwapSpread" l="Asset Swap Spread" d="The par asset swap spread, calculated from the swap curve in the currency of each bond, weighted by duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">ASP</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_SpreadBid" n="TR.SpreadBid" l="Spread Bid" d="This shows the bid rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SB</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_SpreadOffer" n="TR.SpreadOffer" l="Spread Offer" d="This shows the offer rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IntRateReturn" n="TR.IntRateReturn" l="Interest Rate Return" d="Interest Rate Return" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IRR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_PriceReturn" n="TR.PriceReturn" l="Price Return" d="PRIR represents the month to date price return on Lehman Brothers bond indices." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PRIR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexAmountInIssue" n="TR.IndexAmountInIssue" l="Index - Amount In Issue" d="Index - Amount In Issue" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BIAII</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexEffectiveToDate" n="TR.IndexEffectiveToDate" l="Index - Effective To Date" d="Index - Effective To Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BIEFT</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_BasisPointValue" n="TR.BasisPointValue" l="Basis Point Value" d="The basis point value for a futures contract cheapest to deliver bond." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BPV</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_ConversionFactor" n="TR.ConversionFactor" l="Conversion Factor" d="The conversion factor for a futures contract cheapest to deliver bond." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CONV</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CouponRate" n="TR.CouponRate" l="Coupon Rate" d="The coupon rate for a bond futures contract cheapest to deliver bond." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CRATE</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexBaseDate" n="TR.IndexBaseDate" l="Index Base Date" d="Index Base Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SIBSDT</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_IndexStartDate" n="TR.IndexStartDate" l="Index Start Date" d="Index Start Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SISTDT</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_TotalReturnIndex" n="TR.TotalReturnIndex" l="Total Return Index" d="A return index is available for a range of sector and market indices, including Datastream Global Indices. The return index represents the theoretical aggregate growth in value of the constituents of the index. The index constituents are deemed to return an aggregate daily dividend which is included as an incremental amount to the daily change in price index." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RI</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_DatastreamReturnIndex" n="TR.DatastreamReturnIndex" l="Datastream Calculated Return Index" d="Used for indices where official sourced return index values are also provided. In these instances, official return index values were not provided by the source when the index was officially released so Datastream calculated return index values (subject to the approval of the source). For example, FTSE100(RI) is official FTSE return index data with history available from 1986 and FTSE100(DSRI) is Datastream calculated return index data with history available from 1992. The return index presents the theoretical growth in value of a notional stock holding, the price of which is that of the selected price index. This holding is deemed to return a daily dividend, which is used to purchase new units of the stock at the current price. The gross dividend is used." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSRI</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_ReturnFactor" n="TR.ReturnFactor" l="Return Factor" d="Return factor." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RF</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_SpreadMid" n="TR.SpreadMid" l="Spread Mid" d="This shows the mid rate spread between the entity and the relevant benchmark curve. The rate is expressed in basis points." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SM</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CouponReturn" n="TR.CouponReturn" l="Coupon Return" d="This datatype is specific to Lehman Brothers indices and is used in the calculation of Hedged and Unhedged Returns. Bonds are priced on the last business day of the month at the local market's close. At the end of the following month the bond is sold at the local market's close." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">COUR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_TotalReturnDaily" n="TR.TotalReturnDaily" l="Total Return - Daily" d="The daily return of each bond weighted by market value." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DRI</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_TotalReturnMonthtoDate" n="TR.TotalReturnMonthtoDate" l="Total Return Month to Date" d="This reflects the % change in the underlying index data type for the series (normally NAV or PI) over the previous calendar month. The datatype is currently provided for the following index families: HFR, CSFB/Tremont, Hennessee, EACM DJ Wilshire, CISDM, MSCI Hedge Fund Indices and MacQuarie indices." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TOTR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_CurrencyReturn" n="TR.CurrencyReturn" l="Currency Return" d="Currency return." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CCYR</in:sp>
+		</i>
+		<i id="I_DSBI_P_TR_TotalReturnSinceInception" n="TR.TotalReturnSinceInception" l="Total Return Since Inception" d="This datatype is exclusive for Lehman Brothers Bond indices and it refers to the difference between the initial sum invested and the final value, expressed as a percentage return." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IN</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBI_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSBI_PA_TR_MarketValue" n="TR.MarketValue" l="Market Value" d="This is the aggregate market value for index, calculated from the index constituents. The calculation method used is determined by the source index agency." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MV</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_YieldtoRedemption" n="TR.YieldtoRedemption" l="Yield - To Redemption" d="The principle used in calculating this yield is to consider the amount of money paid for the stock (price including accrued interest and expenses) and relate this to the future dividend and capital payments, either or both of which may be paid net of tax. It is a 'net present value' calculation, equating the amount of money paid for the bond to the discounted income and capital payments, the yield being the discount rate which makes the two equivalent. When a bond may be optionally redeemed at an early date, the redemption yield will be to the early date if the clean price of the bond is greater than the final redemption value. Unless it is shown differently on the particular program, default yields on UK, Irish, Australian, New Zealand, US and Canadian domestic bonds are calculated on a semi annual basis. Default yields on other bonds are calculated on an annual basis. (These defaults can be changed.)" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RY</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_ModifiedDuration" n="TR.ModifiedDuration" l="Modified Duration to Next Call" d="Modified duration is a measure of the sensitivity of a bond's price to changes in yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMCA</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_AverageDuration" n="TR.AverageDuration" l="Average Duration" d="The average duration of an index at a given point in time" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DU</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_BlendedSpread" n="TR.BlendedSpread" l="Blended Spread" d="The Blended Spread shows the yield difference over US Treasuries of a JPMorgan emerging market bond index (EMBI), including any credit enhancements such as principal and/or interest collateral." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BSPRD</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_BlendedYTM" n="TR.BlendedYTM" l="Blended Yield to Maturity" d="Shows the average yield of a JPMorgan emerging market bond index (EMBI), ignoring any credit enhancements such as principal and/or interest collateral, which some bonds might have." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BYTM</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_DailyChangeinCumTotReturns" n="TR.DailyChangeinCumTotReturns" l="Daily Change in Cumulative Total Returns" d="Shows the Daily Change in Cumulative Total Returns as provided by JPMorgan for the emerging market bond indices (EMBI)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DCRI</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_EffIntRateDuration" n="TR.EffIntRateDuration" l="Effective Interest Rate Duration" d="Shows the average price sensitivity of the bonds in a JPMorgan emerging market bond index (EMBI) due to changes in the underlying benchmark." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DUEIR</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_SpreadDuration" n="TR.SpreadDuration" l="Spread Duration" d="The Spread Duration shows the average price sensitivity of the bonds in a JPMorgan emerging market bond index (EMBI) due to changes in the credit spread." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DUSP</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_RedemptionYieldAnn" n="TR.RedemptionYieldAnn" l="Redemption Yield - Annualized" d="This is calculated according to the same formula as Average redemption yield (RY), except that all yields are compounded annually. This facilitates international comparisons." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RA</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_TotalRateOfReturnHedged" n="TR.TotalRateOfReturnHedged" l="Total Rate Of Return Hedged" d="Shows the total return excluding the currency risk of a multi-currency bond portfolio or a single currency bond portfolio, its return is measured in a currency other than the bonds currency. The currency risk is usually hedged by using rolling forward exchange contracts as a hedging instrument." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RIHD</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_StrippedSpread" n="TR.StrippedSpread" l="Stripped Spread" d="The Stripped Spread shows the yield difference in basis points over US Treasuries of a JPMorgan emerging market bond index (EMBI), stripping out any credit enhancements such as principal and/or interest collateral." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SSPRD</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_StrippedYieldToMaturity" n="TR.StrippedYieldToMaturity" l="Stripped Yield To Maturity" d="The Stripped Yield To Maturity shows the average yield of a JPMorgan emerging market bond index (EMBI), stripping out any credit enhancements such as principal and/or interest collateral, which some bonds might have." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SYTM</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_VoracityScore" n="TR.VoracityScore" l="Voracity Score" d="Observed/Derived Indicator - This shows the type of price used in calculating the bid and offer rate. The score is expressed numerical as 1 or 2. 1 is the numerical value for an observed market spread and 2 is for a derived spread." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VV</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_BasisPointSpread" n="TR.BasisPointSpread" l="Basis Point Spread" d="Basis Point Spread" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BS</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_CompositeSpread" n="TR.CompositeSpread" l="Composite Spread %" d="Composite Spread %" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CQ</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_CompositePrice" n="TR.CompositePrice" l="Composite Price %" d="Composite Price %" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CZ</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_ImpliedRepoRate" n="TR.ImpliedRepoRate" l="Implied Repo Rate" d="Implied Repo Rate" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IREPO</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_ModelSpread" n="TR.ModelSpread" l="Model Spread %" d="Model Spread %" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MQ</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_ModelPrice" n="TR.ModelPrice" l="Model Price %" d="Model Price %" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MZ</in:sp>
+		</i>
+		<i id="I_DSBI_PA_TR_FuturesBPV" n="TR.FuturesBPV" l="Futures BPV" d="Futures BPV" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RISK</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBI_CA" n="Corporate Actions" d="Corporate Actions">
+		<i id="I_DSBI_CA_TR_ExDivAdj" n="TR.ExDivAdj" l="Ex-Dividend - Adjustment" d="Ex-Dividend adjustment for FTSE UK indices is the ex-dividend adjustment represents the value of dividends declared by constituent companies on the xd date expressed in index points. T Xd adjustment is based on declared dividends and is calculated as follows: Market value of dividends/Latest index divisor." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XD</in:sp>
+		</i>
+		<i id="I_DSBI_CA_TR_EuroConExRate" n="TR.EuroConExRate" l="Euro Conversion - Exchange Rate" d="This datatype will return the fixed exchange rate used during the conversion of the security into Euros. For use with converted stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCNRT</in:sp>
+		</i>
+		<i id="I_DSBI_CA_TR_CurrPriortoEvent" n="TR.CurrPriortoEvent" l="Currency Prior To The Event" d="Currency prior to the event." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCUR</in:sp>
+		</i>
+		<i id="I_DSBI_CA_TR_EventDescription" n="TR.EventDescription" l="Event Description" d="For use with converted stocks only. This datatype will return the type of security that has been converted to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EVTYP</in:sp>
+		</i>
+		<i id="I_DSBI_CA_TR_CurrencyBeforeEuroEDate" n="TR.CurrencyBeforeEuroEDate" l="Date of Last Currency Value Before Euro" d="Date of the last national currency value provided by source prior to Euro conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDATE</in:sp>
+		</i>
+	</c>
+</d>

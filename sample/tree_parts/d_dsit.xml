@@ -1,0 +1,253 @@
+﻿<d id="D_DSIT" n="Investment Trust" d="Investment Trust" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSIT_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSIT_D_TR_ExpandedCoName" n="TR.ExpandedCoName" l="Expanded Company Name" d="It is the expanded name of the company as stored on the Datastream database." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECNAME</in:sp>
+		</i>
+		<i id="I_DSIT_D_TR_ExpandedName" n="TR.ExpandedName" l="Expanded Name" d="It is the expanded name of the equity/company/index as stored on the Datastream database." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENAME</in:sp>
+		</i>
+		<i id="I_DSIT_D_TR_GeogGroup" n="TR.GeogGroup" l="Geography Group" d="This datatype returns a geographical classification of company by specific two-digit Numeric code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOG</in:sp>
+		</i>
+		<i id="I_DSIT_D_TR_GeogGroupCode" n="TR.GeogGroupCode" l="Geography Group Code" d="This datatype returns a two letter code specifying the home country of a company, for example, FR for France and JP for Japan. Use these codes to identify countries where equity research data is available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGC</in:sp>
+		</i>
+		<i id="I_DSIT_D_TR_IndustryGroupCode" n="TR.IndustryGroupCode" l="Industry Group Code" d="This datatype returns the Datastream level 6 industrial classification number, for example, 102 for banks." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDG</in:sp>
+		</i>
+		<i id="I_DSIT_D_TR_BaseDate" n="TR.BaseDate" l="Base Date" d="The base date is the date from which Datastream holds information about the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIT_E" n="Economics" d="Economics" />
+	<c id="C_DSIT_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSIT_SQ_TR_Mnem" n="TR.Mnem" l="Datastream Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_Code" n="TR.Code" l="Datastream Code" d="Datastream Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DSCD</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_DSEDOL" n="TR.DSEDOL" l="SEDOL Code" d="This is an identification code based on the code issued by the London Stock Exchange. The 7th character, a check digit, is included." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SECD</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_LocalCode" n="TR.LocalCode" l="Local Official Code" d="This is an identification code based on the official local exchange code. It comprises up to 12 characters, prefixed by an alphabetic country code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LOC</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_AssocMarketIndex" n="TR.AssocMarketIndex" l="Associated Market Index - Datastream" d="These datatypes return the code of the Datastream global index associated with a given equity*. There are five datatypes representing industry classification levels 1, 3, 4, 5 and 6." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDX</in:sp>
+		</i>
+		<i id="I_DSIT_SQ_TR_AssocMarketIndexLocal" n="TR.AssocMarketIndexLocal" l="Associated Market Index - Local" d="This datatype returns the code of the benchmark local stock market index for a given equity." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDXL</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIT_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSIT_P_TR_Price" n="TR.Price" l="Price (Adjusted - Default)" d="The price issued by an exchange or third party." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">P</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PriceIndex" n="TR.PriceIndex" l="Price Index" d="This is the default datatype for equity indices. Datastream calculates its own aggregate sector and market price indices, together with associated aggregations such as sector price/earnings ratio (PE) and dividend yield (DY). Sector and market aggregations are weighted by market value and are calculated using a representative list of shares." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PI</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_TurnoverbyVolume" n="TR.TurnoverbyVolume" l="Turnover by Volume" d="For a sector or market, this shows the total number of constituent shares traded on an exchange on a particular day. For a sector or market, this shows the aggregate volume of the index constituents." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VO</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PriceOpening" n="TR.PriceOpening" l="Price - Opening" d="The aggregate price index based on the opening quotes of the constituent stocks in an index." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PO</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PriceIntradayHigh" n="TR.PriceIntradayHigh" l="Price - Intraday High" d="These datatypes returns the high and low values for the aggregate price index of a sector. The two forms are: PH for the highest index value achieved on the day PL for the lowest index value achieved on the day" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PH</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PriceIntradayLow" n="TR.PriceIntradayLow" l="Price - Intraday Low" d="These datatypes returns the high and low values for the aggregate price index of a sector. The two forms are: PH for the highest index value achieved on the day PL for the lowest index value achieved on the day" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PL</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PaddedIntradayHigh" n="TR.PaddedIntradayHigh" l="Price - Intraday High (Padded)" d="Same as Price - Intraday High, but padded in time series - the previous day's values are carried forward on market holidays and on days when the stock does not need to trade." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PHP</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PaddedIntradayLow" n="TR.PaddedIntradayLow" l="Price - Intraday Low (Padded)" d="Same as Price - Intraday Low, but padded in time series - the previous day's values are carried forward on market holidays and on days when the stock does not need to trade." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PLP</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_ConsolidatedVolume" n="TR.ConsolidatedVolume" l="Consolidated Volume" d="This datatype returns the consolidated volume across all Japanese and German exchanges on which a share is listed." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VC</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_OfficialPrice" n="TR.OfficialPrice" l="Official Price" d="This is the official price not adjusted for capital events. It is available for the UK (Daily Official List Price) and Germany (Kassekurs)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OP</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_BidPrice" n="TR.BidPrice" l="Price - Bid" d="This is the bid price offered at close of market (or more recently, where real-time information is available)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PB</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_AskPrice" n="TR.AskPrice" l="Price - Ask" d="This is the asking price quoted at close of market (or more recently, where real-time information is available)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PA</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_PriceCurrency" n="TR.PriceCurrency" l="Price - Currency" d="This is the currency of issue." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PCUR</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_DiscountPar" n="TR.DiscountPar" l="Discount - Par" d="This value represents the percentage discount of the current share price to its net asset value at par. The bigger the negative the bigger the discount. A positive value implies a premium." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DISCP</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_NominalValue" n="TR.NominalValue" l="Nominal Value" d="This is the actual unit of stock that the price relates to, and is the amount inscribed on the face of a security (exclusive of interest or premium). It is the amount used in the computation of interest due on the security. Stocks priced on a % basis use a notional 100 nominal value." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NOMV</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_LondonMarketPrice" n="TR.LondonMarketPrice" l="Local Market Price (London)" d="The price issue by London Stock Exchange." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PLN</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_UnadjustedPrice" n="TR.UnadjustedPrice" l="Unadjusted Price" d="The unadjusted closing price. Used occasionally for currency changes." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UP</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_DiscountDiluted" n="TR.DiscountDiluted" l="Discount - Diluted" d="This value represents the percentage discount of the current share price to its fully diluted net asset value. The bigger the negative the bigger the discount. A positive value implies a premium." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DISCD</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_UnitofPrice" n="TR.UnitofPrice" l="Unit Of Price - Adjusted" d="Also known as ‘Unit of quotation’, this is used in conjunction with a specified datatype to provide the exponent for converting the displayed value of the datatype into units of the prime currency." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">P.U</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_Volatility" n="TR.Volatility" l="Volatility" d="This measures the degree of fluctuation in the share price during the previous 12 months, based on the last 52 weekly values. Volatility is calculated on a standard deviation of the price, and is a measure of its dispersion around the 12 month average. This standard deviation is then divided by the mean price, and the result multiplied by 40 to give a figure in the scale from 1 to 20. This corresponds to a standard deviation range of 0 – 50%, so a volatility rating of 10 indicates a standard deviation of 25%. The higher the value, the higher the volatility of the stock. Those with a volatility over 20 are shown as 20+." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">VOL</in:sp>
+		</i>
+		<i id="I_DSIT_P_TR_VolumePadded" n="TR.VolumePadded" l="Volume - Padded" d="This datatype provides volume data. But in contrast to the Turnover by volume datatype, previous days’ values are carried forward on market holidays or on days when the stock does not need to trade." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VP</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIT_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSIT_PA_TR_TotalReturnIndex" n="TR.TotalReturnIndex" l="Total Return Index" d="A return index is available for a range of sector and market indices, including Datastream Global Indices. The return index represents the theoretical aggregate growth in value of the constituents of the index. The index constituents are deemed to return an aggregate daily dividend which is included as an incremental amount to the daily change in price index." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RI</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_MarketValue" n="TR.MarketValue" l="Market Value (Capital)" d="This is the aggregate market value for index, calculated from the index constituents. The calculation method used is determined by the source index agency." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MV</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_NumberofTrades" n="TR.NumberofTrades" l="Number of Trades" d="Number of trades." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NT</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_PERatio" n="TR.PERatio" l="Price/Earnings Ratio (Adjusted)" d="The PER is derived by dividing the total market value of an index by the total earnings. The calculation method used is determined by the source index agency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PE</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_DivYield" n="TR.DivYield" l="Div Yield" d="The dividend yield for an index is the total dividend amount for the index, expressed as a percentage of the total market value for the constituents of that index. The calculation method used is determined by the source index agency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DY</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_AssetGearDil" n="TR.AssetGearDil" l="Asset Gearing - Diluted" d="This is the ratio of the gross assets to the net assets of the investment trust, multiplied by 100 and assuming full dilution of warrants. A value of 100 implies that the trust has no gearing, that is there are no borrowings or loans." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AGD</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_AssetGearPar" n="TR.AssetGearPar" l="Asset Gearing - Par" d="This is the ratio of the gross assets to the net assets of the investment trust, multiplied by 100. A value of 100 implies that the trust has no gearing, that is there are no borrowings or loans." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AGP</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_EPS" n="TR.EPS" l="EPS" d="This is the latest annualised rate that may reflect the last financial year or be derived from an aggregation of interim period earnings." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">EPS</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_Trend" n="TR.Trend" l="Trend" d="The trend measures the direction of movement in the price index ratio during the past six months. It is measured on a scale of –5 to +5. A downward movement is shown by a minus sign but no prefix is shown if the movement is upward. Various signals may be attached to the trend figure if the direction has changed recently." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TRND</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_EPSCurr" n="TR.EPSCurr" l="Currency - Earnings" d="This datatype gives the currency in which the current earnings per share is reported. It is not available historically." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECUR</in:sp>
+		</i>
+		<i id="I_DSIT_PA_TR_PayoutRatio" n="TR.PayoutRatio" l="Payout Ratio" d="This is the ratio of dividends per share divided by the net earnings per share (adjusted) for the last financial period." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">POUT</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIT_CA" n="Corporate Actions" d="Corporate Actions">
+		<i id="I_DSIT_CA_TR_DCurrency" n="TR.DCurrency" l="Currency of Coupon Payment/ Dividend" d="Datatype indicates the currency in which the latest dividends have been paid. It is not available historically." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DCUR</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivRate" n="TR.DivRate" l="Dividend Rate - Adjusted" d="This is the most recent actual dividend payment. This represents an individual cash income dividend payment adjusted for any capital change since the ex-dividend date of that payment. The data displayed is based upon the dividend whose PAYMENT DATE is most recent to the user's request date." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_PayDate" n="TR.PayDate" l="Dividend Payment Date" d="This is the payment date of a cash income dividend payment. It may be a date estimated to the month of payment. The data displayed is based upon the dividend whose PAYMENT DATE is most recent to the user's request date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PYD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_UnadjustedDivRate" n="TR.UnadjustedDivRate" l="Unadjusted Dividend Rate" d="This is the unadjusted individual cash income dividend payment." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UDD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_ExDate" n="TR.ExDate" l="Ex Dividend Date" d="This represents the ex-dividend date associated with a cash income dividend payment. The data displayed is based upon the dividend whose PAYMENT DATE is most recent to the user's request date." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XDD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivPayCurr" n="TR.DivPayCurr" l="Dividend Payment Currency" d="Datatype (DCR) indicates the currency in which cash income dividends have been paid over time. The data displayed is based upon the dividend whose PAYMENT DATE is most recent to the user's request date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DCR</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_CurrentDPS" n="TR.CurrentDPS" l="Dividend Per Share - Current" d="This is the current annualised dividend rate. It is intended to represent the anticipated payment over the following 12 months and for that reason may be calculated on a rolling 12-month basis, or as the &quot;indicated&quot; annual amount, or it may be a forecast. Special or once-off dividends are generally excluded. Dividends per share are displayed gross, inclusive of local tax credits where applicable, except for France, Belgium, Ireland and the UK, where dividends per share are displayed net." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DPSC</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_CurrentDPSDate" n="TR.CurrentDPSDate" l="Dividend Per Share Date (Current)" d="This is the period-end date for the latest dividend (which may be in the future, if the dividend is forecast)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DPSCD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DPSLatestFY" n="TR.DPSLatestFY" l="Dividend Per Share (Last Fin Year)" d="This is the dividend per share as published in the last company accounts, and fully adjusted for later capital changes. It is given in prime units of local currency, except for the UK where the figure is in pence per share." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DPSF</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DPSLatestFYDate" n="TR.DPSLatestFYDate" l="Dividend Per Share Date (Last Fin Year)" d="This is the most recent financial year-end date for the dividend per share figure." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DPSFD</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivType" n="TR.DivType" l="Dividend Type" d="This is the type of cash income dividend payment. The following types of dividend are indicated: CMB - Combination CPG - Capital gains CPL - Long term capital gains CPS - Short term capital gains CPU - Undefined capital gains FIN - Final HYR - Half yearly INT - Interim MTH - Monthly QTR - Quarterly RST - Restricted dividend, not payable to all shareholders SPL - Extraordinary payment UND - Undefined YR - Yearly Where two or more payments fall on the same day for a stock and the dividend types are different then the dividend type will be CMB to indicate a combination of types." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DT</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivTaxMarker" n="TR.DivTaxMarker" l="Dividend Tax Marker" d="This indicates whether a payment was made net of tax or not. The indicators displayed are : 'N' net of tax 'G' not net of tax ' ' unknown (no indicator) 'P' partially net of tax." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DTAX</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivSet1Yr" n="TR.DivSet1Yr" l="Dividend Set - 1 Year" d="These datatypes display all dividends in the specified period (i.e. 1, 5 or 10 years)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DY1</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivSet5Yr" n="TR.DivSet5Yr" l="Dividend Set - 5 Years" d="These datatypes display all dividends in the specified period (i.e. 1, 5 or 10 years)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DY5</in:sp>
+		</i>
+		<i id="I_DSIT_CA_TR_DivSet10Yr" n="TR.DivSet10Yr" l="Dividend Set - 10 Years" d="These datatypes display all dividends in the specified period (i.e. 1, 5 or 10 years)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DY10</in:sp>
+		</i>
+	</c>
+</d>

@@ -1,0 +1,548 @@
+﻿<d id="D_MA" n="Mergers and Acquisitions (MA)" d="Mergers and Acquisitions." m="MA" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_MA_DD" n="Deal Details (DD)" d="Deal Details." m="DD">
+		<i id="I_MA_DD_Status" n="MA.DD.Status" d="The Field Specifies the Status of the Deal." cc="MandAdp" pc="MandAparam" l="Deal Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Content/ Status</in:sp>
+			<in:sp k="field">Status</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Acquiror" n="MA.DD.Acquiror" d="This Field Identifies the Company that is Classified As the Acquiror in the Deal." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="MandAparam" cc="MandAdp" l="Acquiror" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Acquiror</in:sp>
+			<in:sp k="field">Acquiror</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_AcquirorAdvisor" n="MA.DD.AcquirorAdvisor" d="This Field Identifies the Company that is Advising the Acquiror in the Deal." cc="MandAdp" pc="MandAparam" l="Acquiror Advisor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AcquirorAdvisor</in:sp>
+			<in:sp k="field">AcquirorAdvisor</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Target" n="MA.DD.Target" d="This Field Identifies the Company that is Classified as the Target in the Deal." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="MandAparam" cc="MandAdp" l="Target" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Target</in:sp>
+			<in:sp k="field">Target</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_TargetAdvisor" n="MA.DD.TargetAdvisor" d="This Field Identifies the Company that is Advising the Target in the Deal." cc="MandAdp" pc="MandAparam" l="Target Advisor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TargetAdvisor</in:sp>
+			<in:sp k="field">TargetAdvisor</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Type" n="MA.DD.Type" d="This Field Describes the Type of Deal As Either a 'Merger and Acquisition', an 'Investment' or as a 'Restructuring'." cc="MandAdp" pc="MandAparam" l="Deal Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Content/ Type</in:sp>
+			<in:sp k="field">Type</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Purpose" n="MA.DD.Purpose" d="The Field Specifies the Purpose of the Deal. Deal Purpose Could be to Expand into Different but Related Sectors, For Further Penetration into Existing Sector, For Cash Flow Reasons (Financial Buyer) or To Leverage Administration infrastructure." cc="MandAdp" pc="MandAparam" l="Deal Purpose" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Purpose</in:sp>
+			<in:sp k="field">Purpose</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Attitude" n="MA.DD.Attitude" d="The Field Specifies the Attitude of the Deal Party Making the offer As Friendly, Hostile or Neutral." cc="MandAdp" pc="MandAparam" l="Deal Attitude" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Attitude</in:sp>
+			<in:sp k="field">Attitude</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_Synopsis" n="MA.DD.Synopsis" d="The Deal Synopsis." cc="MandAdp" pc="MandAparam" l="Deal Synopsis" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Synopsis</in:sp>
+			<in:sp k="field">Synopsis</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_AnnouncementDate" n="MA.DD.AnnouncementDate" d="This Field Specifies the Announcement Date of the Given Event Date Type." cc="MandAdp" pc="MandAparam" l="Deal Announcement Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">AnnouncementDate</in:sp>
+			<in:sp k="field">AnnouncementDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AnnouncementDateSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_AccountingMethod" n="MA.DD.AccountingMethod" d="The Field Specifies the Accounting Method Used by the Deal Party to Record the Accounting of the Deal." cc="MandAdp" pc="MandAparam" l="Deal Accounting Method" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AccountingMethod</in:sp>
+			<in:sp k="field">AccountingMethod</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_PercentOwned" n="MA.DD.PercentOwned" d="This Field Specifies the Percentage of the Target Company that is Owned by the Acquiror." cc="MandAdp" pc="MandAparam" l="Percent Owned" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">PercentOwned</in:sp>
+			<in:sp k="field">PercentOwned</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">PercentOwnedSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_PercentSought" n="MA.DD.PercentSought" d="This Field Specifies the Percentage of the Target Company that the Acquiror is Seeking." cc="MandAdp" pc="MandAparam" l="Percent Sought" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">PercentSought</in:sp>
+			<in:sp k="field">PercentSought</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">PercentSoughtSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealCurrency" n="MA.DD.DealCurrency" d="Specifies the Currency of the Deal." cc="MandAdp" pc="MandAparam" l="Deal Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealCurrency</in:sp>
+			<in:sp k="field">DealCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_MA_DD_PricePerShare" n="MA.DD.PricePerShare" d="Price Per Share (PPS) the Acquiror offers to the Target. When the PPS Changes, the New PPS is Recorded in This Field and the Old Value is Stored in the Deal Event History." cc="MandAdp" pc="MandAparam" l="Price Per Share" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">PricePerShare</in:sp>
+			<in:sp k="field">PricePerShare</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">PricePerShareSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealValueAnnounced" n="MA.DD.DealValueAnnounced" d="The Value of the Transaction Reported at Announcement Date; Used If Consideration Breakdown is Not Available." cc="MandAdp" pc="MandAparam" l="Deal Value Announced" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealValueAnnounced</in:sp>
+			<in:sp k="field">DealValueAnnounced</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DealValueAnnouncedSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealValueCalculatedAnnounced" n="MA.DD.DealValueCalculatedAnnounced" d="The Value of the Transaction As Calculated for the Deal on Announcement Date." cc="MandAdp" pc="MandAparam" l="Deal Value Calculated Announced" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealValueCalculatedAnnounced</in:sp>
+			<in:sp k="field">DealValueCalculatedAnnounced</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DealValueCalculatedAnnouncedSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealValueCalculatedClosed" n="MA.DD.DealValueCalculatedClosed" d="The Calculated Value of the Transaction for the Deal." cc="MandAdp" pc="MandAparam" l="Deal Value Calculated Closed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealValueCalculatedClosed</in:sp>
+			<in:sp k="field">DealValueCalculatedClosed</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DealValueCalculatedClosedSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealValueCalculatedAnnouncedUSD" n="MA.DD.DealValueCalculatedAnnouncedUSD" d="The Value of the Transaction As Calculated for the Deal on Announcement Date in USD." cc="MandAdp" pc="MandAparam" l="Deal Value Calculated Announced USD" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealValueCalculatedAnnouncedUSD</in:sp>
+			<in:sp k="field">DealValueCalculatedAnnouncedUSD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DealValueCalculatedAnnouncedUSDSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_DealValueCalculatedClosedUSD" n="MA.DD.DealValueCalculatedClosedUSD" d="The Calculated Value of the Transaction for the Deal in USD." cc="MandAdp" pc="MandAparam" l="Deal Value Calculated Closed USD" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">DealValueCalculatedClosedUSD</in:sp>
+			<in:sp k="field">DealValueCalculatedClosedUSD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DealValueCalculatedClosedUSDSpecified</in:sp>
+		</i>
+		<i id="I_MA_DD_LiabilityToAssume" n="MA.DD.LiabilityToAssume" d="Y indicates that the Deal Value Amount includes the Liability to Assume." cc="MandAdp" pc="MandAparam" l="Liability To Assume" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">LiabilityToAssume</in:sp>
+			<in:sp k="field">LiabilityToAssume</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">LiabilityToAssumeSpecified</in:sp>
+		</i>
+	</c>
+	<c id="C_MA_DS" n="Deal Structure (DS)" d="Deal Structure." m="DS">
+		<i id="I_MA_DS_CashAmount" n="MA.DS.CashAmount" d="The Deal Amount in Cash." cc="MandAdp" pc="MandAparam" l="Cash Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Cash/ Amount</in:sp>
+			<in:sp k="field">Cash/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">CASH</in:sp>
+		</i>
+		<i id="I_MA_DS_CashAmountType" n="MA.DS.CashAmountType" d="Cash Amount Type." cc="MandAdp" pc="MandAparam" l="Cash Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Cash/ AmountType</in:sp>
+			<in:sp k="field">Cash/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CASH</in:sp>
+		</i>
+		<i id="I_MA_DS_CashCurrency" n="MA.DS.CashCurrency" d="Cash Amount Currency." cc="MandAdp" pc="MandAparam" l="Cash Amount Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Cash/ Currency</in:sp>
+			<in:sp k="field">Cash/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CASH</in:sp>
+		</i>
+		<i id="I_MA_DS_EquitySwapAmount" n="MA.DS.EquitySwapAmount" d="Equity Swap Amount." cc="MandAdp" pc="MandAparam" l="Equity Swap Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">EquitySwap/ Amount</in:sp>
+			<in:sp k="field">EquitySwap/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">EQUITYSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_EquitySwapAmountType" n="MA.DS.EquitySwapAmountType" d="Equity Swap Amount Type." cc="MandAdp" pc="MandAparam" l="Equity Swap Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">EquitySwap/ AmountType</in:sp>
+			<in:sp k="field">EquitySwap/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">EQUITYSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_EquitySwapCurrency" n="MA.DS.EquitySwapCurrency" d="Equity Swap Currency." cc="MandAdp" pc="MandAparam" l="Equity Swap Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">EquitySwap/ Currency</in:sp>
+			<in:sp k="field">EquitySwap/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">EQUITYSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_AssetSwapAmount" n="MA.DS.AssetSwapAmount" d="Asset Swap Amount." cc="MandAdp" pc="MandAparam" l="Asset Swap Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AssetSwap/ Amount</in:sp>
+			<in:sp k="field">AssetSwap/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">ASSETSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_AssetSwapAmountType" n="MA.DS.AssetSwapAmountType" d="Asset Swap Amount Type." cc="MandAdp" pc="MandAparam" l="Asset Swap Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AssetSwap/ AmountType</in:sp>
+			<in:sp k="field">AssetSwap/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">ASSETSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_AssetSwapCurrency" n="MA.DS.AssetSwapCurrency" d="Asset Swap Currency." cc="MandAdp" pc="MandAparam" l="Asset Swap Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AssetSwap/ Currency</in:sp>
+			<in:sp k="field">AssetSwap/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">ASSETSWAP</in:sp>
+		</i>
+		<i id="I_MA_DS_ParentFinancingAmount" n="MA.DS.ParentFinancingAmount" d="Parent Financing Amount." cc="MandAdp" pc="MandAparam" l="Parent Financing Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ParentFinancing/ Amount</in:sp>
+			<in:sp k="field">ParentFinancing/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">PARENTFINANCING</in:sp>
+		</i>
+		<i id="I_MA_DS_ParentFinancingAmountType" n="MA.DS.ParentFinancingAmountType" d="Parent Financing Amount Type." cc="MandAdp" pc="MandAparam" l="Parent Financing Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ParentFinancing/ AmountType</in:sp>
+			<in:sp k="field">ParentFinancing/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">PARENTFINANCING</in:sp>
+		</i>
+		<i id="I_MA_DS_ParentFinancingCurrency" n="MA.DS.ParentFinancingCurrency" d="Parent Financing Currency." cc="MandAdp" pc="MandAparam" l="Parent Financing Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ParentFinancing/ Currency</in:sp>
+			<in:sp k="field">ParentFinancing/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">PARENTFINANCING</in:sp>
+		</i>
+		<i id="I_MA_DS_OtherAmount" n="MA.DS.OtherAmount" d="Other Amount." cc="MandAdp" pc="MandAparam" l="Other Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Other/ Amount</in:sp>
+			<in:sp k="field">Other/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">OTHER</in:sp>
+		</i>
+		<i id="I_MA_DS_OtherAmountType" n="MA.DS.OtherAmountType" d="Other Amount Type." cc="MandAdp" pc="MandAparam" l="Other Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Other/ AmountType</in:sp>
+			<in:sp k="field">Other/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">OTHER</in:sp>
+		</i>
+		<i id="I_MA_DS_OtherCurrency" n="MA.DS.OtherCurrency" d="Other Currency." cc="MandAdp" pc="MandAparam" l="Other Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">Other/ Currency</in:sp>
+			<in:sp k="field">Other/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">OTHER</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarFloor" n="MA.DS.CollarFloor" d="This is the Lowest Equity Stock Price A Given Exchange Ratio is Set to." cc="MandAdp" pc="MandAparam" l="Collar Floor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarFloor</in:sp>
+			<in:sp k="field">CollarFloor</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarFloorPrice" n="MA.DS.CollarFloorPrice" d="This is the Lowest Equity Stock Price A Given Exchange Ratio is Set to." cc="MandAdp" pc="MandAparam" l="Collar Floor Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarFloorPrice</in:sp>
+			<in:sp k="field">CollarFloorPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarFloorFixedRatio" n="MA.DS.CollarFloorFixedRatio" d="The Field Contains the Exchange Ratio of the Equity Shares Between the Acquiror and the Target." cc="MandAdp" pc="MandAparam" l="Collar Floor Fixed Ratio" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarFloorFixedRatio</in:sp>
+			<in:sp k="field">CollarFloorFixedRatio</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item1</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarFloorFixedPrice" n="MA.DS.CollarFloorFixedPrice" d="The Field Contains the Exchange Price of the Equity Shares Between the Acquiror and the Target." cc="MandAdp" pc="MandAparam" l="Collar Floor Fixed Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarFloorFixedPrice</in:sp>
+			<in:sp k="field">CollarFloorFixedPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item1</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarCap" n="MA.DS.CollarCap" d="This is the Highest Equity Stock Price A Given Exchange Ratio is Set To." cc="MandAdp" pc="MandAparam" l="Collar Cap" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarCap</in:sp>
+			<in:sp k="field">CollarCap</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item2</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarCapPrice" n="MA.DS.CollarCapPrice" d="This is the Highest Equity Stock Price A Given Exchange Ratio is Set To." cc="MandAdp" pc="MandAparam" l="Collar Cap Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarCapPrice</in:sp>
+			<in:sp k="field">CollarCapPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item2</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarCapFixedRatio" n="MA.DS.CollarCapFixedRatio" d="The Field Contains the Exchange Ratio of the Equity Shares Between the Acquiror And the Target." cc="MandAdp" pc="MandAparam" l="Collar Cap Fixed Ratio" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarCapFixedRatio</in:sp>
+			<in:sp k="field">CollarCapFixedRatio</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item3</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarCapFixedPrice" n="MA.DS.CollarCapFixedPrice" d="The Field Contains the Exchange Price of the Equity Shares Between the Acquiror And the Target." cc="MandAdp" pc="MandAparam" l="Collar Cap Fixed Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarCapFixedPrice</in:sp>
+			<in:sp k="field">CollarCapFixedPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">Item</in:sp>
+			<in:sp k="IE">Item3</in:sp>
+		</i>
+		<i id="I_MA_DS_AverageTradingDays" n="MA.DS.AverageTradingDays" d="This is the Number of Days Either Company's Stock Trades Before the Collar is Applied." cc="MandAdp" pc="MandAparam" l="Average Trading Days" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AverageTradingDays</in:sp>
+			<in:sp k="field">AverageTradingDays</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AverageTradingDaysSpecified</in:sp>
+			<in:sp k="PE">COLLARDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_CollarCurrency" n="MA.DS.CollarCurrency" d="Collar Currency." cc="MandAdp" pc="MandAparam" l="Collar Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CollarDetails/ Currency</in:sp>
+			<in:sp k="field">CollarDetails/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">COLLARDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_FuturePaymentType" n="MA.DS.FuturePaymentType" d="Future Payment Type." cc="MandAdp" pc="MandAparam" l="Future Payment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">FuturePayment/ Type</in:sp>
+			<in:sp k="field">FuturePayment/Type</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">FUTUREPAYMENT</in:sp>
+		</i>
+		<i id="I_MA_DS_FuturePaymentAmount" n="MA.DS.FuturePaymentAmount" d="Future Payment Amount." cc="MandAdp" pc="MandAparam" l="Future Payment Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">FuturePayment/ Amount</in:sp>
+			<in:sp k="field">FuturePayment/Amount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AmountSpecified</in:sp>
+			<in:sp k="PE">FUTUREPAYMENT</in:sp>
+		</i>
+		<i id="I_MA_DS_FuturePaymentAmountType" n="MA.DS.FuturePaymentAmountType" d="Future Payment Amount Type." cc="MandAdp" pc="MandAparam" l="Future Payment Amount Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">FuturePayment/ AmountType</in:sp>
+			<in:sp k="field">FuturePayment/AmountType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">FUTUREPAYMENT</in:sp>
+		</i>
+		<i id="I_MA_DS_FuturePaymentCurrency" n="MA.DS.FuturePaymentCurrency" d="Future Payment Currency." cc="MandAdp" pc="MandAparam" l="Future Payment Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">FuturePayment/ Currency</in:sp>
+			<in:sp k="field">FuturePayment/Currency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">FUTUREPAYMENT</in:sp>
+		</i>
+		<i id="I_MA_DS_FuturePaymentDate" n="MA.DS.FuturePaymentDate" d="Future Payment Date." cc="MandAdp" pc="MandAparam" l="Future Payment Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">FuturePayment/ Date</in:sp>
+			<in:sp k="field">FuturePayment/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">FUTUREPAYMENT</in:sp>
+		</i>
+		<i id="I_MA_DS_CancellationDate" n="MA.DS.CancellationDate" d="This Field Specifies the Deal Cancellation Date." cc="MandAdp" pc="MandAparam" l="Cancellation Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">CancellationDate/ Date</in:sp>
+			<in:sp k="field">CancellationDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">CANCELLATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_CancellationDatePeriod" n="MA.DS.CancellationDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Cancellation Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CancellationDate/ Period</in:sp>
+			<in:sp k="field">CancellationDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CANCELLATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_CancellationDateYear" n="MA.DS.CancellationDateYear" d="This is the Year For the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Cancellation Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">CancellationDate/ Year</in:sp>
+			<in:sp k="field">CancellationDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CANCELLATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ClosedDate" n="MA.DS.ClosedDate" d="This Field Specifies the Deal Closed Date." cc="MandAdp" pc="MandAparam" l="Closed Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">ClosedDate/ Date</in:sp>
+			<in:sp k="field">ClosedDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">CLOSEDDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ClosedDatePeriod" n="MA.DS.ClosedDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Closed Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ClosedDate/ Period</in:sp>
+			<in:sp k="field">ClosedDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CLOSEDDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ClosedDateYear" n="MA.DS.ClosedDateYear" d="This is the Year For the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Closed Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ClosedDate/ Year</in:sp>
+			<in:sp k="field">ClosedDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">CLOSEDDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_StartDate" n="MA.DS.StartDate" d="This Field Specifies the Deal Start Date." cc="MandAdp" pc="MandAparam" l="Start Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">StartDate/ Date</in:sp>
+			<in:sp k="field">StartDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">STARTDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_StartDatePeriod" n="MA.DS.StartDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Start Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">StartDate/ Period</in:sp>
+			<in:sp k="field">StartDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">STARTDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_StartDateYear" n="MA.DS.StartDateYear" d="This is the Year For the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Start Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">StartDate/ Year</in:sp>
+			<in:sp k="field">StartDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">STARTDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ExpirationDate" n="MA.DS.ExpirationDate" d="This Field Specifies the Deal Expiration Date." cc="MandAdp" pc="MandAparam" l="Expiration Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">ExpirationDate/ Date</in:sp>
+			<in:sp k="field">ExpirationDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">EXPIRATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ExpirationDatePeriod" n="MA.DS.ExpirationDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Expiration Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ExpirationDate/ Period</in:sp>
+			<in:sp k="field">ExpirationDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">EXPIRATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_ExpirationDateYear" n="MA.DS.ExpirationDateYear" d="This is the Year For the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Expiration Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">ExpirationDate/ Year</in:sp>
+			<in:sp k="field">ExpirationDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">EXPIRATIONDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_TenderOfferWithdrawalDate" n="MA.DS.TenderOfferWithdrawalDate" d="Tender Offer Withdrawal Date." cc="MandAdp" pc="MandAparam" l="Tender Offer Withdrawal Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">TenderOfferWithdrawalDate/ Date</in:sp>
+			<in:sp k="field">TenderOfferWithdrawalDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">TENDEROFFERWITHDRAWALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_TenderOfferWithdrawalDatePeriod" n="MA.DS.TenderOfferWithdrawalDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Tender Offer Withdrawal Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TenderOfferWithdrawalDate/ Period</in:sp>
+			<in:sp k="field">TenderOfferWithdrawalDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">TENDEROFFERWITHDRAWALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_TenderOfferWithdrawalDateYear" n="MA.DS.TenderOfferWithdrawalDateYear" d="This is the Year For the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Tender Offer Withdrawal Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TenderOfferWithdrawalDate/ Year</in:sp>
+			<in:sp k="field">TenderOfferWithdrawalDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">TENDEROFFERWITHDRAWALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_RevisedProposalDate" n="MA.DS.RevisedProposalDate" d="Revised Proposal Date." cc="MandAdp" pc="MandAparam" l="Revised Proposal Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">RevisedProposalDate/ Date</in:sp>
+			<in:sp k="field">RevisedProposalDate/Date</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">DateSpecified</in:sp>
+			<in:sp k="PE">REVISEDPROPOSALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_RevisedProposalDatePeriod" n="MA.DS.RevisedProposalDatePeriod" d="The Field Specifies, in Conjunction with the 'Year' Field, the Approximate Time Period in Quarters or Half Years of the Associated Event." cc="MandAdp" pc="MandAparam" l="Revised Proposal Date Period" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">RevisedProposalDate/ Period</in:sp>
+			<in:sp k="field">RevisedProposalDate/Period</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">REVISEDPROPOSALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_RevisedProposalDateYear" n="MA.DS.RevisedProposalDateYear" d="This is the Year for the Specified Half or Quarter." cc="MandAdp" pc="MandAparam" l="Revised Proposal Date Year" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">RevisedProposalDate/ Year</in:sp>
+			<in:sp k="field">RevisedProposalDate/Year</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">REVISEDPROPOSALDATE</in:sp>
+		</i>
+		<i id="I_MA_DS_AcquirorTactic" n="MA.DS.AcquirorTactic" d="This Field Describes the Type of Acquiror Used by the Target to influence the Ownership of the Target Company in an Acquisition." cc="MandAdp" pc="MandAparam" l="Acquiror Tactic" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AcquirorDetails/ Tactic</in:sp>
+			<in:sp k="field">AcquirorDetails/Tactic</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">ACQUIRORDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_AcquirorStatus" n="MA.DS.AcquirorStatus" d="This Field Describes the Type of Acquiror Used by the Target to influence the Ownership of the Target Company in an Acquisition." cc="MandAdp" pc="MandAparam" l="Acquiror's Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AcquirorDetails/ Status</in:sp>
+			<in:sp k="field">AcquirorDetails/Status</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">ACQUIRORDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_AcquirorStatusNote" n="MA.DS.AcquirorStatusNote" d="Acquiror's Status Note." cc="MandAdp" pc="MandAparam" l="Acquiror's Status Note" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">AcquirorDetails/ Note</in:sp>
+			<in:sp k="field">AcquirorDetails/Note</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">ACQUIRORDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_TargetTactic" n="MA.DS.TargetTactic" d="This Field Describes the Type of Tactic Used by the Target to influence the Ownership of the Target Company in an Acquisition." cc="MandAdp" pc="MandAparam" l="Target Tactic" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TargetDetails/ Tactic</in:sp>
+			<in:sp k="field">TargetDetails/Tactic</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">TARGETDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_TargetStatus" n="MA.DS.TargetStatus" d="This Field Describes the Type of Tactic used by the Target to influence the Ownership of the Target Company in an Acquisition." cc="MandAdp" pc="MandAparam" l="Target's Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TargetDetails/ Status</in:sp>
+			<in:sp k="field">TargetDetails/Status</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">TARGETDETAILS</in:sp>
+		</i>
+		<i id="I_MA_DS_TargetStatusNote" n="MA.DS.TargetStatusNote" d="Target's Status Note." cc="MandAdp" pc="MandAparam" l="Target's Status Note" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="MERGERS" vu="N" isScreen="false">
+			<in:sp k="id">TargetDetails/ Note</in:sp>
+			<in:sp k="field">TargetDetails/Note</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="PE">TARGETDETAILS</in:sp>
+		</i>
+	</c>
+</d>

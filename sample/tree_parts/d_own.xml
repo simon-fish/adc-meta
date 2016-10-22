@@ -1,0 +1,40 @@
+﻿<d id="D_OWN" d="Ownership" m="OWN" n="Ownership (OWN)" a="3600" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_OWN_OW" n="Owners (OW)" d="Owners" m="OW">
+		<i id="I_OWN_OW_LatestFilingDate" d="Latest filing date." l="Latest Filing Date" n="OWN.OW.LatestFilingDate" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">FilingDate</in:sp>
+			<in:sp k="vt">Date</in:sp>
+		</i>
+		<i id="I_OWN_OW_LatestFilingSource" d="Latest filing source." l="Latest Filing Source" n="OWN.OW.LatestFilingSource" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">FilingTypeDescr</in:sp>
+			<in:sp k="vt">String</in:sp>
+		</i>
+		<i id="I_OWN_OW_PercentOfShares" d="Percentage of shares outstanding of the stock held by the investor at the latest date month." l="Percentage of Shares" n="OWN.OW.PercentOfShares" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">PctOfSharesOut</in:sp>
+			<in:sp k="vt">Double</in:sp>
+		</i>
+		<i id="I_OWN_OW_NumberOfShares" d="Number of shares held at the latest filing date." l="Number of Shares" n="OWN.OW.NumberOfShares" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" vu="U" isScreen="false">
+			<in:sp k="me">SharesHeld</in:sp>
+			<in:sp k="vt">Decimal</in:sp>
+		</i>
+		<i id="I_OWN_OW_PositionValue" d="Value of the position (based on the month end closing price of the filing date month)." l="Position Value" n="OWN.OW.PositionValue" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" vu="U" isScreen="false">
+			<in:sp k="me">ValueHeld</in:sp>
+			<in:sp k="vt">Double</in:sp>
+		</i>
+		<i id="I_OWN_OW_PreviousFilingDate" d="Previous filing date." l="Previous Filing Date" n="OWN.OW.PreviousFilingDate" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">PrevFilingDate</in:sp>
+			<in:sp k="vt">Date</in:sp>
+		</i>
+		<i id="I_OWN_OW_PreviousFilingSource" d="Previous filing source." l="Previous Filing Source" n="OWN.OW.PreviousFilingSource" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">PrevFilingTypeDescr</in:sp>
+			<in:sp k="vt">String</in:sp>
+		</i>
+		<i id="I_OWN_OW_ChangeNbOfShares" d="Change of the number of shares held between the previous date and the latest date." l="Change of the Number of Shares" n="OWN.OW.ChangeNbOfShares" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" vu="U" isScreen="false">
+			<in:sp k="me">SharesChange</in:sp>
+			<in:sp k="vt">Decimal</in:sp>
+		</i>
+		<i id="I_OWN_OW_PercChangeNbOfShares" d="Percentage of changes in number of shares between the previous and the latest date." l="% Change in the Number of Shares" n="OWN.OW.PercChangeNbOfShares" s="OWNERSHIP" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="OBCC" pc="OBPC" isScreen="false">
+			<in:sp k="me">SharesChangePct</in:sp>
+			<in:sp k="vt">Double</in:sp>
+		</i>
+	</c>
+</d>

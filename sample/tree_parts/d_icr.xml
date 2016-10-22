@@ -1,0 +1,206 @@
+﻿<d id="D_ICR" lid="D_EJVR" n="Issuer Level Credit Rating" d="Issuer Level Credit Rating." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_ICR_IR" n="Issuer Level Credit Rating (IR)" d="Issuer Level Credit Rating.">
+		<i id="I_ICR_IR_PreliminaryFlag" n="TR.IR.PreliminaryFlag" l="Preliminary Flag" d="Boolean flag indicating if this rating is a preliminary rating." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="Boolean" s="EJVFI" isScreen="false" lid="EJV.IR.PreliminaryFlag">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">PartyPreliminaryFlag</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_Rating" n="TR.IR.Rating" l="Issuer Rating" d="Credit rating assigned by Credit Rating Source." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.Rating" rnk="99999" rid="I_ICR_IR_IssuerRating" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+			<out:p id="hidden" />
+		</i>
+		<i id="I_ICR_IR_IssuerRating" n="TR.IssuerRating" l="Issuer Rating" d="Credit rating assigned by Credit Rating Source." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.Rating" rnk="99999" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">Rating</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingDate" n="TR.IR.RatingDate" l="Rating Date" d="Date when the credit rating has been published by the credit rating agency." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" vc="date" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IR.RatingDate">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">RatingDate</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingEndorDescription" n="TR.IR.RatingEndorDescription" l="Rating Endorsement Description" d="Identify the credit ratings endorsed by a locally registered rating agency. The EU requires ratings assigned outside of the EU be endorsed by a locally registered rating agency." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingEndorDescription" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">PartyRatingEndorsementDescription</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingEndorsement" n="TR.IR.RatingEndorsement" l="Rating Endorsement" d="Identify the credit ratings endorsed by a locally registered rating agency. The EU requires ratings assigned outside of the EU be endorsed by a locally registered rating agency." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingEndorsement" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">PartyRatingEndorsement</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingRank" n="TR.IR.RatingRank" l="Rating Rank" d="Code representing the rating rank." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingRank" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingSourceDescription" n="TR.IR.RatingSourceDescription" l="Rating Source Description" d="Rating source name which publish the credit rating." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" vc="RatingSourceDescription" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingSourceDescription" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">RatingSourceDescription</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingScopeDescription" n="TR.IR.RatingScopeDescription" l="Rating Scope Description" d="Rating Scope name, either Domestic or Foreign" i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" vc="RatingScopeDescription" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">ScopeDescription</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingSourceType" n="TR.IR.RatingSourceType" l="Rating Source Type" d="Description of the Rating Source Type." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingSourceType" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">RatingSource</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingSpEquivalentRank" n="TR.IR.RatingSpEquivalentRank" l="Rating SP Equivalent Rank" d="Rating SP Equivalent Rank." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingSpEquivalentRank" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingType" n="TR.IR.RatingType" l="Rating Type" d="Code representing the Rating Type." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingType" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingTypeDescription" n="TR.IR.RatingTypeDescription" l="Rating Type Description" d="Description of the Rating Type." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingTypeDescription" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_UnsolicitedFlag" n="TR.IR.UnsolicitedFlag" l="Unsolicited Flag" d="Boolean flag indicating whether the rating is unsolicited." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="Boolean" s="EJVFI" isScreen="false" lid="EJV.IR.UnsolicitedFlag">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">PartyUnsolicitedFlag</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_VerifiedDate" n="TR.IR.VerifiedDate" l="Affirmation Date" d="Last date the rating was affirmed." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IR.VerifiedDate">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">PartyVerifiedDate</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IR_RatingSourceCode" n="TR.IR.RatingSourceCode" l="Rating Source Code" d="Code of the rating source which publish the credit rating." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRIssuer" vc="RatingSource" dt="String" s="EJVFI" isScreen="false" lid="EJV.IR.RatingSourceCode" enableHeatMap="false">
+			<in:sp k="date">RatingDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_HIST</in:sp>
+			<in:sp k="c">RatingSource</in:sp>
+			<in:sp k="extra_inputs">Rating=&lt;&gt;N/A</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+	</c>
+	<c id="C_ICR_IW" n="Issuer Watch (IW)" d="Issuer Watch.">
+		<i id="I_ICR_IW_WatchDate" n="TR.IW.WatchDate" l="Watch Date" d="First date on which the issuer is placed under a special credit evaluation." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" vc="date" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IW.WatchDate">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchEndDate" n="TR.IW.WatchEndDate" l="Watch End Date" d="Last date on which an issuer is under a special credit evaluation by a given rating agency." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IW.WatchEndDate">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchEndDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchSourceDescription" n="TR.IW.WatchSourceDescription" l="Watch Source" d="Rating source which place under credit evaluation the issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" vc="RatingSourceDescription" dt="String" s="EJVFI" isScreen="false" lid="EJV.IW.WatchSourceDescription" enableHeatMap="false">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchRatingSourceDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchType" n="TR.IW.WatchType" l="Watch Type" d="Code representing a possible change in the credit rating for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" dt="String" s="EJVFI" isScreen="false" lid="EJV.IW.WatchType" enableHeatMap="false">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchType</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchTypeDescription" n="TR.IW.WatchTypeDescription" l="Watch Type Description" d="Description of the code representing a possible change in the credit rating for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" dt="String" s="EJVFI" isScreen="false" lid="EJV.IW.WatchTypeDescription" enableHeatMap="false">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchTypeDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchSourceCode" n="TR.IW.WatchSourceCode" l="Watch Source Code" d="Code of the rating source which publish the credit rating." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" vc="RatingSource" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false" lid="EJV.IR.RatingSourceCode">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchRatingSource</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IW_WatchScopeDescription" n="TR.IW.WatchScopeDescription" l="Watch Scope Name" d="Watch Scope name, either Domestic or Foreign" i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:E A:4I A:4J A:BP" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeWatch" vc="RatingScopeDescription" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false">
+			<in:sp k="date">WatchEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_WATCH_HIST</in:sp>
+			<in:sp k="c">WatchScopeDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+	</c>
+	<c id="C_ICR_IO" n="Issuer Outlook (IO)" d="Issuer Outlook.">
+		<i id="I_ICR_IO_OutlookSourceCode" n="TR.IO.OutlookSourceCode" l="Outlook Source Code" d="Code representing the outlook Source Code for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" vc="RatingSource" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false" lid="EJV.IR.RatingSourceCode">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookRatingSource</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookSourceDescription" n="TR.IO.OutlookSourceDescription" l="Outlook Source Description" d="Source Name of the Outlook Publisher." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" vc="RatingSourceDescription" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false" lid="EJV.IO.OutlookSourceDescription">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookRatingSourceDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookScopeDescription" n="TR.IO.OutlookScopeDescription" l="Outlook Scope Description" d="S Scope name, either Domestic or Foreign" i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" vc="RatingScopeDescription" dt="String" s="EJVFI" isScreen="false" enableHeatMap="false">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookScopeDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_Outlook" n="TR.IO.Outlook" l="Outlook" d="Code representing the outlook trend for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" dt="String" s="EJVFI" isScreen="false" lid="EJV.IO.Outlook" enableHeatMap="false">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">Outlook</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookDescription" n="TR.IO.OutlookDescription" l="Outlook Description" d="Description representing the outlook trend for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" dt="String" s="EJVFI" isScreen="false" lid="EJV.IO.OutlookDescription" enableHeatMap="false">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookDate" n="TR.IO.OutlookDate" l="Outlook Date" d="Specifies the date on which the outlook was effective." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" vc="date" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IO.OutlookDate">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookEndDate" n="TR.IO.OutlookEndDate" l="Outlook End Date" d="End date of the outlook time period for an issuer." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" dt="Date" s="EJVFI" isScreen="false" lid="EJV.IO.OutlookEndDate">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookEndDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_ICR_IO_OutlookRatingSourceDescription" n="TR.IO.OutlookRatingSourceDescription" l="Outlook Rating Source Description" d="Rating agency name used for outlook." i="A:14 A:1A A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:J I:21 A:4I A:4J A:BP A:E A:D" vu="N" cc="ICRIRRating" pc="ICRTopDateScopeOutlook" dt="String" s="EJVFI" isScreen="false" lid="EJV.IO.OutlookSourceDescription" enableHeatMap="false">
+			<in:sp k="date">OutlookEffectiveDate</in:sp>
+			<in:sp k="view">GOVCORP_PARTY_RATING_OUTLOOK_HIST</in:sp>
+			<in:sp k="c">OutlookRatingSourceDescription</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+	</c>
+</d>

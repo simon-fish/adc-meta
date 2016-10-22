@@ -1,0 +1,527 @@
+﻿<d id="D_CorpGov" n="Activism and Defense" d="Activism and Defense" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="d_dpf"/>
+  <xi:include href="d_dpp"/>
+  <!-- ESG Categories -->
+	<c id="C_Deals_ESG_ProvForce" n="Provisions In force Defense" d="Provisions In force" m="">
+		<i id="I_ESG_GOV_Shareholders_PoisonPillCC" n="TR.CGPoisonPill" l="Poison Pill" d="Does the company have a poison pill in force during the annual period under review?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP050</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PoisonPillAdoptionDateCC" n="TR.CGPoisonPillAdoptionDate" l="Poison Pill Adoption Date" d="The adoption date of the poison pill that is in force during the annual period under review." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGPeriodPC" cc="ESGQualitativeSourceCC" dt="Date" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgDateContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP076</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PoisonPillExpirationDateCC" n="TR.CGPoisonPillExpirationDate" l="Poison Pill Expiration Date" d="The expiration date of the poison pill that is in force during the annual period under review." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGPeriodPC" cc="ESGQualitativeSourceCC" dt="Date" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgDateContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP077</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_BlankCheckCC" n="TR.CGBlankCheck" l="Unlimited Authorized Capital or Blank Check" d="Does the company have unlimited authorized capital or a blank check?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP051</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_StaggeredBoardCC" n="TR.CGStaggeredBoard" l="Staggered Board Structure" d="Does the company have a staggered board structure?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP053</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_GoldenParachuteCC" n="TR.CGGoldenParachute" l="Golden Parachute" d="Does the company have a golden parachute or other restrictive clauses related to changes of control (compensation plan for accelerated pay-out)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP055</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_CallMeetingsLimitedRightsCC" n="TR.CGCallMeetingsLimitedRights" l="Limited Shareholder Rights to Call Meetings" d="Has the company limited the rights of shareholders to call special meetings?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP058</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PreemptiveRightsCC" n="TR.CGPreemptiveRights" l="Pre-emptive Rights" d="Does the company grant pre-emptive rights to existing shareholders?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP060</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_CompanyCrossShareholdingCC" n="TR.CGCompanyCrossShareholding" l="Company Cross Shareholding" d="Does the company have significant cross shareholding that can prevent takeovers?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP061</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_DirectorLiabilityLimitationCC" n="TR.CGDirectorLiabilityLimitation" l="Limitation of Director Liability" d="Does the company have a limitation of director liability?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP063</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_FairPriceProvisionCC" n="TR.CGFairPriceProvision" l="Fair Price Provision" d="Is the company subject to fair price provision, either under applicable law or as stated in the company documents (charter or bylaws)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP070</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_LimitationRemovalDirectorsCC" n="TR.CGLimitationRemovalDirectors" l="Limitations on Removal of Directors" d="Are there limitations on the shareholders' right to remove board members (ie, only for cause, supermajority vote required, etc.)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP071</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_AdvanceNoticeShareholderProposalsCC" n="TR.CGAdvanceNoticeShareholderProposal" l="Advance Notice for Shareholder Proposals" d="Does the company have deadlines relating to shareholder proposals?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP072</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_AdvanceNoticePeriodCC" n="TR.CGAdvanceNoticePeriod" l="Advance Notice Period Days" d="What is the minimum interval prior to the next shareholder meeting beyond which a shareholder proposal will not be accepted?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQuantitativeSourcePC" cc="ESGQuantitativeSourceCC" dt="Float" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP073</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_WrittenConsentRequirementsCC" n="TR.CGWrittenConsentRequirements" l="Written Consent Requirements" d="Does the company permit actions to be taken without meeting by written consent?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP074</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ExpandedConstituencyProvisionCC" n="TR.CGExpandedConstituencyProvision" l="Expanded Constituency Provision" d="Does the company have expanded-constituency provisions in place?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP075</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PoisonPillSourceTextCC" n="TR.CGPoisonPillSourceText" l="Poison Pill Source Text" d="Does the company have a poison pill in force during the annual period under review?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP050</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PoisonPillAdoptionDateSourceTextCC" n="TR.CGPoisonPillAdoptionDateSourceText" l="Poison Pill Adoption Date Source Text" d="The adoption date of the poison pill that is in force during the annual period under review." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP076</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PoisonPillExpirationDateSourceTextCC" n="TR.CGPoisonPillExpirationDateSourceText" l="Poison Pill Expiration Date Source Text" d="The expiration date of the poison pill that is in force during the annual period under review." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP077</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_BlankCheckSourceTextCC" n="TR.CGBlankCheckSourceText" l="Unlimited Authorized Capital or Blank Check Source Text" d="Does the company have unlimited authorized capital or a blank check?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP051</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_StaggeredBoardSourceTextCC" n="TR.CGStaggeredBoardSourceText" l="Staggered Board Structure Source Text" d="Does the company have a staggered board structure?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP053</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_GoldenParachuteSourceTextCC" n="TR.CGGoldenParachuteSourceText" l="Golden Parachute Source Text" d="Does the company have a golden parachute or other restrictive clauses related to changes of control (compensation plan for accelerated pay-out)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP055</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_CallMeetingsLimitedRightsSourceTextCC" n="TR.CGCallMeetingsLimitedRightsSourceText" l="Limited Shareholder Rights to Call Meetings Source Text" d="Has the company limited the rights of shareholders to call special meetings?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP058</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_PreemptiveRightsSourceTextCC" n="TR.CGPreemptiveRightsSourceText" l="Pre-emptive Rights Source Text" d="Does the company grant pre-emptive rights to existing shareholders?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP060</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_CompanyCrossShareholdingSourceTextCC" n="TR.CGCompanyCrossShareholdingSourceText" l="Company Cross Shareholding Source Text" d="Does the company have significant cross shareholding that can prevent takeovers?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP061</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_DirectorLiabilityLimitationSourceTextCC" n="TR.CGDirectorLiabilityLimitationSourceText" l="Limitation of Director Liability Source Text" d="Does the company have a limitation of director liability?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP063</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_FairPriceProvisionSourceTextCC" n="TR.CGFairPriceProvisionSourceText" l="Fair Price Provision Source Text" d="Is the company subject to fair price provision, either under applicable law or as stated in the company documents (charter or bylaws)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP070</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_LimitationRemovalDirectorsSourceTextCC" n="TR.CGLimitationRemovalDirectorsSourceText" l="Limitations on Removal of Directors Source Text" d="Are there limitations on the shareholders' right to remove board members (ie, only for cause, supermajority vote required, etc.)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP071</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_AdvanceNoticeShareholderProposalsSourceTextCC" n="TR.CGAdvanceNoticeShareholderProposalSourceText" l="Advance Notice for Shareholder Proposals Source Text" d="Does the company have deadlines relating to shareholder proposals?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP072</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_AdvanceNoticePeriodSourceTextCC" n="TR.CGAdvanceNoticePeriodSourceText" l="Advance Notice Period Days Source Text" d="What is the minimum interval prior to the next shareholder meeting beyond which a shareholder proposal will not be accepted?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP073</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_WrittenConsentRequirementsSourceTextCC" n="TR.CGWrittenConsentRequirementsSourceText" l="Written Consent Requirements Source Text" d="Does the company permit actions to be taken without meeting by written consent?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP074</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ExpandedConstituencyProvisionSourceTextCC" n="TR.CGExpandedConstituencyProvisionSourceText" l="Expanded Constituency Provision Source Text" d="Does the company have expanded-constituency provisions in place?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP075</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+	</c>
+	<c id="C_Deals_ESG_BrdStr" n="Board Structure Defense" d="Board Structure" m="">
+		<i id="I_ESG_GOV_Mgt_CorporateGovernanceCommCC" n="TR.CGCorporateGovernanceComm" l="Corporate Governance Board Committee" d="Does the company have a corporate governance board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_BF_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_NominationCommCC" n="TR.CGNominationComm" l="Nomination Board Committee" d="Does the company have a nomination board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_BS_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_AuditCommCC" n="TR.CGAuditComm" l="Audit Board Committee" d="Does the company have an audit board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">Ec_Pr_SL_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_CompCommCC" n="TR.CGCompComm" l="Compensation Board Committee" d="Does the company have a compensation board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_CP_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_BoardMeetingsCC" n="TR.CGBoardMeetings" l="Number of Board Meetings" d="The number of board meetings during the year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQuantitativeSourcePC" cc="ESGQuantitativeNoUnitSourceCC" dt="Integer" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_BF_DP024</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_BoardSizeCC" n="TR.CGBoardSize" l="Board Size" d="The total number of board members at the end of the fiscal year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQuantitativeSourcePC" cc="ESGQuantitativeNoUnitSourceCC" dt="Integer" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_BS_DP060</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_AnalyticBoardFemaleCC" n="TR.CGAnalyticBoardFemale" l="Female on Board" d="Percentage of female  on the board." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="H" pc="ESGQuantitativePC" cc="ESGQuantitativeCC" dt="Float" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BS_O03</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgAnalyticValueKey</in:sp>
+			<in:sp k="column">esganalyticvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_CEOBoardMemberCC" n="TR.CGCEOBoardMember" l="CEO Board Member" d="The CEO is a board member." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_BS_DP061</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_SeniorExecsTotalCompCC" n="TR.CGSeniorExecsTotalComp" l="Total Senior Executives Compensation" d="The total compensation paid to all senior executives as reported by the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="U" pc="ESGQuantitativeCurnSourcePC" cc="ESGQuantitativeCurnSourceCC" dt="Money" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_BD_CP_DP054</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_AnalyticHighestRemunerationCC" n="TR.CGAnalyticHighestRemuneration" l="Highest Remuneration Package" d="Highest remuneration package within the company in US dollars." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="U" pc="ESGQuantitativeCurnPC" cc="ESGQuantitativeCurnCC" dt="Money" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler</in:sp>
+			<in:sp k="id">CG_BD_CP_O02</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgAnalyticValueKey</in:sp>
+			<in:sp k="column">esganalyticvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_AnalyticBoardMemberCompCC" n="TR.CGAnalyticBoardMemberComp" l="Board Member Compensation" d="Total compensation of the board members in US dollars." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="U" pc="ESGQuantitativeCurnPC" cc="ESGQuantitativeCurnCC" dt="Money" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler</in:sp>
+			<in:sp k="id">CG_BD_CP_O03</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgAnalyticValueKey</in:sp>
+			<in:sp k="column">esganalyticvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_CorporateGovernanceCommSourceTextCC" n="TR.CGCorporateGovernanceCommSourceText" l="Corporate Governance Board Committee Source Text" d="Does the company have a corporate governance board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BF_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_NominationCommSourceTextCC" n="TR.CGNominationCommSourceText" l="Nomination Board Committee Source Text" d="Does the company have a nomination board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BS_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_AuditCommSourceTextCC" n="TR.CGAuditCommSourceText" l="Audit Board Committee Source Text" d="Does the company have an audit board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">Ec_Pr_SL_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_CompCommSourceTextCC" n="TR.CGCompCommSourceText" l="Compensation Board Committee Source Text" d="Does the company have a compensation board committee?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_CP_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_BoardMeetingsSourceTextCC" n="TR.CGBoardMeetingsSourceText" l="Number of Board Meetings Source Text" d="The number of board meetings during the year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BF_DP024</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_BoardSizeSourceTextCC" n="TR.CGBoardSizeSourceText" l="Board Size Source Text" d="The total number of board members at the end of the fiscal year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BS_DP060</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_CEOBoardMemberSourceTextCC" n="TR.CGCEOBoardMemberSourceText" l="CEO Board Member Source Text" d="The CEO is a board member." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_BS_DP061</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Mgt_SeniorExecsTotalCompSourceTextCC" n="TR.CGSeniorExecsTotalCompSourceText" l="Total Senior Executives Compensation Source Text" d="The total compensation paid to all senior executives as reported by the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="U" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_BD_CP_DP054</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_CSRStrategy_SustainabilityCommCC" n="TR.CGSustainabilityComm" l="CSR Sustainability Committee" d="Does the company have a CSR committee or team?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_In_VS_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_CSRStrategy_SustainabilityCommSourceTextCC" n="TR.CGSustainabilityCommSourceText" l="CSR Sustainability Committee Source Text" d="Does the company have a CSR committee or team?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_In_VS_DP005</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+	</c>
+	<c id="C_Deals_ESG_VotPro" n="Voting Rights Defense" d="Voting Provisions" m="">
+		<i id="I_ESG_GOV_Shareholders_VotingCapCC" n="TR.CGVotingCap" l="Voting Cap" d="Does the company have shares with a voting cap (ceilings) clause, ownership ceilings or control share acquisition provision?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP026</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_VotingCapPctageCC" n="TR.CGVotingCapPctage" l="Voting Cap Percentage" d="The percentage of maximum voting rights allowed or ownership rights." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="H" pc="ESGQuantitativeSourcePC" cc="ESGQuantitativeSourceCC" dt="Float" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP027</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ShareholdersVoteExecPayCC" n="TR.CGShareholdersVoteExecPay" l="Shareholders Vote on Executive Pay" d="Do the company's shareholders have the right to vote on executive compensation?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP038</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_StateOwnedEnterpriseSOECC" n="TR.CGStateOwnedEnterpriseSOE" l="State Owned Enterprise SOE" d="Is the company a State Owned Enterprise (SOE)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP049</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_SupermajorityVoteCC" n="TR.CGSupermajorityVote" l="Supermajority Vote Requirement" d="Does the company have a supermajority vote requirement or qualified majority (for amendments of charters and bylaws or lock-in provisions)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP054</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_EliminationCumVotingRightsCC" n="TR.CGEliminationCumVotingRights" l="Elimination of Cumulative Voting Rights" d="Has the company reduced or eliminated cumulative voting in regard to the election of board members?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP059</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ConfidentialVotingPolicyCC" n="TR.CGConfidentialVotingPolicy" l="Confidential Voting Policy" d="Does the company have a confidential voting policy (i.e., management cannot view the results of shareholder votes)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP062</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ShareholdersApprovalTransactionsCC" n="TR.CGShareholderApprovalTransactions" l="Shareholder Approval Significant Transactions" d="Limitations to the shareholders right to approve  significant company transitions such as M&amp;As (no rights to vote or supermajority required)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" ss="VECTORWISE" vu="N" pc="ESGQualitativeSourcePC" cc="ESGQualitativeSourceCC" dt="Boolean" isScreen="true" isGrid="true">
+			<in:sp k="fn">EsgBooleanContentHandler_AddSource</in:sp>
+			<in:sp k="id">CG_SH_SR_DP069</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueKey</in:sp>
+			<in:sp k="column">esgvalue</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_VotingCapSourceTextCC" n="TR.CGVotingCapSourceText" l="Voting Cap Source Text" d="Does the company have shares with a voting cap (ceilings) clause, ownership ceilings or control share acquisition provision?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP026</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_VotingCapPctageSourceTextCC" n="TR.CGVotingCapPctageSourceText" l="Voting Cap Percentage Source Text" d="The percentage of maximum voting rights allowed or ownership rights." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP027</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ShareholdersVoteExecPaySourceTextCC" n="TR.CGShareholdersVoteExecPaySourceText" l="Shareholders Vote on Executive Pay Source Text" d="Do the company's shareholders have the right to vote on executive compensation?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP038</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_StateOwnedEnterpriseSOESourceTextCC" n="TR.CGStateOwnedEnterpriseSOESourceText" l="State Owned Enterprise SOE Source Text" d="Is the company a State Owned Enterprise (SOE)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP049</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_SupermajorityVoteSourceTextCC" n="TR.CGSupermajorityVoteSourceText" l="Supermajority Vote Requirement Source Text" d="Does the company have a supermajority vote requirement or qualified majority (for amendments of charters and bylaws or lock-in provisions)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP054</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_EliminationCumVotingRightsSourceTextCC" n="TR.CGEliminationCumVotingRightsSourceText" l="Elimination of Cumulative Voting Rights Source Text" d="Has the company reduced or eliminated cumulative voting in regard to the election of board members?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP059</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ConfidentialVotingPolicySourceTextCC" n="TR.CGConfidentialVotingPolicySourceText" l="Confidential Voting Policy Source Text" d="Does the company have a confidential voting policy (i.e., management cannot view the results of shareholder votes)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP062</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+		<i id="I_ESG_GOV_Shareholders_ShareholdersApprovalTransactionsSourceTextCC" n="TR.CGShareholderApprovalTransactionsSourceText" l="Shareholder Approval Significant Transactions Source Text" d="Limitations to the shareholders right to approve  significant company transitions such as M&amp;As (no rights to vote or supermajority required)?" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="VECTORWISEESG" vu="N" pc="ESGPeriodPC" cc="ESGSourceCC" dt="String" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EsgStringContentHandler</in:sp>
+			<in:sp k="id">CG_SH_SR_DP069</in:sp>
+			<in:sp k="idt">ORGPREFID</in:sp>
+			<in:sp k="table">EsgValueSourceKey</in:sp>
+			<in:sp k="column">esgsourceabstract</in:sp>
+		</i>
+	</c>
+</d>

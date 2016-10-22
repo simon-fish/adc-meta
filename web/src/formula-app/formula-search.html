@@ -1,0 +1,166 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/vaadin-grid/vaadin-grid.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+
+<!-- custom components -->
+<link rel="import" href="./formula-detail.html">
+<link rel="import" href="./formula-list.html">
+
+<dom-module id="formula-search">
+    <style is="custom-style">
+        vaadin-grid {
+            font-family: "Roboto"
+            --default-primary-color: red;
+            --vaadin-grid-row-height: 36px;
+            --vaadin-grid-header-row-height: 44px;
+            --vaadin-grid-footer-row-height: 44px;
+        }
+        .list {
+
+            margin: 20px;
+            width: 50%;
+        }
+        .details {
+            width: 50%;
+            margin: 20px;
+
+        }
+        .search {
+            display: block;
+            width: 100%;
+            background-color: #fff;
+            height: 100px;
+        }
+        .container {
+            width: 100%;
+            padding-top: 20px;
+            background-color: #e1e1e1;
+        }
+        paper-input {
+            width: 60%;
+            magin-left: 50px;
+        }
+    </style>
+    <template>
+        <iron-ajax
+            auto 
+            url={{_url}}
+            handle-as="json"
+            last-response="{{results}}"
+            ></iron-ajax>
+        <!-- Seach Input -->
+        <div class="search">
+            <paper-input label="Formula" value="{{search::input}}">
+                <iron-icon icon="icons:search" prefix></iron-icon>
+            </paper-input>
+        </div>
+
+        <div class="container horizontal layout">
+            <div class="list" id="formulaListContainer"></div>
+            <div class="details" id="formula-item"></div>         
+        </div>
+
+    </template>
+
+    <script>
+        Polymer({
+            is : 'formula-search',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    notify: true
+                },
+                search: {
+                    type: String,
+                    notify: true
+                },
+                results: {
+                    type: Array,
+                    notify: true,
+                    observer: '_updateItems'
+                },
+                _url: {
+                    type: String,
+                    computed: '_buildURL(endpoint, search)'
+                },
+                _formula: {
+                    type: Object,
+
+                },
+
+            },
+
+            _buildURL: function(endpoint, search){
+                return endpoint + '/api/formula/search/' + search;
+            },
+            _updateItems: function(){
+
+                // Query grid, if not exist create one.
+                var grid = document.querySelector('#formulaGrid');
+                var container = this.$.formulaListContainer;
+                var vaadin;
+                if (grid==undefined){
+                    grid = document.createElement("formula-list");
+                    grid.id = 'formulaGrid';
+                    vaadin = grid.getElementsByTagName('vaadin-grid')[0];
+                    
+                    // We need to access some data in 'this' object. However, inside callback
+                    // realm, 'this' means vaadin-grid itself. So, we need to access to temporary
+                    // 'self' instead. (Other option is use .bind(this), but do not have much time
+                    // to get around it, besides, the callback requires to access both 'this' from context
+                    // and 'this' from vaadin-grid itself. So, it is a little bit tricky)
+                    var self = this;
+
+
+                    // register event listener
+                    // Fist selection we need to create formula-detail object since it is not exist yet
+                    // After that we reuse the same formula-detail object by query using it id
+
+                    // Anyway, there is something strange, we have to explicitly call _updateContact function
+                    // even we already set it as an observer of property 'formula' See: formula-detail.html
+                    // Anyway, this should get the job done.
+                    vaadin.addEventListener('selected-items-changed', function(){
+                        var index = this.selection.selected();
+                        var data = this.items[index];
+                        if (index==''){
+                            return;
+                        }
+
+                        // Assign to formula-detail component
+                        // Query for existing widget
+                        var widget = document.querySelector('#formulaWidget');
+                        if (widget == undefined){
+                            var divDetail = document.querySelector('#formula-item');
+                            var elm = document.createElement("formula-detail");
+                            elm.endpoint = self.endpoint;
+                            elm.formula = data;
+                            elm._updateContact();
+                            elm.setAttribute("id", "formulaWidget");
+                            divDetail.appendChild(elm);
+                        }
+
+                        // If it already exist, reuse it by just simply push the data to its formula property
+                        else {
+                            widget.formula = data;
+                        }
+                    });
+
+                    container.appendChild(grid);
+                }
+                else{
+                    vaadin = grid.getElementsByTagName('vaadin-grid')[0];
+                }
+
+                vaadin.items = this.results;
+                vaadin.refreshItems();
+
+            }
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,281 @@
+﻿<d id="D_ECONADC" d="Economics" n="Economics" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_ECONADC_ID" n="Indicator Details" d="Indicator Details." lid="C_EI_ID" >
+		<i id="I_ECONADC_ID_EconIndMethodologicalCommentIndividualNote" n="TR.EconIndCommentIndividualNote" l="Comment Individual Note" d="An individual methodological comment  for a given time series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndMethodologicalCommentIndividualNote</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndMethodologicalCommentGeneralDefinitions" n="TR.EconIndCommentGeneralDefinitions" l="Comment General Definitions" d="Additional methodological information shared by a group of economic indicators" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndMethodologicalCommentGeneralDefinitionsCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndMethodologicalCommentLinkToMethodology" n="TR.EconIndCommentLinkToMethodology" l="Comment Link To Methodology" d="A link to the economic indicator's methodology provided on the source website." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndMethodologicalCommentLinkToMethodologyCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndMethodologicalCommentSummary" n="TR.EconIndCommentSummary" l="Comment Summary" d="Methodological definition for a given economic indicator" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndMethodologicalCommentSummaryCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndCopyrightNote" n="TR.EconIndCopyrightNote" l="Copyright Note" d="Source copyright note" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndCopyrightNoteCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconomicIndicatorDSMnemonicDataType" n="TR.EconIndDSMnemonicDataType" l="Indicator DSMnemonic DataType" d="Concatenated DS. Menmonic and DataType" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndDSMnemonicDataType</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconomicIndicatorEcowinId" n="TR.EconIndEcowinId" l="Indicator EcowinId" d="Ecowin Id" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndEcowinId</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndEntitlement" n="TR.EconIndEntitlement" l="Entitlement" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndEntitlement</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndForecastFirstPeriod" n="TR.EconIndForecastFirstPeriod" l="Forecast First Period" d="A date indicating the period from which the data in the time series is a forecast" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndForecastFirstPeriod</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsForecast" n="TR.EconIndIsForecast" l="Is Forecast" d="A flag indicating that the series shows data that are forecasts" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsForecast</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPointInTimeStartDate" n="TR.EconIndPointInTimeStartDate" l="Point In Time Start Date" d="A date pointing at a period from which the series observation revisions are validated. Also can be treated as a flag indicating that the series contains observation revisions that have been validated." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPointInTimeStartDate</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconKeyIndicatorType" n="TR.EconIndEconKeyIndicatorType" l="Indicator Type" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.IndicatorType" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndKeyIndicatorTypeCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndReferralBack" n="TR.EconIndReferralBack" l="Referral Back" d="A permanent identifier of a time series that holds the data for the same indicator that was discontinued because of methodology changes" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndReferralBack</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndReferralForward" n="TR.EconIndReferralForward" l="Referral Forward" d="A permanent identifier of a time series that holds the data for the same indicator that succeeded this now discontinued series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndReferralForward</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_HasReferralBackOf" n="TR.EconIndHasReferralBackOf" l="Has Referral Back Of" d="A permanent identifier of a time series that holds the data for the same indicator that was discontinued because of methodology changes" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndReferralBack</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_HasReferralForwardOf" n="TR.EconIndHasReferralForwardOf" l="Has Referral Forward Of" d="A permanent identifier of a time series that holds the data for the same indicator that succeeded this now discontinued series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndReferralForward</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIndexBase" n="TR.EconIndIndexBase" l="Index Base" d="A base for the index series" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="Date" lid="EI.ID.BaseYear" isScreen="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIndexBaseCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndConstatPricesPeriod" n="TR.EconIndConstatPricesPeriod" l="Constant Prices Period" d="A base period  for a constant prices series" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndConstantPricesPeriodCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsCumulatedThroughoutTheYear" n="TR.EconIndIsCumulatedThroughoutTheYear" l="Is Cumulated Throughout TheYear" d="A flag indicating that a series is cumulated through the year." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsCumulatedThroughoutTheYear</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsAnnualRate" n="TR.EconIndIsAnnualRate" l="Is Annual Rate" d="A flag indicating that the series data is an Annualised growth rate. Annualised growth rates attempt to facilitate comparison of data for different time periods (e.g. years and quarters). However, because the impact of any irregular is magnified, use of this form of growth rate presentation is not recommended, especially as the key headline series. &#xD;&#xA;In addition to the compounded form of the Annualised growth rate presented here, the term “Annualised growth rate” is sometimes used to describe the quarterly or monthly growth rate multiplied by four or twelve.&#xD;&#xA;Multiplying the quarterly or monthly growth rate by four or twelve is more appropriately referred to as “Linear approximation of the annualised growth rate”.&#xD;&#xA;Some agencies use the expression “1-month rate of change, annualised”, etc, for such rates. (definition by OECD)" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsAnnualRate</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndAdjustmentFactor" n="TR.EconIndAdjustmentFactor" l="Adjustment Factor" d="Provides information on adjustments made on the series data as well as additional information essential for full understanding of the nature of the data." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.SeasonalAdj" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndAdjustmentFactorCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsDiscontinued" n="TR.EconIndIsDiscontinued" l="Is Discontinued" d="A flag indicating that the time series is discontinued meaning is no longer updated." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsDiscontinued</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndConversionType" n="TR.EconIndConversionType" l="Conversion Type" d="Indicates how the data can be converted to a different frequency. i.e. Monthly to Quarterly." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndConversionTypeCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndScale" n="TR.EconIndScale" l="Scale" d="An integer being an exponent of 10 indicating the scale at which the data is published in a series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.ScalingFactor" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndScale</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndLongDescription" n="TR.EconIndLongDescription" l="Long Description" d="Economic indicator long description" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndLongDescription</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndMidDescription" n="TR.EconIndMidDescription" l="Mid Description" d="Economic indicator mid description" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.IndicatorName" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndMidDescription</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndShortDescription" n="TR.EconIndShortDescription" l="Short Description" d="Economic indicator short description" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndShortDescription</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndNewsLink" n="TR.EconIndNewsLink" l="NewsLink" d="A link to the page of the economic indicator's source website containing the details of the press release." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndNewsLink</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndNewsLinkType" n="TR.EconIndNewsLinkType" l="NewsLink Type" d="Specifies a type of the link in EconIndNewsLink. Indicating if the link is stable or changing with each release." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndNewsLinkTypeCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsEikonMktMv" n="TR.EconIndIsEikonMktMv" l="Is Eikon Mkt Mv" d="Flag required  for populating the drop down list of indicators in Polling views. (Not recommended for use to other consumers)" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsEikonMktMvCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsEikonView" n="TR.EconIndIsEikonView" l="Is Eikon View" d="Flag required  for populating the drop down list of indicators in Polling views. (Not recommended for use to other consumers)" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsEikonView</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndRIC" n="TR.EconIndRIC" l="Indicator RIC" d="RIC" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndRIC</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndRelatedHistoricRIC" n="TR.EconIndRelatedHistoricRIC" l="Related Historic RIC" d="Historical RIC related to the time series" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndRelatedHistoricRIC</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndRelatedRealTimeRIC" n="TR.EconIndRelatedRealTimeRIC" l="Related Real Time RIC" d="Real time RICs related to the time series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndRelatedRealTimeRIC</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndECIRelation" n="TR.EconIndECIRelation" l="ECI Relation" d="2 way relation between Long term and Short term poll series. Placed in the series being base for the poll series. Is to allow navigation between short and long term polls  in the poll app on EIKON." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndECIRelation</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPollBase" n="TR.EconIndPollBase" l="Poll Base" d="Contains a PermId of a base series that the poll series is based on. The base series is a real time rice series or a shell series. As a reminder shell series are only holding the metadata needed for Long Term Poll series to be based on." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPollBase</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPollComponent" n="TR.EconIndPollComponent" l="Poll Component" d="This attribute holds a string identifying a given poll series as an element of the consensus (mean, hi, low, median etc.) series or contributor series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPollComponentCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPollType" n="TR.EconIndPollType" l="Poll Type" d="Indicates the type of poll the series is a part of. Also is present in the time series being the economic indicator a poll is provided for." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPollTypeCode</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndUnitId" n="TR.EconIndUnitId" l="Unit Id" d="Unit in which the data is reported in a time series" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.Unit" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndUnitId</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndCurrencyId" n="TR.EconIndCurrencyId" l="Currency Id" d="Currency in which the data is reported in in a time series" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.Currency" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndCurrencyId</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndGeographyId" n="TR.EconIndGeograpgyId" l="Geograpgy Id" d="TRCS geography PermId" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.CountryName" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndGeographyId</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndSourceId" n="TR.EconIndSourceId" l="Source Id" d="Source of the data. Can hold a permanent identifier for organization mastered in  Organization Authority  or a an enumeration in one of 2 Economic's mastered value domains" i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.Source" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndSourceId</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIndicatorClassification" n="TR.EconIndIndicatorClassification" l="Indicator Classification" d="Economic series classification. Points to a permanent identifier of RCS classifications held in metadata DB." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIndicatorClassification</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPiorReleaseRIC" n="TR.EconIndPiorReleaseRIC" l="Pior Release RIC" d="Used in economic indicators published in several releases i.e. preliminary/interim/final. Points to a series with a previous release." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPriorReleaseRIC</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndRICReleaseOrder" n="TR.EconIndRICReleaseOrder" l="RIC Release Order" d="Used in economic indicators published in several releases i.e. preliminary/interim/final. Indicates which release is the time series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndRICReleaseOrder</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndStatisticalVariables" n="TR.EconIndStatisticalVariables" l="Statistical Variables" d="Provides various information on the nature of the data in a time series. Is complementary to the information provided in EconIndAdjustmentFactor." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndStatisticalVariables</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndPeriodicity" n="TR.EconIndPeriodicity" l="Periodicity" d="Defines the period brake down level at which the data is reported in a given time series." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" lid="EI.ID.Periodicity" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndPeriodicity</in:sp>
+		</i>
+		<i id="I_ECONADC_ID_EconIndIsTestSeries" n="TR.EconIndIsTestSeries" l="Is Test Series" d="Flag indicating that given series is used for test purposes." i="M:E5" s="ECONOMICINDICATORS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorMetadata</in:sp>
+			<in:sp k="id">EconIndIsTestSeries</in:sp>
+		</i>
+	</c>
+	<c id="C_ECONADC_IH" n="Indicator History" d="Indicator History." >
+		<i id="I_ECONADC_IH_EconIndDate" n="TR.EconIndDate" l="Economic Indicator Date" d="The date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconObservations" cc="EconObsnpConsEst" vc="date" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorObservations</in:sp>
+			<in:sp k="id">EconIndObservationValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndObservationDate" n="TR.EconIndObservationDate" l="Economic Indicator Observation Date" d="The observation (start of period) date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconObservations" cc="EconObsnpConsEst" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorObservations</in:sp>
+			<in:sp k="id">EconIndObservationDate</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndEndOfPeriodDate" n="TR.EconIndEndOfPeriodDate" l="Economic Indicator EndOfPeriod Date" d="The observation (start of period) date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconObservations" cc="EconObsnpConsEst" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorObservations</in:sp>
+			<in:sp k="id">EconIndObservationEndOfPeriodDate</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndCurrency" n="TR.EconIndCurrency" l="Economic Indicator Currency" d="The currency associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconObservations" cc="EconObsnpConsEst" vc="currency" dt="String" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorObservations</in:sp>
+			<in:sp k="id">EconIndObservationValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndrTimeSeries" n="TR.EconIndTimeSeries" l="Economic Indicator Time Series" d="The value of the Economic Indicator" i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconObservations" cc="EconObsnpConsEst" dt="String" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorObservations</in:sp>
+			<in:sp k="id">EconIndObservationValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndRevisionDate" n="TR.EconIndrRevisionDate" l="Economic Indicator Revision Date" d="The date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" vc="date" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndRevisionrObservationDate" n="TR.EconIndRevisionrObservationDate" l="Economic Indicator Revision Observation Date" d="The observation (start of period) date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionObservationDate</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndRevisionEndOfPeriodDate" n="TR.EconIndRevisionEndOfPeriodDate" l="Economic Indicator Revision End Of Period Date" d="The observation (start of period) date associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionObservationEndOfPeriodDate</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndRevisionCurrency" n="TR.EconIndRevisionCurrency" l="Economic Indicator Revision Currency" d="The currency associated to each time series value." i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" vc="currency" dt="String" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndrRevisionTimeSeries" n="TR.EconIndRevisionTimeSeries" l="Economic Indicator Revision Time Series" d="The value of the Economic Indicator" i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" dt="String" lid="EI.IH.Value" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionValue</in:sp>
+		</i>
+		<i id="I_ECONADC_IH_EconIndRevisionReleaseDate" n="TR.EconIndRevisionReleaseDate" l="Economic Indicator Revision Release Date" d="The release date of the Economic Indicator" i="M:E5" s="ECONOMICINDICATORS" vu="N" pc="EconRevisions" cc="EconObsnpConsEst" vc="releasedate" dt="Date" lid="EI.IH.Value" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="fn">EconomicIndicatorRevisions</in:sp>
+			<in:sp k="id">EconIndRevisionValue</in:sp>
+		</i>
+	</c>
+</d>

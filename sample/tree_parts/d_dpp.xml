@@ -1,0 +1,1707 @@
+<!--<d id="D_DEALS_PP" n="Deals" d="Deals" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">-->
+<c id="C_Deals_PZP" n="Poison Pill Defense" d="Poison Pill Defense" m="" a="3600" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+  <c id="C_Deals_PZP_DealDetails" n="Deal Details" d="Poison Pill Deal Details" m="">
+    <i id="I_Deals_PZP_ExemptionTypeCode" n="TR.PZPExemptionTypeCode" l="Grandfather Exemption Type Code" d="Code(s) describing the type of exemption provided by the grandfather provision" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptionTypeCode</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptionTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptionTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptionTypeDescription" n="TR.PZPExemptionType" l="Grandfather Exemption Type" d="The type of exemption provided by the grandfather provision" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPExemptionTypeDesc</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptionTypeKey</in:sp>
+      <in:sp k="valuedomainid">6001116</in:sp>
+      <in:sp k="column">ExemptionTypeCode</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptionTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyCidgen" n="TR.PZPExemptedPartyCidgen" l="Exempted Party Cidgen" d="Exempted Party Cidgen" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyCidgen</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyName" n="TR.PZPExemptedPartyName" l="Exempted Party Short Name" d="Exempted Party Short Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPExemptedPartyName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPExemptedPartyCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyEntityId" n="TR.PZPExemptedPartyEntityId" l="Exempted Party Organization Perm Id" d="If exempted party is an Organization, OA Perm Id of the exempted party, as per the grandfather clause." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyEntityId</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyUltimateParentCidgen" n="TR.PZPExemptedPartyUltParentCidgen" l="Exempted Party Ultimate Parent Cidgen" d="Exempted Party Ultimate Parent Cidgen" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyUltimateParentCidgen</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyUltimateParentName" n="TR.PZPExemptedPartyUltParentName" l="Exempted Party Ultimate Parent Short Name" d="Exempted Party Ultimate Parent Short Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPExemptedPartyUltParentName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPExemptedPartyUltParentCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyUltimateParentOrganizationId" n="TR.PZPExemptedPartyUltParentEntityId" l="Exempted Party Ultimate Parent Entity Id" d="Exempted Party Ultimate Parent Entity Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyUltimateParentOrganizationId</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyImmediateParentCidgen" n="TR.PZPExemptedPartyImmParentCidgen" l="Exempted Party Immediate Parent Cidgen" d="Exempted Party Immediate Parent Cidgen" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyImmediateParentCidgen</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyImmediateParentName" n="TR.PZPExemptedPartyImmParentName" l="Exempted Party Immediate Parent Short Name" d="Exempted Party Immediate Parent Short Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPExemptedPartyImmParentName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPExemptedPartyImmParentCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExemptedPartyImmediateParentOrganizationId" n="TR.PZPExemptedPartyImmParentEntityId" l="Exempted Party Immediate Parent Entity Id" d="Exempted Party Immediate Parent Entity Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">ExemptedPartyImmediateParentOrganizationId</in:sp>
+      <in:sp k="table">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+      <in:sp k="mtable">PoisonPillGrandfatherExemptedPartyKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfSharesForWhichRightIsExercisable" n="TR.PZPNumOfShrForWhichRightIsExercisable" l="Number Of Shares For Which Right Is Exercisable" d="Number Of Shares For Which Right Is Exercisable" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">NumberOfSharesForWhichRightIsExercisable</in:sp>
+      <in:sp k="table">PoisonPillSecurityTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillSecurityTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SecurityDescriptionText" n="TR.PZPSecurityDescText" l="Security Description Text" d="Textual summary of the Security being exercised for Rights" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">SecurityDescriptionText</in:sp>
+      <in:sp k="table">PoisonPillSecurityTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillSecurityTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SecurityDescriptionTextLanguageId" n="TR.PZPSecurityDescTextLang" l="Security Description Text Language Perm Id" d="Security Description Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">SecurityDescriptionTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillSecurityTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillSecurityTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SecurityTypeCode" n="TR.PZPSecurityTypeCode" l="Security Type Code(s)" d="Code(s) indicating type of securit(ies) for which right may be exercised." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">SecurityTypeCode</in:sp>
+      <in:sp k="table">PoisonPillSecurityTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillSecurityTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SecurityTypeDescription" n="TR.PZPSecurityTypeDesc" l="Security Type Description" d="Indicating type of securit(ies) for which right may be exercised." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPSecurityTypeDesc</in:sp>
+      <in:sp k="table">PoisonPillSecurityTypeKey</in:sp>
+      <in:sp k="valuedomainid">6001119</in:sp>
+      <in:sp k="column">SecurityTypeCode</in:sp>
+      <in:sp k="mtable">PoisonPillSecurityTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentDescriptionText" n="TR.PZPAmendDescription" l="Amendment Description Text" d="Text summary describing the amendment made to the poison pill plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">AmendmentDescriptionText</in:sp>
+      <in:sp k="table">PoisonPillAmendmentTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillAmendmentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentDescriptionTextLanguageId" n="TR.PZPAmendDescTextLang" l="Amendment Description Text Language Perm Id" d="Amendment Description Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">AmendmentDescriptionTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillAmendmentTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillAmendmentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentTypeCode" n="TR.PZPAmendTypeCode" l="Amendment Type Code" d="Code indicating the reason for amendment of the poison pill plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">AmendmentTypeCode</in:sp>
+      <in:sp k="table">PoisonPillAmendmentTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillAmendmentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentTypeDescription" n="TR.PZPAmendTypeDesc" l="Amendment Type Description" d="Indicating the reason for amendment of the poison pill plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false" rid="I_Deals_PZP_AmendmentTypeDescriptionDD">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPAmendTypeDesc</in:sp>
+      <in:sp k="table">PoisonPillAmendmentTypeKey</in:sp>
+      <in:sp k="valuedomainid">6001110</in:sp>
+      <in:sp k="column">AmendmentTypeCode</in:sp>
+      <in:sp k="mtable">PoisonPillAmendmentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentTypeDescriptionDD" n="TR.PZPAmendType" l="Amendment Type Description" d="Indicating the reason for amendment of the poison pill plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPAmendType</in:sp>
+      <in:sp k="table">PoisonPillAmendmentTypeKey</in:sp>
+      <in:sp k="valuedomainid">6001110</in:sp>
+      <in:sp k="column">AmendmentTypeCode</in:sp>
+      <in:sp k="mtable">PoisonPillAmendmentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsRelatedMnaDealId" n="TR.PZPRelatedMnaDealId" l="Related M&amp;A Deal Perm Id" d="Related M&amp;A Deal Permanent Identifier" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsRelatedMnaDealId</in:sp>
+      <in:sp k="table">PoisonPillRelatedMnaDealKey</in:sp>
+      <in:sp k="mtable">PoisonPillRelatedMnaDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsRelatedMnaSdcDealNumber" n="TR.PZPRelatedMnaSdcDealNum" l="Related M&amp;A SDC Deal Number" d="Unique identifier of a related M&amp;A deal, local to Deals db." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsRelatedMnaSdcDealNumber</in:sp>
+      <in:sp k="table">PoisonPillRelatedMnaDealKey</in:sp>
+      <in:sp k="mtable">PoisonPillRelatedMnaDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_CommentTypeCode" n="TR.PZPCommentTypeCode" l="Comment Type Code" d="Code(s) describing which area(s) of the plan the comment refers to" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">CommentTypeCode</in:sp>
+      <in:sp k="table">PoisonPillCommentTypeKey</in:sp>
+      <in:sp k="mtable">PoisonPillCommentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_CommentTypeDescription" n="TR.PZPCommentType" l="Comment Type" d="Description of  area(s) of the plan the comment refers to" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPCommentTypeDesc</in:sp>
+      <in:sp k="table">PoisonPillCommentTypeKey</in:sp>
+      <in:sp k="valuedomainid">6001114</in:sp>
+      <in:sp k="column">CommentTypeCode</in:sp>
+      <in:sp k="mtable">PoisonPillCommentTypeKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AdoptionImpetusCode" n="TR.PZPAdoptImpetusCode" l="Adoption Impetus Code" d="Code describing the Board's motivation for adoption of the amendment as disclosed in the SEC filings, letters to shareholders or press releases." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AdoptionImpetusCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AdoptionImpetusDescription" n="TR.PZPAdoptImpetusDesc" l="Adoption Impetus" d="Description of the Board's motivation for adoption of the amendment as disclosed in the SEC filings, letters to shareholders or press releases." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false" rid="I_Deals_PZP_AdoptionImpetusDescriptionDD">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPAdoptImpetusDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001111</in:sp>
+      <in:sp k="column">AdoptionImpetusCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AdoptionImpetusDescriptionDD" n="TR.PZPAdoptImpetus" l="Adoption Impetus" d="Description of the Board's motivation for adoption of the amendment as disclosed in the SEC filings, letters to shareholders or press releases." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPAdoptImpetus</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001111</in:sp>
+      <in:sp k="column">AdoptionImpetusCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_OriginalPillAdoptionImpetusCode" n="TR.PZPOrigPillAdoptImpetusCode" l="Original Pill Adoption Impetus Code" d="Code describing the Board's motivation for adoption of the original plan as disclosed in the SEC filings, letters to shareholders or press releases." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">OriginalPillAdoptionImpetusCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_OriginalPillAdoptionImpetusDescription" n="TR.PZPOrigPillAdoptImpetus" l="Original Pill Adoption Impetus" d="Code describing the Board's motivation for adoption of the original plan as disclosed in the SEC filings, letters to shareholders or press releases." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPOrigPillAdoptImpetusDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001111</in:sp>
+      <in:sp k="column">OriginalPillAdoptionImpetusCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillStatusCode" n="TR.PZPPillStatusCode" l="Pill Status Code" d="Code indicating the current status of the plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PillStatusCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillStatusDescription" n="TR.PZPPillStatusDesc" l="Pill Status Description" d="Description indicating the current status of the plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false" rid="I_Deals_PZP_PillStatusDescriptionDD">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPPillStatusDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001112</in:sp>
+      <in:sp k="column">PillStatusCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillStatusDescriptionDD" n="TR.PZPPillStatus" l="Pill Status Description" d="Description indicating the current status of the plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPPillStatus</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001112</in:sp>
+      <in:sp k="column">PillStatusCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillTypeCode" n="TR.PZPPillTypeCode" l="Pill Type Code" d="Code for form of rights plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PillTypeCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillTypeDescription" n="TR.PZPPillTypeDesc" l="Pill Type Description" d="Description for form of rights plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false" rid="I_Deals_PZP_PillTypeDescriptionDD">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPPillTypeDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001113</in:sp>
+      <in:sp k="column">PillTypeCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillTypeDescriptionDD" n="TR.PZPPillType" l="Pill Type Description" d="Description for form of rights plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPPillType</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001113</in:sp>
+      <in:sp k="column">PillTypeCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_FractionalOrWholeIndicatorCode" n="TR.PZPFractionalOrWholeIndicatorCode" l="Fractional Or Whole Indicator Code" d="Code indicating whether the right is exerciseable for fractional, whole shares or other considerations" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">FractionalOrWholeIndicatorCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_FractionalOrWholeIndicatorDescription" n="TR.PZPFractionalOrWholeIndicator" l="Fractional Or Whole Indicator Description" d="Indicating whether the right is exerciseable for fractional, whole shares or other considerations" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPFractionalOrWholeIndicatorDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001115</in:sp>
+      <in:sp k="column">FractionalOrWholeIndicatorCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentDirectorQualificationCode" n="TR.PZPAmendDirectorQualificationCode" l="Amendment Director Qualification Code" d="Amendment Director Qualification Code: During such time as there is an Acquiring Person a majority of &quot;continuing,&quot; &quot;disinterested&quot; or &quot;independent&quot; directors is required to amend the rights. To qualify, directors most commonly must not be affiliates of t" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AmendmentDirectorQualificationCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentDirectorQualificationDescription" n="TR.PZPAmendDirectorQualification" l="Amendment Director Qualification Description" d="Amendment Director Qualification Code: During such time as there is an Acquiring Person a majority of &quot;continuing,&quot; &quot;disinterested&quot; or &quot;independent&quot; directors is required to amend the rights. To qualify, directors most commonly must not be affiliates of t" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPAmendDirectorQualificationDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001109</in:sp>
+      <in:sp k="column">AmendmentDirectorQualificationCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RedemptionDirectorQualificationCode" n="TR.PZPRedemptionDirectorQualificationCode" l="Redemption Director Qualification Code" d="During such time as there is an Acquiring Person, a majority of the qualified directors is required to redeem the rights. To qualify, directors most commonly must not be affiliates of the Acquiring Person and/or must have served a minimum term." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RedemptionDirectorQualificationCode</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RedemptionDirectorQualificationDescription" n="TR.PZPRedemptionDirectorQualificationDesc" l="Redemption Director Qualification Description" d="During such time as there is an Acquiring Person, a majority of the qualified directors is required to redeem the rights. To qualify, directors most commonly must not be affiliates of the Acquiring Person and/or must have served a minimum term." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false" rid="I_Deals_PZP_RedemptionDirectorQualificationDescriptionDD">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPRedemptionDirectorQualificationDesc</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001109</in:sp>
+      <in:sp k="column">RedemptionDirectorQualificationCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RedemptionDirectorQualificationDescriptionDD" n="TR.PZPRedemptionDirectorQualification" l="Redemption Director Qualification Description" d="During such time as there is an Acquiring Person, a majority of the qualified directors is required to redeem the rights. To qualify, directors most commonly must not be affiliates of the Acquiring Person and/or must have served a minimum term." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPRedemptionDirectorQualification</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="valuedomainid">6001109</in:sp>
+      <in:sp k="column">RedemptionDirectorQualificationCode</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AcquiringPersonPercentage" n="TR.PZPAcqPersonPct" l="Acquiring Person Percentage" d="Percent at which an acquiring stockholder is deemed to be an ‘Acquiring Person.'  This is most often the same as the % TO SEPARATE and the FLIP IN %." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AcquiringPersonPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AcquiringPersonStakeAfterFlipIn" n="TR.PZPAcqPersonStakeAfterFlipIn" l="Acquiring Person's Stake After Flip-In" d="Acquiring person's stake after flip-in, stated as a percent." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AcquiringPersonStakeAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AdversePersonPercentage" n="TR.PZPAdversePersonPct" l="Adverse Person Percentage" d="The minimum level of ownership at which a person can be declared an adverse person." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AdversePersonPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DividendFailureTriggerPercentage" n="TR.PZPDividendFailureTriggerPct" l="Dividend Failure Trigger Percentage" d="Percentage at which rights will flip-in if, during such time as there is an Acquiring Person, there shall be a reduction (or failure to increase to reflect reclassification) in the annual rate of dividends except for valid business reasons. Most commonly," s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DividendFailureTriggerPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_FlipoverPercentage" n="TR.PZPFlipoverPct" l="Flip Over Percentage" d="Percentage (usually 50%) of beneficial share ownership at which the rights entitle holders to purchase shares of the acquiring company at a bargain purchase price" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">FlipoverPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_LimitedThresholdReductionPercentage" n="TR.PZPLimitedThresholdReductionPct" l="Limited Threshold Reduction Percentage" d="The minimum percentage to which thresholds may be reduced under a limited threshold reduction provision" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">LimitedThresholdReductionPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_MinimumDiscretionaryTriggerPercentage" n="TR.PZPMinimumDiscretionaryTriggerPct" l="Minimum Discretionary Trigger Percentage" d="Minimum of all discretionary flip-in trigger percentages (i.e. adverse person, modified adverse person, passive increase, self-dealing and dividend failure trigger percentages)" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MinimumDiscretionaryTriggerPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_MinimunFlipInPercentage" n="TR.PZPMinimunFlipInPct" l="Minimun Flip In Percentage" d="Minimum of all status and discretionary flip-in trigger percentages (i.e. status flip-in, adverse person, modified adverse person, passive increase, self-dealing and dividend failure trigger percentages)." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MinimunFlipInPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PassiveIncreasePercentageCap" n="TR.PZPPassiveIncreasePctCap" l="Passive Increase Cap (%)" d="Passive Increase Cap, stated as a percent" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PassiveIncreasePercentageCap</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PassiveIncreaseTriggerPercentage" n="TR.PZPPassiveIncreaseTriggerPct" l="Passive Increase Trigger Percentage" d="Percentage of a company’s common stock that a recapitalizing acquirer must hold in order for the rights to flip in. (e.g. if the acquiring percent is 20% and any acquiring person engineered a recapitalization that raised the stake by 1% or more would set" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PassiveIncreaseTriggerPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentToSeparateUponShareAcquisition" n="TR.PZPPctToSeparateUponShareAcquisition" l="Percent To Separate Upon Share Acquisition" d="Percentage acquisition of the company’s common stock by a person other than the company or another entity at which the rights will separate from the common shares and become exercisable to buy the ‘securities that the warrant will purchase’" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentToSeparateUponShareAcquisition</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentToSeparateUponTenderOffer" n="TR.PZPPctToSeparateUponTenderOffer" l="Percent to Separate Upon Tender Offer" d="Percentage acquisition declared as the goal of the tender offer for the company’s common stock. (i.e. if a tender offer is launched for this % of common stock of the issuing company, then the rights will separate." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentToSeparateUponTenderOffer</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedPctChangeInAcqPersonShareVal" n="TR.PZPProjPctChgInAcqPersonShareVal" l="Projected Percent Change in Value of Acquiring Person's Shares" d="Projected Percent Change in Value of Acquiring Person's Shares" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedPctChangeInAcqPersonShareVal</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedPctChangeInPubShareValAfterFlipIn" n="TR.PZPProjPctChgInPubShareValAfterFlipIn" l="Projected Percent Change in Value of Public Shares After Flip-In" d="Projected Percent Change in Value of Public Shares After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedPctChangeInPubShareValAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PublicPercentageStakeAfterFlipIn" n="TR.PZPPublicPctStakeAfterFlipIn" l="Public Stake After Flip In" d="Public Stake After Flip In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PublicPercentageStakeAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SelfDealingTriggerPercentage" n="TR.PZPSelfDealingTriggerPct" l="Self Dealing Trigger Percentage" d="Percentage threshold of beneficial ownership at which the rights will flip-in if the Acquiring Person engages in certain self-dealing transactions as defined in the rights agreement." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SelfDealingTriggerPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ShareholderReferendumPercentage" n="TR.PZPShareholderReferendumPct" l="Shareholder Referendum Percentage" d="Maximum percentage of beneficial ownership which may be held by a “qualified offeror” in order to qualify under the shareholder referendum option" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ShareholderReferendumPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_StatusFlipInTriggerPercentage" n="TR.PZPStatusFlipInTriggerPct" l="Status Flip-In Trigger Percentage" d="Percentage of beneficial ownership of the issuer at which the rights will 'flip-in' (e.g. become rights to purchase common shares or in some cases, purchase notes or receive cash) at a significant discount to the market price (most commonly .50). The &quot;sta" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">StatusFlipInTriggerPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_YoYoRedemptionPercentage" n="TR.PZPYoYoRedemptionPct" l="YoYoRedemptionForReducedOwnershipPercentage" d="Percentage below which the Acquiring Person must reduce his/her ownership in order to reinstate the board’s right to redeem the rights after the close of the redemption window." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">YoYoRedemptionPercentage</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DurationOfPlanInYears" n="TR.PZPDurationOfPlanInYears" l="Duration of Plan in Years" d="Duration of Plan in Years" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DurationOfPlanInYears</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_FlipInBargainFactor" n="TR.PZPFlipInBargainFactor" l="Flip In Bargain Factor" d="Multiple of the market value that the company’s share must be purchased for upon the status flip in % being reached. It is almost always .5 (i.e. the shares can be purchased for 50% of their market value)" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">FlipInBargainFactor</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfSharesPuchaseablePerRight" n="TR.PZPNumOfShrPuchaseablePerRight" l="Number Of Shares Puchaseable Per Right" d="Number Of Shares Puchaseable Per Right" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NumberOfSharesPuchaseablePerRight</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedNewSharesIssuedAsResultOfFlipIn" n="TR.PZPProjNewShrIssuedAsResultOfFlipIn" l="Projected New Shares Issued as Result of Flip-In" d="Projected New Shares Issued as Result of Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedNewSharesIssuedAsResultOfFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AmendmentNumber" n="TR.PZPAmendNum" l="Amendment Number Of The Rights Agreement" d="Number of Amendments to Rights Agreement: If the record is an amendment, the number of the amendment to rights agreement. Amendments that amend SEC filings but do not impact the provisions of the rights plan (e.g. make corrections to Item 1 of the 8-A) ar" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AmendmentNumber</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerActualCommonSharesOutstanding" n="TR.PZPIssuerActualComShrOut" l="Issuer Actual Common Shares Outstanding" d="Number of issuers primary shares outstanding, not including options, warrants, and convertibles." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerActualCommonSharesOutstanding</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerFullyDilutedCommonSharesOutstanding" n="TR.PZPIssuerFullyDilutedComShrOut" l="Issuer Fully Diluted Common Shares Outstanding" d="Fully-diluted common shares outstanding of the company issuing the rights plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerFullyDilutedCommonSharesOutstanding</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfDaysAsRedemptionWindow" n="TR.PZPNumOfDaysAsRedemptionWindow" l="Number Of Days As Redemption Window" d="Redemption Window (Days): The number of days after the stock acquisition date (date on which an Acquiring Person becomes such) during which the rights may be redeemed. In plans with adverse person provisions, rights are usually non-redeemable after a pers" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NumberOfDaysAsRedemptionWindow</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfDistributionDays" n="TR.PZPNumOfDistributionDays" l="Number Of Distribution Days" d="Number of days after an acquisition, that the rights will separate, usually 10" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NumberOfDistributionDays</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfSharesEquivToAcqPersonHoldings" n="TR.PZPNumOfShrEquivToAcqPersonHoldings" l="Number of Shares Equivalent to Acquiring Person Holdings After Flip-In" d="Number of Shares Equivalent to Acquiring Person Holdings After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NumberOfSharesEquivToAcqPersonHoldings</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NumberOfSharesEquivToPubShareholderHoldings" n="TR.PZPNumOfShrEquivToPubShareholderHoldings" l="Number of Shares Equivalent to Public Shareholders Holdings" d="Number of Shares Equivalent to Public Shareholders Holdings" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NumberOfSharesEquivToPubShareholderHoldings</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsSdcDealNumber" n="TR.PZPPoisonPillsSdcDealNum" l="SDC Deal Number" d="Unique Deal Identifier, local to the Deals db" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsSdcDealNumber</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PublicSharesAfterFlipIn" n="TR.PZPPublicShrAfterFlipIn" l="Public Shares After Flip-In" d="Public Shares After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PublicSharesAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SdcDealNumberOfMostRecentAmendment" n="TR.PZPSdcDealNumOfMostRecentAmend" l="SDC Deal Number Of Most Recent Amendment" d="Unique Identifier of the deal which was immediately before this amendment." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SdcDealNumberOfMostRecentAmendment</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SdcDealNumberOfOriginalPlan" n="TR.PZPSdcDealNumOfOrigPlan" l="Sdc Deal Number Of Original Plan" d="A new plan adopted by a company is an original plan. This field is auto populated. This log number is the first version of the current plan, subsequent amendments will have unique log numbers that will be also be auto-populated. The original log number wi" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SdcDealNumberOfOriginalPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_TotalAuthorizedSharesOfPreferredStock" n="TR.PZPTotAuthorizedShrOfPreferredStock" l="Total Authorized Shares of Preferred Stock" d="Total authorized shares of the issue of preferred stock that the rights will be exercisable to buy (this field will be available only if the SECUTITY TYPE is ‘P’)." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">TotalAuthorizedSharesOfPreferredStock</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_TotalSharesAfterFlipIn" n="TR.PZPTotShrAfterFlipIn" l="Total Common Shares Outstanding After FlipIn" d="Total Common Shares Outstanding After Flip In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">TotalSharesAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AdjustedExercisePrice" n="TR.PZPAdjustedExercisePrice" l="Adjusted Exercise Price Of Rights" d="Purchase price for the equivalent of one common share.  For example, if the unadjusted exercise price is $150 and the rights are exerciseable for one half share of common stock then the adjusted exercise price is $300 (=150/.5). Any fractional share of pre" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AdjustedExercisePrice</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">AdjustedExercisePriceCurrerncyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DealRedemptionPrice" n="TR.PZPDealRedemptionPrice" l="Redemption Price" d="Price which must be paid by the issuer as consideration for redeeming the rights before they have expired." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DealRedemptionPrice</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">DealRedemptionPriceCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_MktValOfAcqPersonSharesOnAdoptionDate" n="TR.PZPMktValOfAcqPersonShrOnAdoptDate" l="Market Value of Acquiring Person's Shares on Adoption Date, stated in US$ Millions" d="Number of shares held by the Acquiring Person multiplied by the closing market price of the issuer's common shares on the date of the announcement, divided by 1,000,000.&#xD;&#xA;Formula:  BFASHR x PRDAYOF / 1000000" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MktValOfAcqPersonSharesOnAdoptionDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">MktValOfAcqPersonSharesOnAdoptionDateCurrencyId</in:sp>
+      <in:sp k="Scale">MktValOfAcqPersonSharesOnAdoptionDateScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_MktValOfPublicSharesOnAdoptionDate" n="TR.PZPMktValOfPublicShrOnAdoptDate" l="Market Value of Public's Shares on Adoption Date" d="The product of the number of shares equivalent to the public shareholders' stake and the closing market price of the issuer's common shares on the date of the announcement.&#xD;&#xA;Formula: BFPSHR x PRDAYOF" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MktValOfPublicSharesOnAdoptionDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">MktValOfPublicSharesOnAdoptionDateCurrencyId</in:sp>
+      <in:sp k="Scale">MktValOfPublicSharesOnAdoptionDateScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NetOperatingLoss" n="TR.PZPNetOperatingLoss" l="Net Operating Loss" d="Net Operating Loss, stated in millions; applies to tax benefit plans only." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NetOperatingLoss</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">NetOperatingLossCurrencyId</in:sp>
+      <in:sp k="Scale">NetOperatingLossScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">NetOperatingDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PerShareValueOfSharesExercised" n="TR.PZPPerShareValueOfShrExercised" l="Value Of Shares Exercised" d="Value of Shares Exercise" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PerShareValueOfSharesExercised</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">PerShareValueOfSharesExercisedCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedAcqPersonShareValAfterFlipIn" n="TR.PZPProjAcqPersonShareValAfterFlipIn" l="Projected Value of Acquiring Person's Shares After Flip-In" d="Projected Value of Acquiring Person's Shares After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedAcqPersonShareValAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedAcqPersonShareValAfterFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedAcqPersonShareValAfterFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedCapitalInfusionResultingFromFlipIn" n="TR.PZPProjCapitalInfusionResultingFromFlipIn" l="Projected Capital Infusion Resulting from Flip-In" d="Projected Capital Infusion Resulting from Flip-In, stated in millions." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedCapitalInfusionResultingFromFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedCapitalInfusionResultingFromFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedCapitalInfusionResultingFromFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedDollarGainToPubShareholdersAfterFlipIn" n="TR.PZPProjDollarGainToPubShareholdersAfterFlipIn" l="Projected Per Share Dollar Gain to Public Shareholders After Flip-In" d="Projected Per Share Dollar Gain to Public Shareholders After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedDollarGainToPubShareholdersAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedDollarGainToPubShareholdersAfterFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedDollarGainToPubShareholdersAfterFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedDollarLossToAcqPersonAfterFlipIn" n="TR.PZPProjDollarLossToAcqPersonAfterFlipIn" l="Projected Per Share Dollar Loss to Acquiring Person After Flip-In" d="Projected Per Share Dollar Loss to Acquiring Person After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedDollarLossToAcqPersonAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedDollarLossToAcqPersonAfterFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedDollarLossToAcqPersonAfterFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedMktCapitalizationAfterFlipIn" n="TR.PZPProjMktCapitalizationAfterFlipIn" l="Projected Market Capitalization After Flip-In" d="Projected Market Capitalization After Flip-In, stated in millions." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedMktCapitalizationAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedMktCapitalizationAfterFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedMktCapitalizationAfterFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedMktPriceOfIssuerCommonStockAfterFlipIn" n="TR.PZPProjMktPriceOfIssuerComStockAfterFlipIn" l="Projected Market Price of Issuer's Common Stock After Flip-In" d="Projected Market Price of Issuer's Common After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedMktPriceOfIssuerCommonStockAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedMktPriceOfIssuerCommonStockAfterFlipInCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ProjectedPubShareValAfterFlipIn" n="TR.PZPProjPubShareValAfterFlipIn" l="Projected Value of Public Shares After Flip-In" d="Projected Value of Public Shares After Flip-In" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ProjectedPubShareValAfterFlipIn</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">ProjectedPubShareValAfterFlipInCurrencyId</in:sp>
+      <in:sp k="Scale">ProjectedPubShareValAfterFlipInScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_TotalMktValOfIssuerCommonStockOnAnnounceDate" n="TR.PZPTotMktValOfIssuerComStockOnAnnDate" l="Total Market Value of Issuer's Common Shares on Announcement Date" d="The product of the number of common shares outstanding at the time of adoption and the closing market price of the Issuer's common shares on the day of announcement.&#xD;&#xA;Formula: PACT x PRDAYOF" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">TotalMktValOfIssuerCommonStockOnAnnounceDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">TotalMktValOfIssuerCommonStockOnAnnounceDateCurrencyId</in:sp>
+      <in:sp k="Scale">TotalMktValOfIssuerCommonStockOnAnnounceDateScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_UnadjustedExercisePrice" n="TR.PZPUnadjustedExercisePrice" l="Unadjusted Exercise Price of Rights" d="Amount that must be spent when the rights become exercisable to exercise them. Purchase price at which the rights entitle the holder to purchase the number of shares as specified in the rights agreement. Prices quoted in foreign currencies are converted t" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">UnadjustedExercisePrice</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="Currency">UnadjustedExercisePriceCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_AnnualGeneralMeetingDate" n="TR.PZPAnnualGeneralMeetingDate" l="Annual General Meeting Month and Day (MMMDD)" d="Month and Day on which the Annual Board meeting occurs, in 'MMMDD' format." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">AnnualGeneralMeetingDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DaysOfRedemptionDelayForNqd" n="TR.PZPDaysOfRedemptionDelayForNqd" l="Days Of Redemption Delay For Non Qualified Directors" d="Number of days during which a board comprised of non-qualified directors is prevented from redeeming the pill." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DaysOfRedemptionDelayForNqd</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_CommentText" n="TR.PZPCommentText" l="Comment Text" d="Textual summary of the Comments of the plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">CommentText</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_CommentTextLanguageId" n="TR.PZPCommentTextLang" l="Comment Text Language Perm Id" d="Comment Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">CommentTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ConditionalDurationText" n="TR.PZPConditionalDurationText" l="Conditional Durational Text" d="Textual summary of the Conditional Duration of Plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ConditionalDurationText</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ConditionalDurationTextLanguageId" n="TR.PZPConditionalDurationTextLang" l="Conditional Duration Text Language Perm Id" d="Conditional Duration Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ConditionalDurationTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_GrandfatherClauseText" n="TR.PZPGrandfatherClauseText" l="Grandfather Clause Text" d="Textual summary of the Grandfather Exemption clause" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">GrandfatherClauseText</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_GrandfatherClauseTextLanguageId" n="TR.PZPGrandfatherClauseTextLang" l="Grandfather Clause Text Language Perm Id" d="Grandfather Clause Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">GrandfatherClauseTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SelfDealingTriggerDescriptionText" n="TR.PZPSelfDealingTriggerDescText" l="Self Dealing Trigger Description Text" d="Text description of the self-dealing provision. The minimum value of assets transferred before a transaction involving the Acquiring Person is considered self-dealing." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SelfDealingTriggerDescriptionText</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SelfDealingTriggerDescriptionTextLanguageId" n="TR.PZPSelfDealingTriggerDescTextLang" l="Self Dealing Trigger Description Text Language Id" d="Self Dealing Trigger Description Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SelfDealingTriggerDescriptionTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_OtherFilingType" n="TR.PZPOtherFilingType" l="Other Filing Type" d="Indicates the type of Filing used to source the data" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">OtherFilingType</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExchangeProvisionDescriptionText" n="TR.PZPExChgProvisionDescText" l="Exchange provision Description Text" d="Description of conditions under which rights are exchanged for shares" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ExchangeProvisionDescriptionText</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ExchangeProvisionDescriptionTextLanguageId" n="TR.PZPExChgProvisionDescTextLang" l="Exchange Provision Description Text Language Perm Id" d="Exchange Provision Description Text Language Perm Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ExchangeProvisionDescriptionTextLanguageId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsDealId" n="TR.PZPPoisonPillsDealId" l="Poison Pill Deal Perm Id" d="Unique identifier of the Poison Pill deal as required by Content Marketplace" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPPoisonPillsDealId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+      <in:sp k="column">PoisonPillsDealId</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DealIdOfMostRecentAmendment" n="TR.PZPDealIdOfMostRecentAmend" l="Deal Perm Id Of Most Recent Amendment" d="Deal Perm Id of the deal which was immediately before this amendment." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DealIdOfMostRecentAmendment</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DealIdOfOriginalPlan" n="TR.PZPOrigPlanDealId" l="Deal Perm Id Of Original Plan" d="A new plan adopted by a company is an original plan. This field is auto populated. This is the Deal Perm Id of the first version of the current plan, subsequent amendments will have unique perm id that will be also be auto-populated. The Deal Id of the or" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DealIdOfOriginalPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerCidgen" n="TR.PZPIssuerCidgen" l="Issuer Cidgen" d="Cidgen of the Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerCidgen</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerName" n="TR.PZPIssuerName" l="Issuer Short Name" d="Short Name of the Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerOrganizationId" n="TR.PZPIssuerEntityId" l="Issuer OA Perm Id" d="OA Perm Id of the Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerOrganizationId</in:sp>
+      <in:sp k="idt">ORGPREFID</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerImmediateParentCidgen" n="TR.PZPIssuerImmParentCidgen" l="Poison Pill Issuer Immediate Parent Cidgen" d="Poison Pill Issuer Immediate Parent Cidgen" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerImmediateParentCidgen</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerImmediateParentName" n="TR.PZPIssuerImmParentName" l="Poison Pill Issuer Immediate Parent Short Name" d="Poison Pill Issuer Immediate Parent Short Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerImmParentName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerImmParentCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerImmediateParentOrganizationId" n="TR.PZPIssuerImmParentEntityId" l="Poison Pill Issuer Immediate Parent Entity Id" d="Poison Pill Issuer Immediate Parent Entity Id" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerImmediateParentOrganizationId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerUltimateParentCidgen" n="TR.PZPIssuerUltParentCidgen" l="Issuer Ultimate Parent Cidgen" d="Cidgen of the Ultimate Parent of the Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerUltimateParentCidgen</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerUltimateParentName" n="TR.PZPIssuerUltParentName" l="Issuer Ultimate Parent Short Name" d="Short Name of the Ultimate Parent of the Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerUltParentName</in:sp>
+      <in:sp k="table">CompanyShortNameKey</in:sp>
+      <in:sp k="column">CompanyShortName</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerUltParentCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerUltimateParentOrganizationId" n="TR.PZPIssuerUltParentEntityId" l="Issuer Ultimate Parent OA Perm Id" d="OA Perm Id of the Ultimate Parent Of Issuer Company" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerUltimateParentOrganizationId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillHeadline" n="TR.PZPPoisonPillHeadline" l="Poison Pill Headline" d="Poison Pill Headline; for use on Tear Sheet Header.  e.g. JPS Industries Adopts Poison Pill on 03/05/2015." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillHeadline</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_IssuerAdvisors" n="Advisor Information" d="Poison Pill Advisor" m="">
+    <i id="I_Deals_PZP_IssuerFinancialAdvisorMgrNum" n="TR.PZPIssuerFinAdvMgrNum" l="Issuer's Financial Advisor(s) Manager Number(s)" d="Issuer's Financial Advisor(s) Manager Number(s)" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">IssuerFinancialAdvisorMgrNum</in:sp>
+      <in:sp k="table">PoisonPillFinancialAdvisorKey</in:sp>
+      <in:sp k="mtable">PoisonPillFinancialAdvisorKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerFinancialAdvisorMgrCode" n="TR.PZPIssuerFinAdvMgrCode" l="Issuer's Financial Advisor(s) Manager Code" d="Issuer's Financial Advisor(s) Manager Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerFinAdvMgrCode</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="column">AuxiliaryEntityCode</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerFinAdvMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerFinancialAdvisorMgrName" n="TR.PZPIssuerFinAdvMgrName" l="Issuer's Financial Advisor(s) Manager Name" d="Issuer's Financial Advisor(s) Manager  Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerFinAdvMgrName</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="column">dealsauxiliaryentitylongname</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerFinAdvMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerFinancialAdvisorMgrEntityId" n="TR.PZPIssuerFinAdvMgrNumEntityId" l="Issuer's Financial Advisor(s) Manager EntityId" d="Issuer's Financial Advisor(s) Manager  EntityId" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">IssuerFinancialAdvisorMgrEntityId</in:sp>
+      <in:sp k="table">PoisonPillFinancialAdvisorKey</in:sp>
+      <in:sp k="mtable">PoisonPillFinancialAdvisorKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerLegalAdvisorMgrNum" n="TR.PZPIssuerLegAdvMgrNum" l="Issuer's Legal Advisor(s) Number(s)" d="Issuer's Legal Advisor(s) Number(s)" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">IssuerLegalAdvisorMgrNum</in:sp>
+      <in:sp k="table">PoisonPillLegalAdvisorKey</in:sp>
+      <in:sp k="mtable">PoisonPillLegalAdvisorKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerLegalAdvisorMgrCode" n="TR.PZPIssuerLegAdvMgrCode" l="Issuer's Legal Advisor(s) Code" d="Issuer's Legal Advisor(s) Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerLegAdvMgrCode</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="column">AuxiliaryEntityCode</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerLegAdvMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerLegalAdvisorMgrName" n="TR.PZPIssuerLegAdvMgrName" l="Issuer's Legal Advisor(s) Name" d="Issuer's Legal Advisor(s) Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerLegAdvMgrName</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="column">dealsauxiliaryentitylongname</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerLegAdvMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerLegalAdvisorMgrEntityId" n="TR.PZPIssuerLegAdvMgrNumEntityId" l="Issuer's Legal Advisor(s) EntityId" d="Issuer's Legal Advisor(s) EntityId" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">IssuerLegalAdvisorMgrEntityId</in:sp>
+      <in:sp k="table">PoisonPillLegalAdvisorKey</in:sp>
+      <in:sp k="mtable">PoisonPillLegalAdvisorKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RightsAgentMgrNum" n="TR.PZPRightsAgentMgrNum" l="Rights Agent Manager Number" d="Manager Number for Rights Agent" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RightsAgentMgrNum</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RightsAgentMgrCode" n="TR.PZPRightsAgentMgrCode" l="Rights Agent Manager Code" d="Rights Agent Manager Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPRightsAgentMgrCode</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="column">AuxiliaryEntityCode</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityKey</in:sp>
+      <in:sp k="joinItem">TR.PZPRightsAgentMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RightsAgentMgrName" n="TR.PZPRightsAgentMgrName" l="Rights Agent Manager Name" d="Rights Agent Manager Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPRightsAgentMgrName</in:sp>
+      <in:sp k="table">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="column">dealsauxiliaryentitylongname</in:sp>
+      <in:sp k="mtable">DealsAuxiliaryEntityNameKey</in:sp>
+      <in:sp k="joinItem">TR.PZPRightsAgentMgrNum</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RightsAgentMgrEntityId" n="TR.PZPRightsAgentMgrEntityId" l="Rights Agent Manager EntityId" d="Rights Agent Manager EntityId" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RightsAgentMgrEntityId</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_DealFlags" n="Poison Pill Flags" d="Poison Pill Flag" m="">
+    <i id="I_Deals_PZP_HasAdversePersonFlipInTrigger" n="TR.PZPHasAdversePersonFlipInTrigger" l="Has Adverse Person Discretionary Flip-In Trigger" d="Yes/No flag set to Y if plan contains an adverse person discretionary flip-in trigger. Should the Board of Directors declare a person to be adverse to the interests of the Company, the rights will be distributed and will flip-in at a threshold lower than" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasAdversePersonFlipInTrigger</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasCommonSharePricePaymentOption" n="TR.PZPHasCommonSharePricePaymentOption" l="Has Option To Pay Exercise Price In Common Shares" d="Yes/No flag set to Y if the purchase price can be paid in either cash or common stock." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasCommonSharePricePaymentOption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasDelayedRedemptionProvisionForNqd" n="TR.PZPHasDelayedRedemptionProvisionForNqd" l="Has Delayed Redemption Provision For Non Qualified Directors" d="Yes/No flag set to Y if the redemption provision prevents a board comprised of non-qualified directors from redeeming the pill for a specified number of days. This is a variation on the Directors qualification provision above" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasDelayedRedemptionProvisionForNqd</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasDelayOfDistributionOfRights" n="TR.PZPHasDelayOfDistributionOfRights" l="Has Delay Of Distribution Of Rights" d="Yes/No Flag set to Y if the distribution of rights (DAYS) may be delayed at the boards discretion. (e.g. ‘on the close of the tenth business day (or such later date as the board of directors may determine) after an acquiring person acquires more than 20%" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasDelayOfDistributionOfRights</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasDividendFailureTrigger" n="TR.PZPHasDividendFailureTrigger" l="Has Dividend Failure Trigger" d="Yes/No flag set to Y if the plan provides that the rights will flip-in if, during such time as there is an Acquiring Person, there shall be a reduction in (or a failure to increase to reflect reclassification) the annual rate of dividends except for valid" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasDividendFailureTrigger</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasExchangeProvision" n="TR.PZPHasExchProvision" l="Has Exchange Provision" d="After a person becomes an “Acquiring Person,” and until the Acquiring Person acquires some specified percentage, the board may exchange the rights for common shares (or in some cases cash, notes or other securities) of the issuer. Rights held by the Acqui" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasExchangeProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasExtendedRedemptionWindowOption" n="TR.PZPHasExtendedRedemptionWindowOption" l="Has Extension Provision For Redemption Window" d="Yes/No set to Y for plans where the board has the express option to extend the redemption window under limited circumstances as defined in the rights agreement." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasExtendedRedemptionWindowOption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasFiledForBankruptcy" n="TR.PZPHasFiledForBankruptcy" l="Has Filed For Bankruptcy" d="Yes/No flag set to Y when the issuer has filed for Bankruptcy" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasFiledForBankruptcy</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasGrandfatherExemptionClause" n="TR.PZPHasGrandfatherExemptionClause" l="Has Grandfather Exemption Clause" d="Yes/No flag set to Y if plan exempts certain shareholders from the provisions of the plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasGrandfatherExemptionClause</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasIndependentDirectorProvision" n="TR.PZPHasIndependentDirectorProvision" l="Has Three Year Independent Director Provision" d="Yes/No flag set to Y when the Pill has a Three-Year Independent Director Provision. The board will reevaluate the plan every three years. TYDEF is generally available for Poison Pill deals adopted in 1997 and after" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasIndependentDirectorProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasInfiniteRedemptionWindow" n="TR.PZPHasInfiniteRedemptionWindow" l="Has Infinite Redemption Window" d="Yes/No flag set to Y if there is no Redemption Window and therefore, the rights may continue to be redeemed at any time, even long after an Acquiring Person appears." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasInfiniteRedemptionWindow</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasPassiveIncreaseExemptionProvision" n="TR.PZPHasPassiveIncreaseExemptionProvision" l="Has Passive Increase Exemption Provision" d="Yes/No flag set to Y if the plan contains a provision whereby shareholders who cross the Acquiring Person threshold, due to a reclassification, recapitalization, or repurchase of shares approved by the board, shall not be deemed to be an Acquirin" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasPassiveIncreaseExemptionProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasRelatedMnaDeal" n="TR.PZPHasRelatedMnaDeal" l="Has Related M&amp;A Deal" d="Yes/No flag set to Y if an M&amp;A transaction is related to the poison pill." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasRelatedMnaDeal</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasSelfDealingDiscretionaryFlipInTrigger" n="TR.PZPHasSelfDealingDiscretionaryFlipInTrigger" l="Has Self Dealing Discretionary Flip In Trigger" d="Yes/No flag set to Y if plan contains a self-dealing discretionary flip-in trigger. Rights will be triggered should an Acquiring Person engage in certain self-dealing transactions as defined in the rights agreement. Self-dealing most often includes transf" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasSelfDealingDiscretionaryFlipInTrigger</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasShareholderNullificationProvision" n="TR.PZPHasShldrNullificationProvision" l="Has Shareholder Nullification Provision" d="Yes/No flag set to Y if shareholders can simply vote the pill out of existence at any time" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasShareholderNullificationProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasShareholderReferendumProvision" n="TR.PZPHasShldrReferendumProvision" l="Has Shareholder Referendum Provision" d="Yes/No flag set to Y if a qualified offeror (owner of less than a specified percentage) who makes a qualified offer (usually an all cash, fully financed tender offer supported by a fairness opinion from a nationally recognized investment bank) has the rig" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasShareholderReferendumProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasStaggeredBoard" n="TR.PZPHasStaggeredBoard" l="Has Stagerred Board" d="Yes/No flag set to Y when at the time of the adoption of the Pill the issuer has a corporate board structure where only a portion of the board of directors is elected each year, usually to discourage takeover attempts." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasStaggeredBoard</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasStatusFlipInOnly" n="TR.PZPHasStatusFlipInOnly" l="Has Status Flip-In Only" d="Yes/No flag set to Y when the deal contains flip in triggers only and no discretionary flip in triggers (i.e. adverse person, modified adverse person, passive increase, self-dealing and dividend failure trigger percentages)." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasStatusFlipInOnly</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasSunsetProvision" n="TR.PZPHasSunsetProvision" l="Has Sunset Provision" d="Yes/No flag set to Y when the Pill has a provision that allows for shareholder approval of the plan at intervals. SUNSETF is generally available for Poison Pill deals adopted in 1995 and after." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasSunsetProvision</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasWhiteKnightRedemption" n="TR.PZPHasWhiteKnightRedemption" l="Has White Knight Redemption" d="Yes/No flag set to Y if the board’s right to redeem the rights will be reinstated after it has expired (i.e. the redemption window has closed) if the board approves a transaction with a white knight." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasWhiteKnightRedemption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasWhiteSquireExemption" n="TR.PZPHasWhiteSquireExemption" l="Has White Squire Exemption" d="Yes/No flag which is set to Y if the plan provides that a person who obtained approval from the board prior to purchasing shares of the company will not be considered an Acquiring Person with respect to those shares. In many cases, the provision expressly" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasWhiteSquireExemption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasYoYoAndWhiteKnightRedemption" n="TR.PZPHasYoYoAndWhiteKnightRedemption" l="Has Yo Yo And White Knight Redemption" d="Y/N item indicates whether or not plan has both Yo Yo and White Knight redemption provisions." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasYoYoAndWhiteKnightRedemption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_HasYoYoRedemptionForReducedOwnership" n="TR.PZPHasYoYoRedemptionForReducedOwnership" l="Has Yo Yo Redemption For Reduced Ownership" d="Yes/No flag set to Y if the board’s right to redeem the rights will be reinstated once it has expired (i.e. the redemption window has closed) if the Acquiring Person reduces his/her ownership to below a specified percentage" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">HasYoYoRedemptionForReducedOwnership</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsChewablePill" n="TR.PZPIsChewablePill" l="Is Chewable Pill" d="Yes/No flag set to Y if a Pill has a provision which calls for a shareholder vote on takeover offers at the bidder's request.  If the company receives certain types of all-cash offers the stockholders can vote on the transaction and override the plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsChewablePill</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsDeadHandPill" n="TR.PZPIsDeadHandPill" l="Is Dead Hand Pill" d="Yes/No flag set to Y if the Pill prevents Directors elected in any proxy contest, who have not been approved by existing directors, from removing the pill.  It is populated for Poison Pill deals adopted after December 31, 1996." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsDeadHandPill</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsDurationConditional" n="TR.PZPIsDurationConditional" l="Is Duration Conditional" d="Yes/No flag set to Y when the Duration of the plan is conditional" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsDurationConditional</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsFirstPlan" n="TR.PZPIsFirstPlan" l="Is First Plan" d="Y/N set to Y if this is the Issuer's first poison pill plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsFirstPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsIssuerProvidedWithFairnessOpinion" n="TR.PZPIsIssuerProvidedWithFairnessOpinion" l="Is Issuer Provided With Fairness Opinion" d="Yes/No flag set to Y if the issuer is provided with a fairness opinion by an investment bank." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsIssuerProvidedWithFairnessOpinion</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsLatestAmendment" n="TR.PZPIsLatestAmendment" l="Is Latest Amendment" d="Yes/No flag set to Y when the plan is the latest amendment number available. In other words, if there are 3 total amendments and if the deal is amendment number 3, this flag would be set to Y for the third deal." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsLatestAmendment</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsLimitedThresholdReductionProvisionAvailable" n="TR.PZPIsLimitedThresholdReductionProvisionAvailable" l="Is Limited Threshold Reduction Provision Available" d="Yes/No flag which is set to Y if the plan contains an amendment provision whereby prior to the existence of an Acquiring Person, the board may amend the rights plan to lower the flip-in trigger (and associated thresholds) to the greater of (i) one percent" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsLimitedThresholdReductionProvisionAvailable</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsOriginalPlan" n="TR.PZPIsOriginalPlan" l="Is Original Amendment Or Plan" d="Yes/No flag set to Y when the plan is the original deal of the various amendments available for it. In other words, if there are 3 total amendments and if the deal is amendment number 0, this flag would be set to Y for the original deal." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsOriginalPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsPassiveIncreaseTrigger" n="TR.PZPIsPassiveIncreaseTrigger" l="Is Passive Increase Trigger" d="Yes/No flag which is set to Y if the plan contains a provision whereby shareholders who cross the Acquiring Person threshold due to a recapitalization shall not be deemed to be an Acquiring Person for the purposes of the rights agreement until such person" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsPassiveIncreaseTrigger</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsQualifiedOffer" n="TR.PZPIsQualifiedOffer" l="Is Qualified Offer" d="Yes/No flag set to Y for plans that contain a provision whereby the board may waive application of the plan if the acquirer follows certain fairness procedures and/or is approved by the board of directors. The requirements to qualify as a “permitted offer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsQualifiedOffer</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsSuccessorToPreviousPill" n="TR.PZPIsSuccessorToPreviousPill" l="Is Successor To Previous Pill" d="Yes/No flag set to Y for new plans that replace previously adopted plans that have been redeemed, expired or invalidated (also referred to as a secondary plan)." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsSuccessorToPreviousPill</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsSuspendedDueToPendingLitigation" n="TR.PZPIsSuspendedDueToPendingLitigation" l="Is Suspended Due To Pending Litigation" d="Yes/No flag set to Y if the plan provides that the board may suspend the application of the rights plan (usually for 90 days) while awaiting the outcome of the litigation or statutory challenge to the validity of the rights agreement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsSuspendedDueToPendingLitigation</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsTaxBenefitPlan" n="TR.PZPIsTaxBenefitPlan" l="Is Tax Benefit Plan" d="Yes/No item set to Y if the plan is a tax benefit preservation plan. A tax benefit preservation plan aims to protect the issuer's net operating loss carry forwards, as opposed to a traditional rights plan, which is designed to prevent hostile takeovers." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsTaxBenefitPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IsThresholdCrossedInadvertantly" n="TR.PZPIsThresholdCrossedInadvertantly" l="Is Threshold Crossed Inadvertantly" d="Yes/No flag set to Y if a plan provides that if the board determines that a person crossed the Acquiring Person threshold inadvertently, and such person divests those shares, he/she will not be considered an Acquiring Person." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Boolean" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IsThresholdCrossedInadvertantly</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_DealDates" n="Poison Pill Dates" d="Poison Pill Dates" m="">
+    <i id="I_Deals_PZP_BankruptcyFilingDate" n="TR.PZPBankruptcyFilingDate" l="Bankruptcy Filing Date" d="Date on which the issuer had filed for Bankruptcy" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">BankruptcyFilingDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfAdoptionOfMostCurrentPlan" n="TR.PZPDateOfAdoptionOfMostCurrrentPlan" l="Date of Adoption of Most Current Plan" d="Date of Adoption of Most Current Plan" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfAdoptionOfMostCurrentPlan</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfAnnouncementOfAdoption" n="TR.PZPDateOfAnnouncementOfAdoption" l="Date Of Announcement Of Plan Adoption" d="Date Of Announcement Of Plan Adoption" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfAnnouncementOfAdoption</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfEarliestPlanAdopted" n="TR.PZPDateOfEarliestPlanAdopted" l="Date Of Earliest Plan Adopted" d="Date Of Earliest Plan Adopted" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfEarliestPlanAdopted</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfForm8A" n="TR.PZPDateOfForm8A" l="Date Of Form 8-A" d="Date that Form 8-A was received by the SEC. Form 8-A (Registration Statement) reports the adoption of the rights plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfForm8A</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfForm8AA" n="TR.PZPDateOfForm8AA" l="Date Of Form 8-A-A" d="Date that Form 8-A-A was received by the SEC. Form 8-A-A is the amendment to filing that reports the adoption of the amendment to the rights plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfForm8AA</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfForm8K" n="TR.PZPDateOfForm8K" l="Date Of Form 8-K" d="Date that Form 8-K was received by the SEC. Form 8-K (Current Report) reports the adoption or amendment of the rights plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfForm8K</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_DateOfLastAmendment" n="TR.PZPDateOfLastAmendment" l="Date Of Last Amendment" d="Date when Deal Was Last Amendmed" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DateOfLastAmendment</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_NetOperatingDate" n="TR.PZPNetOperatingDate" l="Net Operating Date" d="Net Operating Date; applies to tax benefit plans only." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NetOperatingDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PillAdoptionDate" n="TR.PZPPillAdoptionDate" l="Pill Adoption Date" d="Date When issuer's board approved the distribution of the rights of the dividend." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PillAdoptionDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsExpirationDate" n="TR.PZPExpirationDate" l="Expiration Date" d="Date on which the rights agreement ceases to be in force. If the expiration date varies based upon the occurrence of certain contingencies, the earliest date on which the rights may expire is contained in this field." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsExpirationDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsRecordCreationDate" n="TR.PZPRecordCreationDate" l="Poison Pill Record Creation Date" d="Date poison pill record was created in the editorial db." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsRecordCreationDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsRecordDate" n="TR.PZPRecordDate" l="Record Date" d="Date on which a shareholder must own shares in order to receive the rights dividend." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsRecordDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsRecordLastUpdateDate" n="TR.PZPRecordLastUpdateDate" l="Poison Pill Record Last Update Date" d="Date of most recent update to the poison pill record in the editorial db." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsRecordLastUpdateDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PressReleaseDate" n="TR.PZPPressReleaseDate" l="Press Release Date" d="Date the issuer first released a statement announcing the adoption of the rights plan or amendment" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PressReleaseDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RightsAgreementDate" n="TR.PZPRightsAgreementDate" l="Rights Agent Agreement Date" d="Date the rights agreement between the issuer and the rights agent was executed" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RightsAgreementDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_ShareholderVoteDate" n="TR.PZPShldrVoteDate" l="Shareholder Vote Date" d="Date of shareholder vote on management's proposal to adopt the shareholder rights plan. Shareholder approval is required only for Canadian companies." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ShareholderVoteDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_WithdrawnDate" n="TR.PZPWithdrawnDate" l="Withdrawn Date" d="Date the rights plan was cancelled, the plan may have been redeemed prior to its expiration date, or, the company may have been acquired through a loop hole in the plan." s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">WithdrawnDate</in:sp>
+      <in:sp k="table">PoisonPillContentDealKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_Source" n="Source information" d="Poison Pill Source Information" m="">
+    <i id="I_Deals_PZP_PoisonPillsSourceDate" n="TR.PZPSourceDate" l="Poison Pills Source Date" d="Shareholder Rights Plan Source Information Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsSource" dt="Date" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsSourceDate</in:sp>
+      <in:sp k="table">PoisonPillSourceKey</in:sp>
+      <in:sp k="mtable">PoisonPillSourceKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsSourceCode" n="TR.PZPSourceCode" l="Poison Pills Source Code" d="Source of Shareholder Rights Plan Information" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsSource" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsSourceCode</in:sp>
+      <in:sp k="table">PoisonPillSourceKey</in:sp>
+      <in:sp k="mtable">PoisonPillSourceKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsSource" n="TR.PZPSource" l="Poison Pills Source" d="Source of Shareholder Rights Plan Information" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsSource" dt="String" isScreen="false">
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PZPSource</in:sp>
+      <in:sp k="table">PoisonPillSourceKey</in:sp>
+      <in:sp k="valuedomainid">6001016</in:sp>
+      <in:sp k="column">PoisonPillsSourceCode</in:sp>
+      <in:sp k="mtable">PoisonPillSourceKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillsSourceLink" n="TR.PZPSourceLink" l="Source Link" d="Document Repository Source Link Id for the Poison Pill Source" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefaultMany" cc="DealsSource" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillMultiValueContentHandler</in:sp>
+      <in:sp k="id">PoisonPillsSourceLink</in:sp>
+      <in:sp k="table">PoisonPillSourceKey</in:sp>
+      <in:sp k="mtable">PoisonPillSourceKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_IssuerStockPrice" n="Issuer Stock Price" d="Poison Pill Issuer Stock Price Related information" m="">
+    <i id="I_Deals_PZP_IssuerStockPrice1DayAfterAnnouncement" n="TR.PZPIssuerPrice1DAfterAnn" l="Issuer Stock Price 1 Day After Announcement" d="Stock Price One Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice1DayAfterAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">1</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPrice1DayBeforeAnnouncement" n="TR.PZPIssuerPrice1DBeforeAnn" l="Issuer Stock Price 1 Day Before Announcement" d="Stock Price One Day Before Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice1DayBeforeAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice1DayBeforeAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">-1</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPrice1WeekAfterAnnouncement" n="TR.PZPIssuerPrice1WkAfterAnn" l="Stock Price 1 Week After Issuer Announcement" d="Stock Price One Week After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice1WeekAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice1WeekAfterAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">7</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPrice1WeekBeforeAnnouncement" n="TR.PZPIssuerPrice1WkBeforeAnn" l="Stock Price 1 Week Before Issuer Announcement" d="Stock Price One Week Before Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice1WeekBeforeAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice1WeekBeforeAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">-7</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPrice4WeeksAfterAnnouncement" n="TR.PZPIssuerPrice4WksAfterAnn" l="Issuer Stock Price 4 Weeks After Announcement" d="Stock Price Four Weeks After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice4WeeksAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice4WeeksAfterAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">28</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPrice4WeeksBeforeAnnouncement" n="TR.PZPIssuerPrice4WksBeforeAnn" l="Issuer Stock Price 4 Weeks Before Announcement" d="Stock Price Four Weeks Before Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPrice4WeeksBeforeAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPrice4WeeksBeforeAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">-28</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerStockPriceOnDayOfAnnouncement" n="TR.PZPIssuerPriceOnDOfAnn" l="Issuer Stock Price On Day Of Announcement" d="Stock Price On the Day Of Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerStockPriceOnDayOfAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+      <in:sp k="Currency">IssuerStockPriceOnDayOfAnnouncementCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">PressReleaseDate,PillAdoptionDate</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillContentDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInSP5001DayBeforeTo4WeeksAfterAnnouncement" n="TR.PZPPctChgInSP5001DBeforeTo4WksAfterAnn" l="Percent Change In S&amp;P 500 1 Day Before To 4 Weeks After Announcement" d="Percent Change In S&amp;P 500 1 Day Before To 4 Weeks After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInSP5001DayBeforeTo4WeeksAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1DayBeforeTo1DayAfterAnnouncement" n="TR.PZPPctChgInPrice1DBeforeTo1DAfterAnn" l="Percent Change In Issuer Stock Price 1 Day Before To 1 Day After Announcement" d="Percent Change In Issuer Stock Price 1 Day Before To 1 Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1DayBeforeTo1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1DayBeforeTo1WeekAfterAnnouncement" n="TR.PZPPctChgInPrice1DBeforeTo1WkAfterAnn" l="Percent Change In Issuer Stock Price 1 Day Before To 1 Week After Announcement" d="Percent Change In Issuer Stock Price 1 Day Before To 1 Week After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1DayBeforeTo1WeekAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1DayBeforeTo4WeeksAfterAnnouncement" n="TR.PZPPctChgInPrice1DBeforeTo4WksAfterAnn" l="Percent Change In Issuer Stock Price 1 Day Before To 4 WeeksAfter Announcement" d="Percent Change In Issuer Stock Price 1 Day Before To 4 WeeksAfter Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1DayBeforeTo4WeeksAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1DayBeforeToRecordDate" n="TR.PZPPctChgInPrice1DBeforeToRecordDate" l="Percent Change In Issuer Stock Price 1 Day Before To Record Date" d="Percent Change In Issuer Stock Price 1 Day Before To Record Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1DayBeforeToRecordDate</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1WeekBeforeTo1DayAfterAnnouncement" n="TR.PZPPctChgInPrice1WkBeforeTo1DAfterAnn" l="Percent Change In Issuer Stock Price 1 Week Before To 1 Day After Announcement" d="Percent Change In Issuer Stock Price 1 Week Before To 1 Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1WeekBeforeTo1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1WeekBeforeTo1WeekAfterAnnouncement" n="TR.PZPPctChgInPrice1WkBeforeTo1WkAfterAnn" l="Percent Change In Issuer Stock Price 1 Week Before To 1 Week After Announcement" d="Percent Change In Issuer Stock Price 1 Week Before To 1 Week After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1WeekBeforeTo1WeekAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1WeekBeforeTo4WeeksAfterAnnouncement" n="TR.PZPPctChgInPrice1WkBeforeTo4WksAfterAnn" l="Percent Change In Issuer Stock Price 1 Week Before To 4 Weeks After Announcement" d="Percent Change In Issuer Stock Price 1 Week Before To 4 Weeks After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1WeekBeforeTo4WeeksAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice1WeekBeforeToRecordDate" n="TR.PZPPctChgInPrice1WkBeforeToRecordDate" l="Percent Change In Issuer Stock Price 1 Week Before To Record Date" d="Percent Change In Issuer Stock Price 1 Week Before To Record Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice1WeekBeforeToRecordDate</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice4WeeksBeforeTo1DayAfterAnnouncement" n="TR.PZPPctChgInPrice4WksBeforeTo1DAfterAnn" l="Percent Change In Issuer Stock Price 4 Weeks Before To 1Day After Announcement" d="Percent Change In Issuer Stock Price 4 Weeks Before To 1Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice4WeeksBeforeTo1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice4WeeksBeforeTo1WeekAfterAnnouncement" n="TR.PZPPctChgInPrice4WksBeforeTo1WkAfterAnn" l="Percent Change In Issuer Stock Price 4 Weeks Before To 1 Week After Announcement" d="Percent Change In Issuer Stock Price 4 Weeks Before To 1 Week After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice4WeeksBeforeTo1WeekAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice4WeeksBeforeTo4WeeksAfterAnnouncement" n="TR.PZPPctChgInPrice4WksBeforeTo4WksAfterAnn" l="Percent Change In Issuer Stock Price 4 Weeks Before To 4 Weeks After Announcement" d="Percent Change In Issuer Stock Price 4 Weeks Before To 4 Weeks After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice4WeeksBeforeTo4WeeksAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PercentChangeInStockPrice4WeeksBeforeToRecordDate" n="TR.PZPPctChgInPrice4WksBeforeToRecordDate" l="Percent Change In Issuer Stock Price 4 Weeks Before To Record Date" d="Percent Change In Issuer Stock Price 4 Weeks Before To Record Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PercentChangeInStockPrice4WeeksBeforeToRecordDate</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfAdjustedExercisePriceToMarket1DayAfterAnnouncement" n="TR.PZPRatioOfAdjExcPriceToMkt1DAfterAnn" l="Ratio of Adjusted Exercise Price To Market 1 Day After Announcement" d="Ratio of Adjusted Exercise Price To Market 1 Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfAdjustedExercisePriceToMarket1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfAdjustedExercisePriceToMarket1DayBeforeAnnouncement" n="TR.PZPRatioOfAdjExcPriceToMkt1DBeforeAnn" l="Ratio of Adjusted Exercise Price To Market 1 Day Before Announcement" d="Ratio of Adjusted Exercise Price To Market 1 Day Before Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfAdjustedExercisePriceToMarket1DayBeforeAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfAdjustedExercisePriceToMarketOnDayOfAnnouncement" n="TR.PZPRatioOfAdjExcPriceToMktOnDOfAnn" l="Ratio of Adjusted Exercise Price To Market On Day Of Announcement" d="Ratio of Adjusted Exercise Price To Market On Day Of Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfAdjustedExercisePriceToMarketOnDayOfAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfAdjustedExercisePriceToMarketOnRecordDate" n="TR.PZPRatioOfAdjExcPriceToMktOnRecordDate" l="Ratio of Adjusted Exercise Price To Market On Record Date" d="Ratio of Adjusted Exercise Price To Market On Record Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfAdjustedExercisePriceToMarketOnRecordDate</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfUnadjustedExercisePriceToMarket1DayAfterAnnouncement" n="TR.PZPRatioOfUnAdjExcPriceToMkt1DAfterAnn" l="Ratio of Unadjusted Exercise Price To Market 1 Day After Announcement" d="Ratio of Unadjusted Exercise Price To Market 1 Day After Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfUnadjustedExercisePriceToMarket1DayAfterAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfUnadjustedExercisePriceToMarket1DayBeforeAnnouncement" n="TR.PZPRatioOfUnAdjExcPriceToMkt1DBeforeAnn" l="Ratio of Unadjusted Exercise Price To Market 1 Day Before Announcement" d="Ratio of Unadjusted Exercise Price To Market 1 Day Before Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfUnadjustedExercisePriceToMarket1DayBeforeAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfUnadjustedExercisePriceToMarketOnDayOfAnnouncement" n="TR.PZPRatioOfUnAdjExcPriceToMktOnDOfAnn" l="Ratio of Unadjusted Exercise Price To Market On Day Of Announcement" d="Ratio of Unadjusted Exercise Price To Market On Day Of Announcement" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfUnadjustedExercisePriceToMarketOnDayOfAnnouncement</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_RatioOfUnadjustedExercisePriceToMarketOnRecordDate" n="TR.PZPRatioOfUnAdjExcPriceToMktOnRecordDate" l="Ratio of Unadjusted Exercise Price To Market On Record Date" d="Ratio of Unadjusted Exercise Price To Market On Record Date" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Float" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">RatioOfUnadjustedExercisePriceToMarketOnRecordDate</in:sp>
+      <in:sp k="table">PoisonPillRelatedPricingDealKey</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_IssuerFinancials" n="Issuer Financials" d="Poison Pill Issuer Financial Related information" m="">
+    <i id="I_Deals_PZP_DealsPoisonPillsDateOfFinancials" n="TR.PZPDateOfFin" l="Date Of Financials" d="Date of Financials to be used against Financials items" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Date" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerCashFlow" n="TR.PZPIssuerCashFlow" l="Issuer Cash Flow" d="Earnings before interest, taxes and depreciation" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerCashFlow</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerCashFlowCurrencyId</in:sp>
+      <in:sp k="Scale">IssuerCashFlowScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerCommonShareholderEquity" n="TR.PZPIssuerComShldrEquity" l="Issuer Common Shareholder's Equity" d="Common shareholders' equity of the Issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerCommonShareholderEquity</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerCommonShareholderEquityCurrencyId</in:sp>
+      <in:sp k="Scale">IssuerCommonShareholderEquityScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerDividendPerShare" n="TR.PZPIssuerDPS" l="Issuer Dividend Per Share" d="Dividend Per Share of the Issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerDividendPerShare</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerDividendPerShareCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerEarningsPerShare" n="TR.PZPIssuerEPS" l="Issuer Earnings Per Share" d="Earnings Per Share of the issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPCurrPC" cc="DealsCurr" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerEarningsPerShare</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerEarningsPerShareCurrencyId</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerNetIncome" n="TR.PZPIssuerNetIncome" l="Issuer Net Income" d="Net Income of the Issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerNetIncome</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerNetIncomeCurrencyId</in:sp>
+      <in:sp k="Scale">IssuerNetIncomeScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerNetSales" n="TR.PZPIssuerNetSales" l="Issuer Net Sales" d="Net Sales of the Issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerNetSales</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerNetSalesCurrencyId</in:sp>
+      <in:sp k="Scale">IssuerNetSalesScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_IssuerTotalAssets" n="TR.PZPIssuerTotalAssets" l="Issuer Total Assets" d="Total Assets of the Issuer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="M" pc="DealsPzPCurrScalePC" cc="DealsCurrScale" dt="Money" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IssuerTotalAssets</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="Currency">IssuerTotalAssetsCurrencyId</in:sp>
+      <in:sp k="Scale">IssuerTotalAssetsScale</in:sp>
+      <in:sp k="CurrConversionDateColumn">DealsPoisonPillsDateOfFinancials</in:sp>
+      <in:sp k="CurrConversionDateTable">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="CurrConversionDateAdd">0</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SourceOfFinancialsCode" n="TR.PZPSourceOfFinCode" l="Source of Financials Code" d="Source of Financials data" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">SourceOfFinancialsCode</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+    </i>
+    <i id="I_Deals_PZP_SourceOfFinancials" n="TR.PZPSourceOfFin" l="Source of Financials" d="Source of Financials data" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPSourceOfFin</in:sp>
+      <in:sp k="table">PoisonPillRelatedFinancialsDealKey</in:sp>
+      <in:sp k="valuedomainid">6001016</in:sp>
+      <in:sp k="column">SourceOfFinancialsCode</in:sp>
+    </i>
+  </c>
+  <c id="C_Deals_PZP_IssuerDetails" n="Issuer Details" d="Poison Pill Issuer Information" m="">
+    <i id="I_Deals_PZP_PoisonPillIssuerPrimaryTickerAtDeal" n="TR.PZPIssuerPriTicker" l="Issuer Primary Ticker" d="Issuer Primary Ticker" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PrimaryTickerSymbol</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerPrimaryListingAtDeal" n="TR.PZPIssuerPriListing" l="Issuer Primary Listing Code" d="Issuer Primary Listing" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PrimaryStockExchangeCode</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerPrimaryListingAtDealDesc" n="TR.PZPIssuerPriListingDesc" l="Issuer Primary Listing Name" d="Issuer Primary Listing Name" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerPriListingDesc</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="valuedomainid">6001057</in:sp>
+      <in:sp k="column">PrimaryStockExchangeCode</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerPublicStatusAtDeal" n="TR.PZPIssuerPubStatus" l="Issuer Public Status" d="Issuer Public Status" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PublicStatusCode</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerPublicStatusDescriptionAtDeal" n="TR.PZPIssuerPubStatusDescription" l="Issuer Public Status Description" d="Issuer Public Status Description" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerPubStatusDescription</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="valuedomainid">6001071</in:sp>
+      <in:sp k="column">PublicStatusCode</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerNationAtDeal" n="TR.PZPIssuerNation" l="Issuer Nation" d="Poison Pill Issuer Nation at the time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerNation</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="valuedomainid">geography</in:sp>
+      <in:sp k="column">NationId</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerNationIDAtDeal" n="TR.PZPIssuerNationID" l="Issuer Nation Identifier" d="Issuer Nation TRCS Identifer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">NationId</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerNationCodeAtDeal" n="TR.PZPIssuerNationCode" l="Issuer Nation Code" d="Poison Pill Issuer Nation code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">DealNationCode</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="valuedomainid">identifier</in:sp>
+      <in:sp k="column">NationId</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerStateofIncorporationCodeAtDeal" n="TR.PZPIssuerStateofIncorpCode" l="Issuer State of Inc Code" d="Poison Pill Issuer State of Incorporation Code at the time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">StateOfIncorporationCode</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerStateofIncorporationAtDeal" n="TR.PZPIssuerStateofIncorp" l="Issuer State of Inc" d="Poison Pill Issuer State of Incorporation at the time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerStateofIncorp</in:sp>
+      <in:sp k="table">CompanyKey</in:sp>
+      <in:sp k="valuedomainid">6001062</in:sp>
+      <in:sp k="column">StateOfIncorporationCode</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTFMidCodeAtDeal" n="TR.PZPIssuerMidIndustryCode" l="Issuer TF Mid Industry Code" d="Poison Pill  Issuer TF Mid Industry Code at time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MidIndustryCode</in:sp>
+      <in:sp k="table">IndustryCompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTFMidAtDeal" n="TR.PZPIssuerMidIndustry" l="Issuer TF Mid Industry Name" d="Poison Pill  Issuer TF Mid Industry Name at time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerMidIndustry</in:sp>
+      <in:sp k="table">IndustryCompanyKey</in:sp>
+      <in:sp k="valuedomainid">6001063</in:sp>
+      <in:sp k="column">MidIndustryCode</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTFMacroCodeAtDeal" n="TR.PZPIssuerMacroIndustryCode" l="Issuer TF Macro Industry Code" d="Poison Pill  Issuer TF Macro Industry Code at time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">MacroIndustryCode</in:sp>
+      <in:sp k="table">IndustryCompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTFMacroAtDeal" n="TR.PZPIssuerMacroIndustry" l="Issuer TF Macro Industry Name" d="Poison Pill  Issuer TF Macro Industry Name at time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">PZPIssuerMacroIndustry</in:sp>
+      <in:sp k="table">IndustryCompanyKey</in:sp>
+      <in:sp k="valuedomainid">6001059</in:sp>
+      <in:sp k="column">MacroIndustryCode</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerBusinessDescriptionAtDeal" n="TR.PZPIssuerBusDesc" l="Issuer Business Description" d="Issuer Business Description at the time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">BusinessDescriptionLong</in:sp>
+      <in:sp k="table">BusinessDescriptionLongKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCAActivityAtDeal" n="TR.PZPIssuerTRBCActivity" l="Issuer  TRBC Activity" d="Poison Pill Issuer TRBC Activity at the time of Deal" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">actname</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCAActivityIDAtDeal" n="TR.PZPIssuerTRBCActivityID" l="Issuer  TRBC Activity  Identifier" d="Poison Pill Issuer TRBC Activity TR Identifer" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="Integer" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">ThomsonReutersBusinessClassificationId</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCAActivityCodeAtDeal" n="TR.PZPIssuerTRBCActivityCode" l="Issuer  TRBC Activity Code" d="Poison Pill Issuer TRBC Activity code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">actcode</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCIndustryAtDeal" n="TR.PZPIssuerTRBCIndustry" l="Issuer  TRBC Industry" d="Poison Pill Issuer  TRBC Industry" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IndName</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCIndustryCodeAtDeal" n="TR.PZPIssuerTRBCIndustryCode" l="Issuer  TRBC Industry Code" d="Poison Pill Issuer  TRBC Industry Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IndCode</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCIndustryGroupAtDeal" n="TR.PZPIssuerTRBCIndustryGroup" l="Issuer  TRBC Industry Group" d="Poison Pill Issuer  TRBC Industry Group" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IndGrpName</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCIndustryGroupCodeAtDeal" n="TR.PZPIssuerTRBCIndustryGroupCode" l="Issuer  TRBC  Industry Group" d="Poison Pill Issuer  TRBC  Industry Group" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">IndGrpCode</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCBusinessSectorAtDeal" n="TR.PZPIssuerTRBCBusinessSector" l="Issuer  TRBC Business Sector" d="Poison Pill Issuer  TRBC Business Sector" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">BusSecName</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCBusinessSectorCodeAtDeal" n="TR.PZPIssuerTRBCBusinessSectorCode" l="Issuer  TRBC Business Sector Code" d="Poison Pill Issuer  TRBC Business Sector Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">BusSecCode</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCEconSectorAtDeal" n="TR.PZPIssuerTRBCEconSector" l="Issuer  TRBC Economic Sector" d="Poison Pill Issuer  TRBC Economic Sector" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">EcoSecName</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+    <i id="I_Deals_PZP_PoisonPillIssuerTRBCEconSectorCodeAtDeal" n="TR.PZPIssuerTRBCEconSectorCode" l="Issuer  TRBC Economic Sector Code" d="Poison Pill Issuer  TRBC Economic Sector Code" s="VECTORWISEPOISONPILL" ss="VECTORWISE" vu="N" pc="DealsPzPDefault" cc="DealsDefault" dt="String" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="fn">PoisonPillContentHandler</in:sp>
+      <in:sp k="id">EcoSecCode</in:sp>
+      <in:sp k="table">industrycompanyKey</in:sp>
+      <in:sp k="valuedomainid">trbcdenormalized</in:sp>
+      <in:sp k="column">thomsonreutersbusinessclassificationid</in:sp>
+      <in:sp k="joinItem">TR.PZPIssuerCidgen</in:sp>
+    </i>
+  </c>
+</c>
+<!--</d>-->

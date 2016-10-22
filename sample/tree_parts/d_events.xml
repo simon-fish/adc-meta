@@ -1,0 +1,54 @@
+﻿<d id="D_Events" lid="D_REV" n="Events (REV)" d="Events" m="REV" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_Events_CE" n="Company Events" d="Company Events." m="">
+		<i id="I_Events_CE_Type" n="TR.EventType" l="Event Type" d="Event Type. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" vc="companyEvent" dt="String" isScreen="false" isGrid="false" />
+		<i id="I_Events_CE_Title" n="TR.EventTitle" l="Event Title" d="Event title. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.Title" isScreen="false" isGrid="false">
+			<in:sp k="id">Name</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_Status" n="TR.EventStatus" l="Event Status" d="Event status, defines whether the event date has been estimated (True) or confirmed by the company (False). Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.Status" isScreen="false" isGrid="false">
+			<in:sp k="id">IsEstimate</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_Country" n="TR.EventCountry" l="Event Country" d="Country where events takes place. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.Country" isScreen="false" isGrid="false">
+			<in:sp k="id">Country</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_LastUpdate" n="TR.EventLastUpdate" l="Event Last Update Date" d="The last update date of the event. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="Date" lid="REV.CE.LastUpdate" isScreen="false" isGrid="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">LastUpdate</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_StartDate" n="TR.EventStartDate" l="Event Start Date" d="Event start date. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="Date" lid="REV.CE.StartDate" isScreen="false" isGrid="false" rnk="99999" rid="I_EVENTS_CE_EventStartDate">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">StartDateTime</in:sp>
+			<in:sp k="m">Unity</in:sp>
+			<out:p id="hidden" />
+		</i>
+		<i id="I_EVENTS_CE_EventStartDate" n="TR.EventStartDate" l="Event Start Date" d="Event start date. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="Date" lid="REV.CE.StartDate" isScreen="false" isGrid="false" rnk="99999">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">StartDateTime</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_StartTime" n="TR.EventStartTime" l="Event Start Time" d="Event start time. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.StartTime" isScreen="false" isGrid="false">
+			<in:sp k="id">StartDateTime</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_EndDate" n="TR.EventEndDate" l="Event End Date" d="Event end date. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="Date" lid="REV.CE.EndDate" isScreen="false" isGrid="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">EndDateTime</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_EndTime" n="TR.EventEndTime" l="Event End Time" d="Event end time. Please note that you are unable to request both forward looking and historical events in the same request, all times are provided in GMT." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.EndTime" isScreen="false" isGrid="false">
+			<in:sp k="id">EndtDateTime</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_StartQualifier" n="TR.EventStartQualifier" l="Start Qualifier" d="Additional information on the start of the event. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.StartQualifier" isScreen="false" isGrid="false">
+			<in:sp k="id">StartQualifier</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_Events_CE_EndQualifier" n="TR.EventEndQualifier" l="End Qualifier" d="Additional information on the end of the event. Please note that you are unable to request both forward looking and historical events in the same request." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="STREETEVENTS" vu="N" pc="UnityEventPC" cc="UnityEventDP" dt="String" lid="REV.CE.EndQualifier" isScreen="false" isGrid="false">
+			<in:sp k="id">EndQualifier</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+	</c>
+</d>

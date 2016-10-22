@@ -1,0 +1,174 @@
+﻿<d id="D_DSF" n="Futures" d="Futures" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSF_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSF_D_TR_GeogGroupCode" n="TR.GeogGroupCode" l="Geography Group Code" d="Geography Group Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGC</in:sp>
+		</i>
+		<i id="I_DSF_D_TR_GeogGroupName" n="TR.GeogGroupName" l="Geography Group Name" d="Geography Group Name" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGN</in:sp>
+		</i>
+		<i id="I_DSF_D_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSF_D_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSF_D_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSF_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSF_SQ_TR_FutureExchange" n="TR.FutureExchange" l="Exchange" d="Future Exchange" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FEX</in:sp>
+		</i>
+		<i id="I_DSF_SQ_TR_UnderlyingInstrumentType" n="TR.UnderlyingInstrumentType" l="Underlying Instrument Type" d="Underlying Instrument Type" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPI</in:sp>
+		</i>
+		<i id="I_DSF_SQ_TR_TradingCycle" n="TR.TradingCycle" l="Trading Cycle" d="The trading cycle of the contract. For example if the contract trades March, June, September and December expiry months TCYCLE will return &quot;MAR JUN SEP DEC&quot;. If all months are traded &quot;ALL&quot; is returned." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TCYCLE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSF_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSF_P_TR_SettlementPrice" n="TR.SettlementPrice" l="Settlement Price" d="The official daily settlement price issued by the exchange." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PS</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_VolumeofContracts" n="TR.VolumeofContracts" l="Volume of Contracts" d="The total number of contracts traded for the day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VM</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceAPTClose" n="TR.PriceAPTClose" l="APT Closing Price" d="The official closing price for futures trading through LIFFE’s Automatic Pit Trading system." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CA</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_ContractSize" n="TR.ContractSize" l="Contract Size" d="The lot size of the future. Also known as the contract size (or contact value), and specified in the contract specification. The contract size is the actual amount of a commodity represented in a contract." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">FLOT</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_StartDate" n="TR.StartDate" l="Start Date" d="The date of the first available settlement price." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FUTBDATE</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_Date" n="TR.Date" l="Date of Last Value" d="The date of the most recent settlement price." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FUTLTIME</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceHighPM" n="TR.PriceHighPM" l="Price High PM" d="Price High PM Session" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">HA</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceHighAM" n="TR.PriceHighAM" l="Price High AM" d="The highest traded price of the morning session." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">HM</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceLowAM" n="TR.PriceLowAM" l="Price Low AM" d="The lowest traded price of the afternoon session." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LA</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceLowPM" n="TR.PriceLowPM" l="Price Low PM" d="The lowest traded price of the morning session." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LM</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_LastTradeDate" n="TR.LastTradeDate" l="Last Trade Date" d="The date of the most recent settlement price." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LTDT</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceLastTradeAM" n="TR.PriceLastTradeAM" l="Price - Last Traded AM Session" d="The last traded price of the morning session." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MT</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceOpeningPM" n="TR.PriceOpeningPM" l="Price - Opening PM Session" d="The first traded price of the afternoon session." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OA</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_OfficialPrice" n="TR.OfficialPrice" l="Official Price" d="This is the official price not adjusted for capital events. It is available for the UK (Daily Official List Price) and Germany (Kassekurs)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OF</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_SettlementDate" n="TR.SettlementDate" l="Settlement Date" d="The date of settlement for the future, as stated in the contract specification. The date can be an actual date or specified in another way. For example, for the FTSE Eurobloc 100 Index Future, the contract specification reads &quot;Settlement day: The first business day after the Last Trading Day.&quot; Therefore the Settlement date would be one business day after the Last Trade Date. Note: Some futures may not have a specific settlement date. For example, the Long Gilt Future on LIFFE has no specific settlement date; the contract specification reads &quot; Delivery day: Any business day in the delivery month (at sellers choice)&quot;." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">STDT</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_TickSize" n="TR.TickSize" l="Tick Size" d="The smallest amount by which a contract can change price." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TICKS</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_TickValue" n="TR.TickValue" l="Tick Value" d="The value of the minimum price change in a contract (tick size) multiplied by the lot size, giving the actual amount of the minimum price change." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TICKV</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_NumberofTraders" n="TR.NumberofTraders" l="Number of Traders" d="The value of the minimum price change in a contract (tick size) multiplied by the lot size, giving the actual amount of the minimum price change." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TN</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_UnofficialPrice" n="TR.UnofficialPrice" l="Unofficial Price" d="The unofficial afternoon price as stipulated by LME. The closing price after the second ring of the second session. The price stipulated is calculated from the mid bid/ask quote." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UF</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_Value" n="TR.Value" l="Value" d="The value of the future contract in monetary terms. Available for all continuous series and individual financial futures contracts only" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VU</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_ImpliedYield" n="TR.ImpliedYield" l="Implied Yield" d="The implied yield of the future." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">YD</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_BasisPointValue" n="TR.BasisPointValue" l="Basis Point Value" d="The basis point value for a futures contract cheapest to deliver bond." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BPV</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_ContractMonth" n="TR.ContractMonth" l="Contract Month (YYYYMM)" d="Displays the notional underlying contract month in YYYYMM format for Datastream Futures Continuous Series. For example, 201112 corresponds to the December 2011 futures contract." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CMONTH</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_ConversionFactor" n="TR.ConversionFactor" l="Conversion Factor" d="The conversion factor for a futures contract cheapest to deliver bond." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CONV</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_CouponRate" n="TR.CouponRate" l="Coupon Rate" d="The coupon rate for a bond futures contract cheapest to deliver bond." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CRATE</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_CheapesttoDeliverBasisSpread" n="TR.CheapesttoDeliverBasisSpread" l="Cheapest to Deliver Basis Spread" d="Cheapest to Deliver Basis Spread" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FFBS</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_CheapesttoDeliverImpliedRepoRate" n="TR.CheapesttoDeliverImpliedRepoRate" l="Cheapest to Deliver Implied Repo Rate" d="Cheapest to Deliver Implied Repo Rate" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FFIREPO</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_PriceCurr" n="TR.PriceCurr" l="Price Currency" d="Internationally standardised (ISO) three-letter abbreviation for the price currency of a future." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISOCUR</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_QuoteUnit" n="TR.QuoteUnit" l="Quote Unit" d="The units of volume for which the price quotation relates. For example a commodity quoted per metric tonne will display METRIC TONNES." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">UNITS</in:sp>
+		</i>
+		<i id="I_DSF_P_TR_TradingPlatformType" n="TR.TradingPlatformType" l="Trading Platform Type" d="The trading platform the quote originates from. Results can be as follows: PIT - Open Outcry ELEC - Electronic COMB - Combined Open Outcry and Electronic OTC - Over the counter OTCX - Over the counter – Exchange cleared." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TPLAT</in:sp>
+		</i>
+	</c>
+	<c id="C_DSF_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSF_PA_TR_CheapesttoDeliverFuturesBPV" n="TR.CheapesttoDeliverFuturesBPV" l="Cheapest to Deliver Futures Basis Point Value" d="Cheapest to Deliver Futures Basis Point Value" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FFRISK</in:sp>
+		</i>
+		<i id="I_DSF_PA_TR_ImpliedRepoRate" n="TR.ImpliedRepoRate" l="Implied Repo Rate" d="Implied Repo Rate" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IREPO</in:sp>
+		</i>
+		<i id="I_DSF_PA_TR_FuturesBPV" n="TR.FuturesBPV" l="Futures BPV" d="Futures BPV" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RISK</in:sp>
+		</i>
+	</c>
+</d>

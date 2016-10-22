@@ -1,0 +1,57 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/vaadin-grid/vaadin-grid.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<dom-module id="formula-list">
+    <style is="custom-style">
+        vaadin-grid {
+            font-family: "Roboto"
+            --vaadin-grid-row-height: 24px;
+            --vaadin-grid-header-row-height: 36px;
+            --vaadin-grid-footer-row-height: 36px;
+        }
+        paper-card {
+            width: 100%;
+        }
+    </style>
+
+    <template>
+        <paper-card elevation="3" heading="{{count}}">
+            <div class="card-content">
+                <vaadin-grid items={{formulas}} id="grid">
+                    <table>
+                        <colgroup>
+                            <col name="name">
+                            <col name="label">
+                        </colgroup>
+                        <tfoot>
+                            <tr></tr>
+                        </tfoot>
+                    </table>
+                </vaadin-grid>
+            </div>
+        </paper-card>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'formula-list',
+
+            properties: {
+                formulas: {
+                    type: Array,
+                    notify: true
+                },
+                count: {
+                    type: String,
+                    computed: '_count(formulas)'
+                },
+            },
+
+            _count: function(formulas){
+                return formulas.length + 'founded';
+            }
+        });
+    </script>
+</dom-module>

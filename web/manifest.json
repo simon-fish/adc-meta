@@ -1,0 +1,7 @@
+{
+  "name": "formula",
+  "short_name": "formula",
+  "description": "Web front end for ADC formular browser",
+  "start_url": "/",
+  "display": "standalone"
+}

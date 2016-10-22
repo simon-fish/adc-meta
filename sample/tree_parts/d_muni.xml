@@ -1,0 +1,630 @@
+﻿<d id="D_MUNI" lid="D_EJVUM" d="US Municipal Bond." n="US Municipal Bond" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_MUNI_C" n="General Info" d="General Info.">
+		<i id="I_MUNI_C_IssueName" n="TR.MUNIIssueName" l="Issue Name" d="Issue Name" i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" dt="String" lid="EJV.C.IssueName" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">MUNI_ASSET</in:sp>
+			<in:sp k="c">IssueDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_PreferredRIC" n="TR.MUNIPreferredRIC" l="Preferred RIC" d="Preferred RIC." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" dt="String" lid="EJV.C.M_PreferredRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">MUNI_ASSET</in:sp>
+			<in:sp k="c">RIC</in:sp>
+		</i>
+		<i id="I_MUNI_C_Description" n="TR.FIDescription" l="Description" d="Descriptive field containing items that identify the security, such as ticker, coupon, maturity date." i="A:J A:2" s="REFERENCEIDENTIFIERS" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.Description" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">Description</in:sp>
+			<in:sp k="f">CommonName</in:sp>
+			<in:sp k="sf">Value</in:sp>
+			<in:sp k="category">SA</in:sp>
+		</i>
+		<i id="I_MUNI_C_IsCallable" n="TR.FIIsCallable" l="Is Callable" d="Y/N flag indicating whether the bond is callable." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.IsCallable" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IsCallable</in:sp>
+		</i>
+		<i id="I_MUNI_C_IsPutable" n="TR.FIIsPutable" l="Is Putable" d="Y/N flag indicating whether put terms and put schedules apply to the asset." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.IsPutable" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IsPutable</in:sp>
+		</i>
+		<i id="I_MUNI_C_IsSinkable" n="TR.FIIsSinkable" l="Is Sinkable" d="Y/N flag indicating whether the bond has a sinking fund." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.IsSinkable" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IsSinkable</in:sp>
+		</i>
+		<i id="I_MUNI_C_TaxStatus" n="TR.FITaxStatus" l="Tax Status" d="Code indicating whether the municipal bond is tax exempt or subject to alternative minimum tax." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.TaxStatus" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">TaxStatus</in:sp>
+		</i>
+		<i id="I_MUNI_C_TaxStatusDescription" n="TR.FITaxStatusDescription" l="Tax Status Description" d="Tax Status Description." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.TaxStatusDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">TaxStatusDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_AssetStatus" n="TR.FIAssetStatus" l="Asset Status" d="Code representing the status of the asset. Many status updates are performed programmatically." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.AssetStatus" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">AssetStatus</in:sp>
+		</i>
+		<i id="I_MUNI_C_AssetStatusDescription" n="TR.FIAssetStatusDescription" l="Asset Status Description" d="Description of the Asset Status code." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.AssetStatusDescription" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">AssetStatusDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_IssuerDescription" n="TR.FIIssuerDescription" l="Issuer Description" d="Long name of the company." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.IssuerDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IssuerDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_IssuerName" n="TR.FIIssuerName" l="Issuer Name" d="Name of the company." i="A:J A:2" s="EJVIS" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.IssuerName" isScreen="false" enableHeatMap="false" rnk="99999">
+			<!-- common case -->
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">LongName</in:sp>
+			<!--For @OrgId identifiers-->
+			<in:sp k="view2">GOVCORP_PARTY</in:sp>
+			<in:sp k="c2">IssuerLongName</in:sp>
+			<in:sp k="instr2">IssuerOrganization</in:sp>
+			<!-- Search settings for requests with lang="ja-JP" attribute -->
+			<in:sp k="f">DocumentTitle</in:sp>
+			<in:sp k="sf">SubjectName</in:sp>
+			<in:sp k="category">SA</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponClass" n="TR.FICouponClass" l="Coupon Class" d="Coupon payment applicable to the asset." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponClass" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponClass</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponClassDescription" n="TR.FICouponClassDescription" l="Coupon Class Description" d="Description of the Coupon Class." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponClassDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponClassDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponClassShortDescription" n="TR.FICouponClassShortDescription" l="Coupon Class Short Description" d="Short Description of the Coupon Class." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponClassShortDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponClassShortDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponCurrency" n="TR.FICouponCurrency" l="Coupon Currency" d="Code representing the currency in which the scheduled interest payments are made." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponCurrency" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponCurrency</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponCurrencyDescription" n="TR.FICouponCurrencyDescription" l="Coupon Currency Description" d="Description of the Coupon Currency." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponCurrencyDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponCurrencyDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_Currency" n="TR.FICurrency" l="Currency" d="Code representing the denomination of the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.Currency" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">Currency</in:sp>
+		</i>
+		<i id="I_MUNI_C_CurrencyDescription" n="TR.FICurrencyDescription" l="Currency Description" d="CurrencyDescription" i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CurrencyDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CurrencyDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_PrincipalCurrency" n="TR.FIPrincipalCurrency" l="Principal Currency" d="Code indicating the currency in which principal payments are made." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.PrincipalCurrency" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PrincipalCurrency</in:sp>
+		</i>
+		<i id="I_MUNI_C_PrincipalCurrencyDescription" n="TR.FIPrincipalCurrencyDescription" l="Principal Currency Description" d="PrincipalCurrencyDescription" i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.PrincipalCurrencyDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PrincipalCurrencyDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponEffectiveDate" n="TR.FICouponEffectiveDate" l="Coupon Effective Date" d="Coupon Effective Date." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" dt="Date" lid="EJV.C.CouponEffectiveDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">GOVCORP_RATE_SCHED</in:sp>
+			<in:sp k="c">RateEffectiveDate</in:sp>
+			<in:sp k="date">RateEffectiveDate</in:sp>
+			<in:sp k="rule">nextOrPast</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponFreqShortDescription" n="TR.FICouponFreqShortDescription" l="Coupon Frequency Short Description" d="Abbreviated description of Coupon Frequency Description." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponFreqShortDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponFreqShortDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponFrequency" n="TR.FICouponFrequency" l="Coupon Frequency" d="Code representing the frequency of coupon payments for the asset." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponFrequency" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponFrequency</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponFrequencyDescription" n="TR.FICouponFrequencyDescription" l="Coupon Frequency Description" d="Description of the Coupon Frequency Code." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponFrequencyDescription" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponFrequencyDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponType" n="TR.FICouponType" l="Coupon Type" d="Type of coupon payment applicable to the asset." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponType" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponType</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponTypeDescription" n="TR.FICouponTypeDescription" l="Coupon Type Description" d="Description of Coupon Type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponTypeDescription" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_CouponTypeShortDescription" n="TR.FICouponTypeShortDescription" l="Coupon Type Short Description" d="Abbreviated description of Coupon Type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.CouponTypeShortDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CouponTypeShortDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_DebtType" n="TR.FIDebtType" l="Debt Type" d="Code representing the class of debt, including the type of collateral backing the debt." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.DebtType" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DebtType</in:sp>
+		</i>
+		<i id="I_MUNI_C_DebtTypeDescription" n="TR.FIDebtTypeDescription" l="Debt Type Description" d="Description of Debt Type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.DebtTypeDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DebtTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_DebtTypeShortDescription" n="TR.FIDebtTypeShortDescription" l="Debt Type Short Description" d="Short Description of Debt Type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.DebtTypeShortDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DebtTypeShortDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_ProjectName" n="TR.FIProjectName" l="Project Name" d="Name of the project for which the municipal offering was made." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.ProjectName" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">ProjectName</in:sp>
+		</i>
+		<i id="I_MUNI_C_PrivatePlacementFlag" n="TR.FIPrivatePlacementFlag" l="Private Placement Flag" d="Y/N flag indicating whether the security is issued by private placement. A private placement does not have to be registered with the Securities and Exchange Commission, as a public offering does." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.PrivatePlacementFlag" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PrivatePlacementFlag</in:sp>
+		</i>
+		<i id="I_MUNI_C_Purpose" n="TR.FIPurpose" l="Purpose" d="Code representing the registrant's planned use of its proceeds from the offering." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.Purpose" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">Purpose</in:sp>
+		</i>
+		<i id="I_MUNI_C_PurposeDescription" n="TR.FIPurposeDescription" l="Purpose Description" d="Description of DS_Purpose codes." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.PurposeDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PurposeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_PurposeShortDescription" n="TR.FIPurposeShortDescription" l="Purpose Short Description" d="Short description of Purpose codes." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.PurposeShortDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PurposeShortDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_OfferingType" n="TR.FIOfferingType" l="Offering Type" d="Code representing the nature of the registration." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.OfferingType" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">OfferingType</in:sp>
+		</i>
+		<i id="I_MUNI_C_OfferingTypeDescription" n="TR.FIOfferingTypeDescription" l="Offering Type Description" d="Description of Offering Type codes." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.OfferingTypeDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">OfferingTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_FaceIssuedTotal" n="TR.FIFaceIssuedTotal" l="Face Issued Total" d="Principal amount of the new security issued." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" dt="String" lid="EJV.C.FaceIssuedTotal" isScreen="false" enableHeatMap="false" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">FaceIssuedTotal</in:sp>
+		</i>
+		<i id="I_MUNI_C_FaceOutstanding" n="TR.FIFaceOutstanding" l="Face Outstanding" d="Total face amount of the security currently outstanding. For Treasuries, this is the total amount outstanding, not the amount outstanding public." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.FaceOutstanding" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">FaceOutstanding</in:sp>
+		</i>
+		<i id="I_MUNI_C_FaceOutstandingDate" n="TR.FIFaceOutstandingDate" l="Face Outstanding Date" d="Effective date of the current outstanding amount expressed in the currency of the issue." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.FaceOutstandingDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">FaceOutstandingDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_IssueDate" n="TR.FIIssueDate" l="Issue Date" d="Date of issuance of the asset (for example, the date of initial settlement)." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.IssueDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IssueDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_IssuePrice" n="TR.FIIssuePrice" l="Issue Price" d="Price to the public of an issue on an original issue date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.IssuePrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">IssuePrice</in:sp>
+		</i>
+		<i id="I_MUNI_C_MaturityDate" n="TR.FIMaturityDate" l="Maturity Date" d="Date the asset pays the remaining total principal amount to the holder in a redemption transaction. For an extendible security, the maturity date will change on each extend date from the current extend date to the next extend date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.MaturityDate" isScreen="false" dt="Date" rnk="99999">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">MaturityDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_FirstCouponDate" n="TR.FIFirstCouponDate" l="First Coupon Date" d="Date of the first coupon for the asset if the first coupon date does not fall within the regular payment cycle of the asset. Used to calculate long/short first payment amount for the purposes of cash-flow determination." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.FirstCouponDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">FirstCouponDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_LastCouponDate" n="TR.FILastCouponDate" l="Last Coupon Date" d="Last coupon or dividend payment date prior to maturity of the asset. Used to calculate long/short last payment amount for cash-flow determination or accrued interest." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.LastCouponDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">LastCouponDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_DayCount" n="TR.FIDayCount" l="Day Count" d="Description of Day Count Code." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.DayCount" isScreen="false" dt="Integer" rnk="100">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DayCount</in:sp>
+		</i>
+		<i id="I_MUNI_C_DayCountLongDescription" n="TR.FIDayCountLongDescription" l="Day Count Long Description" d="Long Description of Day Count Code." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.DayCountLongDescription" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DayCountLongDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextCallDate" n="TR.FINextCallDate" l="Call Date" d="Next date the issuer can call the bond before maturity. If the bond is callable now, the next call date is the date on which the call price changes." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextCallDate" isScreen="false" dt="Date" rnk="100">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextCallDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextCallPrice" n="TR.FINextCallPrice" l="Call Price" d="Redemption price on the next scheduled call date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextCallPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextCallPrice</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextPutDate" n="TR.FINextPutDate" l="Put Date" d="Date of the next scheduled put." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextPutDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextPutDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextPutPrice" n="TR.FINextPutPrice" l="Put Price" d="Redemption price on the next scheduled put date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextPutPrice" isScreen="false" dt="Float">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextPutPrice</in:sp>
+		</i>
+		<i id="I_MUNI_C_WorstRedemEvent" n="TR.FIWorstRedemEvent" l="Worst Redem Event" d="Value identifying whether the bond is assumed to be put, called, or matured on Worst Redem Date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.WorstRedemEvent" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">WorstRedemEvent</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextSinkAmount" n="TR.FINextSinkAmount" l="Sink Amount" d="Scheduled sinking fund amount on the next scheduled sinking fund date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextSinkAmount" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextSinkAmount</in:sp>
+		</i>
+		<i id="I_MUNI_C_NextSinkDate" n="TR.FINextSinkDate" l="Sink Date" d="Next scheduled date the issuer can or must make a sinking fund redemption." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NextSinkDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NextSinkDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_Series" n="TR.FISeries" l="Series" d="Unique name to identify the deal from the issuer." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.Series" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">Series</in:sp>
+		</i>
+		<i id="I_MUNI_C_DenominationType" n="TR.FIDenominationType" l="Denomination Type" d="Code representing the denomination type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.DenominationType" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DenominationType</in:sp>
+		</i>
+		<i id="I_MUNI_C_DenominationTypeDescription" n="TR.FIDenominationTypeDescription" l="Denomination Type Description" d="Description of Denomination Type." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.DenominationTypeDescription" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">DenominationTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_NativeYieldType" n="TR.FINativeYieldType" l="Yield Type" d="Code indicating the formula, including day count and compounding conventions, used for price/yield calculations." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NativeYieldType" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NativeYieldType</in:sp>
+		</i>
+		<i id="I_MUNI_C_NativeYieldTypeDescription" n="TR.FINativeYieldTypeDescription" l="Yield Type Description" d="Description of Native Yield Type codes." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.NativeYieldTypeDescription" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">NativeYieldTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_M_FaceOutstanding" n="TR.MUNIFaceOutstanding" l="Face Outstanding" d="Total face amount of the security currently outstanding. For Treasuries, this is the total amount outstanding, not the amount outstanding public." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.C.M_FaceOutstanding" isScreen="false" dt="Float">
+			<in:sp k="view">MUNI_AMT_OUTSD_HIST</in:sp>
+			<in:sp k="c">FaceOutstanding</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_M_CouponRate" n="TR.MUNICouponRate" l="Coupon Rate" d="Stated interest rate on this tranche." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.C.M_CouponRate" isScreen="false" dt="Float">
+			<in:sp k="view">MUNI_RATE_SCHED</in:sp>
+			<in:sp k="c">CouponRate</in:sp>
+			<in:sp k="date">EffectiveDate</in:sp>
+			<in:sp k="rule">pastOrNextDate</in:sp>
+		</i>
+		<i id="I_MUNI_C_RefundTypeCode" n="TR.MUNIRefundTypeCode" l="Refund Type Code" d="Code representing the type of refunding event." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.RefundTypeCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">RefundType</in:sp>
+		</i>
+		<i id="I_MUNI_C_RefundTypeDesc" n="TR.MUNIRefundTypeDesc" l="Refund Type" d="Type of refunding event." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.RefundTypeDesc" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">RefundTypeDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_RefundPrice" n="TR.MUNIRefundPrice" l="Refund Price" d="The price bondholders receive at redemption." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.RefundPrice" isScreen="false" dt="Float">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">MuniRefundPrice</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_C_RefundDate" n="TR.MUNIRefundDate" l="Refund Date" d="Date on which the municipal security is called." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.RefundDate" isScreen="false" dt="Date">
+			<in:sp k="view">MUNI_REFUND_TERMS</in:sp>
+			<in:sp k="c">MuniRefundDate</in:sp>
+			<in:sp k="dt">7</in:sp>
+		</i>
+		<i id="I_MUNI_C_BondInsuranceCode" n="TR.MUNIBondInsuranceCode" l="Bond Insurance Code" d="Code representing the kind of insurance contract written by a commercial insurance company providing payment to bondholders in the event of default." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.BondInsuranceCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">BondInsurance</in:sp>
+		</i>
+		<i id="I_MUNI_C_BondInsuranceDesc" n="TR.MUNIBondInsuranceDesc" l="Bond Insurance" d="Insurance contract written by a commercial insurance company providing payment to bondholders in the event of default." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.BondInsuranceDesc" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">BondInsuranceDescription</in:sp>
+		</i>
+		<i id="I_MUNI_C_MortgageInsuranceCode" n="TR.MUNIMortgageInsuranceCode" l="Mortgage Insurance Code" d="Code specifying the type of insurance policy that guarantees the payment of the underlying mortgages associated with the municipal security." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.MortgageInsuranceCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">MortgageInsurance</in:sp>
+		</i>
+		<i id="I_MUNI_C_MortgageInsuranceDesc" n="TR.MUNIMortgageInsuranceDesc" l="Mortgage Insurance" d="Type of insurance policy that guarantees the payment of the underlying mortgages associated with the municipal security." i="A:J A:2" s="EJVAN" vu="N" cc="ricValue" lid="EJV.C.MortgageInsuranceDesc" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_INFO</in:sp>
+			<in:sp k="c">MortgageInsuranceDescription</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_BE" n="Bond Enhancements" d="Bond Enhancements.">
+		<i id="I_MUNI_BE_GuarantorName" n="TR.MUNIGuarantorName" l="Guarantor Name" d="Indicates the liable entity in case of the borrower default." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="hiddenPeriod" lid="EJV.E.GuarantorName" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">GuarantorName</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_MUNI_BE_AdditionalCreditTypeCode" n="TR.MUNIAdditionalCreditTypeCode" l="Enh Credit Type Code" d="Code indicating the type of credit enhancement." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="hiddenPeriod" lid="EJV.E.AdditionalCreditTypeCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">AdditionalCreditType</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_MUNI_BE_AdditionalCreditType" n="TR.MUNIAdditionalCreditType" l="Enh Credit Type" d="Type of credit enhancement." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="hiddenPeriod" lid="EJV.E.AdditionalCreditType" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">AdditionalCreditTypeDescription</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_MUNI_BE_EnhanceStartDate" n="TR.MUNIEnhanceStartDate" l="Enhancement Start Date" d="Date on which the enhancement credit becomes effective." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="hiddenPeriod" lid="EJV.E.EnhanceStartDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">EnhancementStartDate</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+		<i id="I_MUNI_BE_EnhanceEndDate" n="TR.MUNIEnhanceEndDate" l="Enhancement End Date" d="Last date for which the credit enhancement is effective." i="A:J A:2" s="EJVAN" vu="N" pc="UnityEJVDATERP" cc="hiddenPeriod" lid="EJV.E.EnhanceEndDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">MUNI_ENHANCEMENTS</in:sp>
+			<in:sp k="c">EnhancementEndDate</in:sp>
+			<in:sp k="date">EnhancementStartDate</in:sp>
+			<in:sp k="dateto">EnhancementEndDate</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_X" n="Basic Info" d="Basic Info.">
+		<i id="I_MUNI_X_REDCALL" n="TR.REDCALL" l="Redemption Call" d="The next specified price that the issuer has to pay in the event that he decides to exercise his call option." i="A:J A:2" s="ADFIN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.X.REDCALL" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDPUT" n="TR.REDPUT" l="Redemption Put" d="The next specified price at which the bondholder has the option to sell the bond back to the issuer." i="A:J A:2" s="ADFIN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.X.REDPUT" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDPNOT" n="TR.REDPNOT" l="Days Put Min Notification" d="Displays the minimum number of days before the put date the bond holder must notify the issuer that the bond will be redeemed." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.REDPNOT" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">9</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDCNOT" n="TR.REDCNOT" l="Days Call Min Notification" d="Displays the minimum number of days before the call date the issuer must notify the holder that the bond will be called." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.REDCNOT" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">9</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDCTYP" n="TR.REDCTYP" l="Type Call" d="Indicates when the call option can be exercised." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.REDCTYP" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDAMT" n="TR.REDAMT" l="Redemption Next Amount" d="The next sinking fund principal amount that the issuer must redeem, as specified in the bond documentation (prospectus)." i="A:J A:2" s="ADFIN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.X.REDAMT" isScreen="false" dt="Float">
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDPRICE" n="TR.REDPRICE" l="Redemption Price" d="The next price at which the principal is retired." i="A:J A:2" s="ADFIN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.X.REDPRICE" isScreen="false" dt="Float">
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_X_REDEXT" n="TR.REDEXT" l="Redemption Extend" d="The redemption extend." i="A:J A:2" s="ADFIN" vu="N" pc="UnityEJVDATERP" cc="unityPriceHistory" lid="EJV.X.REDEXT" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">CXBLS</in:sp>
+			<in:sp k="c">RED</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_XM" n="Data Mapping" d="Data Mapping.">
+		<i id="I_MUNI_XM_ADF_BONDSTRUCTERR" n="TR.ADF_BONDSTRUCTERR" l="Bond Structure Error" d="Bond Structure Error." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_BONDSTRUCTERR" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_BONDSTRUCTURE" n="TR.ADF_BONDSTRUCTURE" l="Bond Structure" d="Retrieves the BondStructure of a bond regardless of the bond type (FRN, Index-linked or Bond). Warning! The data returned by this field may be spread over multiple cells. Users must plan an appropriate number of empty cells." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_BONDSTRUCTURE" isScreen="false" dt="String" enableHeatMap="false" rnk="100">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_COUPON" n="TR.ADF_COUPON" l="Coupon" d="The (annualized) rate of interest paid by the bond in the current period." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_COUPON" isScreen="false" dt="Float">
+			<out:p id="xtra_dr">RO</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_INDEXNAME" n="TR.ADF_INDEXNAME" l="FRN Index" d="Name of the underlying index to which a floating rate note is indexed, e.g. LIUSD6M for 6 month USD Libor." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_INDEXNAME" isScreen="false" dt="Float">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_MARGIN" n="TR.ADF_MARGIN" l="FRN Margin" d="The spread to the index that determines a floating rate notes coupon." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_MARGIN" isScreen="false" dt="Float">
+			<out:p id="xtra_dr">RO</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">5</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_MATDATE" n="TR.ADF_MATDATE" l="Maturity Date" d="The date on which the bond will be redeemed completely." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_MATDATE" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">7</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_RATESTRUCTERR" n="TR.ADF_RATESTRUCTERR" l="Rate Structure Error" d="Rate Structure Error." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_RATESTRUCTERR" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_RATESTRUCTURE" n="TR.ADF_RATESTRUCTURE" l="Rate Structure" d="Retrieves the RateStructure of an instrument." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_RATESTRUCTURE" isScreen="false" dt="String" enableHeatMap="false" rnk="100">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_SETTLE" n="TR.ADF_SETTLE" l="Settlement Rule" d="String giving the rule used by Adfin to determine a settlement date using the BdSettle function." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_SETTLE" isScreen="false" dt="String" enableHeatMap="false" rnk="100">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_STRUCTERR" n="TR.ADF_STRUCTERR" l="Structure Error" d="Structure Error." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_STRUCTERR" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_STRUCTURE" n="TR.ADF_STRUCTURE" l="Structure" d="Retrieves a string made up with a series of parameters. Depending on the bond type, this parameter is either the bond structure for vanilla bonds, ILStructure for Index Linked bonds or FRN structure for FRN bonds." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_STRUCTURE" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+		<i id="I_MUNI_XM_ADF_STRUCTUREINDICATOR" n="TR.ADF_STRUCTUREINDICATOR" l="Structure Indicator" d="Indicator to determine the Structure that should be used with the bond." i="A:J A:2" s="ADFIN" vu="N" cc="ricValue" lid="EJV.X.ADF_STRUCTUREINDICATOR" isScreen="false" dt="String" enableHeatMap="false">
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="view">ADFIN</in:sp>
+			<in:sp k="dt">2</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_CP" n="Val. Price Info" d="Val. Price Info.">
+		<i id="I_MUNI_CP_AccrualDate" n="TR.FIAccrualDate" l="Accrual Date" d="Date the accrual of interest begins for the bond." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.AccrualDate" isScreen="false" dt="Date" rnk="100">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">AccrualDate</in:sp>
+		</i>
+		<i id="I_MUNI_CP_AccruedInterest" n="TR.FIAccruedInterest" l="Accrued Interest" d="Amount of interest that the buyer owes the seller of the security on the settlement date." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.AccruedInterest" isScreen="false" dt="Float" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">AccruedInterest</in:sp>
+		</i>
+		<i id="I_MUNI_CP_CurrentYield" n="TR.FICurrentYield" l="Current Yield" d="Coupon divided by price, expressed as a percent." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.CurrentYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">CurrentYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_MaturityRedemEvent" n="TR.FIMaturityRedemEvent" l="Maturity Redem Event" d="Maturity for corporates and governments. NULL for mortgages and CMOs." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.MaturityRedemEvent" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">MaturityRedemEvent</in:sp>
+		</i>
+		<i id="I_MUNI_CP_Price" n="TR.FIPrice" l="Price" d="Flat price for the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.Price" isScreen="false" dt="Float" rnk="100">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">Price</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingAskPrice" n="TR.FIPricingAskPrice" l="Ask Price" d="Ask Price." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingAskPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingAskPrice</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingAskYield" n="TR.FIPricingAskYield" l="Ask Yield" d="Ask Yield." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingAskYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingAskYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingBidAskSpread" n="TR.FIPricingBidAskSpread" l="Bid Ask Spread" d="Difference between the bid and ask prices for the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingBidAskSpread" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingBidAskSpread</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingBidPrice" n="TR.FIPricingBidPrice" l="Bid Price" d="Bid Price." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingBidPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingBidPrice</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingBidYield" n="TR.FIPricingBidYield" l="Bid Yield" d="Bid Yield." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingBidYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingBidYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingClosingPrice" n="TR.FIPricingClosingPrice" l="Closing Price" d="Closing price assigned to the security by the Reuters Evaluations Desk. Generally, the same as Price." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingClosingPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingClosingPrice</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingClosingYield" n="TR.FIPricingClosingYield" l="Closing Yield" d="Closing yield assigned to the security by the Reuters Evaluations Desk. Generally, the same as Yield to Worst." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingClosingYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingClosingYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMeanPrice" n="TR.FIPricingMeanPrice" l="Mean Price" d="Mean price of the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMeanPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMeanPrice</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMeanYield" n="TR.FIPricingMeanYield" l="Mean Yield" d="Mean yield of the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMeanYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMeanYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMethodCode" n="TR.FIPricingMethodCode" l="Method Code" d="Code representing the method used to price the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMethodCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMethodCode</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMethodValue" n="TR.FIPricingMethodValue" l="Method Value" d="Value assigned to the security based on the method used to price the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMethodValue" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMethodValue</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMidPrice" n="TR.FIPricingMidPrice" l="Pricing Mid Price" d="PricingMidPrice" i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMidPrice" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMidPrice</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingMidYield" n="TR.FIPricingMidYield" l="Pricing Mid Yield" d="PricingMidYield" i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingMidYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingMidYield</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingSource" n="TR.FIPricingSource" l="Pricing Source" d="Source of the closing price. Defaults to EJV." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingSource" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingSource</in:sp>
+		</i>
+		<i id="I_MUNI_CP_PricingTradeDate" n="TR.FIPricingTradeDate" l="Trade Date" d="Trade date used to price the security." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.PricingTradeDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">PricingTradeDate</in:sp>
+		</i>
+		<i id="I_MUNI_CP_SettleDate" n="TR.FISettleDate" l="Settlement Date" d="Date cash payments for purchases are due and accrued interest and price/yield relationships are computed." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.SettleDate" isScreen="false" dt="Date" rnk="100">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">SettleDate</in:sp>
+		</i>
+		<i id="I_MUNI_CP_SettleDateConvention" n="TR.FISettleDateConvention" l="Settlement Date Convention" d="Settlement Date Convention." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.SettleDateConvention" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">SettleDateConvention</in:sp>
+		</i>
+		<i id="I_MUNI_CP_TradeDate" n="TR.FITradeDate" l="Trade Date" d="Date for which the record applies." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.TradeDate" isScreen="false" dt="Date">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">TradeDate</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_CM" n="Val. Maturity Analytics" d="Val. Maturity Analytics.">
+		<i id="I_MUNI_CM_MaturityAverageLife" n="TR.FIMaturityAverageLife" l="Average Life" d="Average life of the security, calculated with the cash-flow assumption that corporate and government securities trade to maturity. For mortgage backed securities, Reuters applies consensus prepayment speeds." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.MaturityAverageLife" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">MaturityAverageLife</in:sp>
+		</i>
+		<i id="I_MUNI_CM_MaturityCorpConvexity" n="TR.FIMaturityCorpConvexity" l="Convexity" d="Convexity of the security. Calculated using the cash-flow assumptions described in Maturity Average Life. Convexity measures the degree of curvature of the price/yield curve at the given price." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.MaturityCorpConvexity" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">MaturityCorpConvexity</in:sp>
+		</i>
+		<i id="I_MUNI_CM_MaturityCorpYield" n="TR.FIMaturityCorpYield" l="Corporate Yield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Maturity Average Life." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.MaturityCorpYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">MaturityCorpYield</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_CW" n="Val. Worst Analytics" d="Val. Worst Analytics.">
+		<i id="I_MUNI_CW_WorstAverageLife" n="TR.FIWorstAverageLife" l="Worst Average Life" d="Average life computed using cash-flow assumptions that represent expected outcome. For mortgage-backed securities, Reuters applies consensus prepayment speeds. For corporates and governments, Reuters determines the worst sinking fund and call and the best put." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.WorstAverageLife" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">WorstAverageLife</in:sp>
+		</i>
+		<i id="I_MUNI_CW_WorstCorpModDuration" n="TR.FIWorstCorpModDuration" l="Worst Corp Mod Duration" d="Measure of interest rate risk. Expressed as the percentage change in value per unit shift in the yield curve. Calculated using the cash-flow assumptions described in Worst Average Life." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.WorstCorpModDuration" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">WorstCorpModDuration</in:sp>
+		</i>
+		<i id="I_MUNI_CW_WorstCorpYield" n="TR.FIWorstCorpYield" l="Worst Corporate Yield" d="Corporate bond equivalent cash-flow yield using the cash-flow assumptions described in Worst Average Life." i="A:J A:2" s="EJVCOMMON" vu="N" pc="SEG" cc="ricValue" lid="EJV.C.WorstCorpYield" isScreen="false" dt="Float">
+			<in:sp k="view">COMMON</in:sp>
+			<in:sp k="c">WorstCorpYield</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_MR" n="Municipal Bond Rating" d="Bond Rating.">
+		<i id="I_MUNI_MR_RatingDate" n="TR.MUNIRatingDate" l="Rating Date" d="Date of the Rating." i="A:J A:2" s="EJVAN" vu="N" pc="UnityMunRating" cc="GovCorpRatingSource" vc="date" isScreen="false" dt="Date">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingEffectiveDate</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_MUNI_MR_Rating" n="TR.MUNIRating" l="Rating" d="Code assigned by a rating agency indicating the investment quality of the offered security." i="A:J A:2" s="EJVAN" vu="N" pc="UnityMunRating" cc="GovCorpRatingSource" lid="EJV.MR.Rating" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">Rating</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_MUNI_MR_RatingRank" n="TR.MUNIRatingRank" l="Rating Rank" d="Code representing the rating rank." i="A:J A:2" s="EJVAN" vu="N" pc="UnityMunRating" cc="GovCorpRatingSource" lid="EJV.MR.RatingRank" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingRank</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_MUNI_MR_RatingSPEquivalentRank" n="TR.MUNIRatingSPEquivalentRank" l="Rating SP Equivalent Rank" d="RatingSPEquivalentRank" i="A:J A:2" s="EJVAN" vu="N" pc="UnityMunRating" cc="GovCorpRatingSource" lid="EJV.MR.RatingSPEquivalentRank" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingSPEquivalentRank</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+		<i id="I_MUNI_MR_RatingSourceCode" n="TR.MUNIRatingSourceCode" l="Rating Source Code" d="Code of the rating source which publish the credit rating." i="A:J A:2" s="EJVAN" vu="N" pc="UnityMunRating" cc="GovCorpRatingSource" lid="EJV.MR.RatingSourceCode" isScreen="false" dt="String" enableHeatMap="false">
+			<in:sp k="view">MUNI_RATINGS</in:sp>
+			<in:sp k="c">RatingSource</in:sp>
+			<in:sp k="date">RatingEffectiveDate</in:sp>
+			<in:sp k="rule">timeSeries</in:sp>
+		</i>
+	</c>
+	<c id="C_MUNI_H" n="Holding (H)" d="Holding.">
+		<i id="I_MUNI_H_REPORTDATE" n="TR.H.REPORTDATE" l="Reported Date" d="Date when the par held by the managing company on the instrument was last reported." i="A:J I:21 A:1A" s="EJVEMAXX" vu="N" pc="TopRec" cc="GovCorpHolding" dt="Date" lid="EJV.H.REPORTDATE" isScreen="false">
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+			<in:sp k="c">CompanyHoldingDate</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+		</i>
+		<i id="I_MUNI_H_HoldingCompanyName" n="TR.H.HoldingCompanyName" l="Holding Company Name" d="Holding Company Name" i="A:J I:21 A:1A" s="EJVEMAXX" vu="T" pc="TopRec" cc="GovCorpHolding" vc="HoldingCompanyName" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+			<in:sp k="c">HoldingCompanyName</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+		</i>
+		<i id="I_MUNI_H_PARHELD" n="TR.H.PARHELD" l="Par Held" d="Par held by the company on the last reported date in USD by default when no conversion is requested." i="A:J I:21 A:1A" s="EJVEMAXX" vu="T" pc="TopRec" cc="GovCorpHolding" dt="String" lid="EJV.H.PARHELD" isScreen="false" enableHeatMap="false">
+			<in:sp k="view">FIXEDINCOME_COMMON_BOND_HOLDINGS</in:sp>
+			<in:sp k="c">HoldingSize</in:sp>
+			<in:sp k="date">CompanyHoldingDate</in:sp>
+		</i>
+	</c>
+</d>

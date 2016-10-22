@@ -1,0 +1,124 @@
+﻿<d id="D_DSC" n="Commodities" d="Commodities" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSC_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSC_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSC_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSC_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSC_SQ_TR_SourceName" n="TR.SourceName" l="Commodity Source Name" d="The name of the source for the quote or index. This could be an exchange or third party." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CSNAME</in:sp>
+		</i>
+		<i id="I_DSC_SQ_TR_Time" n="TR.Time" l="Time - Latest Value" d="TIME shows the date of the latest value in a DD/MM/YY format." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TIME</in:sp>
+		</i>
+	</c>
+	<c id="C_DSC_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSC_P_TR_Price" n="TR.Price" l="Price" d="The price issued by an exchange or third party." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">P</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_PriceIndex" n="TR.PriceIndex" l="Price Index" d="This is the default datatype for equity indices. Datastream calculates its own aggregate sector and market price indices, together with associated aggregations such as sector price/earnings ratio (PE) and dividend yield (DY). Sector and market aggregations are weighted by market value and are calculated using a representative list of shares." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PI</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_PriceCalcMid" n="TR.PriceCalcMid" l="Price - Datastream Calculated Mid" d="The Datastream calculated mid of either closing bid and ask prices or high and low range depending on source definitions." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSP</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_PriceCurrency" n="TR.PriceCurrency" l="Price - Currency" d="This is the currency of issue." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PCUR</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_MarketPrice" n="TR.MarketPrice" l="Market Price" d="Where the exchange issues a settlement price this value will be stored. For exchanges which do not issue a settlement price (OTOB, AEX, CBOE, AMEX and PHLX), the following price will be stored: Last traded price provided last trade is within bid/ask range at the end of the closing session. Otherwise the nearest bid or ask price to the last trade price will be stored. In the event that the option has not traded, the last mid bid/ask price will be calculated and stored. In the event that only bid or ask is available on that day, this value will be stored" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_OfficialPrice" n="TR.OfficialPrice" l="Official Price" d="This is the official price not adjusted for capital events. It is available for the UK (Daily Official List Price) and Germany (Kassekurs)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OF</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_NumberofTraders" n="TR.NumberofTraders" l="Number of Traders" d="The number of traders holding positions in a given futures contract. This is provided in the US CFTC Commitment of Traders reports." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TN</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_UnofficialPrice" n="TR.UnofficialPrice" l="Unofficial Price" d="The unofficial afternoon price as stipulated by LME. The closing price after the second ring of the second session. The price stipulated is calculated from the mid bid/ask quote." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UF</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_UnadjustedPrice" n="TR.UnadjustedPrice" l="Unadjusted Price" d="The unadjusted closing price. Used occasionally for currency changes." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UP</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_TurnoverDaily" n="TR.TurnoverDaily" l="Turnover - Daily" d="The daily turnover figure." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TV</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_InventoryVolume" n="TR.InventoryVolume" l="Inventory Volume" d="The volume currently stored in warehouses. Used primarily by the London Metal Exchange, CME Group and Shanghai Futures Exchange to display the quantity of a commodity stored in their approved warehouses." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IV</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_CommodityTimeSeries" n="TR.CommodityTimeSeries" l="Commodity Time Series" d="The commodity time series data implied by the source, name or units." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CS</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_DeliveredIn" n="TR.DeliveredIn" l="Delivered In" d="The number of lots delivered into warehouse. Used for warehouse inventory information." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DIN</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_DeliveredOut" n="TR.DeliveredOut" l="Delivered Out" d="The number of lots delivered out of warehouse. Used for warehouse inventory information." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DOUT</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_OfficialBuyerPrice" n="TR.OfficialBuyerPrice" l="Official Buyer Price" d="The official buyer or bid price." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OB</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_OfficialSellerPrice" n="TR.OfficialSellerPrice" l="Official Seller Price" d="The official seller or offer price." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OO</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_OnWarrant" n="TR.OnWarrant" l="On Warrant" d="The number of lots on warrant for delivery. Used for commodity warehouse stock information." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">OW</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_UnofficialBuyerPrice" n="TR.UnofficialBuyerPrice" l="Unofficial Buyer Price" d="The unofficial buyer or bid price." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UB</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_QuoteUnit" n="TR.QuoteUnit" l="Quote Unit" d="The units of volume for which the price quotation relates. For example a commodity quoted per metric tonne will display METRIC TONNES." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">UNITS</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_UnofficialSellerPrice" n="TR.UnofficialSellerPrice" l="Unofficial Seller Price" d="The unofficial seller or offer price." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UO</in:sp>
+		</i>
+		<i id="I_DSC_P_TR_CancelledWarrant" n="TR.CancelledWarrant" l="Cancelled Warrant" d="The number of lots on cancelled warrants. Used for commodity warehouse stock information." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XW</in:sp>
+		</i>
+	</c>
+	<c id="C_DSC_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSC_PA_TR_TotalReturnVal" n="TR.TotalReturnVal" l="Total Return Value" d="The day's closing total return index value." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TR</in:sp>
+		</i>
+		<i id="I_DSC_PA_TR_ExcessReturn" n="TR.ExcessReturn" l="Excess Return" d="The day's closing excess return index value." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XS</in:sp>
+		</i>
+		<i id="I_DSC_PA_TR_NumberofTrades" n="TR.NumberofTrades" l="Number of Trades" d="The number of trades on the day irrespective of size." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NT</in:sp>
+		</i>
+	</c>
+</d>

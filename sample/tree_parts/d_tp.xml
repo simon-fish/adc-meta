@@ -1,0 +1,25 @@
+﻿<d id="D_TP" d="Portfolio" n="Portfolio" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_TP_C" d="Constituents" n="Constituents">
+		<i id="I_TP_C_ModifiedDate" n="TR.PortfolioModifiedDate" l="Portfolio Modified Date" d="Date on which portfolio was last time modified." i="" s="PW_CONSTITUENTS" pc="TRIndConst" cc="CCRicPeriodCompanyNameValue" isScreen="false" lid="P.C.ModifiedDate">
+			<in:sp k="s">Header</in:sp>
+			<in:sp k="f">LastModifiedDateTime</in:sp>
+			<in:sp k="t">DateTime</in:sp>
+		</i>
+		<i id="I_TP_C_StatementDate" n="TR.PortfolioStatementDate" l="Portfolio Statement Date" d="Statement date." i="" s="PW_CONSTITUENTS" pc="TRIndConst" cc="CCRicPeriodCompanyNameValue" isScreen="false" lid="P.C.StatementDate">
+			<in:sp k="s">Header</in:sp>
+			<in:sp k="f">HoldingsStatementDate</in:sp>
+			<in:sp k="t">Date</in:sp>
+		</i>
+		<i id="I_TP_C_Units" n="TR.PortfolioShares" l="Portfolio Shares" d="Number of units of portfolio constituent." i="" s="PW_CONSTITUENTS" pc="TRIndConst" cc="CCRicPeriodCompanyNameValue" isScreen="false" lid="P.C.Units">
+			<in:sp k="s">Element</in:sp>
+			<in:sp k="f">Units</in:sp>
+			<in:sp k="t">Float</in:sp>
+		</i>
+		<i id="I_TP_C_IssuerName" n="TR.PortfolioConstituentName" l="Portfolio Constituents Name" d="Issuer Name of the Constituents in Portfolio." i="" s="PW_CONSTITUENTS" pc="TRIndConst" cc="CCRicPeriodCompanyNameValue" isScreen="false" vc="issuername">
+			<in:sp k="s">Element</in:sp>
+			<in:sp k="f">Units</in:sp>
+			<in:sp k="t">Float</in:sp>
+		</i>
+		<i id="I_TP_C_PortfolioWeight" d="Weight of portfolio constituent." l="Portfolio Weight" n="TR.PortfolioWeight" s="PortfolioAnalytics" cc="CCRicPeriodCompanyNameValue" pc="TRIndConst" i=""></i>
+	</c>
+</d>

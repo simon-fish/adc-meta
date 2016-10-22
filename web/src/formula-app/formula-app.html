@@ -1,0 +1,30 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="./formula-search.html">
+
+
+<dom-module id="formula-app">
+  <template>
+    <style>
+
+    </style>
+
+    <formula-search endpoint="{{endpoint}}"></formula-search>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'formula-app',
+
+      properties: {
+        endpoint: {
+          type: String,
+          value: '..'
+        }
+      },
+
+    });
+  </script>
+</dom-module>

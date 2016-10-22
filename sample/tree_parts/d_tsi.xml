@@ -1,0 +1,285 @@
+﻿<d id="D_TSI" d="Time Series" n="Time Series data" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+    <c id="C_TSITRDPRC" n="Trade Price Time Series" d="Trade Price time teries"  m="" i="A:1Y A:F A:1L A:AR A:AN A:32 A:AP A:AU A:FP A:33 A:FR A:34 A:FQ A:35 A:AQ A:36 A:1W A:37 A:31 A:FU A:3A A:FT A:2R I:17 A:BF A:J A:BG A:3Z A:BH A:40 A:BI A:B2 A:3C I:4M A:3B A:1J I:4J A:18 I:50 A:5E A:10 A:5M" >
+        <i id="I_TSI_H_TRDPRCCLOSE" n="TR.TradePriceClose" l="Trade Price Close" d="Trade Price close" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.CLOSE</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+	<i id="I_TSI_H_TRDPRCHIGH" n="TR.TradePriceHigh" l="Trade Price High" d="Highest trade price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.HIGH</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+        <i id="I_TSI_H_TRDPRCLOW" n="TR.TradePriceLow" l="Trade Price Low" d="Lowest trade price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.LOW</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+        <i id="I_TSI_H_TRDPRCOPEN" n="TR.TradePriceOpen" l="Trade Price Open" d="Opening trade price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.OPEN</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+        <i id="I_TSI_H_TRDPRCCOUNT" n="TR.TradeCount" l="Trade Price Count" d="Number of trades" i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.COUNT</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+        <i id="I_TSI_H_TRDPRCVOL" n="TR.TradeVolume" l="Trade Price Volume" d="Volume of trade" i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.VOLUME</in:sp>
+          <in:sp k="groupid">I_TSI_H_TRDPRC</in:sp>
+        </i>
+        <i id="I_TSI_H_TRDPRC" n="TR.TradePrices" l="All Trade Price Values" d="All trade price related data items." i="" s="TsiHandler" pc="TSIINCPC" cc="TSICCALL" isScreen="false" rnk="99999" >
+          <in:sp k="id">DAY.TRDPRC_1.ALL</in:sp>
+          <in:sp k="attr_id">All</in:sp>
+        </i>
+    </c>
+    <c id="C_TSIASK" n="Ask Time Series" d="Ask Time Series" m="" i="A:1Y A:F A:2Z A:1L A:AN A:AP A:FP A:FQ A:AQ A:1W A:31 A:AR A:32 A:34 A:35 A:36 A:FU A:FT A:3A A:2R A:BF A:BH A:BI A:3C A:3B A:1J I:17 I:21 A:J A:D A:3Z A:40 A:B2 A:7P A:7N A:BA A:18 A:5E A:30 A:AS A:33 A:37 A:AU A:BG A:BL A:FR A:2P A:10 A:5M">
+        <i id="I_TSI_H_ASKPRICECLOSE" n="TR.AskPriceClose" l="Ask Close" d="Ask price close" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.CLOSE</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+	      <i id="I_TSI_H_ASKPRICEHIGH" n="TR.AskPriceHigh" l="Ask High" d="Highest ask price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.HIGH</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+        <i id="I_TSI_H_ASKPRICELOW" n="TR.AskPriceLow" l="Ask Low" d="Lowest ask price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.LOW</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+        <i id="I_TSI_H_ASKPRICEOPEN" n="TR.AskPriceOpen" l="Ask Open" d="Opening ask price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.OPEN</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+        <i id="I_TSI_H_ASKCOUNT" n="TR.AskCount" l="Ask Count" d="Ask Count." i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.COUNT</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+        <i id="I_TSI_H_ASKVOL" n="TR.AskVolume" l="Ask Volume" d="Ask Volume." i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.ASK.VOLUME</in:sp>
+          <in:sp k="groupid">I_TSI_H_ASK</in:sp>
+        </i>
+        <i id="I_TSI_H_ASK" n="TR.AskPrices" l="All Ask Values" d="All ask related data items" i="" s="TsiHandler" pc="TSIINCPC" cc="TSICCALL" isScreen="false" rnk="99999" >
+          <in:sp k="id">DAY.ASK.ALL</in:sp>
+          <in:sp k="attr_id">All</in:sp>
+        </i>
+    </c>
+    <c id="C_TSIBID" n="Bid Time Series" d="Bid Time Series" m="" i="A:1Y A:F A:2Z A:1L A:AN A:AP A:FP A:FQ A:AQ A:1W A:31 A:AR A:32 A:34 A:35 A:36 A:FU A:FT A:3A A:2R A:BF A:BH A:BI A:3C A:3B A:1J I:17 I:21 A:J A:D A:3Z A:40 A:B2 A:7N A:18 A:5E A:30 A:AS A:33 A:37 A:AU A:BG A:BL A:FR A:2P  A:10 A:5M">
+        <i id="I_TSI_H_BIDPRICECLOSE" n="TR.BIDPriceClose" l="Bid Close" d="Bid price close" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.CLOSE</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BIDPRICEHIGH" n="TR.BidPriceHigh" l="Bid High" d="Highest bid price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.HIGH</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BIDPRICELOW" n="TR.BidPriceLow" l="Bid Low" d="Lowest bid price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.LOW</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BIDPRICEOPEN" n="TR.BidPriceOpen" l="Bid Open" d="Opening bid price" i="" s="TsiHandler" pc="TSIIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.OPEN</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BIDCOUNT" n="TR.BidCount" l="Bid Count" d="Bid Count." i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.COUNT</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BIDVOL" n="TR.BidVolume" l="Bid Volume" d="Bid Volume." i="" s="TsiHandler" pc="TSIINCPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <in:sp k="id">DAY.BID.VOLUME</in:sp>
+          <in:sp k="groupid">I_TSI_H_BID</in:sp>
+        </i>
+        <i id="I_TSI_H_BID" n="TR.BidPrices" l="All Bid Values" d="All bid related data items" i="" s="TsiHandler" pc="TSIINCPC" cc="TSICCALL" isScreen="false" rnk="99999" >
+          <in:sp k="id">DAY.BID.ALL</in:sp>
+          <in:sp k="attr_id">All</in:sp>
+        </i>
+    </c>
+    <c id="C_TSITRTN" n="Total Return Time Series" d="Total Return Time Series" m="">
+      <c id="C_TSITRTNRAW" n="Raw Time Series" d="Raw Time Series" m="">
+        <i id="I_TSI_H_TRTNVAL" n="TR.TRtn" l="Total Return" d="Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_MTDTRTNVAL" n="TR.TRtnMtd" l="Month to date Total Return" d="Month to date Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.MTDTRTN.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_QTDTRTNVAL" n="TR.TRtnQtd" l="Quarter to date Total Return" d="Quarter to date Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.QTDTRTN.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_YTDTRTNVAL" n="TR.TRtnYtd" l="Year to date Total Return" d="Year to date Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.YTDTRTN.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_1WTRTNVAL" n="TR.TRtn1w" l="1 week Total Return" d="1 week Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_1W.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_1MTRTNVAL" n="TR.TRtn1m" l="1 Month Total Return" d="1 Month to date Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_1M.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_1QTRTNVAL" n="TR.TRtn1q" l="1 Quarter Total Return" d="1 Quarter to date Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_3MT.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_1YTRTNVAL" n="TR.TRtn1y" l="1 year Total Return" d="1 year Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.YR_TRTN.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_2YTRTNVAL" n="TR.TRtn2y" l="2 years Total Return" d="2 years Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_2Y.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_3YTRTNVAL" n="TR.TRtn3y" l="3 years Total Return" d="3 years Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_3Y.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_4YTRTNVAL" n="TR.TRtn4y" l="4 years Total Return" d="4 years Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_4Y.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_5YTRTNVAL" n="TR.TRtn5y" l="5 years Total Return" d="5 years Total Return." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Integer" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TRTN_5Y.VALUE</in:sp>
+        </i>
+      </c>
+      <!--c id="C_TSITRTNANN" n="Annual Time Series" d="Annual Time Series">
+      </c>
+      <c id="C_TSITRTNQTR" n="Quartely Time Series" d="Quartely Time Series">
+      </c>
+      <c id="C_TSITRTNMTH" n="Monthly Time Series" d="Monthly Time Series">
+      </c>
+      <c id="C_TSITRTNWK" n="Weekly Time Series" d="Weekly Time Series">
+      </c-->
+    </c>
+    <c id="C_TSIOTHER" n="Other Time Series" d="Other Time Series" m="">
+      <c id="C_TSIOTHERRAW" n="Raw Time Series" d="Raw Time Series" m="">
+        <i id="I_TSI_H_VWAP" n="TR.Vwap" l="VWAP" d="Volume-weighted average price." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.VWAP.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_BLOCKVOL" n="TR.BlockVol" l="Block Volume" d="Block Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.BLOCKVOLUM.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_TURNOVERVOL" n="TR.TurnoverVol" l="Turnover Volume" d="Turnover Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">DAY.TURNOVER.VOLUME</in:sp>
+        </i>
+           <i id="I_TSI_H_NDAASK" n="TR.NdaAsk" l="NDA Ask" d="NDA Ask." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_ASK</in:sp>
+      </i>
+      <i id="I_TSI_H_NDABID" n="TR.NdaBid" l="NDA BID" d="NDA BID." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_BID</in:sp>
+      </i>
+      <i id="I_TSI_H_NDABLOCK_TRADE" n="TR.NdaBlockTrade" l="NDA BLOCK_TRADE" d="NDA BLOCK_TRADE." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_BLOCK_TRADE</in:sp>
+      </i>
+      <i id="I_TSI_H_NDABLOCK_VOLUME" n="TR.NdaBlockVolume" l="NDA BLOCK_VOLUME" d="NDA BLOCK_VOLUME." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_BLOCK_VOLUME</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAHIGH" n="TR.NdaHigh" l="NDA HIGH" d="NDA HIGH." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_HIGH</in:sp>
+      </i>
+      <i id="I_TSI_H_NDALAST" n="TR.NdaLast" l="NDA LAST" d="NDA LAST." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_LAST</in:sp>
+      </i>
+      <i id="I_TSI_H_NDALOW" n="TR.NdaLow" l="NDA LOW" d="NDA LOW." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_LOW</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAMID" n="TR.NdaMid" l="NDA MID" d="NDA MID." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_MID</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAOPEN" n="TR.NdaOpen" l="NDA OPEN" d="NDA OPEN." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_OPEN</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAPRICE_MOVES" n="TR.NdaPriceMoves" l="NDA Price Moves" d="NDA price moves." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_PRICE_MOVES</in:sp>
+      </i>
+      <i id="I_TSI_H_NDATRADE_STATUS" n="TR.NdaTradeStatus" l="NDA TRADE_STATUS" d="NDA TRADE_STATUS." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_TRADE_STATUS</in:sp>
+      </i>
+      <i id="I_TSI_H_NDATURNOVER" n="TR.NdaTurnover" l="NDA TURNOVER" d="NDA TURNOVER." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_TURNOVER</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAVOLUME" n="TR.NdaVolume" l="NDA VOLUME" d="NDA Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_VOLUME</in:sp>
+      </i>
+      <i id="I_TSI_H_NDAVOL_WEIGHT_AVG_PRICE" n="TR.NdaVolWeightAvgPrice" l="NDA VOL_WEIGHT_AVG_PRICE" d="NDA VOL_WEIGHT_AVG_PRICE." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+        <out:p id="hidden" />
+        <in:sp k="id">DAY.NDA_RAW.NDA_VOL_WEIGHT_AVG_PRICE</in:sp>
+      </i>
+    </c>
+    <i id="I_TSI_STREAMING" n="TR.PLINK.ANY" l="TR_PLINK_ANY" d="TR RT hidden field" i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+      <in:sp k="id">TR.PLINK.ANY</in:sp>
+      <out:p id="hidden" />
+    </i>
+
+      <c id="C_TSIOTHERANN" n="Annual Time Series" d="Annual Time Series" m="">
+        <i id="I_TSI_H_VWAPANN" n="TR.AnnVwap" l="VWAP Annual" d="Annual Volume-weighted average price." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">ANN.VWAP.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_BLOCKVOLANN" n="TR.AnnBlockVol" l="Annual Block Volume" d="Annual Block Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">ANN.BLOCKVOLUM.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_TURNOVERVOLANN" n="TR.AnnTurnoverVol" l="Annual Turnover Volume" d="Annual Turnover Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">ANN.TURNOVER.VOLUME</in:sp>
+        </i>
+      </c>
+      <c id="C_TSIOTHERQTR" n="Quarterly Time Series" d="Quarterly Time Series" m="">
+        <i id="I_TSI_H_VWAPQTR" n="TR.QtrlyVwap" l="VWAP Quarterly" d="Quarterly Volume-weighted average price." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">QTR.VWAP.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_BLOCKVOLQTR" n="TR.QtrlyBlockVol" l="Quarterly Block Volume" d="Quarterly Block Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">QTR.BLOCKVOLUM.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_TURNOVERVOLQTR" n="TR.QtrlyTurnoverVol" l="Quarterly Turnover Volume" d="Quarterly Turnover Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">QTR.TURNOVER.VOLUME</in:sp>
+        </i>
+      </c>
+      <c id="C_TSIOTHERMTH" n="Monthly Time Series" d="Monthly Time Series" m="">
+        <i id="I_TSI_H_VWAPMTH" n="TR.MnthlyVwap" l="VWAP Monthly" d="Monthly Volume-weighted average price." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">MTH.VWAP.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_BLOCKVOLMTH" n="TR.MnthlyBlockVol" l="Monthly Block Volume" d="Monthly Block Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">MTH.BLOCKVOLUM.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_TURNOVERVOLMTH" n="TR.MnthlyTurnoverVol" l="Monthly Turnover Volume" d="Monthly Turnover Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">MTH.TURNOVER.VOLUME</in:sp>
+        </i>
+      </c>
+      <c id="C_TSIOTHERWK" n="Weekly Time Series" d="Weekly Time Series" m="">
+        <i id="I_TSI_H_VWAPWK" n="TR.WklyVwap" l="VWAP Weekly" d="Weekly Volume-weighted average price." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">WK.VWAP.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_BLOCKVOLWK" n="TR.WklyBlockVol" l="Weekly Block Volume" d="Weekly Block Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" />
+          <in:sp k="id">WK.BLOCKVOLUM.VALUE</in:sp>
+        </i>
+        <i id="I_TSI_H_TURNOVERVOLWK" n="TR.WklyTurnoverVol" l="Weekly Turnover Volume" d="Weekly Turnover Volume." i="" s="TsiHandler" pc="TSIPC" cc="TSICC" dt="Money" isScreen="true" rnk="99999" >
+          <out:p id="hidden" /><!--should not be removed-->
+          <in:sp k="id">WK.TURNOVER.VOLUME</in:sp>
+        </i>
+      </c>
+       </c>
+</d>

@@ -1,0 +1,64 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/vaadin-upload/vaadin-upload.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<!--
+    For upload xml metadata file.
+    using vaadin webcomponent, 
+    References: https://vaadin.com/elements/-/element/vaadin-upload
+-->
+
+<dom-module id="admin-upload">
+    <style>
+       paper-card {
+            margin: 20px;
+            height: 250px;
+            padding: 20px;
+            width: 100%;
+        }
+    </style>
+    <template>
+        <paper-card elevation="3">
+        <vaadin-upload target="{{_url}}" method="POST" accept=".xml" id="upload">
+            <div class="drop-label">
+                <iron-icon icon="cloud-upload"></iron-icon>
+                Drop files here
+            </div>                
+        </vaadin-upload>
+        </paper-card>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'admin-upload',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    value: '../../api'     // Default; api and web are provided through the same server.
+                },
+                _url: {
+                    type: String,
+                    computed: '_buildURL(endpoint)'
+                },
+                dirty: {
+                    type: Boolean,
+                    notify: true,
+                    value: false
+                }
+            },
+
+            ready: function(){
+                var upload = this.$.upload;
+                upload.addEventListener('upload-success', function(e){
+                    this.dirty = true;
+                }.bind(this));
+            },
+
+            _buildURL: function(endpoint){
+                return endpoint + '/admin/upload'
+            }
+        });
+    </script>
+</dom-module>

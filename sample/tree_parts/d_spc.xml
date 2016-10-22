@@ -1,0 +1,61 @@
+﻿<d id="D_SPC" d="Value Chains" n="Value Chains" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_SPC_SC" n="Value Chains Data" d="Value Chains Data" m="">
+		<i id="I_SPC_SCRelationship" n="TR.SCRelationship" l="Value Chains Relationship" d="Indicates whether the company is a Customer or Supplier" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCOrgPC" cc="SCOrgTCC" vc="SCRel" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="req_type">rel</in:sp>	
+		</i>
+		<i id="I_SPC_SCRelationshipCount" n="TR.SCRelationshipCount" l="Value Chains Relationship Count" d="Returns the total number of customers and suppliers for the company" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="U" pc="SCOrgPC" cc="SCRelCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Integer</in:sp>
+			<in:sp k="req_type">rel</in:sp>
+		</i>
+		<i id="I_SPC_SCRelationshipConfidenceScore" n="TR.SCRelationshipConfidenceScore" l="Value Chains Relationship Confidence Score" d="Represents the aggregated confidence score, aggregated from individual valid snippet scores for this relationship" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="P" pc="SCOrgPC" cc="SCOrgCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Float</in:sp>
+			<in:sp k="req_type">rel</in:sp>
+		</i>
+		<i id="I_SPC_SCRelationshipCreateDate" n="TR.SCRelationshipCreateDate" l="Value Chains Relationship Create Date" d="Returns the date the relationship was first created" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCOrgPC" cc="SCOrgCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Date</in:sp>
+			<in:sp k="req_type">rel</in:sp>
+		</i>
+		<i id="I_SPC_SCRelationshipUpdateDate" n="TR.SCRelationshipUpdateDate" l="Value Chains Relationship Update Date" d="Date of the document or article from which the snippet was derived" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCOrgPC" cc="SCOrgCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Date</in:sp>
+			<in:sp k="req_type">rel</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetCount" n="TR.SCSnippetCount" l="Snippet Count" d="Returns the valid (ie not below acceptance threshhold, not a dupe, etc) count of snippets for the relationship" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="U" pc="SCOrgPC" cc="SCOrgCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Integer</in:sp>
+			<in:sp k="req_type">rel</in:sp>
+		</i>
+	</c>
+	<c id="C_SPC_EVI" n="Value Chains Evidence Data" d="Value Chains Evidence Data" m="">
+		<i id="I_SPC_SCSnippetText" n="TR.SCSnippetText" l="Snippet Text" d="Returns the evidence text for the relationship" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCEviPC" cc="SCSnipCC" vc="SCSnipTxt" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetConfidenceScore" n="TR.SCSnippetConfidenceScore" l="Snippet Confidence Score" d="Returns the confidence score for the snippet" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="P" pc="SCEviPC" cc="SCEviCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Float</in:sp>
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetSource" n="TR.SCSnippetSource" l="Snippet Source" d="Returns the snippet source category, such as News or Filings" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCEviPC" cc="SCEviCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetSubSource" n="TR.SCSnippetSubSource" l="Snippet Sub Source" d="Returns the snippet sub-source such as RTRS, BSW, 10-K, 8-k, etc" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCEviPC" cc="SCEviCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetDocId" n="TR.SCSnippetDocId" l="Snippet DocumentId" d="Returns the specific DocID for the snippet such as PNAC for News, DCN for Filings" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCEviPC" cc="SCEviCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+		<i id="I_SPC_SCSnippetDate" n="TR.SCSnippetDate" l="Snippet Date" d="Returns the date the snippet was updated" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:5M A:2Y" s="CMWell" vu="N" pc="SCEviPC" cc="SCEviCC" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="valueType">Date</in:sp>
+			<in:sp k="req_type">snip</in:sp>
+		</i>
+	</c>
+</d>

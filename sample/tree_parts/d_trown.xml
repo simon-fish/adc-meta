@@ -1,0 +1,63 @@
+﻿<d id="D_TROWN" d="Ownership" n="Ownership" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_TROWN_FRM" n="Firm Ownership Summary" d="Firm Ownership Summary">
+		<i id="I_OWN_FRM_InvestorName" n="TR.InvestorName" l="Investor Name" d="The name of the Investor." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="N" pc="OBUPC" cc="OBUCC" vc="investorname" dt="String" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_IP_InvestorFullName">
+			<out:p id="hidden" />
+			<in:sp k="me">AccountName</in:sp>
+			<in:sp k="vt">String</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_LatestFilingDate" n="TR.FirmLatestFilingDate" l="Latest Filing Date" d="Latest filing date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="N" pc="OBUPC" cc="OBUCC" vc="date" dt="Date" lid="OWN.OW.LatestFilingDate" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_HoldingsDate">
+			<out:p id="hidden" />
+			<in:sp k="me">FilingDate</in:sp>
+			<in:sp k="vt">Date</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_LatestFilingSource" n="TR.FirmLatestFilingSource" l="Latest Filing Source" d="Latest filing source." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="N" pc="OBUPC" cc="OBUCC" dt="String" lid="OWN.OW.LatestFilingSource" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_FilingType">
+			<out:p id="hidden" />
+			<in:sp k="me">FilingTypeDescr</in:sp>
+			<in:sp k="vt">String</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_PercentOfShares" n="TR.FirmPercentOfShares" l="Percentage of Shares" d="Percentage of shares outstanding of the stock held by the investor at the latest date month." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="P" pc="OBUPC" cc="OBUCC" dt="Percentage" lid="OWN.OW.PercentOfShares" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_PctOfSharesOutHeld">
+			<out:p id="hidden" />
+			<in:sp k="me">PctOfSharesOut</in:sp>
+			<in:sp k="vt">Double</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_NumberOfShares" n="TR.FirmNumberOfShares" l="Number of Shares" d="Number of shares held at the latest filing date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="U" pc="OBUPC" cc="OBUCC" dt="Float" lid="OWN.OW.NumberOfShares" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_SharesHeld">
+			<out:p id="hidden" />
+			<in:sp k="me">SharesHeld</in:sp>
+			<in:sp k="vt">Decimal</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_PositionValue" n="TR.FirmPositionValue" l="Position Value" d="Value of the position (based on the month end closing price of the filing date month)." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="U" pc="OBUPC" cc="OBUCC" dt="Money" lid="OWN.OW.PositionValue" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_SharesHeldValue">
+			<out:p id="hidden" />
+			<in:sp k="me">ValueHeld</in:sp>
+			<in:sp k="vt">Double</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_PreviousFilingDate" n="TR.FirmPreviousFilingDate" l="Previous Filing Date" d="Previous filing date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="N" pc="OBUPC" cc="OBUCC" dt="Date" lid="OWN.OW.PreviousFilingDate" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_PrevHoldingsDate">
+			<out:p id="hidden" />
+			<in:sp k="me">PrevFilingDate</in:sp>
+			<in:sp k="vt">Date</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_PreviousFilingSource" n="TR.FirmPreviousFilingSource" l="Previous Filing Source" d="Previous filing source." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="N" pc="OBUPC" cc="OBUCC" dt="String" lid="OWN.OW.PreviousFilingSource" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_PrevFilingType">
+			<out:p id="hidden" />
+			<in:sp k="me">PrevFilingTypeDescr</in:sp>
+			<in:sp k="vt">String</in:sp>
+		</i>
+		<i id="I_OWN_FRM_ChangeNbOfShares" n="TR.FirmChangeNbOfShares" l="Change of the Number of Shares" d="Change of the number of shares held between the previous date and the latest date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="U" pc="OBUPC" cc="OBUCC" dt="Float" lid="OWN.OW.ChangeNbOfShares" isScreen="false" isGrid="false" rid="I_OWNSDI_COWN_CH_SharesHeldChange">
+			<out:p id="hidden" />
+			<in:sp k="me">SharesChange</in:sp>
+			<in:sp k="vt">Decimal</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+		<i id="I_OWN_FRM_PercChangeNbOfShares" n="TR.FirmPercChangeNbOfShares" l="% Change in the Number of Shares" d="Percentage of changes in number of shares between the previous and the latest date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="OWNERSHIP" vu="P" pc="OBUPC" cc="OBUCC" dt="Percentage" lid="OWN.OW.PercChangeNbOfShares" isScreen="false" isGrid="false">
+			<out:p id="hidden" />
+			<in:sp k="me">SharesChangePct</in:sp>
+			<in:sp k="vt">Double</in:sp>
+			<in:sp k="m">Unity</in:sp>
+		</i>
+	</c>
+</d>

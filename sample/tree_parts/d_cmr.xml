@@ -1,0 +1,909 @@
+﻿<d id="D_CMR" n="Current Market Ratios - Deprecated " d="Currenct Market Ratios - Deprecated, see Price Category" m="CMR" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_CMR_CMR" n="Current Market Ratios" d="Current Market Ratios">
+		<i id="I_CMR_CMR_ADTE" n="TR.CMRADTE" l="Average Daily Turnover in Euro" d="C.E.S.R. Average Daily Turnover in Euro. This is the yearly turnover, divided by the number of trading days. The figure is expressed in euros." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAOTHERANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">ADTE</in:sp>
+			<in:sp k="field">ADTE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_ADXR_14D" n="TR.CMRADXR_14D" l="ADXR 14 Days" d="The Adjusted Direction (movement) Indicator Rating calculated over a 14 day period." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">ADXR_14D</in:sp>
+			<in:sp k="field">ADXR_14D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_ADXR_30D" n="TR.CMRADXR_30D" l="ADXR 30 Days" d="The Adjusted Direction (movement) Indicator Rating calculated over a 30 day period." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">ADXR_30D</in:sp>
+			<in:sp k="field">ADXR_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_ADXR_9D" n="TR.CMRADXR_9D" l="ADXR 9 Days" d="The Adjusted Direction (movement) Indicator Rating calculated over a 9 day period." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">ADXR_9D</in:sp>
+			<in:sp k="field">ADXR_9D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_ALPHA" n="TR.CMRALPHA" l="Alpha" d="ALPHA of a stock is a measure of its excess return compared to the return predicted by the stock's beta. It is sometimes viewed as an estimate of how much the stock is mispriced." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">ALPHA</in:sp>
+			<in:sp k="field">ALPHA</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_AVG_VOL_30D" n="TR.CMRAVG_VOL_30D" l="Average Volume (30 Days)" d="The average of the daily traded volume for an instrument for the previous 30 days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="U" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">AVG_VOL_30D</in:sp>
+			<in:sp k="field">AVG_VOL_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_AVG_VOL_5D" n="TR.CMRAVG_VOL_5D" l="Average Volume (5 Days)" d="The average of the daily traded volume for an instrument for the previous 5 days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="U" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">AVG_VOL_5D</in:sp>
+			<in:sp k="field">AVG_VOL_5D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_AVG_VOL_90D" n="TR.CMRAVG_VOL_90D" l="Average Volume (90 Days)" d="The average of the daily traded volume for an instrument for the previous 90 days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="U" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">AVG_VOL_90D</in:sp>
+			<in:sp k="field">AVG_VOL_90D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_AVG_VOL_PCT_CHG_5D_REL_30D" n="TR.CMRAVG_VOL_PCT_CHG_5D_REL_30D" l="Average Volume Pct Change 5d Vs 30d, (%)" d="The percentage change between the average of the daily traded volume for the past 5 days relative to the average of the daily traded volume for the past 30 days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">AVG_VOL_PCT_CHG_5D_REL_30D</in:sp>
+			<in:sp k="field">AVG_VOL_PCT_CHG_5D_REL_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_BETA" n="TR.CMRBETA" l="Beta" d="The Capital Asset Pricing Model (CAPM) uses the Greek letter Beta to refer to the sensitivity of the rate of return of a security to changes in the rate of return of the market. Securities change in price due to changes in their individual performance." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">BETA</in:sp>
+			<in:sp k="field">BETA</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_COVER_LAST12M" n="TR.CMRDIV_COVER_LAST12M" l="Dividend Cover over Last 12M" d="The profit after tax divided by ordinary dividends for the year. Calculated by dividing the net Earnings Per Share by the gross Dividend Per Share." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_COVER_LAST12M</in:sp>
+			<in:sp k="field">DIV_COVER_LAST12M</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_COVER_LAST12M_NET" n="TR.CMRDIV_COVER_LAST12M_NET" l="Net Dividend Cover over Last 12M" d="The profit after tax divided by ordinary dividends for the year (net of tax). Calculated by dividing the Earnings Per Share by the net Dividend Per Share." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_COVER_LAST12M_NET</in:sp>
+			<in:sp k="field">DIV_COVER_LAST12M_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_COVER_PROJECTED" n="TR.CMRDIV_COVER_PROJECTED" l="Projected Dividend Cover" d="The profit after tax divided by ordinary dividends for the forecast year. Calculated by dividing the projected Earnings Per Share by the projected gross Dividend Per Share." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_COVER_PROJECTED</in:sp>
+			<in:sp k="field">DIV_COVER_PROJECTED</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_COVER_PROJECTED_NET" n="TR.CMRDIV_COVER_PROJECTED_NET" l="Net Projected Dividend Cover" d="The profit after tax divided by ordinary dividends for the forecast year (net of tax). Calculated by dividing the projected Earnings Per Share by the projected Dividend Per Share." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_COVER_PROJECTED_NET</in:sp>
+			<in:sp k="field">DIV_COVER_PROJECTED_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_HIGH" n="TR.CMRDIV_YLD_HIGH" l="Dividend Yield High" d="The 12-month high value for dividend yield. See the Field definition for Div_Yld for an explanation on how dividend yields are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_HIGH</in:sp>
+			<in:sp k="field">DIV_YLD_HIGH</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_HIGH_NET" n="TR.CMRDIV_YLD_HIGH_NET" l="Net Dividend Yield High" d="The 12-month high value for dividend yield net of tax. See the Field definition for Div_Yld_Net for an explanation on how dividend yields, net of tax, are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_HIGH_NET</in:sp>
+			<in:sp k="field">DIV_YLD_HIGH_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_LOW" n="TR.CMRDIV_YLD_LOW" l="Dividend Yield Low" d="The 12-month low value for dividend yield. See the Field definition for Div_Yld for an explanation on how dividend yields are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_LOW</in:sp>
+			<in:sp k="field">DIV_YLD_LOW</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_LOW_NET" n="TR.CMRDIV_YLD_LOW_NET" l="Net Dividend Yield Low" d="The 12-month low value for dividend yield net of tax. See the Field definition for Div_Yld_Net for an explanation on how dividend yields, net of tax, are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_LOW_NET</in:sp>
+			<in:sp k="field">DIV_YLD_LOW_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_NET" n="TR.CMRDIV_YLD_NET" l="Net Dividend Yield" d="The ratio of the annualised dividends to the price of a stock. Dividends are adjusted to account for any stock splits during the 12-month period. NET dividends (dividends after taxes) are used to calculate DIV_YLD_NET." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_NET</in:sp>
+			<in:sp k="field">DIV_YLD_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_REL_INDEX" n="TR.CMRDIV_YLD_REL_INDEX" l="Dividend Yield Relative to Primary Index" d="The dividend yield of a stock relative to that of the Primary Index in which the issuing organisation trades." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_REL_INDEX</in:sp>
+			<in:sp k="field">DIV_YLD_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_REL_INDEX_NET" n="TR.CMRDIV_YLD_REL_INDEX_NET" l="Net Dividend Yield Relative to Primary Index" d="The dividend yield of a stock relative to that of the Primary Index in which the issuing organisation trades. See the Field definition for Div_Yld_Net for an explanation on how dividend yields, net of tax, are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_REL_INDEX_NET</in:sp>
+			<in:sp k="field">DIV_YLD_REL_INDEX_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_REL_SECTOR" n="TR.CMRDIV_YLD_REL_SECTOR" l="Dividend Yield Relative to Sector" d="The dividend yield of a stock relative to that of the industry sector in which the issuing organisation trades." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_REL_SECTOR</in:sp>
+			<in:sp k="field">DIV_YLD_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DIV_YLD_REL_SECTOR_NET" n="TR.CMRDIV_YLD_REL_SECTOR_NET" l="Net Dividend Yield Relative to Sector" d="The dividend yield of a stock relative to that of the industry sector in which the issuing organisation trades. See the Field definition for Div_Yld_Net for an explanation on how dividend yields, net of tax, are calculated." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DIV_YLD_REL_SECTOR_NET</in:sp>
+			<in:sp k="field">DIV_YLD_REL_SECTOR_NET</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DPS_GROWTH_5Y" n="TR.CMRDPS_GROWTH_5Y" l="5 Year Dividend Per Share Growth" d="The dividend per share growth between the last financial year's dividend(s) and dividends paid in the financial year five years previously." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">GR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DPS_GROWTH_5Y</in:sp>
+			<in:sp k="field">DPS_GROWTH_5Y</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_DPS_GROWTH_INTERIM" n="TR.CMRDPS_GROWTH_INTERIM" l="Interim DPS Growth" d="The growth in the cash amount paid in dividends to each Ordinary shareholder between the last interim dividend and the interim dividend paid in the previous financial year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">GR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<out:p id="hidden" />
+			<in:sp k="id">DPS_GROWTH_INTERIM</in:sp>
+			<in:sp k="field">DPS_GROWTH_INTERIM</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EPS" n="TR.CMREPS" l="EPS" d="EPS" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EPS</in:sp>
+			<in:sp k="field">EPS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EPS_GROWTH_INTERIM" n="TR.CMREPS_GROWTH_INTERIM" l="EPS_GROWTH_INTERIM" d="EPS_GROWTH_INTERIM" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EPS_GROWTH_INTERIM</in:sp>
+			<in:sp k="field">EPS_GROWTH_INTERIM</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_DIV_YLD_FY1" n="TR.CMREST_DIV_YLD_FY1" l="EST_DIV_YLD_FY1" d="EST_DIV_YLD_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_DIV_YLD_FY1</in:sp>
+			<in:sp k="field">EST_DIV_YLD_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_DIV_YLD_FY2" n="TR.CMREST_DIV_YLD_FY2" l="EST_DIV_YLD_FY2" d="EST_DIV_YLD_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_DIV_YLD_FY2</in:sp>
+			<in:sp k="field">EST_DIV_YLD_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CHG_1M_FY1" n="TR.CMREST_EPS_CHG_1M_FY1" l="EST_EPS_CHG_1M_FY1" d="EST_EPS_CHG_1M_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CHG_1M_FY1</in:sp>
+			<in:sp k="field">EST_EPS_CHG_1M_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CHG_1M_FY2" n="TR.CMREST_EPS_CHG_1M_FY2" l="EST_EPS_CHG_1M_FY2" d="EST_EPS_CHG_1M_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CHG_1M_FY2</in:sp>
+			<in:sp k="field">EST_EPS_CHG_1M_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CHG_3M_FY1" n="TR.CMREST_EPS_CHG_3M_FY1" l="EST_EPS_CHG_3M_FY1" d="EST_EPS_CHG_3M_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CHG_3M_FY1</in:sp>
+			<in:sp k="field">EST_EPS_CHG_3M_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CHG_3M_FY2" n="TR.CMREST_EPS_CHG_3M_FY2" l="EST_EPS_CHG_3M_FY2" d="EST_EPS_CHG_3M_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CHG_3M_FY2</in:sp>
+			<in:sp k="field">EST_EPS_CHG_3M_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CV_FY1" n="TR.CMREST_EPS_CV_FY1" l="EST_EPS_CV_FY1" d="EST_EPS_CV_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CV_FY1</in:sp>
+			<in:sp k="field">EST_EPS_CV_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_CV_FY2" n="TR.CMREST_EPS_CV_FY2" l="EST_EPS_CV_FY2" d="EST_EPS_CV_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_CV_FY2</in:sp>
+			<in:sp k="field">EST_EPS_CV_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_GROWTH_FY0_FY1" n="TR.CMREST_EPS_GROWTH_FY0_FY1" l="EST_EPS_GROWTH_FY0_FY1" d="EST_EPS_GROWTH_FY0_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_GROWTH_FY0_FY1</in:sp>
+			<in:sp k="field">EST_EPS_GROWTH_FY0_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_GROWTH_FY0_FY2" n="TR.CMREST_EPS_GROWTH_FY0_FY2" l="EST_EPS_GROWTH_FY0_FY2" d="EST_EPS_GROWTH_FY0_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_GROWTH_FY0_FY2</in:sp>
+			<in:sp k="field">EST_EPS_GROWTH_FY0_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_EPS_GROWTH_FY1_FY2" n="TR.CMREST_EPS_GROWTH_FY1_FY2" l="EST_EPS_GROWTH_FY1_FY2" d="EST_EPS_GROWTH_FY1_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_EPS_GROWTH_FY1_FY2</in:sp>
+			<in:sp k="field">EST_EPS_GROWTH_FY1_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_NUM_PCT_D_FY1" n="TR.CMREST_NUM_PCT_D_FY1" l="EST_NUM_PCT_D_FY1" d="EST_NUM_PCT_D_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_NUM_PCT_D_FY1</in:sp>
+			<in:sp k="field">EST_NUM_PCT_D_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_NUM_PCT_D_FY2" n="TR.CMREST_NUM_PCT_D_FY2" l="EST_NUM_PCT_D_FY2" d="EST_NUM_PCT_D_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_NUM_PCT_D_FY2</in:sp>
+			<in:sp k="field">EST_NUM_PCT_D_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_NUM_PCT_U_FY1" n="TR.CMREST_NUM_PCT_U_FY1" l="EST_NUM_PCT_U_FY1" d="EST_NUM_PCT_U_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_NUM_PCT_U_FY1</in:sp>
+			<in:sp k="field">EST_NUM_PCT_U_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_NUM_PCT_U_FY2" n="TR.CMREST_NUM_PCT_U_FY2" l="EST_NUM_PCT_U_FY2" d="EST_NUM_PCT_U_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_NUM_PCT_U_FY2</in:sp>
+			<in:sp k="field">EST_NUM_PCT_U_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY1" n="TR.CMREST_PE_FY1" l="EST_PE_FY1" d="EST_PE_FY1" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY1</in:sp>
+			<in:sp k="field">EST_PE_FY1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY1_REL_INDEX" n="TR.CMREST_PE_FY1_REL_INDEX" l="EST_PE_FY1_REL_INDEX" d="EST_PE_FY1_REL_INDEX" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY1_REL_INDEX</in:sp>
+			<in:sp k="field">EST_PE_FY1_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY1_REL_SECTOR" n="TR.CMREST_PE_FY1_REL_SECTOR" l="EST_PE_FY1_REL_SECTOR" d="EST_PE_FY1_REL_SECTOR" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY1_REL_SECTOR</in:sp>
+			<in:sp k="field">EST_PE_FY1_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY2" n="TR.CMREST_PE_FY2" l="EST_PE_FY2" d="EST_PE_FY2" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY2</in:sp>
+			<in:sp k="field">EST_PE_FY2</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY2_REL_INDEX" n="TR.CMREST_PE_FY2_REL_INDEX" l="EST_PE_FY2_REL_INDEX" d="EST_PE_FY2_REL_INDEX" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY2_REL_INDEX</in:sp>
+			<in:sp k="field">EST_PE_FY2_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_EST_PE_FY2_REL_SECTOR" n="TR.CMREST_PE_FY2_REL_SECTOR" l="EST_PE_FY2_REL_SECTOR" d="EST_PE_FY2_REL_SECTOR" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">EST_PE_FY2_REL_SECTOR</in:sp>
+			<in:sp k="field">EST_PE_FY2_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_FIRST_TRADE_DATE" n="TR.CMRFIRST_TRADE_DATE" l="First Trade Date" d="This represents the first trading date on which Thomson Reuters are storing pricing data for a particular issue. This will usually represent the date of an Initial Public Offering (IPO) for an issue that has come to the market since 1st Jan 1999." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAOTHERANALYTICS" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">FIRST_TRADING_DATE</in:sp>
+			<in:sp k="field">FIRST_TRADING_DATE</in:sp>
+			<in:sp k="type">DATE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_HIGH_52W_Date" n="TR.CMRHIGH_52W_Date" l="Date the 52 Week High Price Occurred" d="Date the highest price recorded for an instrument during the last 52 weeks occurred." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">HIGH_52W / &lt;Occurance Date&gt;</in:sp>
+			<in:sp k="field">HIGH_52W</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="IND">OccurrenceDate</in:sp>
+		</i>
+		<i id="I_CMR_CMR_HIGH_IN_LAST_1D_FLAG" n="TR.CMRHIGH_IN_LAST_1D_FLAG" l="Last Day High Flag" d="A Boolean indicator to show whether or not the stock's 52-week high occurred during the last trading day." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">HIGH_IN_LAST_1D_FLAG / Indicator</in:sp>
+			<in:sp k="field">HIGH_IN_LAST_1D_FLAG</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_HIGH_IN_LAST_5D_FLAG" n="TR.CMRHIGH_IN_LAST_5D_FLAG" l="Last 5 Day High Flag" d="A Boolean indicator to show whether or not the stock's 52-week high occurred during the last five trading days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">HIGH_IN_LAST_5D_FLAG / Indicator</in:sp>
+			<in:sp k="field">HIGH_IN_LAST_5D_FLAG</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_Low_52W_Date" n="TR.CMRLow_52W_Date" l="Date the 52 Week Low Price Occurred" d="Date the lowest price recorded for an instrument during the last 52 weeks occurred." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">LOW_52W / &lt;Occurance Date&gt;</in:sp>
+			<in:sp k="field">LOW_52W</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="IND">OccurrenceDate</in:sp>
+		</i>
+		<i id="I_CMR_CMR_LOW_IN_LAST_1D_FLAG" n="TR.CMRLOW_IN_LAST_1D_FLAG" l="Last Day Low Flag" d="A flag that indicates whether or not the stock's 52-week Low occurred in the last trading day. It is set to 'Y' if the low occurred in the last trading day, and 'N' otherwise." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">LOW_IN_LAST_1D_FLAG / &lt;Indicator&gt;</in:sp>
+			<in:sp k="field">LOW_IN_LAST_1D_FLAG</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_LOW_IN_LAST_5D_FLAG" n="TR.CMRLOW_IN_LAST_5D_FLAG" l="Last 5 Day Low Flag" d="A flag that indicates whether or not the stock's 52-week Low occurred in the last 5 trading days. It is set to 'Y' if the low occurred in the last 5 trading days, and 'N' otherwise." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">LOW_IN_LAST_5D_FLAG / &lt;Indicator&gt;</in:sp>
+			<in:sp k="field">LOW_IN_LAST_5D_FLAG</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_MainIndex" n="TR.CMRMainIndex" l="Main Index" d="The main Index applicable to the entity in question and used as the benchmark in values like Dividend Yield Relative to Primary Index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="BUSINESSSECTOR" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">MainIndex</in:sp>
+			<in:sp k="field">MainIndex</in:sp>
+			<in:sp k="ftype">MainIndex</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_CMR_CMR_MainIndexRIC" n="TR.CMRMainIndexRIC" l="Main Index RIC" d="The main Index RIC applictble to the entity in question and used as the benchmark in values like Dividend Yield Relative to Primary Index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="BUSINESSSECTOR" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">MainIndex</in:sp>
+			<in:sp k="field">MainIndex</in:sp>
+			<in:sp k="ftype">MainIndexRic</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_CMR_CMR_MainSector" n="TR.CMRMainSector" l="Main Sector" d="The main Sector applicable to the entity in question and used as the benchmark in values like Dividend Yield Relative to Primary Index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="BUSINESSSECTOR" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">SectorIndex</in:sp>
+			<in:sp k="field">SectorIndex</in:sp>
+			<in:sp k="ftype">MainSector</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_CMR_CMR_MainSectorRIC" n="TR.CMRMainSectorRIC" l="Main Sector RIC" d="The main Sector RIC applicable to the entity in question and used as the benchmark in values like Dividend Yield Relative to Primary Index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="BUSINESSSECTOR" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">SectorIndex</in:sp>
+			<in:sp k="field">SectorIndex</in:sp>
+			<in:sp k="ftype">MainSectorRic</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE" n="TR.CMRPE" l="PE" d="PE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE</in:sp>
+			<in:sp k="field">PE</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE_HIGH_52W" n="TR.CMRPE_HIGH_52W" l="PE_HIGH_52W" d="PE_HIGH_52W" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE_HIGH_52W</in:sp>
+			<in:sp k="field">PE_HIGH_52W</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE_INTERIM" n="TR.CMRPE_INTERIM" l="PE_INTERIM" d="PE_INTERIM" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE_INTERIM</in:sp>
+			<in:sp k="field">PE_INTERIM</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE_LOW_52W" n="TR.CMRPE_LOW_52W" l="PE_LOW_52W" d="PE_LOW_52W" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE_LOW_52W</in:sp>
+			<in:sp k="field">PE_LOW_52W</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE_REL_INDEX" n="TR.CMRPE_REL_INDEX" l="PE_REL_INDEX" d="PE_REL_INDEX" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE_REL_INDEX</in:sp>
+			<in:sp k="field">PE_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PE_REL_SECTOR" n="TR.CMRPE_REL_SECTOR" l="PE_REL_SECTOR" d="PE_REL_SECTOR" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PE_REL_SECTOR</in:sp>
+			<in:sp k="field">PE_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_CLOSE_USD" n="TR.CMRPRICE_CLOSE_USD" l="Closing Price (Dollars)" d="The previous close price of the issue converted in US Dollars." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">PRICE_CLOSE_USD</in:sp>
+			<in:sp k="field">PRICE_CLOSE_USD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1D" n="TR.CMRPRICE_PCT_CHG_1D" l="% Price Change 1 Day" d="The difference between the last trading day's closing price and the closing price 2 days ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1D</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1M" n="TR.CMRPRICE_PCT_CHG_1M" l="% Price Change 1 Month" d="The difference between the last trading day's closing price and the closing price one month ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1M</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1M</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1M_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_1M_REL_INDEX" l="% Price Change Relative Primary 1 Month" d="The amount that a stock's price has changed relative to the value of the relevant index, over the period of a month. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1M_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1M_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1M_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_1M_REL_SECTOR" l="% Price Change Relative Sector 1 Month" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over the period of a month. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1M_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1M_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1Y" n="TR.CMRPRICE_PCT_CHG_1Y" l="% Price Change 1 Year" d="The difference between the last trading day's closing price and the closing price one year ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1Y</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1Y</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1Y_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_1Y_REL_INDEX" l="% Price Change Relative Index 1 Yr" d="The amount that a stock's price has changed relative to the value of the relevant index, over the period of a year. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1Y_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1Y_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_1Y_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_1Y_REL_SECTOR" l="% Price Change Relative Sector 1 Yr" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over the period of a year. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_1Y_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_1Y_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_3M" n="TR.CMRPRICE_PCT_CHG_3M" l="% Price Change 3 Months" d="The difference between the last trading day's closing price and the closing price 3 months ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_3M</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_3M</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_3M_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_3M_REL_INDEX" l="% Price Change Relative Index 3 Months" d="The amount that a stock's price has changed relative to the value of the relevant index, over the period of three months. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_3M_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_3M_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_3M_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_3M_REL_SECTOR" l="% Price Change Relative Sector 3 Months" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over the period of three months." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_3M_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_3M_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_5D" n="TR.CMRPRICE_PCT_CHG_5D" l="% Price Change 5 Days" d="The difference between the last trading day's closing price and the closing price 5 days ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_5D</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_5D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_5D_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_5D_REL_INDEX" l="% Price Change Relative Index 5 Day" d="The amount that a stock's price has changed relative to the value of the relevant index, over a 5 day period. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_5D_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_5D_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_5D_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_5D_REL_SECTOR" l="% Price Change Relative Sector 5 Day" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over a 5 day period. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_5D_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_5D_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_5Y_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_5Y_REL_INDEX" l="% Price Change Relative Index 5 Yr" d="The amount that a stock's price has changed relative to the value of the relevant index, over the period of five years. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_5Y_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_5Y_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_5Y_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_5Y_REL_SECTOR" l="% Price Change Relative Sector 5 Years" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over the period of five years. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_5Y_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_5Y_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_6M" n="TR.CMRPRICE_PCT_CHG_6M" l="% Price Change 6 Months" d="The difference between the last trading day's closing price and the closing price 6 months ago, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_6M</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_6M</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_MTD" n="TR.CMRPRICE_PCT_CHG_MTD" l="% Price Change Month to Date" d="The difference between the latest available close price and the closing price on the last trading day of the previous month, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_MTD</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_MTD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_QTD" n="TR.CMRPRICE_PCT_CHG_QTD" l="% Price Change Quarter to Date" d="The difference between the closing price of the last trading day of the previous quarter, and the latest available close price for the current quarter." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_QTD</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_QTD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_REL_52W_HIGH" n="TR.CMRPRICE_PCT_CHG_REL_52W_HIGH" l="% Price Change 52W High" d="The difference between the last trading day's closing price and the 52 week high, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_REL_52W_HIGH</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_REL_52W_HIGH</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_REL_52W_LOW" n="TR.CMRPRICE_PCT_CHG_REL_52W_LOW" l="% Price Change 52W Low" d="The difference between the last trading day's closing price and the 52 week low, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_REL_52W_LOW</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_REL_52W_LOW</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_REL_SMA_200D" n="TR.CMRPRICE_PCT_CHG_REL_SMA_200D" l="% Difference Between Close SMA 200D" d="The difference between the last trading day's closing price and the 200-day simple moving average, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_REL_SMA_200D</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_REL_SMA_200D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_REL_SMA_30D" n="TR.CMRPRICE_PCT_CHG_REL_SMA_30D" l="% Difference Between Close SMA 30D" d="The difference between the last trading day's closing price and the 30-day simple moving average, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_REL_SMA_30D</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_REL_SMA_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_REL_SMA_60D" n="TR.CMRPRICE_PCT_CHG_REL_SMA_60D" l="% Difference Between Close SMA 60D" d="The difference between the last trading day's closing price and the 60-day simple moving average, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_REL_SMA_60D</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_REL_SMA_60D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_YTD" n="TR.CMRPRICE_PCT_CHG_YTD" l="% Price Change Year to Date" d="The difference between the latest available close price and the closing price on the last trading day of the previous year, expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_YTD</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_YTD</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_YTD_REL_INDEX" n="TR.CMRPRICE_PCT_CHG_YTD_REL_INDEX" l="% Price Change Relative Index This Year" d="The amount that a stock's price has changed relative to the value of the relevant index, over the year to date. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_YTD_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_YTD_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_PCT_CHG_YTD_REL_SECTOR" n="TR.CMRPRICE_PCT_CHG_YTD_REL_SECTOR" l="% Price Change Relative Sector This Year" d="The amount that a stock's price has changed relative to the value of the relevant industry sector, over the period of the year to date. It is expressed as a percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="P" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">11</out:p>
+			<in:sp k="id">PRICE_PCT_CHG_YTD_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_PCT_CHG_YTD_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_TO_BOOK" n="TR.CMRPRICE_TO_BOOK" l="PRICE_TO_BOOK" d="PRICE_TO_BOOK" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PRICE_TO_BOOK</in:sp>
+			<in:sp k="field">PRICE_TO_BOOK</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_TO_BOOK_REL_INDEX" n="TR.CMRPRICE_TO_BOOK_REL_INDEX" l="PRICE_TO_BOOK_REL_INDEX" d="PRICE_TO_BOOK_REL_INDEX" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PRICE_TO_BOOK_REL_INDEX</in:sp>
+			<in:sp k="field">PRICE_TO_BOOK_REL_INDEX</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_PRICE_TO_BOOK_REL_SECTOR" n="TR.CMRPRICE_TO_BOOK_REL_SECTOR" l="PRICE_TO_BOOK_REL_SECTOR" d="PRICE_TO_BOOK_REL_SECTOR" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PRICE_TO_BOOK_REL_SECTOR</in:sp>
+			<in:sp k="field">PRICE_TO_BOOK_REL_SECTOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_RSI_14D" n="TR.CMRRSI_14D" l="14 Day RSI" d="The RSI calculation over the last 14 Days. Relative Strength Index (RSI) is a technical analysis measurement of market strength for a security, looking to identify overbought/oversold conditions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">RSI_14D</in:sp>
+			<in:sp k="field">RSI_14D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_RSI_30D" n="TR.CMRRSI_30D" l="30 Day RSI" d="The RSI calculation over the last 30 Days. Relative Strength Index (RSI) is a technical analysis measurement of market strength for a security, looking to identify overbought/oversold conditions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">RSI_30D</in:sp>
+			<in:sp k="field">RSI_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_RSI_3D" n="TR.CMRRSI_3D" l="3 Day RSI" d="The RSI calculation over the last 3 Days. Relative Strength Index (RSI) is a technical analysis measurement of market strength for a security, looking to identify overbought/oversold conditions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">RSI_3D</in:sp>
+			<in:sp k="field">RSI_3D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_RSI_9D" n="TR.CMRRSI_9D" l="9 Day RSI" d="The RSI calculation over the last 9 Days. Relative Strength Index (RSI) is a technical analysis measurement of market strength for a security, looking to identify overbought/oversold conditions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">RSI_9D</in:sp>
+			<in:sp k="field">RSI_9D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_CURRENCY" n="TR.CMRSMA_Currency" l="SMA Currency" d="The Simple Moving Average Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" pc="CurrOnly" cc="CMRricCurrIntPeriodValue" vc="currency" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">SMA_200D</in:sp>
+			<in:sp k="field">SMA_200D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_DATE" n="TR.CMRSMA_date" l="SMA Date" d="The Simple Moving Average Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" pc="CurrOnly" cc="CMRricCurrIntPeriodValue" vc="date" dt="Date" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">SMA_200D</in:sp>
+			<in:sp k="field">SMA_200D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_200D" n="TR.CMRSMA_200D" l="SMA 200D" d="The Simple Moving Average over the previous 200 Days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" pc="CurrOnly" cc="CMRricCurrIntPeriodValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">SMA_200D</in:sp>
+			<in:sp k="field">SMA_200D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_30D" n="TR.CMRSMA_30D" l="SMA 30D" d="The Simple Moving Average over the previous 30 Days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" pc="CurrOnly" cc="CMRricCurrIntPeriodValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">SMA_30D</in:sp>
+			<in:sp k="field">SMA_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_60D" n="TR.CMRSMA_60D" l="SMA 60D" d="The Simple Moving Average over the previous 60 Days." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" pc="CurrOnly" cc="CMRricCurrIntPeriodValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">SMA_60D</in:sp>
+			<in:sp k="field">SMA_60D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_INTERSECT_30D_200D" n="TR.CMRSMA_INTERSECT_30D_200D" l="Simple Moving Average Intersect (30/200)" d="The intersection of the 30 Day Simple Moving Average (SMA) with the 200 Day SMA. Determines whether the shorter term Simple Moving Average line has a positive, negative, or no intersection with the longer term Simple Moving Average line over a specified number of data points (days). A positive intersection is one where the short term line starts out below the long term line and ends up above it, and vice versa for a negative intersection. A positive intersect (P) indicates Buy opportunity and negative intersect (N) indicates Sell opportunity. X indicates no intersection between the two SMA lines. N/A N/D indicates insufficent data for us to calculate SMA's for the periods in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">SMA_INTERSECT_30D_200D / &lt;Indicator&gt;</in:sp>
+			<in:sp k="field">SMA_INTERSECT_30D_200D</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_INTERSECT_30D_60D" n="TR.CMRSMA_INTERSECT_30D_60D" l="Simple Moving Average Intersect (30/60)" d="The intersection of the 30 Day Simple Moving Average (SMA) with the 60 Day SMA. Determines whether the shorter term Simple Moving Average line has a positive, negative, or no intersection with the longer term Simple Moving Average line over a specified number of data points (days). A positive intersection is one where the short term line starts out below the long term line and ends up above it, and vice versa for a negative intersection. A positive intersect (P) indicates Buy opportunity and negative intersect (N) indicates Sell opportunity. X indicates no intersection between the two SMA lines. N/A N/D indicates insufficent data for us to calculate SMA's for the periods in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">SMA_INTERSECT_30D_60D / &lt;Indicator&gt;</in:sp>
+			<in:sp k="field">SMA_INTERSECT_30D_60D</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_SMA_INTERSECT_60D_200D" n="TR.CMRSMA_INTERSECT_60D_200D" l="Simple Moving Average Intersect (60/200)" d="The intersection of the 60 Day Simple Moving Average (SMA) with the 200 Day SMA. Determines whether the shorter term Simple Moving Average line has a positive, negative, or no intersection with the longer term Simple Moving Average line over a specified number of data points (days). A positive intersection is one where the short term line starts out below the long term line and ends up above it, and vice versa for a negative intersection. A positive intersect (P) indicates Buy opportunity and negative intersect (N) indicates Sell opportunity. X indicates no intersection between the two SMA lines. N/A N/D indicates insufficent data for us to calculate SMA's for the periods in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">SMA_INTERSECT_60D_200D / &lt;Indicator&gt;</in:sp>
+			<in:sp k="field">SMA_INTERSECT_60D_200D</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="IND">Indicator</in:sp>
+		</i>
+		<i id="I_CMR_CMR_VOLATILITY_10D" n="TR.CMRVOLATILITY_10D" l="Volatility 10 days" d="The result of a 10-day volatility calculation, calculated using the standard method for volatility, assuming 250 trading days per year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">VOLATILITY_10D</in:sp>
+			<in:sp k="field">VOLATILITY_10D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_VOLATILITY_200D" n="TR.CMRVOLATILITY_200D" l="Volatility 200 days" d="The result of a 200-day volatility calculation, calculated using the standard method for volatility, assuming 250 trading days per year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">VOLATILITY_200D</in:sp>
+			<in:sp k="field">VOLATILITY_200D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_VOLATILITY_30D" n="TR.CMRVOLATILITY_30D" l="Volatility 30 days" d="The result of a 30-day volatility calculation, calculated using the standard method for volatility, assuming 250 trading days per year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">VOLATILITY_30D</in:sp>
+			<in:sp k="field">VOLATILITY_30D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_VOLATILITY_60D" n="TR.CMRVOLATILITY_60D" l="Volatility 60 days" d="The result of a 60-day volatility calculation, calculated using the standard method for volatility, assuming 250 trading days per year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">VOLATILITY_60D</in:sp>
+			<in:sp k="field">VOLATILITY_60D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_CMR_CMR_VOLATILITY_90D" n="TR.CMRVOLATILITY_90D" l="Volatility 90 days" d="The result of a 90-day volatility calculation, calculated using the standard method for volatility, assuming 250 trading days per year." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M I:1J I:1I" s="NDAANALYTICS" vu="N" cc="ricValue" dt="Float" isScreen="false">
+			<out:p id="hidden" />
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">VOLATILITY_90D</in:sp>
+			<in:sp k="field">VOLATILITY_90D</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+	</c>
+</d>

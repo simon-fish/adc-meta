@@ -1,0 +1,315 @@
+﻿<d id="D_RI" n="Reference &amp; Identifiers" d="Reference &amp; Identifiers." m="RI" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+  <c id="C_RI_ID" n="Identifiers" d="Identifiers" m="ID">
+    <i id="I_RI_ID_AssetID" n="RI.ID.AssetID" d="The Reuters Fixed Income Identifier." cc="ricValue" l="Asset ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">EJVAssetID</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_BondIdentifier" n="RI.ID.BondIdentifier" d="Provides access to a number of Bond Identifier Schemes to identify a bond in a number of markets. Use the Dynamic IDT request parameter to define the Identifier Scheme you require." cc="IDTcc" pc="IDTpc" l="Bond Identifier" s="EJVAN" vu="N" isScreen="false">
+      <in:sp k="view">GOVCORP_ASSET_IDENT</in:sp>
+      <in:sp k="c">Identifier</in:sp>
+      <in:sp k="date">EffectiveDate</in:sp>
+      <in:sp k="extra_inputs">identifiertype=ABI,ART,AST,AUS,BAS,BCU,BCV,BEU,BFX,BLC,BMV,CAV,CCS,CHN,CMU,COB,DEN,DEU,ERF,EUC,FIN,HGY,HKC,HMA,INF,ISR,KEN,LIM,LIP,LOC,LUX,MAE,MAL,MFV,MTV,NAS,NET,NOR,NST,OLO,OSL,PAN,PLC,PYC,RBA,REG,RRC,SEL,SEN,SHG,SHZ,SIA,SIC,SIN,SLV,SND,SWE,TAI,TRM,UGA,VLF,WGN,WKA,ZPG,CDL,CIN,COM,CSP,ISM,ISN,SED,SVM,VAL,WPK,UAC,UAI,RSC,RSI,RSO,RSS,UAO,URC,URI,URO;</in:sp>
+    </i>
+    <i id="I_RI_ID_CEDEL" n="RI.ID.CEDEL" d="CEDEL" cc="ricValue" l="CEDEL" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">CEDEL</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_CinCUSIP" n="RI.ID.CinCUSIP" d="Committee on Uniform Securities Identification Procedures Identifier for Non US &amp; Canadian companies." cc="ricValue" l="CIN" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">CinCUSIP</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_CommonCode" n="RI.ID.CommonCode" d="Replacement for the CEDEL Code Issued by Euroclear." cc="ricValue" l="Common Code" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">CommonCode</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_CUSIP" n="RI.ID.CUSIP" d="Committee on Uniform Securities Identification Procedures Identifier for US &amp; Canadian companies." cc="ricValue" l="CUSIP" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">CUSIP</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_LocalCode" n="RI.ID.LocalCode" d="EJV Code." cc="ricValue" l="EJV Code" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+      <in:sp k="f">EJVCodes</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_ISIN" n="RI.ID.ISIN" d="International Securities Identification Number. Issued by the International Securities Organisation." cc="ricValue" l="ISIN" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">SnSISIN</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_ISMANumber" n="RI.ID.ISMANumber" d="ISMAN Number." cc="ricValue" l="ISMAN Number" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">ISMANumber</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_IssueISIN" n="RI.ID.IssueISIN" d="Issue level International Securities Identification Number." cc="ricValue" l="Issue Level ISIN" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+      <in:sp k="f">IssueISIN</in:sp>
+      <in:sp k="category">SA</in:sp>
+    </i>
+    <i id="I_RI_ID_IssuerOrgid" n="RI.ID.IssuerOrgid" d="Issuer Org ID." cc="ricValue" l="Issuer Level ORG ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+      <in:sp k="f">IssuerOrgid</in:sp>
+      <in:sp k="category">SA</in:sp>
+    </i>
+    <i id="I_RI_ID_IssuerPI" n="RI.ID.IssuerPI" d="Issuer PI code." cc="ricValue" l="Issuer Level PI ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">IssuerPI</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_EquityLocalCode" n="RI.ID.EquityLocalCode" d="Local Code." cc="ricValue" l="Local Code" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">LocalCode</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_Orgid" n="RI.ID.Orgid" d="A system generated code that uniquely identifies the market organisation." cc="ricValue" l="ORG ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">IssuerOrgid</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_ParentIssuerID" n="RI.ID.ParentIssuerID" d="Parent Issuer ID." cc="ricValue" l="Parent Issuer ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">ParentIssuerID</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_ParentOrgID" n="RI.ID.ParentOrgID" d="A system generated code which uniquely identifies the ultimate parent organisation of the issuing entity." cc="ricValue" l="Parent ORG ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">ParentOrgID</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_PrimaryIssueRIC" n="RI.ID.PrimaryIssueRIC" d="Reuters Identification Code for the primary issue of a company." cc="ricValue" l="Primary Issue RIC" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">IssueValuationQuoteRic</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_PrimaryRIC" n="RI.ID.PrimaryRIC" d="The Reuters Identification Code for the Primary Listing of the company." cc="ricValue" l="Primary RIC" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">PrimaryRIC</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_RIC" n="RI.ID.RIC" d="Reuters Identification Code." cc="ricValue" l="RIC" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">RIC</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_SEDOL" n="RI.ID.SEDOL" d="Stock Exchange Daily Official List. Securities Identifier issued by the London Stock Exchange." cc="ricValue" l="SEDOL" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">SEDOL,SedolSecondaryQuoteValue</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_SiccScheme" n="RI.ID.SiccScheme" d="Security Identification Code Conference, often used in Japan instead of the Ticker." cc="ricValue" l="SIC Conference Scheme" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">SiccScheme</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_Sicovam" n="RI.ID.Sicovam" d="Identifier issued in France." cc="ricValue" l="Sicovam" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">Sicovam</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_IssuerTicker" n="RI.ID.IssuerTicker" d="A very short code used to identify the Issuer." cc="ricValue" l="Issuer Ticker" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">IssuerTicker</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_UnderlIssuerOrgid" n="RI.ID.UnderlIssuerOrgid" d="Underlying Issuer Org ID." cc="ricValue" l="Underlying Issuer Org ID" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">UnderlyingIssuerOrgid</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_Valoren" n="RI.ID.Valoren" d="Security Identifier issued in Switzerland." cc="ricValue" l="Valoren" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">Valoren</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_Wert" n="RI.ID.Wert" d="Security Identifier issued in Germany by the Wertpapier Mitteilungen." cc="ricValue" l="Wert" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">Wert</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_LipperRIC" n="RI.ID.LipperRIC" d="Lipper RIC, an identifier used to source funds information from Lipper or Real Time Pricing for funds." cc="ricValue" l="Lipper RIC" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">FundClassLipperID</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_TickerSymbol" n="RI.ID.TickerSymbol" d="Ticker Symbol." cc="ricValue" l="Ticker Symbol" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="xtra_dt">2</out:p>
+      <in:sp k="f">TickerSymbol</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_ID_All</in:sp>
+    </i>
+    <i id="I_RI_ID_All" n="RI.ID.All" d="All Items in the Folder." cc="ricValues" l="All" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+    </i>
+    <!-- SMG:  LEGACY REMOVED PER ADC-5875
+		<i id="I_RI_ID_BRIDGEVEHICLE_TR" d="BridgeVehicle" l="BridgeVehicle" n="TR.BridgeVehicle" s="EanDescriptive" cc="ValHist" pc="UNIDDt" vu="N">
+			<in:sp k="table">28000031</in:sp>
+			<in:sp k="column">28100451</in:sp>
+			<in:sp k="filter">1000285629=320527</in:sp>
+			<in:sp k="sdatecol">28100454</in:sp>
+			<in:sp k="edatecol">28100455</in:sp>
+		</i>
+		-->
+    <!-- REMOVING PER ADC-5795
+		<i id="I_RI_ID_CUSIP_TR" d="Cusip" l="Cusip" n="TR.Cusip" s="EanDescriptive" cc="ricValue"  vu="N">
+			<in:sp k="table">28000024</in:sp>
+			<in:sp k="column">28100199</in:sp>
+		</i> -->
+  </c>
+  <c id="C_RI_R" n="Reference" d="Reference" m="R">
+    <i id="I_RI_R_AssetCategoryDescription" n="RI.R.AssetCategoryDescription" d="The full description of the asset category." cc="ricValue" l="Asset Category Description" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">RCSAssetCategoryLeaf</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_RCSAssetCategoryGenealogy" n="RI.R.RCSAssetCategoryGenealogy" d="The RCS Asset Category Genealogy." cc="ricValue" l="RCS Asset Category Genealogy" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">RCSAssetCategoryGenealogy</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+		<i id="I_RI_R_AssetCategory" n="RI.R.AssetCategory" d="The Asset Category Code." cc="ricValue" l="Asset Category" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+      <in:sp k="f">AssetCategory</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_AssetCategoryName" n="RI.R.AssetCategoryName" d="The Full Description of the Asset Category." cc="ricValue" l="Asset Category Name" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+      <in:sp k="f">AssetCategoryName</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_Description" n="RI.R.Description" d="Main description for the instrument." cc="ricValue" l="Description" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <in:sp k="f">DocumentTitle</in:sp>
+      <in:sp k="sf">SubjectName</in:sp>
+      <in:sp k="category">SA</in:sp>
+	  <in:sp k="null_cond">IssuerOrgid,Orgid</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_ExchangeCode" n="RI.R.ExchangeCode" d="Used to identify the exchange on which the instrument trades, this is a three letters code, for example LSE for the London Stock Exchange." cc="ricValue" l="Exchange Code" s="BUSINESSSECTOR" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="id">Exchange</in:sp>
+      <in:sp k="field">Exchange</in:sp>
+      <in:sp k="ftype">ExchangeCode</in:sp>
+      <in:sp k="type">STRING</in:sp>
+    </i>
+    <i id="I_RI_R_ExchangeName" n="RI.R.ExchangeName" d="Used to identify the exchange on which the instrument trades, this is the name of the exchange for example, London Stock Exchange." cc="ricValue" l="Exchange Name" s="BUSINESSSECTOR" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="id">Exchange</in:sp>
+      <in:sp k="field">Exchange</in:sp>
+      <in:sp k="ftype">ExchangeName</in:sp>
+      <in:sp k="type">STRING</in:sp>
+    </i>
+    <i id="I_RI_R_PrimIssueEstExist" n="RI.R.PrimIssueEstExist" d="Primary Issue Estimates Exist Flag." cc="ricValue" l="Primary Issue Estimates Exist" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">PrimaryIssueEstimatesExist</in:sp>
+      <in:sp k="category">EQ</in:sp>
+      <in:sp k="type">BOOLEAN</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_PrimIssueFunExist" n="RI.R.PrimIssueFunExist" d="Primary Issue Fundamentals Exist Flag." cc="ricValue" l="Primary Issue Fundamentals Exist" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">PrimaryIssueFinancialsExist</in:sp>
+      <in:sp k="category">EQ</in:sp>
+      <in:sp k="type">BOOLEAN</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_PrimListEstExist" n="RI.R.PrimListEstExist" d="Primary Listing Estimates Exist Flag." cc="ricValue" l="Primary Listing Estimates Exist" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">PrimaryListingEstimatesExist</in:sp>
+      <in:sp k="category">EQ</in:sp>
+      <in:sp k="type">BOOLEAN</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_PrimListFunExist" n="RI.R.PrimListFunExist" d="Primary Listing Fundamentals Exist Flag." cc="ricValue" l="Primary Listing Fundamentals Exist" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <in:sp k="f">PrimaryListingFinancialsExist</in:sp>
+      <in:sp k="category">EQ</in:sp>
+      <in:sp k="type">BOOLEAN</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_All" n="RI.R.All" d="All items in the Folder." cc="ricValues" l="All Items" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false" i="A:1L">
+      <out:p id="hidden" />
+    </i>
+    <i id="I_RI_R_TRCSAssetType" n="RI.R.TRCSAssetType" d="TRCS Asset Type." cc="ricValue" l="TRCS Asset Type" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="f">RCSAssetType</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_TRCSCommodityType" n="RI.R.TRCSCommodityType" d="TRCS Commodity Type." cc="ricValue" l="TRCS CommodityType" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="f">RCSCommodityType</in:sp>
+      <in:sp k="category">SA</in:sp>
+      <in:sp k="groupid">I_RI_R_All</in:sp>
+    </i>
+    <i id="I_RI_R_TRCSAssetTypeGenealogy" n="RI.R.TRCSAssetTypeGenealogy" d="TRCS Asset Type Genealogy." cc="ricValue" l="TRCS Asset Type Genealogy" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="f">RCSAssetTypeGenealogy</in:sp>
+      <in:sp k="category">SA</in:sp>
+    </i>
+    <i id="I_RI_R_TRCSCommodityTypeGenealogy" n="RI.R.TRCSCommodityTypeGenealogy" d="TRCS Commodity Type Genealogy." cc="ricValue" l="TRCS Commodity Type Genealogy" s="REFERENCEIDENTIFIERS" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="f">RCSCommodityTypeGenealogy</in:sp>
+      <in:sp k="category">SA</in:sp>
+    </i>
+  </c>
+  <c id="C_RI_IM" n="Index Membership" d="Index Membership." m="IM">
+    <i id="I_RI_IM_IndexRic" n="RI.IM.IndexRic" d="The RIC Code of the Index that the Company is a Member." cc="indexRICMem" pc="IndConst" l="Index RIC" s="MEMBERSHIP" vu="N" isScreen="false">
+      <in:sp k="id">Index pfi=</in:sp>
+      <in:sp k="field">Index</in:sp>
+    </i>
+    <i id="I_RI_IM_IndexName" n="RI.IM.IndexName" d="The Name of the Index that the Company is a Member." cc="indexRIC" pc="IndConst" l="Index Name" s="MEMBERSHIP" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="id">Index Value</in:sp>
+      <in:sp k="field">Index</in:sp>
+    </i>
+    <i id="I_RI_IM_WeightingPercent" n="RI.IM.WeightingPercent" d="The Weighting the company has within the Index." cc="indexRICSrc" pc="Src" l="Weighting %" s="MEMBERSHIP" vu="N" isScreen="false">
+      <out:p id="hidden" />
+      <in:sp k="id">ConstituentWeightPercent</in:sp>
+      <in:sp k="field">ConstituentWeightPercent</in:sp>
+    </i>
+  </c>
+  <c id="C_RI_SM" n="Business Sector Membership" d="Business Sector Membership." m="SM">
+    <i id="I_RI_SM_BusinessSector" n="RI.SM.BusinessSector" d="The Name of the Business sector within the selected sector classification scheme." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="businessSector" pc="BusSect" l="Business Sector" s="BUSINESSSECTOR" vu="N" isScreen="false">
+      <in:sp k="id">BusinessSector Value</in:sp>
+    </i>
+  </c>
+  <c id="C_RI_IC" n="Index Constituent" d="Index Constituent." m="IC">
+    <i id="I_RI_IC_NbOfShares" n="RI.IC.NbOfShares" d="Represents the number of shares of the equity in an index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:2Y" cc="icdpd" pc="Icpcd" l="Nb of Shares" s="FIPL" vu="N" isScreen="false">
+      <in:sp k="id">IndexShares</in:sp>
+      <in:sp k="field">IndexShares</in:sp>
+      <in:sp k="t">NumberOfShares</in:sp>
+    </i>
+    <i id="I_RI_IC_WeightPercentage" n="RI.IC.WeightPercentage" d="Represents the weight of the constituent equity in the global capitalization of the index, based on the previous closing prices. It is expressed in percentage." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:2Y" cc="icdp" pc="Icpc" l="Weight Percentage" s="FIPL" vu="N" isScreen="false">
+      <in:sp k="id">WeightPercent</in:sp>
+      <in:sp k="field">WeightPercent</in:sp>
+      <out:p id="xtra_dr">PC</out:p>
+      <out:p id="xtra_dt">11</out:p>
+    </i>
+    <i id="I_RI_IC_StartDate" n="RI.IC.StartDate" d="The date when the constituent and weight become effective in the index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:2Y" cc="icdpd" pc="Icpcd" l="Start Date" s="FIPL" vu="N" isScreen="false">
+      <out:p id="xtra_dt">7</out:p>
+      <in:sp k="id">BeginDate</in:sp>
+      <in:sp k="field">BeginDate</in:sp>
+    </i>
+    <i id="I_RI_IC_EndDate" n="RI.IC.EndDate" d="The date when the constituent and weight cease to be applicable in the index." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M A:2Y" cc="icdpd" pc="Icpcd" l="End Date" s="FIPL" vu="N" isScreen="false">
+      <out:p id="xtra_dt">7</out:p>
+      <in:sp k="id">EndDate</in:sp>
+      <in:sp k="field">EndDate</in:sp>
+    </i>
+  </c>
+</d>

@@ -1,0 +1,43 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/paper-dialog-imp/paper-dialog-imp.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="./contact-dropdown.html">
+
+<dom-module id="datasource-editor">
+    <style></style>
+
+    <template>
+        <paper-dialog-impl>
+            <h2>Data Source Detail</h2>
+            <div>
+                <p>{{datasource.name}}</p>
+                <p>{{datasource.filename}}</>
+                <hr>
+                <contact-dropdown endpoint="{{endpoint}}"></contact-dropdown>
+            </div>
+            <div class="buttons">
+                <paper-button dialog-dismiss>Cancel</paper-button>
+                <paper-button dialog-confirm>Update</paper-button>
+            </div>
+        </paper-dialog-impl>
+
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'datasource-editor',
+
+            properties: {
+                datasource: {
+                    type: Object,
+                },
+                endpoint: {
+                    type: String,
+                }
+            }
+
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,54 @@
+﻿<d id="D_DSIR" n="Interest Rates" d="Interest Rates" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSIR_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSIR_D_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream's databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSIR_D_TR_BaseDate" n="TR.BaseDate" l="Base Date" d="The base date is the date from which Datastream holds information about the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIR_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSIR_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSIR_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIR_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSIR_P_TR_InterestRate" n="TR.InterestRate" l="Interest Rate" d="This rate is the midpoint between the bid and offered rates." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IR</in:sp>
+		</i>
+		<i id="I_DSIR_P_TR_BidRate" n="TR.BidRate" l="Bid Rate" d="This is the rate offered by a prospective borrower." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IB</in:sp>
+		</i>
+		<i id="I_DSIR_P_TR_OfferedRate" n="TR.OfferedRate" l="Offered Rate" d="This is the rate offered by a lender." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IO</in:sp>
+		</i>
+		<i id="I_DSIR_P_TR_TotalReturnIndex" n="TR.TotalReturnIndex" l="Total Return Index" d="A return index is available for a range of sector and market indices, including Datastream Global Indices. The return index represents the theoretical aggregate growth in value of the constituents of the index. The index constituents are deemed to return an aggregate daily dividend which is included as an incremental amount to the daily change in price index." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RI</in:sp>
+		</i>
+		<i id="I_DSIR_P_TR_ReturnHigh" n="TR.ReturnHigh" l="Return - High" d="RH for the highest return index value achieved on the day" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RH</in:sp>
+		</i>
+		<i id="I_DSIR_P_TR_ReturnLow" n="TR.ReturnLow" l="Return - Low" d="RL for the lowest return index value achieved on the day" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RL</in:sp>
+		</i>
+	</c>
+	<c id="C_DSIR_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSIR_PA_TR_YieldtoRedemption" n="TR.YieldtoRedemption" l="Yield - To Redemption" d="The principle used in calculating this yield is to consider the amount of money paid for the stock (price including accrued interest and expenses) and relate this to the future dividend and capital payments, either or both of which may be paid net of tax. It is a 'net present value' calculation, equating the amount of money paid for the bond to the discounted income and capital payments, the yield being the discount rate which makes the two equivalent. When a bond may be optionally redeemed at an early date, the redemption yield will be to the early date if the clean price of the bond is greater than the final redemption value. Unless it is shown differently on the particular program, default yields on UK, Irish, Australian, New Zealand, US and Canadian domestic bonds are calculated on a semi annual basis. Default yields on other bonds are calculated on an annual basis. (These defaults can be changed.)" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RY</in:sp>
+		</i>
+	</c>
+</d>

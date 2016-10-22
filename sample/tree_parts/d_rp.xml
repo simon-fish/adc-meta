@@ -1,0 +1,89 @@
+﻿<d id="D_RP" m="RP" n="Pricing (RP)" d="Pricing (RP)." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<!-- SMG COMMENTING OUT PRICING SNS SYNTAX PER ADC-5082
+	<c id="C_RP_P" m="P" n="Pricing (P)" d="Pricing">
+		<i id="I_RP_P_Open" d="Todays opening price or value." l="Open" n="RP.P.Open" s="VECTORWISEPRC" ss="VECTORWISE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="PRCC" pc="PRPC" vu="N">
+			<in:sp k="fn">pricinghandler</in:sp>
+			<in:sp k="id">priceopen</in:sp>
+      <in:sp k="idt">QUOTEID</in:sp>
+		</i>
+		<i id="I_RP_P_High" d="The highest bid price or transaction value of the day." l="High" n="RP.P.High" s="VECTORWISEPRC" ss="VECTORWISE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="PRCC" pc="PRPC" vu="N">
+			<in:sp k="fn">pricinghandler</in:sp>
+			<in:sp k="id">pricehigh</in:sp>
+      <in:sp k="idt">QUOTEID</in:sp>
+		</i>
+		<i id="I_RP_P_Low" d="The lowest bid price or transaction value of the day." l="Low" n="RP.P.Low" s="VECTORWISEPRC" ss="VECTORWISE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="PRCC" pc="PRPC" vu="N">
+			<in:sp k="fn">pricinghandler</in:sp>
+			<in:sp k="id">pricelow</in:sp>
+      <in:sp k="idt">QUOTEID</in:sp>
+		</i>
+		<i id="I_RP_P_Close" d="The last trade price, settlement value or closing price." l="Close" n="RP.P.Close" s="VECTORWISEPRC" ss="VECTORWISE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="PRCC" pc="PRPC" vu="N">
+			<in:sp k="fn">pricinghandler</in:sp>
+			<in:sp k="id">priceclose</in:sp>
+      <in:sp k="idt">QUOTEID</in:sp>
+		</i>
+		<i id="I_RP_P_Volume" d="The total traded volume for the day." l="Volume" n="RP.P.Volume" s="VECTORWISEPRC" ss="VECTORWISE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="PRCCnoCur" pc="PRPCnoCur" vu="N">
+			<in:sp k="fn">pricinghandler</in:sp>
+			<in:sp k="id">vol</in:sp>
+      <in:sp k="idt">QUOTEID</in:sp>
+		</i>
+	</c>
+	-->
+	<c id="C_RP_FX" m="FX" n="FX Rate (FX)" d="FX Rate (FX).">
+		<i id="I_RP_FX_FXRateLast" d="FX Rate Last." l="FX Rate Last" n="RP.FX.FXRateLast" s="KDB_FX" cc="ricPeriodValue" pc="PriceNonCurConv" vp="4" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="fn">.fx.r</in:sp>
+		</i>
+	</c>
+	<c id="C_RP_RT" m="RT" n="Real Time Pricing (RT)" d="Real Time Pricing (RT).">
+		<i id="I_RP_RT_Ask" d="Last Ask Price." l="Last Ask Price" n="RP.RT.Ask" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">ASK</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_Bid" d="Last Bid Price." l="Last Bid Price" n="RP.RT.Bid" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">BID</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_High" d="Highest Daily Price." l="Highest Daily Price" n="RP.RT.High" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">HIGH_1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_Last" d="Last Price." l="Last Price" n="RP.RT.Last" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">CF_LAST</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_Low" d="Lowest Daily Price." l="Lowest Daily Price" n="RP.RT.Low" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">LOW_1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_PercentChange" d="Price Percent Change." l="Price Percent Change" n="RP.RT.PercentChange" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">PCTCHNG</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_NetChange" d="Net Price Change." l="Net Price Change" n="RP.RT.NetChange" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">NETCHNG_1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_RP_RT_Volume" d="Last Daily Volume." l="Last Daily Volume" n="RP.RT.Volume" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">CF_VOLUME</in:sp>
+			<in:sp k="type">LONG</in:sp>
+		</i>
+		<i id="I_RP_RT_Currency" d="The Pricing Currency." l="Pricing Currency" n="RP.RT.Currency" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">CF_CURR</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_RP_RT_Yield" d="Bond Yield." l="Bond Yield" n="RP.RT.Yield" s="IDS" cc="ricValue" vu="U" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">RT_YIELD_1</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>	
+	</c>
+</d>

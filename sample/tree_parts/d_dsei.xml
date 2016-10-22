@@ -1,0 +1,272 @@
+﻿<d id="D_DSEI" n="Equity Indices" d="Equity Indices" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSEI_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSEI_D_TR_ExpandedCoName" n="TR.ExpandedCoName" l="Expanded Company Name" d="Expanded Company Name" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECNAME</in:sp>
+		</i>
+		<i id="I_DSEI_D_TR_ExpandedName" n="TR.ExpandedName" l="Expanded Name" d="It is the expanded name of the equity/company/index as stored on the Datastream database." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENAME</in:sp>
+		</i>
+		<i id="I_DSEI_D_TR_NumberofEquities" n="TR.NumberofEquities" l="Number of Equities" d="Number of equities is the total number of equities included in the index" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NE</in:sp>
+		</i>
+		<i id="I_DSEI_D_TR_BaseDate" n="TR.BaseDate" l="Base Date" d="The base date is the date from which Datastream holds information about the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+		<i id="I_DSEI_D_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSEI_D_TR_RelativeWeight" n="TR.RelativeWeight" l="Relative Weight" d="Relative weight is the percentage weighting of the index within the main index." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RW</in:sp>
+		</i>
+	</c>
+	<c id="C_DSEI_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSEI_SQ_TR_ThomsonTicker" n="TR.ThomsonTicker" l="Thomson Ticker" d="Ticker associated with an entity. Published at company, security &amp; quote levels. Published at company level from Worldscope, Venture Economics &amp; Nelson; security level from ILX, Worldscope, IBES, Compustat, CDA, GICS &amp; GEO and quote level from ILX" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">T1C</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_DRIC" n="TR.DRIC" l="DRIC" d="DRIC" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RIC</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_EuroInstrumentType" n="TR.EuroInstrumentType" l="Euro Instrument Type" d="Full name of the Euro traded instrument type." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EINTYP</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_EuroCode" n="TR.EuroCode" l="Datastream Euro Code" d="Datastream code for the Euro data series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_DSCodeBefEuro" n="TR.DSCodeBefEuro" l="Datastream Code Before Euro" d="The NCDSCD datatype refers to the Datastream code on which the original currency price history is stored. A Datastream code is a unique 6-character code allocated to every Bond by Datastream. All Bonds with actual prices that were trading in a currency now converted into Euro, have both Euro and original currency price history stored on Datatstream. Applicable to Bonds that have actual prices only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCDSCD</in:sp>
+		</i>
+		<i id="I_DSEI_SQ_TR_Time" n="TR.Time" l="Time - Latest Value" d="TIME shows the date of the latest value in a DD/MM/YY format." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TIME</in:sp>
+		</i>
+	</c>
+	<c id="C_DSEI_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSEI_P_TR_PriceIndex" n="TR.PriceIndex" l="Price Index" d="This is the default datatype for equity indices. Datastream calculates its own aggregate sector and market price indices, together with associated aggregations such as sector price/earnings ratio (PE) and dividend yield (DY). Sector and market aggregations are weighted by market value and are calculated using a representative list of shares." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PI</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_DatastreamPriceIndex" n="TR.DatastreamPriceIndex" l="Datastream Price Index" d="This is the recalculated aggregate price index for sectors, based on the current constituents of the sector, that is, historical data for the current sector constituents are used in the price index calculations to ensure data consistency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PI.R</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_TurnoverbyVolume" n="TR.TurnoverbyVolume" l="Turnover by Volume" d="For a sector or market, this shows the total number of constituent shares traded on an exchange on a particular day. For a sector or market, this shows the aggregate volume of the index constituents." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VO</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_TurnoverbyValue" n="TR.TurnoverbyValue" l="Turnover by Value" d="For a market, this shows the aggregation of the number of shares traded multiplied by the closing price for each stock." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSVO</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_PriceOpening" n="TR.PriceOpening" l="Price - Opening" d="The aggregate price index based on the opening quotes of the constituent stocks in an index." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PO</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_PriceIntradayHigh" n="TR.PriceIntradayHigh" l="Price - Intraday High" d="These datatypes returns the high and low values for the aggregate price index of a sector. The two forms are: PH for the highest index value achieved on the day PL for the lowest index value achieved on the day" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PH</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_PriceIntradayLow" n="TR.PriceIntradayLow" l="Price - Intraday Low" d="These datatypes returns the high and low values for the aggregate price index of a sector. The two forms are: PH for the highest index value achieved on the day PL for the lowest index value achieved on the day" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PL</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_PaddedIntradayHigh" n="TR.PaddedIntradayHigh" l="Price - Intraday High (Padded)" d="Price - Intraday High (Padded)" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PHP</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_PaddedIntradayLow" n="TR.PaddedIntradayLow" l="Price - Intraday Low (Padded)" d="Price - Intraday Low (Padded)" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PLP</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_ConsolidatedVolume" n="TR.ConsolidatedVolume" l="Consolidated Volume" d="Consolidated Volume" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VC</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_MarketPriceUnit" n="TR.MarketPriceUnit" l="Market Price Unit" d="Market Price Unit" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MP.U</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_IndexCurrency" n="TR.IndexCurrency" l="Index Currency" d="Stock index currency (SICUR) - underlying currency of an index." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SICUR</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_TotalReturnIndex" n="TR.TotalReturnIndex" l="Total Return Index" d="A return index is available for a range of sector and market indices, including Datastream Global Indices. The return index represents the theoretical aggregate growth in value of the constituents of the index. The index constituents are deemed to return an aggregate daily dividend which is included as an incremental amount to the daily change in price index." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RI</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_DatastreamReturnIndex" n="TR.DatastreamReturnIndex" l="Datastream Return Index" d="Used for indices where official sourced return index values are also provided. In these instances, official return index values were not provided by the source when the index was officially released so Datastream calculated return index values (subject to the approval of the source). For example, FTSE100(RI) is official FTSE return index data with history available from 1986 and FTSE100(DSRI) is Datastream calculated return index data with history available from 1992. The return index presents the theoretical growth in value of a notional stock holding, the price of which is that of the selected price index. This holding is deemed to return a daily dividend, which is used to purchase new units of the stock at the current price. The gross dividend is used." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSRI</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_ReturnHigh" n="TR.ReturnHigh" l="Return - High" d="RH for the highest return index value achieved on the day" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RH</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_ReturnLow" n="TR.ReturnLow" l="Return - Low" d="RL for the lowest return index value achieved on the day" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RL</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_NetReturn" n="TR.NetReturn" l="Net Return" d="For indices, this is the net return representing the total value of a holding of a notional stock, whose price is that of the selected price index. This holding is deemed to return a daily net dividend, which is used to purchase new units of the stock at the current price." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NR</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_NewHighs" n="TR.NewHighs" l="New Highs of Day" d="New highs represents the number of all stocks making new 52-week highs." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NH</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_NewLows" n="TR.NewLows" l="New Lows of Day" d="New lows represents the number of all stocks making new 52-week lows." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NL</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_StrengthIndex" n="TR.StrengthIndex" l="Strength Index" d="The strength index is the number of shares whose price has risen on the day, less the number of shares whose price has fallen, as a percentage of the total number of shares in the market. Strength indices are calculated for the New York Stock Exchange (total market) and for the London Stock Exchange (stocks under £20million, stocks £20M to £50M, stocks over £50M and all stocks)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SI</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_ReturnOpen" n="TR.ReturnOpen" l="Return Open" d="The aggregate return index based on the opening quotes of the constituent stocks in an index." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RO</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_ReturnFactor" n="TR.ReturnFactor" l="Return Factor" d="Return Factor" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RF</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_DJStoxxPriceOpen" n="TR.DJStoxxPriceOpen" l="DJ Stoxx Price Open" d="The SO datatype is only applicable to DJ Stoxx indices and is the special opening price quotation. The price is calculated at 10:30 CET. The datatype is provided for top level DJ Stoxx and DJ Euro Stoxx indices." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SO</in:sp>
+		</i>
+		<i id="I_DSEI_P_TR_MarketValueOpen" n="TR.MarketValueOpen" l="Market Value Open" d="Indicates the Market value open." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MO</in:sp>
+		</i>
+	</c>
+	<c id="C_DSEI_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSEI_PA_TR_MarketValue" n="TR.MarketValue" l="Market Value" d="This is the aggregate market value for index, calculated from the index constituents. The calculation method used is determined by the source index agency." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MV</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DatastreamMarketValue" n="TR.DatastreamMarketValue" l="Datastream Market Value" d="This is the recalculated aggregate market value, based on the current constituents of the sector, that is, historical data for the current sector constituents are used in the market value calculations to ensure data consistency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MV.R</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_MarketValueCurr" n="TR.MarketValueCurr" l="Market Value Currency" d="Market Value Currency" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NCMV</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_BreadthIndex" n="TR.BreadthIndex" l="Breadth Index" d="The breadth index is an indicator of the spread of activity in the market. The higher the percentage of the total stocks whose prices show movement on the day (rises and falls), the greater the breadth index." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BI</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_NumberofBargains" n="TR.NumberofBargains" l="Number Of Bargains" d="This is the total number of trades over the day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BG</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_NumberofRises" n="TR.NumberofRises" l="Number Of Rises" d="Number of rises is the total number of stocks whose closing price is higher than the closing price on the previous day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RS</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_NumberofFalls" n="TR.NumberofFalls" l="Number Of Falls" d="Number of falls is the total number of stocks whose closing price is lower than the closing price on the previous day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">FS</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_NumberofUnchanged" n="TR.NumberofUnchanged" l="Number Of Unchanged" d="Number of unchanged is the total number of stocks whose closing price is the same as the closing price on the previous day." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">UC</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_NumberofTrades" n="TR.NumberofTrades" l="Number of Trades" d="Number of Trades" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NT</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_PERatio" n="TR.PERatio" l="Price/Earnings Ratio (Adjusted)" d="The PER is derived by dividing the total market value of an index by the total earnings. The calculation method used is determined by the source index agency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PE</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DatastreamPE" n="TR.DatastreamPE" l="Datastream Price Earnings" d="This is the recalculated aggregate PER for sectors, based on the current constituents of the sector, that is, historical data for the current sector constituents are used in the PER calculations to ensure data consistency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PE.R</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DivYield" n="TR.DivYield" l="Div Yield" d="The dividend yield for an index is the total dividend amount for the index, expressed as a percentage of the total market value for the constituents of that index. The calculation method used is determined by the source index agency." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DY</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_PCERatio" n="TR.PCERatio" l="Price/Cash Earnings Ratio" d="The price/cash earnings ratio at any given date is the price divided by cash earnings per share for the appropriate financial year, adjusted for capital changes." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PC</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_ModifiedDuration" n="TR.ModifiedDuration" l="Modified Duration to Next Call" d="Modified duration is a measure of the sensitivity of a bond's price to changes in yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMCA</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DSDivYield" n="TR.DSDivYield" l="Datastream Dividend Yield" d="The dividend yield for an index is the total dividend amount for the index, expressed as a percentage of the total market value for the constituents of that index. The values have been calculated by Datastream as the source does not currently calculate this datatype (approval given by source)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSDY</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DSMarketValue" n="TR.DSMarketVal" l="Datastream Market Value" d="This is the aggregate market value for the index, calculated from the index constituents based on the sum of the share price multiplied by the number of ordinary shares in issue for each index constituent. The values have been calculated by Datastream as the source does not currently calculate this datatype (approval given by source)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSMV</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DSPERatio" n="TR.DSPERatio" l="Datastream Price/Earning Ratio" d="The PER is derived by dividing the total market value of an index by the total earnings. The values have been calculated by Datastream as the source does not currently calculate this datatype (approval given by source)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSPE</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DSTurnoverbyVolume" n="TR.DSTurnoverbyValue" l="Datastream Turnover by Value" d="For a sector or market, this is the total value of constituent shares traded on an exchange on a particular day. Value is displayed in thousands of local currency. The values have been calculated by Datastream as the source does not currently calculate this datatype (approval given by source)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSVA</in:sp>
+		</i>
+		<i id="I_DSEI_PA_TR_DSTurnoverbyValue" n="TR.DSTurnoverbyVolume" l="Datastream Turnover by Volume" d="For a sector or market, this shows the total number of constituent shares traded on an exchange on a particular day. Value is displayed in thousands. The values have been calculated by Datastream as the source does not currently calculate this datatype (approval given by source)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DSVO</in:sp>
+		</i>
+	</c>
+	<c id="C_DSEI_CA" n="Corporate Actions" d="Corporate Actions">
+		<i id="I_DSEI_CA_TR_IndexDivisor" n="TR.IndexDivisor" l="Index Divisor" d="The index divisor is an adjustment that is used to maintain the continuity of an index’s values. The divisor changes when the makeup of the index changes (for example corporate actions) and neutralises the change." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IDV</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_NumberofMarks" n="TR.NumberofMarks" l="Number of Marks" d="This is the number of matched trades, that is, where the buyer and seller are identifiable to the exchange. This datatype is mainly available for London Stock Exchange indices." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MK</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_ExDivAdj" n="TR.ExDivAdj" l="Ex-Dividend - Adjustment" d="Ex-Dividend adjustment for FTSE UK indices is the ex-dividend adjustment represents the value of dividends declared by constituent companies on the xd date expressed in index points. T Xd adjustment is based on declared dividends and is calculated as follows: Market value of dividends/Latest index divisor." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XD</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_CurrencyBeforeEuroEDate" n="TR.CurrencyBeforeEuroEDate" l="Date of Last Currency Value Before Euro" d="Date of the last national currency value provided by source prior to Euro conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDATE</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_CurrPriortoEvent" n="TR.CurrPriortoEvent" l="Currency Prior To The Event" d="Currency Prior To The Event" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCUR</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_EuroConExRate" n="TR.EuroConExRate" l="Euro Conversion - Exchange Rate" d="This datatype will return the fixed exchange rate used during the conversion of the security into Euros. For use with converted stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCNRT</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_EuroSDate" n="TR.EuroSDate" l="Date of Earliest Euro Value" d="Date of earliest Euro value provided by source. Applies to economics only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SDATE</in:sp>
+		</i>
+		<i id="I_DSEI_CA_TR_EventType" n="TR.EventDescription" l="Event Description" d="For use with converted stocks only. This datatype will return the type of security that has been converted to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EVTYP</in:sp>
+		</i>
+	</c>
+</d>

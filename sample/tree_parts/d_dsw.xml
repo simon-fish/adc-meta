@@ -1,0 +1,224 @@
+﻿<d id="D_DSW" n="Warrants" m="Warrants" d="Warrants" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSW_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSW_D_TR_WithholdingTax" n="TR.WithholdingTax" l="Withholding Tax" d="Percentage tax rate applicable to foreign investors in domestic bonds." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">WTAX</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_ExpandedCoName" n="TR.ExpandedCoName" l="Expanded Company Name" d="Expanded Company Name" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECNAME</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_ExpandedName" n="TR.ExpandedName" l="Expanded Name" d="It is the expanded name of the equity/company/index as stored on the Datastream database." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENAME</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_GeogGroupName" n="TR.GeogGroupName" l="Geography Group Name" d="Geography Group Name" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGN</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_GeogGroupCode" n="TR.GeogGroupCode" l="Geography Group Code" d="Geography Group Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGC</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_BorrowerName" n="TR.BorrowerName" l="Borrower Name" d="The full name of the bond issuer." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BNAM</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_BorrowerMnem" n="TR.BorrowerMnem" l="Borrower Mnemonic" d="A 5 character mnemonic which indicates the Company benefiting from the funds of the bond issue - the borrower." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BCOD</in:sp>
+		</i>
+		<i id="I_DSW_D_TR_IndustryGroupCode" n="TR.IndustryGroupCode" l="Industry Group Code" d="This datatype returns the Datastream level 6 industrial classification number, for example, 102 for banks." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDG</in:sp>
+		</i>
+	</c>
+	<c id="C_DSW_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSW_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_Code" n="TR.Code" l="Code" d="Datastream Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DSCD</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_DISIN" n="TR.DISIN" l="DISIN" d="DISIN" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISIN</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_DSEDOL" n="TR.DSEDOL" l="DSEDOL" d="This is an identification code based on the code issued by the London Stock Exchange. The 7th character, a check digit, is included." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SECD</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_EuroInstrumentType" n="TR.EuroInstrumentType" l="Euro Instrument Type" d="Full name of the Euro traded instrument type." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EINTYP</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_LocalCode" n="TR.LocalCode" l="Local Code" d="This is an identification code based on the official local exchange code. It comprises up to 12 characters, prefixed by an alphabetic country code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LOC</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_EuroCode" n="TR.EuroCode" l="Datastream Euro Code" d="Datastream code for the Euro data series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_UnderlyingInstrumentType" n="TR.UnderlyingInstrumentType" l="Underlying Instrument Type" d="Underlying Instrument Type" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPI</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_UnderlyingInstrumentName" n="TR.UnderlyingInstrumentName" l="Underlying Instrument Name" d="For convertible bonds and warrants which are exchangeable into another security, this datatype returns the Datastream name of that underlying security. Where a stock is linked to more than one security, this datatype will not return any data, instead the details of the underlying name can only be found on extra text pages of program 144C." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPN</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_UnderlyingCode" n="TR.UnderlyingCode" l="Underlying Series - Datastream Code" d="For convertible bonds and warrants which are exchangeable into another security, this datatype returns the Datastream code of that underlying security. This code can then be used as input for other data as required. Where a stock is linked to more than one security, this datatype will not return any data, instead the details of the underlying stock can only be found on extra text pages of program 144C." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPD</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_ShortName" n="TR.ShortName" l="Short Name" d="The Datastream formatted short name of the bond or warrant, limited to 14 characters. Available for all markets." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SNAME</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_DerivativeFeatures" n="TR.DerivativeFeatures" l="Derivative Features" d="Item Number available for use in Bond Lists program 145X only. This describes any features existing for the security which allow it to be transferred into another security. Values are: CV convertible WE bond with equity warrants attached WB bond with bond warrants attached EW warrant to purchase equity BW warrant to purchase bond" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DRF</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_BondStatus" n="TR.BondStatus" l="Bond Status" d="Data returned indicates whether bond or warrant is ‘dead or alive’, that is whether it has passed its redemption or expiry date. Data returned is text: &quot;DEAD&quot; or &quot;ACTIVE&quot;" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSTAT</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_GuaranteeType" n="TR.GuaranteeType" l="Guarantee Type" d="This is the type of guarantee associated with the issue. The following codes are used: Code - Guarantee BG - Bank guarantee CL - Collateral cover FM - First mortgage GG - Government guarantee JG - Junior guarantee KA - Keepwell agreement NP - Negative pledge OG - Other guarantee PC - Primary capital PG - Parent guarantee PW - Borrowers have Public Works Loan Boards as lender of last resort PS - Subordinated parent guarantee SC - Special clause SG - State or local government guarantee SU - Subordinated unsecured TA - Throughput agreement UL - Unsecured loan" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GUAR</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_LeadMgr" n="TR.LeadMgr" l="Floating Rate Margin" d="The %age margin above or below the base interest rate that will be paid for a Floating Rate Note. Data Formats: &quot;x.xxxx&quot; or &quot;-x.xxxx&quot; (positive or negative). Types of security: Floating Rate Notes only" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRM</in:sp>
+		</i>
+		<i id="I_DSW_SQ_TR_DSCodeBefEuro" n="TR.DSCodeBefEuro" l="Datastream Code Prior To The Event" d="The NCDSCD datatype refers to the Datastream code on which the original currency price history is stored. A Datastream code is a unique 6-character code allocated to every Bond by Datastream. All Bonds with actual prices that were trading in a currency now converted into Euro, have both Euro and original currency price history stored on Datatstream. Applicable to Bonds that have actual prices only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCDSCD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSW_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSW_P_TR_CallPutInd" n="TR.CallPutInd" l="Call/put indicator" d="Indicates the warrant type as &quot;call&quot; or &quot;put&quot;." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">WTEX</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_ConsolidatedVolume" n="TR.ConsolidatedVolume" l="Consolidated Volume" d="Consolidated Volume" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VC</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_RedempDate" n="TR.RedempDate" l="Redemption Date" d="This is the final redemption date for the issue. For securities which have a redemption schedule, the years are also shown (for example, 12/86 - 95 indicates a schedule from 1986 to 1995)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RD</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_Life" n="TR.Life" l="Life" d="This is the market default life of the security, which is as follows: For Eurobonds with a sinking fund, it is the Average life For other bonds with a sinking fund, it is the Equivalent life For all other bonds and warrants, it is the Life to final date In all cases where the bond has a call schedule, if the current price is greater than the next call value, it will default to a final redemption date equal to the next call date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LF</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_LifeatIssue" n="TR.LifeatIssue" l="Life At Issue" d="This is the period of time between the interest accrual date (or issue date if no interest accrual date is available) to the maturity date. Bonds with a sinking fund will show equivalent life." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LFIS</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_PriceCurrency" n="TR.PriceCurrency" l="Price - Currency" d="This is the currency of issue." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PCUR</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_IssuePrice" n="TR.IssuePrice" l="Issue Price" d="This is the price at which the security was issued. For Eurobonds, the re-offer price is used if available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPR</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_MarketPrice" n="TR.MarketPrice" l="Market Price" d="Where the exchange issues a settlement price this value will be stored. For exchanges which do not issue a settlement price (OTOB, AEX, CBOE, AMEX and PHLX), the following price will be stored: Last traded price provided last trade is within bid/ask range at the end of the closing session. Otherwise the nearest bid or ask price to the last trade price will be stored. In the event that the option has not traded, the last mid bid/ask price will be calculated and stored. In the event that only bid or ask is available on that day, this value will be stored" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_MarketPriceUnit" n="TR.MarketPriceUnit" l="Market Price Unit" d="Market Price Unit" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MP.U</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_UnderlyingInstrumentDivYld" n="TR.UnderlyingInstrumentDivYld" l="Underlying Instrument Div Yield" d="This displays the interest yield and the dividend yield for the equity. The dividend yield is calculated by dividing the gross dividend rate per share (including any tax credits) by the price and multiplying by 100. This shows the expected rate of return on £100 invested at the current price. Applicable to convertibles only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPDY</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_LastPriceChangeDate" n="TR.LastPriceChangeDate" l="Last Price Change Date" d="This is the last date on which a new price was received. Note that if the price remains the same, the last date of price change would be the date when the first occurrence of that price was retrieved." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LCDATE</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_NominalValue" n="TR.NominalValue" l="Nominal Value" d="This is the actual unit of stock that the price relates to, and is the amount inscribed on the face of a security (exclusive of interest or premium). It is the amount used in the computation of interest due on the security. Stocks priced on a % basis use a notional 100 nominal value." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NOMV</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_PremiumDiscount" n="TR.PremiumDiscount" l="Premium / Discount" d="This figure represents the excess cost (premium) or saving (discount) of buying the equity through the convertible expressed as a percentage of the equity price; it does not include any income received. A discount is represented as a negative figure. Applicable to convertibles only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PD</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_LastRedemptionDate" n="TR.LastRedemptionDate" l="Last Redemption Date" d="This returns the last possible redemption date for bonds." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDL</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_TRAXPrice" n="TR.TRAXPrice" l="TRAX Price" d="TRAX Price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MPTX</in:sp>
+		</i>
+		<i id="I_DSW_P_TR_ExerciseYield" n="TR.ExerciseYield" l="Exercise Yield" d="Returns the exercise yield expected if the option on the bond warrant were to be exercised. Applies to bond warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XY</in:sp>
+		</i>
+	</c>
+	<c id="C_DSW_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSW_PA_TR_TRAXVolume" n="TR.TRAXVolume" l="TRAX Volume" d="TRAX Volume" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VN</in:sp>
+		</i>
+		<i id="I_DSW_PA_TR_MarketValue" n="TR.MarketValue" l="Market Value" d="This is the aggregate market value for index, calculated from the index constituents. The calculation method used is determined by the source index agency." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MV</in:sp>
+		</i>
+		<i id="I_DSW_PA_TR_Gearing" n="TR.Gearing" l="Gearing" d="This figure shows the gearing obtained by purchasing the equity through the warrant. It is sometimes known as the leverage. Applicable to equity warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">GR</in:sp>
+		</i>
+	</c>
+	<c id="C_DSW_CA" n="Corporate Actions" d="Corporate Actions">
+		<i id="I_DSW_CA_TR_Parity" n="TR.Parity" l="Parity" d="This displays the warrant price which is necessary to give a premium/discount value of zero. Applicable to equity warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PAR</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_IssueDate" n="TR.IssueDate" l="Issue Date" d="This is the original date on which the full bond details were announced to the market. For bonds issued before 1st January 1950 the issue date is not displayed. For some bonds, an issue date of 1st January 1950 indicates that the issue date is not available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ID</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_ExPeriod" n="TR.ExPeriod" l="Exercise/Conversion Period" d="This displays the period during which a warrant can be exercised." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DRPE</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_ExPrice" n="TR.ExPrice" l="Exercise/Conversion Price" d="This represents the price payable for each share/bond obtained, when the warrant is exercised." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DRPR</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_Shares" n="TR.Shares" l="Number of Shares" d="This displays the number of shares or nominal amount of bond which can be purchased by the exercise of a single warrant." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NOS</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_EuroConExRate" n="TR.EuroConExRate" l="Euro Conversion - Exchange Rate" d="This datatype will return the fixed exchange rate used during the conversion of the security into Euros. For use with converted stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCNRT</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_CurrPriortoEvent" n="TR.CurrPriortoEvent" l="Currency Prior To The Event" d="For use with converted stocks only. This datatype will return the issue currency of the security prior to conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCUR</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_EventDescription" n="TR.EventDescription" l="Event Description" d="For use with converted stocks only. This datatype will return the type of security that has been converted to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EVTYP</in:sp>
+		</i>
+		<i id="I_DSW_CA_TR_CurrencyBeforeEuroEDate" n="TR.CurrencyBeforeEuroEDate" l="Date of Last Currency Value Before Euro" d="Date of the last national currency value provided by source prior to Euro conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDATE</in:sp>
+		</i>
+	</c>
+</d>

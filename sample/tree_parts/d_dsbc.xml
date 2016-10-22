@@ -1,0 +1,1236 @@
+﻿<d id="D_DSBC" n="Bonds and Convertables" d="Bonds and Convertables" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta">
+	<c id="C_DSBC_D" n="Descriptive" d="Descriptive">
+		<i id="I_DSB_D_TR_GeogGroup" n="TR.GeogGroup" l="Geography Group" d="This datatype returns a geographical classification of company by specific two-digit Numeric code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOG</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_GeogGroupCode" n="TR.GeogGroupCode" l="Geography Group Code" d="Geography Group Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGC</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_IndustryGroupCode" n="TR.IndustryGroupCode" l="Industry Group Code" d="This datatype returns the Datastream level 6 industrial classification number, for example, 102 for banks." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDG</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_BorrowerName" n="TR.BorrowerName" l="Borrower Name" d="The full name of the bond issuer." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BNAM</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_IssuerType" n="TR.IssuerType" l="Issuer Type" d="Classifies bonds according to the nature of the borrowing entity. Following table provides the respective datatype values for each issuer type: Datatype Value - Issuer Type SOV - Sovereign (for government bonds, for example, U.K Gilts, French OATi, German Bund) SSOV - Sub-Sovereign (for regional governments, for example, German Lander bonds, New South Wales) AGCY - Agency (for companies which are government backed, for example, French National Railway SNCF, German Kreditanstalt fur wiederaufbau KfW, US Agency Fannie Mae and Freddy Mac etc.) SUPR - Supranational (for supranational organisations, for example, the World Bank, Asian Developemnt Bank, etc.) FIN - Financial Institution (Banks and Insurers) CORP - Corporate (Any private sector company of any non-financial industry sector)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ITYP</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_BorrowerCountry" n="TR.BorrowerCountry" l="Borrower Country" d="Borrower Country" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BGEO</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_BaseDate" n="TR.BaseDate" l="Base Date" d="The base date is the date from which Datastream holds information about the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedGovtBondBenchmarkIdx" n="TR.AssociatedGovtBondBenchmarkIdx" l="Associated Government Bond Benchmark Index" d="Market and sector datatype. Returns the mnemonic of the Datastream government bond benchmark index that is closest to the market and maturity of the selected security." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDXAL</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedGovtBondAllIdx" n="TR.AssociatedGovtBondAllIdx" l="Associated Government Bond All Index" d="Market and sector datatype. Returns the mnemonic of the Datastream government bond all index that is closest to the market and maturity of the selected security." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDXBM</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedGovtBondTrackerIdx" n="TR.AssociatedGovtBondTrackerIdx" l="Associated Government Bond Tracker Index" d="Market and sector datatype. Returns the mnemonic of the Datastream government bond tracker index that is closest to the market and maturity of the selected security." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDXTR</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedBondAllIdxbyMarket" n="TR.AssociatedBondAllIdxbyMarket" l="Bond All Lives Index By Market" d="Market and sector datatype. Returns details of an associated all lives by market index as a time series." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MAD</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedBondAllIdxLocal" n="TR.AssociatedBondAllIdxLocal" l="Bond All Lives Index Local Currency" d="Market and sector datatype. Returns details of an associated all lives by currency index as a time series." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MAI</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedBondBenchmarkIdxbyMarket" n="TR.AssociatedBondBenchmarkIdxbyMarket" l="Bond Benchmark Index By Market" d="Market and sector datatype. Returns details of an associated benchmark by market index as a time series." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MBD</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedBondBenchmarkIdxLocal" n="TR.AssociatedBondBenchmarkIdxLocal" l="Bond Benchmark Index Local Currency" d="Market and sector datatype. Returns details of an associated benchmark by currency index as a time series." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MBI</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_AssociatedBondTrackerIdxbyMarket" n="TR.AssociatedBondTrackerIdxbyMarket" l="Bond Tracker Index By Market" d="Market and sector datatype. Returns details of an associated tracker by market index as a time series." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MTD</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_RedemptionOptions" n="TR.RedemptionOptions" l="Optional Redemption Features" d="This describes any call or bond holder options associated with a bond. Item Number available for use in Bond Lists program 145X only. Values are: CA callable at borrower's option BR early redemption at the bond holder's option BE extendible at the bond holder's option" cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OPRF</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_BorrowerSIC" n="TR.BorrowerSIC" l="Borrower SIC Industry" d="The Standard Industrial Classification (SIC) code of the Borrower/Issuer of the bond, where available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSIC</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_Co-Manager" n="TR.Co-Manager" l="Co-Manager" d="Static datatype to return schedule of 20 text values for bond DS codes." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CMNG</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_ConvertibleUnderlyingInstrType" n="TR.ConvertibleUnderlyingInstrType" l="Convertible Underlying Instrument Type" d="For convertible bonds only, textual description of the underlying instrument that may be converted into." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVUI</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_EnhancementCompanyName" n="TR.EnhancementCompanyName" l="Enhancement Company Name" d="The textual name of any company providing specific credit enhancement." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENHN</in:sp>
+		</i>
+		<i id="I_DSB_D_TR_GuarantorIndustrySIC" n="TR.GuarantorIndustrySIC" l="Guarantor Industry SIC" d="The SIC (Standard Industrial Classification) code of any bond guarantor company where available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GUAI</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_IRR" n="Issuer Ratings" d="Issuer Ratings">
+		<i id="I_DSB_IRR_TR_SnPCurrentForeignCreditRating" n="TR.SnPCurrentForeignCreditRating" l="S&amp;P Current Foreign Credit Rating" d="S&amp;P Current Foreign Credit Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPF</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentFSRLongTermRating" n="TR.SnPCurrentFSRLongTermRating" l="S&amp;P Current FSR Long Term Rating" d="S&amp;P Current FSR Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPFSL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentFSRRating" n="TR.SnPCurrentFSRRating" l="S&amp;P Current FSR Rating" d="S&amp;P Current FSR Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPFSR</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalForeignRating" n="TR.SnPHistoricalForeignRating" l="S&amp;P Historical Foreign Rating" d="S&amp;P Historical Foreign Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHF</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalFSRRating" n="TR.SnPHistoricalFSRRating" l="S&amp;P Historical FSR Rating" d="S&amp;P Historical FSR Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHFSR</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalLocalRating" n="TR.SnPHistoricalLocalRating" l="S&amp;P Historical Local Rating" d="S&amp;P Historical Local Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalForeignLongTermRating" n="TR.SnPHistoricalForeignLongTermRating" l="S&amp;P Historical Foreign Long Term Rating" d="S&amp;P Historical Foreign Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHLTF</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalLocalLongTermRating" n="TR.SnPHistoricalLocalLongTermRating" l="S&amp;P Historical Local Long Term Rating" d="S&amp;P Historical Local Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHLTL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalNSRRating" n="TR.SnPHistoricalNSRRating" l="S&amp;P Historical NSR Rating" d="S&amp;P Historical NSR Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHNS</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalLongTermRating" n="TR.SnPHistoricalLongTermRating" l="S&amp;P Historical Long Term Rating" d="S&amp;P Historical Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHNSLT</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalOutlook/Creditwatch" n="TR.SnPHistoricalOutlook/Creditwatch" l="S&amp;P Historical Outlook/Creditwatch" d="S&amp;P Historical Outlook/Creditwatch" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHNSOL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalShortTermRating" n="TR.SnPHistoricalShortTermRating" l="S&amp;P Historical Short Term Rating" d="S&amp;P Historical Short Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHNSST</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalOutlookAndCreditwatch" n="TR.SnPHistoricalOutlookAndCreditwatch" l="S&amp;P Historical Outlook And Creditwatch" d="S&amp;P Historical Outlook And Creditwatch" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHOL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalForeignShortTermRating" n="TR.SnPHistoricalForeignShortTermRating" l="S&amp;P Historical Foreign Short Term Rating" d="S&amp;P Historical Foreign Short Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHSTF</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPHistoricalLocalShortTermRating" n="TR.SnPHistoricalLocalShortTermRating" l="S&amp;P Historical Local Short Term Rating" d="S&amp;P Historical Local Short Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPHSTL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentLocalRating" n="TR.SnPCurrentLocalRating" l="S&amp;P Current Local Rating" d="S&amp;P Current Local Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentForeignLongTermRating" n="TR.SnPCurrentForeignLongTermRating" l="S&amp;P Current Foreign Long Term Rating" d="S&amp;P Current Foreign Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPLTF</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentLocalLongTermRating" n="TR.SnPCurrentLocalLongTermRating" l="S&amp;P Current Local Long Term Rating" d="S&amp;P Current Local Long Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPLTL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentNSRRating" n="TR.SnPCurrentNSRRating" l="S&amp;P Current NSR Rating" d="S&amp;P Current NSR Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPNS</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPNationalScaleFinancialStrengthRating" n="TR.SnPNationalScaleFinancialStrengthRating" l="S&amp;P National Scale Financial Strength Rating" d="S&amp;P National Scale Financial Strength Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPNSFS</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentLongTermLocalRating" n="TR.SnPCurrentLongTermLocalRating" l="S&amp;P Current Long Term Local Rating" d="S&amp;P Current Long Term Local Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPNSLT</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentLocalOutlook" n="TR.SnPCurrentLocalOutlook" l="S&amp;P Current Local Outlook" d="S&amp;P Current Local Outlook" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPNSOL</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentShortTermCreditRating" n="TR.SnPCurrentShortTermCreditRating" l="S&amp;P Current Short Term Credit Rating (Local)" d="S&amp;P Current Short Term Credit Rating (Local)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPNSST</in:sp>
+		</i>
+		<i id="I_DSB_IRR_TR_SnPCurrentLocalShortTermRating" n="TR.SnPCurrentLocalShortTermRating" l="S&amp;P Current Local Short Term Rating" d="S&amp;P Current Local Short Term Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSPSTL</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSB_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_Mnem" n="TR.Mnem" l="Datastream Mnemonic" d="Datastream Mnemonic." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_Code" n="TR.Code" l="Datastream Code" d="Datastream Code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DSCD</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_DISIN" n="TR.DISIN" l="ISIN" d="Datastream ISIN." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISIN</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_DSEDOL" n="TR.DSEDOL" l="SEDOL" d="This is an identification code based on the code issued by the London Stock Exchange." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SECD</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_SecurityType" n="TR.SecurityType" l="Security Type" d="Classifies bonds according to their legal status in terms of claims on the borrower's assets. Following table provides the respective datatype values for security type: Datatype Value - Security Type BOND - Bond/Note PREF - Preference Share BILL - Treasury Bill STRC - Coupon Strip STRP - Principal Strip ABS - Asset Backed Security MBS - Mortgage Backed Security COVD - Covered Bond" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">STYP</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_EuroInstrumentType" n="TR.EuroInstrumentType" l="Euro Instrument Type" d="Full name of the Euro traded instrument type." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EINTYP</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_LocalCode" n="TR.LocalCode" l="Local Official Code" d="This is an identification code based on the official local exchange code. It comprises up to 12 characters, prefixed by an alphabetic country code." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LOC</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_EuroCode" n="TR.EuroCode" l="Datastream Euro Code" d="Datastream code for the Euro data series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ShortName" n="TR.ShortName" l="Short Name" d="The Datastream formatted short name of the bond or warrant, limited to 14 characters. Available for all markets." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SNAME</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_CommonCode" n="TR.CommonCode" l="Common Code" d="Item Number available for use in Bond Lists program 145X only. The common code is issued for all securities accepted by either the Euroclear and/or Cedel clearing systems. This is a 9-digit code in the following format: 8 digit base number; 1 numeric check digit" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CCDE</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_AmortizationType" n="TR.AmortizationType" l="Amortization Type" d="This describes the amortisation features of a bond. Values are: BL Bullet SF Sinking fund PF Purchase fund DP Double purchase fund CA Bond with call option PU Bond with Bond Holders option CA/PU Bond with call and bond holders options" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AMOR</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_BondStatus" n="TR.BondStatus" l="Bond Status" d="Data returned indicates whether bond or warrant is ‘dead or alive’, that is whether it has passed its redemption or expiry date. Data returned is text: &quot;DEAD&quot; or &quot;ACTIVE&quot;" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BSTAT</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_BondType" n="TR.BondType" l="Bond Type" d="Datatype BTYP classifies bonds according to the nature of their cash flows. Following table provides the respective datatype values for each bond type: Datatype Value - Bond Type BWT - Bond with Warrant (cash flow depends on a bond plus a call option for an equity) CVT - Convertible (cash flow depends on a conversion option) IXL - Index Linked (cash flow is adjusted usually in line with a consumer price index) ZER - Zero Coupon (only one cash flow at the maturity date) FLO - Floating Rate (cash flow are variable) STR - Straight (cash flows are fixed)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BTYP</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_InstrumentType" n="TR.InstrumentType" l="Instrument Type" d="Static datatype to return 8 character domain value for bond DS codes. Detailed instrument type classification" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INST</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_PrimaryMarket" n="TR.PrimaryMarket" l="Primary Market" d="The market in which the security was issued." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MKT</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ExchangeListing" n="TR.ExchangeListing" l="Exchange Listing" d="The stock exchange(s) at which the bond is listed" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EXCHB</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_TargetMarket" n="TR.TargetMarket" l="Target Market" d="Classifies bonds according to the market where they were issued and traded. Following table provides the Datatype value for each required market type: Datatype Value - Target Market GLOB - Global (bonds issued simultaneously in a domestic and the Eurobond/International market) INTL - International (bonds issued in the Eurobond market = International market DOM - Domestic (bonds from domestic borrowers issued in a domestic market, e.g. Tesco bonds in £ issued in the UK only) FOR - Foreign (bonds form foreign borrowers issued in a domestic market, e.g. Nationwide Building Society bond issued in U$ in the US market, so called “Yankee bond”)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TMKT</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ForeignBondType" n="TR.ForeignBondType" l="Foreign Bond Type" d="Datatype FBTYPE classifies bonds according to the market where they were issued and traded. Following table provides the datatype value for each Foreign Bond type: Datatype Value - Foreign Bond Type ALP - Alpine – Yen bond issued in Switzerland by a non-resident entity BULL - Bulldog – bond issued in the UK by a non-resident entity GESH - Geisha – Non-Yen bond issued in Japan by a non-resident entity KANG - Kangaroo – bond issued in Australia by a non-resident entity MARA - Marathon – bond issued in Greece by a non-resident entity MATA - Matador – bond issued in Spain by a non-resident entity NAV - Navigator – bond issued in Portugal by a non-resident entity REMB - Rembrandt – bond issued in Netherlands by a non-resident entity SAM - Samurai – Yen bond issued in Japan by a non-resident entity SHIB - Shibosai – Private Placement Samurai SHOG - Shogun – US$ bond issued in Japan by a non-resident entity YNKE - Yankee" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FBTYPE</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_BondGroupCode" n="TR.BondGroupCode" l="Bond Group Code" d="This is the industrial classification of the borrower or in certain cases the type of security. The following codes are used to identity industrial classification: Mnemonic - Industry CVF - Convertibles - financial CVI - Convertibles - industrial CPRF - Convertible preference CORP - UK corporation FIN - Financial - corporate GOVT - Government IXLK - Index - linked IND - Industrial - corporate IXLK - Government index linked bonds MTGE - Mortgage bonds OTHR - Others PIBS - Permanent interest bearing securities PREF - Preference - financial PRFI - Preference - industrial PAUT - Public authorities estates BWRT - Bond warrant EWRT - Equity warrant OWRT - Other warrant SUPR - Supranational" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INDC</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_GuaranteeType" n="TR.GuaranteeType" l="Guarantee Type" d="This is the type of guarantee associated with the issue. The following codes are used: Code - Guarantee BG - Bank guarantee CL - Collateral cover FM - First mortgage GG - Government guarantee JG - Junior guarantee KA - Keepwell agreement NP - Negative pledge OG - Other guarantee PC - Primary capital PG - Parent guarantee PW - Borrowers have Public Works Loan Boards as lender of last resort PS - Subordinated parent guarantee SC - Special clause SG - State or local government guarantee SU - Subordinated unsecured TA - Throughput agreement UL - Unsecured loan" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GUAR</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_RegistrationType" n="TR.RegistrationType" l="Registration Type" d="Registration Type" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">REGT</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_Seniority" n="TR.Seniority" l="Debt Seniority" d="Static datatype to return 3 character domain values for bond DS codes. The seniority for a bond (see value table below). 1MR First Mortgage RMR First &amp; Refunding Mortgage GMR General &amp; Refunding Mortgage JSC Junior Secured or Junior Subordinated Secured JSB Junior Unsecured or Junior Subordinated Unsecured MR Mortgage 2MR Second Mortgage SC Secured SSC Senior Secured SSS Senior Subordinated Secured SSB Senior Subordinated Unsecured S Senior Unsecured SB Subordinated Unsecured 3MR Third Mortgage US Unsecured MEZ Mezzanine SS Subordinated Secured" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DSEN</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_DefaultStatus" n="TR.DefaultStatus" l="Default Status Flag" d="Static datatype to return 1 character indicator for bond DS codes. Y or N flag indicates whether bond has defaulted on coupon or principal payments. Y - Principal, Coupon or both payments defaulted; N - Not in Default" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DFT</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_DepoEligibility" n="TR.DepoEligibility" l="Depository Eligibility" d="Static datatype to return 3 character domain value for bond DS codes. Indicates the depository eligibility for a bond." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DEPO</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ECBElig" n="TR.ECBElig" l="ECB Eligibility" d="Static datatype to return 1 character domain value for bond DS codes. Indicates ECB eligibility (see list of domain values below). 1 Tier One Asset 2 Tier Two Asset N Not ECB Eligible Y ECB Eligible" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECBE</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_LeadMgr" n="TR.LeadMgr" l="Floating Rate Margin" d="The %age margin above or below the base interest rate that will be paid for a Floating Rate Note. Data Formats: &quot;x.xxxx&quot; or &quot;-x.xxxx&quot; (positive or negative). Types of security: Floating Rate Notes only" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRM</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_PerpetualMarker" n="TR.PerpetualMarker" l="Perpetual Marker" d="An indicator (Y/N) to show whether a bond is perpetual or not." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PERP</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_TraceElig" n="TR.TraceElig" l="Trace Eligibility" d="Static datatype to return 1 character domain value for bond DS codes. Indicates Trace eligibility (see list of domain values below). D TRACE Reported and Disseminated L TRACE Reported with Delayed Dissemination N Not TRACE Reportable and not Disseminated R TRACE Reportable" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TRCE</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_DSCodeBefEuro" n="TR.DSCodeBefEuro" l="Datastream Code Prior To The Event" d="The NCDSCD datatype refers to the Datastream code on which the original currency price history is stored. A Datastream code is a unique 6-character code allocated to every Bond by Datastream. All Bonds with actual prices that were trading in a currency now converted into Euro, have both Euro and original currency price history stored on Datatstream. Applicable to Bonds that have actual prices only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCDSCD</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ConvertibleDilutionProtectionFlag" n="TR.ConvertibleDilutionProtectionFlag" l="Convertible Dilution Protection Flag" d="For convertible bonds only, a Y or N flag indicating that equity dilution protection is provided on conversion of convertible bonds." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVDP</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ConvertibleFractions" n="TR.ConvertibleFractions" l="Convertible Fractions" d="For convertible bonds only, how fractions on conversion into underlying instruments are dealt with (see domain value table below). 1. Fractions disregarded; 2. Fractions settled in cash; 3.Fractions settled in certain circumstances only; 4. Fractions settled in cash or fractional shares; 5. Fractions settled with physical;" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVFR</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_ConvertibleType" n="TR.ConvertibleType" l="Convertible Type" d="For convertible bonds only, this indicates what the bond converts into (see domain value table below). I. Convertible into an Index; M. Convertible into a Basket; R. Convertible into a Money Market Rate; S. Convertible into a Spread; W. Convertible into a Swap; C. Complex Convertible; D. Convertible into Debt of the Issuer; B. Exchangeable into Debt of a Different (Other) Issuer; E. Convertible into Equity of the Issuer; X. Exchangeable into Equity of a Different (Other) Issuer; F. Flip-flop Bond (Convertible Between Bonds of the Same Issuer" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVTY</in:sp>
+		</i>
+		<i id="I_DSB_SQ_TR_IndexLinkedBaseMnem" n="TR.IndexLinkedBaseMnem" l="Index Linked Base Mnemonic" d="The Code of the underlying index to which bond coupon or principal payments are linked." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">IXLB</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_IR" n="Issue Ratings" d="Issuer Ratings">
+		<i id="I_DSB_IR_TR_SnPCurrentCreditwatchBondRating" n="TR.SnPCurrentCreditwatchBondRating" l="S&amp;P Current Creditwatch Bond Rating" d="S&amp;P Current Creditwatch Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPCW</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_HistoricalCreditWatchIssueCode" n="TR.HistoricalCreditWatchIssueCode" l="Historical Credit Watch Issue Code" d="Historical Credit Watch Issue Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHCW</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_HistoricalLongTermIssueCode" n="TR.HistoricalLongTermIssueCode" l="Historical Long Term Issue Code" d="Historical Long Term Issue Code" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHLT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPHistoricalNationalScaleBondRating" n="TR.SnPHistoricalNationalScaleBondRating" l="S&amp;P Historical National Scale Bond Rating" d="S&amp;P Historical National Scale Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHNS</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPHistoricalOutlookBondRating" n="TR.SnPHistoricalOutlookBondRating" l="S&amp;P Historical Outlook Bond Rating" d="S&amp;P Historical Outlook Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHOL</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPHistoricalBondRating" n="TR.SnPHistoricalBondRating" l="S&amp;P Historical Bond Rating" d="S&amp;P Historical Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHRT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPHistoricalShortTermBondRating" n="TR.SnPHistoricalShortTermBondRating" l="S&amp;P Historical Short Term Bond Rating" d="S&amp;P Historical Short Term Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPHST</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPCurrentLongTermBondRating" n="TR.SnPCurrentLongTermBondRating" l="S&amp;P Current Long Term Bond Rating" d="S&amp;P Current Long Term Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPLT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPCurrentNationalScaleBondRating" n="TR.SnPCurrentNationalScaleBondRating" l="S&amp;P Current National Scale Bond Rating" d="S&amp;P Current National Scale Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPNS</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPCurrentOutlookBondRating" n="TR.SnPCurrentOutlookBondRating" l="S&amp;P Current Outlook Bond Rating" d="S&amp;P Current Outlook Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPOL</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPCurrentBondRatingWithOutlook" n="TR.SnPCurrentBondRatingWithOutlook" l="S&amp;P Current Bond Rating With Outlook" d="S&amp;P Current Bond Rating With Outlook" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPRT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_SnPCurrentShortTermBondRating" n="TR.SnPCurrentShortTermBondRating" l="S&amp;P Current Short Term Bond Rating" d="S&amp;P Current Short Term Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPST</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_MoodysCurrentBondRating" n="TR.MoodysCurrentBondRating" l="Moody's Current Bond Rating" d="Moody's Current Bond Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MRT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_MoodysCurrentBondRatingEffectiveDate" n="TR.MoodysCurrentBondRatingEffectiveDate" l="Moody's Current Bond Rating Effective Date" d="Moody's Current Bond Rating Effective Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MRTD</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_MoodysCurrentSecurityWatch" n="TR.MoodysCurrentSecurityWatch" l="Moody's Current Security Watch" d="Moody's Current Security Watch" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MRW</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_MoodysCurrentSecurityWatchEffectiveDate" n="TR.MoodysCurrentSecurityWatchEffectiveDate" l="Moody's Current Security Watch Effective Date" d="Moody's Current Security Watch Effective Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MRWD</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_FitchCurrentSecurityRating" n="TR.FitchCurrentSecurityRating" l="Fitch Current Security Rating" d="Fitch Current Security Rating" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_FitchCurrentSecurityRatingEffectiveDate" n="TR.FitchCurrentSecurityRatingEffectiveDate" l="Fitch Current Security Rating Effective Date" d="Fitch Current Security Rating Effective Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRTD</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_FitchCurrentSecurityWatch" n="TR.FitchCurrentSecurityWatch" l="Fitch Current Security Watch" d="Fitch Current Security Watch" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRW</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_FitchCurrentSecurityWatchEffectiveDate" n="TR.FitchCurrentSecurityWatchEffectiveDate" l="Fitch Current Security Watch Effective Date" d="Fitch Current Security Watch Effective Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRWD</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_DBRSCurrentSecurityRating" n="TR.DBRSCurrentSecurityRating" l="DBRS Current Security Rating" d="Static datatype to return 10 character domain value for bond DS codes. Current DBRS security rating as published. All rating categories other than AAA and D may be appended with subcategories “(high)” and “(low)”. The absence of either a “(high)” or “(low)” designation indicates the rating is in the middle of the category." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DMR</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_DBRSCurrentSecurityRatingEffectiveDate" n="TR.DBRSCurrentSecurityRatingEffectiveDate" l="DBRS Current Security Rating Effective Date" d="Static datatype to return DD/MM/YYYY date for bond DS codes. The date on which the latest DBRS rating value (datatype DMRT) was effective from." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DMRD</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_DBRSCurrentSecurityTrend" n="TR.DBRSCurrentSecurityTrend" l="DBRS Current Security Trend" d="Static datatype to return 3 character domain value for bond DS codes. Current DBRS rating Trend. Provide guidance in respect of DBRS’s opinion regarding the outlook for the rating in question. The rating trend indicates the direction in which DBRS considers the rating is headed should present tendencies continue, or in some cases, unless challenges are addressed. In general, the DBRS view is based primarily on an evaluation of the issuing entity or guarantor itself, but may also include consideration of the outlook for the industry or industries in which the issuing entity operates." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DMT</in:sp>
+		</i>
+		<i id="I_DSB_IR_TR_DBRSCurrentSecurityTrendEffectiveDate" n="TR.DBRSCurrentSecurityTrendEffectiveDate" l="DBRS Current Security Trend Effective Date" d="Static datatype to return DD/MM/YYYY date for bond DS codes. The date on which the latest DBRS Trend value (datatype DMT) was effective from." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DMTD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_P" n="Pricing &amp; Performance" d="Pricing &amp; Performance">
+		<i id="I_DSB_P_TR_EvaluatedPriceBid" n="TR.EvaluatedPriceBid" l="Evaluated Price Bid" d="Evaluated Price Bid" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TRPB</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_EvaluatedPriceAsk" n="TR.EvaluatedPriceAsk" l="Evaluated Price Ask" d="Evaluated Price Ask" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TRPA</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_EvaluatedPriceMid" n="TR.EvaluatedPriceMid" l="Evaluated Price Mid" d="Evaluated Price Mid" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">TRPM</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_Coupon" n="TR.Coupon" l="Coupon - Current" d="This is the annual percentage rate payable on a bond. For UK preference shares, the rate is always stored gross, using the current tax rates. For floating rate bonds, this is the coupon rate that is in operation for the current period." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">C</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_CouponSched" n="TR.CouponSched" l="Coupon Schedule (Dates &amp; Values)" d="Returns historical dates and values of all coupon payments over the life of a bond, up to and including the next coupon date. Each coupon date and value represents the coupon that is payable until that date, the date being that on which the coupon is paid. Data Format: &quot;dd/mm/yy&quot;,&quot;x.xxxx&quot; where x.xxxx = coupon value. Types of security: Floating, Variable, and Graduated Rate Notes only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">COSCH</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_CouponType" n="TR.CouponType" l="Coupon Type" d="Coupon type classifies bonds according to the way their interest payment (coupon) is designed." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CTYP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_CouponFloat" n="TR.CouponFloat" l="Coupon - Floating Rate" d="Applicable to floating rate issues only. This is the estimated coupon based on the current value of the base instrument and the margin." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedempDate" n="TR.RedempDate" l="Redemption Date" d="This is the final redemption date for the issue. For securities which have a redemption schedule, the years are also shown (for example, 12/86 - 95 indicates a schedule from 1986 to 1995)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RD</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_CouponDate" n="TR.CouponDate" l="Coupon Date" d="These are the dates in a year on which interest payments on the bond will be paid. For floating rate notes, it is also generally the date on which the next coupon fix becomes valid. The format of the date is: day/month frequency where day and month are both two-digit numbers, and the frequency indicator may be : S Semi-annual A Annual Q Quarterly n A number, showing the number of times a year payment is made For example, 01/01 12 indicates payment 12 times a year, on 1st January (01/01) and then at each month thereafter. The date format returned in program 900A is ddmmddmm" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CD</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_FloatRateMargin" n="TR.FloatRateMargin" l="Floating Rate Margin" d="The %age margin above or below the base interest rate that will be paid for a Floating Rate Note. Data Formats: &quot;x.xxxx&quot; or &quot;-x.xxxx&quot; (positive or negative). Types of security: Floating Rate Notes only" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRM</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_BaseCoupon" n="TR.BaseCoupon" l="Index Linked Bond Base Coupon" d="For an index-linked security, this shows the base coupon that is added to the indexation factor in order to calculate the securities coupon." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">IXLC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_Life" n="TR.Life" l="Life" d="This is the market default life of the security, which is as follows: For Eurobonds with a sinking fund, it is the Average life For other bonds with a sinking fund, it is the Equivalent life For all other bonds and warrants, it is the Life to final date In all cases where the bond has a call schedule, if the current price is greater than the next call value, it will default to a final redemption date equal to the next call date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LF</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_LifeatIssue" n="TR.LifeatIssue" l="Life At Issue" d="This is the period of time between the interest accrual date (or issue date if no interest accrual date is available) to the maturity date. Bonds with a sinking fund will show equivalent life." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LFIS</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceCurrency" n="TR.PriceCurrency" l="Price - Currency" d="This is the currency of issue." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PCUR</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceDefault" n="TR.PriceDefault" l="Price - Datastream Selected Default" d="Time Series datatype to return the best available price for a bond. All derived data, for example yields (RY) and Total Return (RI), will use the MPD price in the calculation of the derived values." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MPD</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceDefaultSrc" n="TR.PriceDefaultSrc" l="Price - Default Market Price Source" d="Price - Default Market Price Source" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MPDEF</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_IssuePrice" n="TR.IssuePrice" l="Issue Price" d="This is the price at which the security was issued. For Eurobonds, the re-offer price is used if available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ISPR</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedempSched10" n="TR.RedempSched10" l="Redemption Schedule - 10 Sets of Dates &amp; Values" d="Datatype available for use in Data Channel and program 144X only. This shows the entire redemption schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS10 Redemption schedule - 10 redemption dates and values RS20 Redemption schedule - 20 redemption dates and values RS40 Redemption schedule - 40 redemption dates and values RS80 Redemption schedule - 80 redemption dates and values RS160 Redemption schedule - 160 redemption dates and values RS200 Redemption schedule - 200 redemption dates and values Four data fields are returned for each redemption schedule event: RS – Date of redemption (date on which the bonds selected are redeemed) RA – Amount redeemed (amount expressed as either a percentage or actual values that will be redeemed) RV – Redemption value (the price at which the bonds are redeemed) RD – Drawing date (the date lots are drawn to decide which bonds are redeemed) Data fields are numbered sequentially for the redemption schedule starting at 001. For example: RS001, RA001, RV001, RD001, RS002, RA002, RV002, RD002 and so on." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS10</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_IndexLinkedGovtYield" n="TR.IndexLinkedGovtYield" l="Index Linked Govt Yield" d="Yield calculated for Brady bonds &amp; Index link bonds." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BY</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_InterestYield" n="TR.InterestYield" l="Interest Yield" d="The interest yield is also known as the flat, current or running yield. It is defined as the ratio of a coupon of a security to its market price, expressed as a percentage." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IY</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_MarketPrice" n="TR.MarketPrice" l="Market Price" d="Where the exchange issues a settlement price this value will be stored. For exchanges which do not issue a settlement price (OTOB, AEX, CBOE, AMEX and PHLX), the following price will be stored: Last traded price provided last trade is within bid/ask range at the end of the closing session. Otherwise the nearest bid or ask price to the last trade price will be stored. In the event that the option has not traded, the last mid bid/ask price will be calculated and stored. In the event that only bid or ask is available on that day, this value will be stored" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_MarketPriceUnit" n="TR.MarketPriceUnit" l="Market Price Unit" d="Market Price Unit" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MP.U</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_UnderlyingInstrumentPrice" n="TR.UnderlyingInstrumentPrice" l="Underlying Instrument Price" d="This is the current market price for the underlying equity. Applicable to convertibles only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNIPP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceClean" n="TR.PriceClean" l="Price - Clean" d="This is the price of an issue, less any accrued interest." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_FloatingRateBase" n="TR.FloatingRateBase" l="Floating Rate Base" d="This is the mnemonic of the instrument used to determine the base rate of a floating rate stock. Applicable to floating rate issues only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FRBS</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_GrossPrice" n="TR.GrossPrice" l="Gross Price" d="This is the price of an issue, including any accrued interest." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">GP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_iBoxxMid" n="TR.iBoxxMid" l="iBoxx End-Of-Day Mid Price" d="iBoxx prices are based on a consolidated market-maker price feed for EUR and GBP denominated bonds (refer to http://www.iboxx.com for more information). The iBoxx universe comprises government, supranational, agency, corporate and Pfandbrief bonds issued in the domestic European bond markets and/or the Eurobond market. The iBoxx bond indices calculated from these prices and constituent lists are also available in Datastream." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IBOX</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_iBoxxAsk" n="TR.iBoxxAsk" l="iBoxx Ask" d="iBoxx prices are based on a consolidated market-maker price feed for EUR and GBP denominated bonds (refer to http://www.iboxx.com for more information). The iBoxx universe comprises government, supranational, agency, corporate and Pfandbrief bonds issued in the domestic European bond markets and/or the Eurobond market. The iBoxx bond indices calculated from these prices and constituent lists are also available in Datastream." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IBXA</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_iBoxxBid" n="TR.iBoxxBid" l="iBoxx Bid" d="iBoxx prices are based on a consolidated market-maker price feed for EUR and GBP denominated bonds (refer to http://www.iboxx.com for more information). The iBoxx universe comprises government, supranational, agency, corporate and Pfandbrief bonds issued in the domestic European bond markets and/or the Eurobond market. The iBoxx bond indices calculated from these prices and constituent lists are also available in Datastream." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IBXB</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_JapaneseSimpleYield" n="TR.JapaneseSimpleYield" l="Japanese Simple Yield" d="This is the simple yield-to-maturity, which is commonly used by the Japanese markets. It attempts to take into account the effect of the maturity on the value of a bond to the investor. Any capital change is deemed to occur uniformly over the life of the stock." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">JS</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_LastPriceChangeDate" n="TR.LastPriceChangeDate" l="Last Price Change Date" d="This is the last date on which a new price was received. Note that if the price remains the same, the last date of price change would be the date when the first occurrence of that price was retrieved." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LCDATE</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceDefaultUnits" n="TR.PriceDefaultUnits" l="Default Price - Units" d="Default price - units." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MPD.U</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_NominalValue" n="TR.NominalValue" l="Nominal Value" d="This is the actual unit of stock that the price relates to, and is the amount inscribed on the face of a security (exclusive of interest or premium). It is the amount used in the computation of interest due on the security. Stocks priced on a % basis use a notional 100 nominal value." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NOMV</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_NeutralPrice" n="TR.NeutralPrice" l="Neutral Price" d="This is the price at next coupon date, which will produce a return equal to the index rate (for example LIBOR) plus the discounted margin between now and the next coupon date. It provides a neutral basis for comparing issues with different coupon dates. The neutral price is also known as the rollover price. Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">NP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PremiumDiscount" n="TR.PremiumDiscount" l="Premium / Discount" d="This figure represents the excess cost (premium) or saving (discount) of buying the equity through the convertible expressed as a percentage of the equity price; it does not include any income received. A discount is represented as a negative figure. Applicable to convertibles only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PD</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_FirstRedemptionDate" n="TR.FirstRedemptionDate" l="First Redemption Date" d="This returns the first possible redemption date for bonds with sinking or purchase funds. The first date of operation of the redemption schedule." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDF</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_LastRedemptionDate" n="TR.LastRedemptionDate" l="Last Redemption Date" d="This returns the last possible redemption date for bonds." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDL</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_FirstandLastRedemptionDate" n="TR.FirstandLastRedemptionDate" l="First and Last Redemption Date" d="This returns the first and last possible redemption dates for bonds with sinking or purchase funds. The first redemption date is the first date of operation of the redemption schedule, the last is the final redemption date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDS</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSched20" n="TR.RedemptionSched20" l="Redemption Schedule - 20 Sets" d="This shows the entire redemption schedule for the issue. Datatype available for use in Data Channel and program 144X only. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS20 - Redemption schedule - 20 edemption dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS20</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSched40" n="TR.RedemptionSched40" l="Redemption Schedule - 40 Sets" d="This shows the entire redemption schedule for the issue. Datatype available for use in Data Channel and program 144X only. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS40 - Redemption schedule - 40 redemption dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS40</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSched80" n="TR.RedemptionSched80" l="Redemption Schedule - 80 Sets" d="This shows the entire redemption schedule for the issue. Datatype available for use in Data Channel and program 144X only. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS80 - Redemption schedule - 80 redemption dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS80</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSched160" n="TR.RedemptionSched160" l="Redemption Schedule - 160 Sets" d="This shows the entire redemption schedule for the issue. Datatype available for use in Data Channel and program 144X only. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS160 - Redemption schedule - 160 redemption dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS160</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSched200" n="TR.RedemptionSched200" l="Redemption Schedule - 200 Sets" d="This shows the entire redemption schedule for the issue. Datatype available for use in Data Channel and program 144X only. There are six versions of the datatype available to enable you to download different numbers of redemption schedule lines: RS200 - Redemption schedule - 200 redemption dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RS200</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionSchedBasis" n="TR.RedemptionSchedBasis" l="Redemption Schedule Basis" d="Redemption Amount Basis: A - Actual; P - Percentage." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RSBAS</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_RedemptionValue" n="TR.RedemptionValue" l="Redemption Value" d="This is the price at which a security is redeemed (in the case of mandatory redemption), or may be redeemed (in the case of optional redemption) prior to its maturity date. Redemption values are determined when the security is issued and are usually set either at par, or at a premium over par." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RV</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_AnnualizedRedemptionYield" n="TR.AnnualizedRedemptionYield" l="Annualized Redemption Yield (Coupon)" d="Yield to maturity (redemption yield), annualised, based on the Datastream default price. RYAN calculates the yield as if annual coupons were paid. It makes bonds with semi-annual coupons comparable to bonds with annual coupons." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYAN</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_SettlementDays" n="TR.SettlementDays" l="Number Of Settlement Days" d="Number of settlement days used for bond in yield calculations" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SETN</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_NextSettlementDate" n="TR.NextSettlementDate" l="Next Settlement Date" d="This is the next settlement date following the trade date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SETT</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_YieldToWorst" n="TR.YieldToWorst" l="Yield To Worst" d="Yield to Worst is the minimum yield obtainable based on all possible call and bond holder option dates as well as the yield to maturity." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">YTW</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_ExerciseYield" n="TR.ExerciseYield" l="Exercise Yield" d="Returns the exercise yield expected if the option on the bond warrant were to be exercised. Applies to bond warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">XY</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_CouponSubType" n="TR.CouponSubType" l="Coupon Sub Type" d="Detailed coupon type definition." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CST</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_DefeasedDate" n="TR.DefeasedDate" l="Defeased Date" d="The date on which the bond was confirmed as fully defeased." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DEFD</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket1" n="TR.PriceMarket1" l="Price - Market 1" d="Time Series datatype to return the following prices: Market - Price; Canadian Domestic - Reuters Valuations (Ask); Italian Domestic - Milan SE (Riferimemto); Japanese Domestic - Osaka SE (Close); Spanish Domestic - Reuters Valuations (Bid); US Domestic - Reuters Valuations (Mid)." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP1</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket2" n="TR.PriceMarket2" l="Price - Market 2" d="Time Series datatype to return the following prices: Market - Price; Japanese Domestic - Nagoya SE (Close); US Domestic - Reuters Valuations (Ask); All other markets - Frankfurt SE (Close)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP2</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket3" n="TR.PriceMarket3" l="Price - Market 3" d="Time Series datatype to return the Stuttgart SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP3</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket4" n="TR.PriceMarket4" l="Price - Market 4" d="Time Series datatype to return the Berlin SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP4</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket5" n="TR.PriceMarket5" l="Price - Market 5" d="Time Series datatype to return the Dusseldorf SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP5</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket6" n="TR.PriceMarket6" l="Price - Market 6" d="Time Series datatype to return the Munich SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP6</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket7" n="TR.PriceMarket7" l="Price - Market 7" d="Time Series datatype to return the Hanover SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP7</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_PriceMarket9" n="TR.PriceMarket9" l="Price - Market 9" d="Time Series datatype to return the Hamburg SE Close price" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MP9</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_TotalReturnIndex" n="TR.TotalReturnIndex" l="Total Return Index" d="A return index is available for a range of sector and market indices, including Datastream Global Indices. The return index represents the theoretical aggregate growth in value of the constituents of the index. The index constituents are deemed to return an aggregate daily dividend which is included as an incremental amount to the daily change in price index." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RI</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_AccruedInterest" n="TR.AccruedInterest" l="Accrued Interest" d="Accrued Interest" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">AC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_AccrualBasis" n="TR.AccrualBasis" l="Accrual Basis" d="This indicates the manner in which accrued interest is calculated for a security. Output values are defined as: 1 = Actual Days/365 2 = 30E/360 (where the 31st of a month is treated as the 30th) 3 = 30/360 (where the 31st of a month is treated as the 1st of the next month) 4 = Actual Days/360 5 = Actual Days/Actual Days 6 = Actual Days/Year (using the actual number of days in that year 365 or 366) 7 = Business Days/252 (using Brazilian holiday calendar)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BAB</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_ConvexMat" n="TR.ConvexMat" l="Convexity to Maturity" d="Convexity is the second derivative of a bond's price with respect to its yield. Convexity, used in conjunction with Modified duration, provides a more accurate approximation of the percentage price change resulting from a specified change in a bond's yield than does a modified duration alone." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">CX</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_Spread" n="TR.Spread" l="Spread Over Benchmark Curve" d="To calculate datatype SP the maturity (datatype LF) and yield (datatype RY) of a bond is compared with the equivalent government benchmark bond for the bond’s currency of denomination. The spread is expressed as yield difference (bond minus benchmark) in basis points." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_SwapSpread" n="TR.SwapSpread" l="Spread Over Swap Curve" d="Datatype SWSP retrieves the life and yield of a bond (for example a corporate) and compares it with the equivalent swap rate of the currency the bond is denominated in. The spread is then expressed as yield difference (bond minus swap rate) in basis points. Because most of the bonds for which the spread is calculated will not exactly match the constant maturities of the available swap rates, linear interpolation is used to estimate the swap rate with the same maturity as the analysed bond. For bonds with a maturity longer than the longest swap rate, the yield is compared to the longest swap rate and not extrapolated. Similarly, bonds with maturities shorter than the shortest swap rate are compared to the shortest available swap rate." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SWSP</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_ConvexitytoCall" n="TR.ConvexitytoCall" l="Convexity to Next Call" d="This is the same as convexity to maturity, except that the next call date and value are used." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CXNC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_AccruedDays" n="TR.AccruedDays" l="Days Accrued" d="This is the number of days over which interest has accrued up to the settlement date. Except in the case of a new issue, this is normally from the previous coupon date. For a new issue it is the number of days from the issue date or from the first interest accrual date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDAC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_SpreadOverConstantMaturity" n="TR.SpreadOverConstantMaturity" l="Spread Over Constant Maturity" d="This shows the spread over constant maturity. The constant maturity values are obtained from the Stored yield curves." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SPCM</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_SpreadOver300AYieldCurveExpres" n="TR.SpreadOver300AYieldCurveExpres" l="Spread Over 300A Yield Curve Expres" d="This shows the spread of a bond against a user-created curve. User-created curves are created in the 300A program." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SPEX</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_SpreadOverStoredYieldCurve" n="TR.SpreadOverStoredYieldCurve" l="Spread Over Stored Yield Curve" d="This enables the spread between an individual bond and a stored yield curve to be displayed. The user chooses which yield curve the bond or list of bonds is to be compared against. Stored yield curves are available for all the major government and eurobond markets." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SPYC</in:sp>
+		</i>
+		<i id="I_DSB_P_TR_Price12monthrange" n="TR.Price12monthrange" l="Price - 12 Month Range" d="Static datatype returning the 12 month high-low range of prices for a bond" cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PRNG</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_PA" n="Pricing &amp; Performance Analytics" d="Pricing &amp; Performance Analytics">
+		<i id="I_DSB_PA_TR_MarketValue" n="TR.MarketValue" l="Market Value" d="This is the aggregate market value for index, calculated from the index constituents. The calculation method used is determined by the source index agency." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">V</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoRedemption" n="TR.YieldtoRedemption" l="Yield - To Redemption" d="The principle used in calculating this yield is to consider the amount of money paid for the stock (price including accrued interest and expenses) and relate this to the future dividend and capital payments, either or both of which may be paid net of tax. It is a 'net present value' calculation, equating the amount of money paid for the bond to the discounted income and capital payments, the yield being the discount rate which makes the two equivalent. When a bond may be optionally redeemed at an early date, the redemption yield will be to the early date if the clean price of the bond is greater than the final redemption value. Unless it is shown differently on the particular program, default yields on UK, Irish, Australian, New Zealand, US and Canadian domestic bonds are calculated on a semi annual basis. Default yields on other bonds are calculated on an annual basis. (These defaults can be changed.)" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RY</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDuration" n="TR.ModifiedDuration" l="Modified Duration" d="Modified duration is a measure of the sensitivity of price to changes in yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DM</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_Denominations" n="TR.Denominations" l="Denominations" d="Returns up to 10 different denominations that the bond was issued in. All data values represent actual local currency amounts." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DENOM</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationtoCall" n="TR.ModifiedDurationtoCall" l="Modified Duration to Next Call" d="Modified duration is a measure of the sensitivity of a bond's price to changes in yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_DurationtoFinal" n="TR.DurationtoFinal" l="Duration to Final Date" d="Modified duration is a measure of the sensitivity of a bond's price to changes in yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_iBoxxModifiedDuration" n="TR.iBoxxModifiedDuration" l="iBoxx Modified Duration" d="iBoxx modified duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMIB</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationtoWorst" n="TR.ModifiedDurationtoWorst" l="Modified Duration to Worst" d="Duration - Modified to Worst is the Modified Duration (Modified Duration) of a bond using the appropriate yield to worst (Yield to Worst) and duration to worst (Duration to Worst) values." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DMW</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_DurationtoCall" n="TR.DurationtoCall" l="Duration to Call" d="The duration to the next call date is calculated in the same way as duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DUCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_iBoxxDuration" n="TR.iBoxxDuration" l="iBoxx Duration" d="iBoxx duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DUIB</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_DurationtoWorst" n="TR.DurationtoWorst" l="Duration to Worst" d="Duration to Worst is the Duration (Duration) of a bond using yield to worst (Yield to Worst) and the life of the bond applicable to the yield to worst value." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">DUW</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_EquivalentBenchmarkYield" n="TR.EquivalentBenchmarkYield" l="Equivalent Benchmark Yield" d="EBRY is a major step in calculating datatype SP (Spread Over Benchmark Curve). EBRY displays the estimated yield of a benchmark which has exactly the same maturity and currency of a bond (for example a corporate bond) for which the spread is calculated. The datatype works only in conjunction with a bond identifier, such as Datastream mnemonic or ISIN code. To retrieve benchmark yields in general, please use Datastream Government Benchmark Bond Indices, available for 21 markets. EBRY can be used to chart the equivalent benchmark yield together with the yield of the bond being analysed. This enables you to see (for example) if a credit spread narrowing was accompanied by a general decrease in the government benchmark yield. The method of linear interpolation is used to estimate the yield of the equivalent government benchmark with the same maturity as the analysed bond. For bonds with a maturity longer than the longest government benchmark, the equivalent benchmark yield is always the yield of the longest government benchmark available in the market (no extrapolation). The same holds for bonds with maturities shorter than the shortest benchmark. In this case the equivalent benchmark bond is the shortest available benchmark in this market." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">EBRY</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_Gearing" n="TR.Gearing" l="Gearing" d="This figure shows the gearing obtained by purchasing the equity through the warrant. It is sometimes known as the leverage. Applicable to equity warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">GR</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_GemmaYield" n="TR.GemmaYield" l="Gemma Yield" d="Gemma Yield." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">GY</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_AverageLife" n="TR.AverageLife" l="Average Life" d="This is the period from settlement date to the average redemption date of a redemption schedule. The average date of the schedule is calculated from the schedule repayments weighted by size and value. The item differs from equivalent life because the repayments are not discounted." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LFAV</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_LifetoNextCall" n="TR.LifetoNextCall" l="Life to Next Call" d="This is the period from the settlement date to the next call date." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LFCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_EquivalentLife" n="TR.EquivalentLife" l="Equivalent Life" d="This is sometimes called the calculated life. It is the period from settlement date to the average redemption date of a redemption schedule. The average date of the schedule is calculated from the schedule repayments weighted by size and value (as in the definition for Average life), but additionally the repayments are discounted at the corresponding yield to equivalent life. Alternatively, equivalent life can be considered as the life which a bond (which has the same price and coupon as the original bond, but redeemed on one date) would have in order to give the same yield as the original bond." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LFEQ</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_LifetoFinalDate" n="TR.LifetoFinalDate" l="Life to Final Date" d="Sometimes called the life to maturity. This is the period from the settlement date to the final maturity of the issue." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">LFFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_DiscountedMarginNextCall" n="TR.DiscountedMarginNextCall" l="Discounted Margin to Next Call" d="Rather than using a 'straight line' amortisation, an internal rate of return calculation is made, using the investment rate as the long term interest rate. This allows for consistent comparisons between issues of varying characteristics. This margin is expressed as a percentage over the index rate. Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MACA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoAverageLife" n="TR.YieldtoAverageLife" l="Yield - To Average Life" d="This is the yield produced by a bond which has the same price and coupon, but which is entirely redeemed on the average life at the average redemption value. This yield only differs from the Yield to final date if a redemption schedule exists on a bond. An average redemption date is calculated from the schedule repayments weighted by size and value, and the yield is calculated assuming that all bonds are redeemed on that date. Interest payments are discounted at the required yield. This is the method of calculation adopted by the International Securities Marketing Association (ISMA)." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYAV</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoNextCall" n="TR.YieldtoNextCall" l="Yield - To Next Call" d="Where a bond is callable, the yield is calculated assuming full redemption at the next call date and value. If redemption payments from a schedule are made before the call, these are considered in the calculation." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationYield" n="TR.ModifiedDurationYield" l="Yield - To Modified Duration" d="The yield, calculated assuming the security is held for the period of time defined by modified duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDM</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationYieldtoNextCall" n="TR.ModifiedDurationYieldtoNextCall" l="Yield - To Mod Dur To Next Call" d="This is the yield calculated assuming the security is held for the period of time defined by the modified duration to next call." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDMCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationYieldtoNextCallSemiAnn" n="TR.ModifiedDurationYieldtoNextCallSemiAnn" l="Yield - To Mod Dur To Next Call (Semi-Annualised)" d="The semi-annualised yield, calculated assuming the security is held for the period of time defined by modified duration to next call." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDMCASA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationYieldtoFinal" n="TR.ModifiedDurationYieldtoFinal" l="Yield - To Mod Dur To Final Date" d="This is the yield, calculated assuming the security is held for the period of time defined by modified duration to maturity." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDMFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_ModifiedDurationYieldtoNextPut" n="TR.ModifiedDurationYieldtoNextPut" l="Yield - To Mod Dur To Next Put" d="The yield, calculated assuming the security is held for the period of time defined by modified duration to next put." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDMPU</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoDuration" n="TR.YieldtoDuration" l="Yield - To Duration" d="This is the yield, calculated assuming the security is held for the period of time defined by duration." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDU</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoDurationtoNextCall" n="TR.YieldtoDurationtoNextCall" l="Yield - To Duration To Next Call" d="This is the yield, calculated assuming the security is held for the period of time defined by duration to next call." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDUCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoDurationtoFinal" n="TR.YieldtoDurationtoFinal" l="Yield - To Duration To Final Date" d="The yield, calculated assuming the security is held for the period of time defined by duration to maturity." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDUFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoDurationtoNextPut" n="TR.YieldtoDurationtoNextPut" l="Yield - To Duration To Next Put" d="The yield, calculated assuming the security is held for the period of time defined by duration to next put." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYDUPU</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoEquivalentLife" n="TR.YieldtoEquivalentLife" l="Yield - To Equivalent Life" d="Sometimes called the yield to calculated life. This yield only differs from the Yield to final date if a redemption schedule exists on a bond. It differs from Yield to average life in that allowance is made for the present values of redemption payments received at different times, as well as interest payments. Drawing dates are used when known to determine whether a stock is ex a particular redemption in the schedule." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYEQ</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoEquivalentLifeSemiAnn" n="TR.YieldtoEquivalentLifeSemiAnn" l="Yield - To Equiv Life (Semi-Annualised)" d="The semi-annualised yield, calculated assuming the security is held for the period of time defined by equivalent life." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYEQSA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_YieldtoFinal" n="TR.YieldtoFinal" l="Yield - To Final Date" d="Sometimes called redemption yield to maturity. This is a yield for a bond with no allowance for optional early redemption (or an optional or compulsory redemption schedule) in the calculations." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_iBoxxYield" n="TR.iBoxxYield" l="IBoxx - Yield" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYIB</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_iBoxxYieldAnn" n="TR.iBoxxYieldAnn" l="iBoxx - Yield Annual Coupons" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYIBAN</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_iBoxxYieldSemiAnn" n="TR.iBoxxYieldSemiAnn" l="iBoxx - Yield Semi-Annual Coupons" cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYIBSA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_RedemptionYieldtoNextPut" n="TR.RedemptionYieldtoNextPut" l="Redemption Yield To Next Put" d="This is the yield calculated to the date and value of the next bond holder's put option." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYPU</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_RedemptionYieldSemiAnn" n="TR.RedemptionYieldSemiAnn" l="Yield - Redemption Semi-Annualised Coupons" d="Yield to maturity (redemption yield), semi-annualised, based on the Datastream default price. RYSA calculates the yield as if semi-annual coupons were paid. It makes bonds with annual coupons comparable to bonds with semi-annual coupons." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RYSA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_SimpleAdjustedMarginToNextCall" n="TR.SimpleAdjustedMarginToNextCall" l="Simple Adjusted Margin To Next Call" d="This is the same as the simple adjusted margin to maturity, except that the next call date and value are used. Available for FRNs only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SMCA</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_SimpleAdjustedMarginToMaturity" n="TR.SimpleAdjustedMarginToMaturity" l="Simple Adjusted Margin To Maturity" d="This calculation amortises between par and neutral price over the life of the issue and adjusts the margin payable accordingly. This margin is expressed as a percentage over the offered rate. This provides a consistent basis for comparing FRNs for relative value. The calculation is made on a 'straight line' amortisation basis. Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SMFL</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_SimpleAdjustedMarginToNextPut" n="TR.SimpleAdjustedMarginToNextPut" l="Simple Adjusted Margin To Next Put" d="This is the same as the simple adjusted margin to maturity, except that the next put date and value are used. Available for FRNs only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">SMPU</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_Parity" n="TR.Parity" l="Parity" d="This displays the warrant price which is necessary to give a premium/discount value of zero. Applicable to equity warrants only." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">PAR</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_LifeTerm" n="TR.LifeTerm" l="Life Term in Quarters of a Year" d="The life term of the bond from the First Interest Accrual date through to the Final Redemption date. This datatype does not take into account interest accrual rules of individual securities; it will treat all years as actual/actual (including leap year days). The data returned is displayed only to 2 decimal places, and has rounding rules that limit the values to specific fractions of a year, in this case quarters of a year." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TERM</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_VoracityScore" n="TR.VoracityScore" l="Voracity Score" d="Observed/Derived Indicator - This shows the type of price used in calculating the bid and offer rate. The score is expressed numerical as 1 or 2. 1 is the numerical value for an observed market spread and 2 is for a derived spread." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">VV</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_BreakEvenInflationCalculation" n="TR.BreakEvenInflationCalculation" l="Break Even Inflation Calculation" d="This is a calculated value to express the simple break-even inflation percentage value for inflation protected government bonds." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">BEIN</in:sp>
+		</i>
+		<i id="I_DSB_PA_TR_InflationLinkedIndexationFactor" n="TR.InflationLinkedIndexationFactor" l="Inflation Linked Indexation Factor (Selected Index Linked Bonds)" d="Data values represent the indexation factor that is applied to coupon and principal bond payments." cc="CCDSTimeSeriesNC" pc="PCDSTimeSeriesNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">IX</in:sp>
+		</i>
+	</c>
+	<c id="C_DSBC_CA" n="Corporate Actions (CA)" d="Corporate Actions">
+		<i id="I_DSB_CA_TR_AmtIssued" n="TR.AmtIssued" l="Amount Issued" d="This is the amount of the bond which was originally issued in the currency of issue. Figures returned are expressed in thousands, unless programs specify the 'AMOUNT IN ISSUE (M)' then the figure will be in millions. For preference shares with a nominal value of under £10 sterling, it is the number of shares." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AIS</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_AmtOutstandingUSD" n="TR.AmtOutstandingUSD" l="Amount Outstanding in USD" d="This is the known (or estimated) amount of the bond currently in circulation, converted to United States Dollars at the relevant exchange rate on date any new amount effected (see datatype AOSD). Figures returned are expressed in thousands, unless programs specify the 'AMOUNT IN ISSUE (M)' then the figure will be in millions. For preference shares with a nominal value of under £10 sterling, it is the number of shares." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AISD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_AmtOutstanding" n="TR.AmtOutstanding" l="Amount Outstanding" d="This is the known (or estimated) amount of the bond currently in circulation, in the currency of issue. Figures returned are expressed in thousands, unless programs specify the 'AMOUNT IN ISSUE (M)' then the figure will be in millions. For warrants, it is the number of securities in issue." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AOS</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_MakeWhole" n="TR.MakeWhole" l="Call - Make Whole" d="Static datatype indicating whether bond has make whole cal feature Y or N" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MWH</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched10" n="TR.CallSched10" l="Call Schedule - 10 Sets of Dates &amp; Values" d="Call Schedule - 10 Sets of Dates &amp; Values" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL10</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EarlyCallDate" n="TR.EarlyCallDate" l="Early Call Date" d="Static datatype which returns the &quot;early&quot; redemption date &quot;DD/MM/YY&quot; for bond security as a result of either: an announced call, the security being funged or the security being cancelled or withdrawn." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ARDL</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_IntAccrualDate" n="TR.IntAccrualDate" l="Interest Accrual Date" d="This is the date for a new issue from which interest starts accruing. The date is often different to the issue date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FIAD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_IntPayDate" n="TR.IntPayDate" l="Interest Payment Date" d="The date on which the first interest payment is due, or was paid." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FIPD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_IssueDate" n="TR.IssueDate" l="Issue Date" d="This is the original date on which the full bond details were announced to the market. For bonds issued before 1st January 1950 the issue date is not displayed. For some bonds, an issue date of 1st January 1950 indicates that the issue date is not available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ID</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallDate" n="TR.CallDate" l="Call Date" d="Where a bond may be called before final redemption, this is the next call date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PutDate" n="TR.PutDate" l="Put Date" d="The next put date (if applicable)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NXPD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_HybridCouponSched" n="TR.HybridCouponSched" l="Hybrid Coupon Schedule" d="Static datatype which returns a schedule of 4 data fields: “DD/MM/YYYY”,“XX”,”DD/MM/YYYY”,”XX”. The first date is the effective date up to which the first (XX) coupon type is active until. The second date is the effective date up to which the second (XX) coupon type is active until. Data is populated for “Hybrid” bonds where multiple types of coupon payment are made to bond holders. Valid coupon type codes for this datatype: FI fixed interest FR floating rate VR variable rate GR graduated rate IL index-linked ZR zero coupon Note: Where bonds have 3 or more changes in coupon type payments throughout the life of the bond, only the first 2 will be displayed if available, and the bond is identified as a “Complex Coupon”." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">HYCS</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NumberIntPayments" n="TR.NumberIntPayments" l="Number of Interest Payments Per Year" d="Number of Interest Payments Per Year" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NIP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EarlyCallValue" n="TR.EarlyCallValue" l="Announced Early Call Value" d="Static datatype which returns the &quot;early&quot; redemption value for bond security as a result of either: an announced call, the security being funged or the security being cancelled or withdrawn." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ARV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_FirstInterestPayment" n="TR.FirstInterestPayment" l="First Interest Payment" d="This datatype will return the value of the first interest payment that is due, or has already been paid." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FIPV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NextCallValue" n="TR.NextCallValue" l="Next Call Value" d="This is the price at which a bond can be called on the next call date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NCV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NextPutValue" n="TR.NextPutValue" l="Next Put Value" d="Item Number available for use in Bond Lists program 145X only. The next put value (if applicable)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NXPV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_ExPeriod" n="TR.ExPeriod" l="Exercise/Conversion Period" d="This displays the period during which a warrant can be exercised." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DRPE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_ExPrice" n="TR.ExPrice" l="Exercise/Conversion Price" d="This represents the price payable for each share/bond obtained, when the warrant is exercised." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DRPR</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_Shares" n="TR.Shares" l="Number of Shares" d="This displays the number of shares or nominal amount of bond which can be purchased by the exercise of a single warrant." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NOS</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_ExDivStat" n="TR.ExDivStat" l="Bond Price Ex-Dividend Status" d="This indicates whether the security is trading ex-dividend or cum-dividend on a specific date. Additionally for UK gilts, it indicates if it is 'special-ex'. Datatype BPXD output values can be: X = Trading ex-dividend on date; C = Trading cum-dividend on date." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BPXD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EuroConDateCombin" n="TR.EuroConDateCombin" l="Euro Conversion - Date of Combination" d="The date that bonds issued by the same issuer, with the same terms and conditions data, but in different currencies (now converted into Euros), were combined into one larger issue." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CBDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EuroConExDateChg" n="TR.EuroConExDateChg" l="Euro Conversion - Exercise Terms Change Date" d="The date that the conversion price was changed when the Euro came into effect. Applicable to Convertibles only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallConversionRestrictDate" n="TR.CallConversionRestrictDate" l="Call Conversion Restriction Date" d="For a convertible bond, this is the date when no call is allowed, unless the common stock price is at least x% of the conversion (where x is the value of Call Conversion Restriction – see below)." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CCNVD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallConversionRestrictVal" n="TR.CallConversionRestrictVal" l="Call Conversion Restriction Value" d="For a convertible bond, this is the percentage of the conversion price that must be exceeded by the price of the common stock if the convertible is to be called." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CCNVV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_ConversionExchangeRate" n="TR.ConversionExchangeRate" l="Conversion Exchange Rate" d="This is the exchange rate which will be applicable at the time of conversion. The value is defined when the convertible is issued. It is used to exchange the nominal value of the bond into the equity currency. Applicable to convertibles of mixed currency only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CEXR</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched20" n="TR.CallSched20" l="Call Schedule - 20 Sets of Dates &amp; Values" d="This shows the entire call schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of call schedule lines: CL20 - Call schedule - 20 call dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL20</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched40" n="TR.CallSched40" l="Call Schedule - 40 Sets of Dates &amp; Values" d="This shows the entire call schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of call schedule lines: CL40 - Call schedule - 40 call dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL40</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched80" n="TR.CallSched80" l="Call Schedule - 80 Sets of Dates &amp; Values" d="This shows the entire call schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of call schedule lines: CL80 - Call schedule - 80 call dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL80</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched160" n="TR.CallSched160" l="Call Schedule - 160 Sets of Dates &amp; Values" d="This shows the entire call schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of call schedule lines: CL160 - Call schedule - 160 call dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL160</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallSched200" n="TR.CallSched200" l="Call Schedule - 200 Sets of Dates &amp; Values" d="This shows the entire call schedule for the issue. There are six versions of the datatype available to enable you to download different numbers of call schedule lines: CL200 - Call schedule - 200 call dates and values." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CL200</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallNotice" n="TR.CallNotice" l="Call Notice" d="This is the notice (in days) to be given by the borrower if the bond is to be called. In addition, the datatype indicates when the bond can be called. The datatype is in the format Annn." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CNOT</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EstimatedCoupon" n="TR.EstimatedCoupon" l="Estimated Coupon" d="This is the estimated next coupon value at the next fix, using the current index rate plus the margin, and taking into account any maximum or minimum rates. Available for floating rate notes only." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EffectiveDate" n="TR.EffectiveDate" l="Effective Date of the Event" d="Effective Date of the Event." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NominalValueChangeDate" n="TR.NominalValueChangeDate" l="Euro Conversion - Change Of Nominal Value Date" d="The date that the nominal date was changed when the Euro came into effect." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NominalValueBefEuro" n="TR.NominalValueBefEuro" l="Nominal Value Before Euro Event" d="This datatype will return the nominal value of the security before conversion into Euros. For use with converted stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENOMVL</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NewIssuePrice" n="TR.NewIssuePrice" l="New Issue Price" d="This datatype will return the issue price of the security after conversion to Euros. For use with converted stocks only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">ENPRCE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PreviousIssuePrice" n="TR.PreviousIssuePrice" l="Previous Issue Price" d="This datatype will return the issue price of the security before conversion to Euros. For use with converted stocks only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">EOPRCE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EuroConExRate" n="TR.EuroConExRate" l="Euro Conversion - Exchange Rate" d="This datatype will return the fixed exchange rate used during the conversion of the security into Euros. For use with converted stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCNRT</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CurrPriortoEvent" n="TR.CurrPriortoEvent" l="Currency Prior To The Event" d="For use with converted stocks only. This datatype will return the issue currency of the security prior to conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EPCUR</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EquivalentConversionPrice" n="TR.EquivalentConversionPrice" l="Equivalent Conversion Price" d="This figure represents the price payable for one ordinary share, purchased through the convertible, after allowing for any premium or discount contained in the price of the convertible. Applicable to convertibles only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">EQCP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EventDescription" n="TR.EventDescription" l="Event Description" d="For use with converted stocks only. This datatype will return the type of security that has been converted to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EVTYP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_BaseRateChangeDate" n="TR.BaseRateChangeDate" l="Euro Conversion - Base Rate Change Date" d="The date that the base rate was changed when the Euro came into effect. Applicable to Floating Rate issues only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FBDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NewPriceMnem" n="TR.NewPriceMnem" l="New Price Source Mnemonic" d="This datatype will return the floating rate note base rate used following conversion to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FBNEW</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PrevPriceMnem" n="TR.PrevPriceMnem" l="Previous Price Source Mnemonic" d="This datatype will return the floating rate note base rate used prior to conversion to Euros." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FBOLD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PriceFunded" n="TR.PriceFunded" l="Price - Funded" d="This is the value at next coupon date, based on the gross price and the cost or benefit of funding at the current index rate to that date. It ignores the margin to be earned to the next coupon fix date (unlike the Neutral price, which allows for the margin), and provides a neutral basis for comparing issues with different coupon dates. Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">FP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_FirstSettlementDate" n="TR.FirstSettlementDate" l="First Settlement Date" d="First Settlement Date." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">FSET</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_GrandfatheredInd" n="TR.GrandfatheredInd" l="Grandfathered Indicator" d="When datatype GFATHD is requested, a return of ‘Y’ denotes that the bond is a Grandfathered bond; a return of ‘N’ denotes that the bond is not a Grandfathered bond." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GFATHD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_DCurrency" n="TR.DCurrency" l="Currency of Coupon Payment/ Dividend" d="Datatype indicates the currency in which the latest dividends have been paid. It is not available historically." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DCUR</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CurrencyBeforeEuroEDate" n="TR.CurrencyBeforeEuroEDate" l="Date of Last Currency Value Before Euro" d="Date of the last national currency value provided by source prior to Euro conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_InterestPaymentType" n="TR.InterestPaymentType" l="Interest Payment Type" d="This enables you to identify bonds by their interest payment type. Item Number available for use in Bond Lists program 145X only. Values are: FI fixed interest FR floating rate VR variable rate GR graduated rate IL index-linked ZR zero coupon SP coupon/principal strips" cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">INPT</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_LastInterestPaymentDate" n="TR.LastInterestPaymentDate" l="Last Interest Payment Date" d="This is the date on which it is expected that the final coupon payment will be made prior to redemption." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LIPD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_LastInterestPaymentValue" n="TR.LastInterestPaymentValue" l="Last Interest Payment Value" d="This indicates the final coupon payment value only where it is different to what would normally be expected. This value is normally not known until close to its payment date." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">LIPV</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_DiscountedMarginFinal" n="TR.DiscountedMarginFinal" l="Discounted Margin To Final Date" d="Rather than using a 'straight line' amortisation, an internal rate of return calculation is made, using the investment rate as the long term interest rate. This allows for consistent comparisons between issues of varying characteristics. This margin is expressed as a percentage over the index rate. Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MAFL</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_DiscountedMarginNextPut" n="TR.DiscountedMarginNextPut" l="Discounted Margin To Next Put" d="Rather than using a 'straight line' amortisation, an internal rate of return calculation is made, using the investment rate as the long term interest rate. This allows for consistent comparisons between issues of varying characteristics. This margin is expressed as a percentage over the index rate. The methods of calculation are exactly the same as those given under Discounted margin to maturity except that it is assumed that the bond will be redeemed at the next put date (so n is the number of complete coupon periods to the next put date). Available for floating rate notes only." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">MAPU</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_FloatingRateCouponMin" n="TR.FloatingRateCouponMin" l="Floating Rate Coupon - Minimum" d="Applicable to floating rate issues only. This is the minimum gross interest rate that will be paid on a floating rate stock." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNFC</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_FloatingRateCouponMax" n="TR.FloatingRateCouponMax" l="Floating Rate Coupon - Maximum" d="The maximum payable coupon for a variable coupon bond. Data Formats:&quot;x.xxxx&quot; Types of security: Floating, Variable, and Graduated Rate Notes only." cc="CCDSStatic" pc="PCDSStatic" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MXFC</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NextDrawingDate" n="TR.NextDrawingDate" l="Date - Next Drawing" d="For a sinking fund, this is the next date on which lots will be drawn to determine which bonds are to be redeemed, if available, otherwise the next date on which bonds will be redeemed." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NextPurchaseFundDate" n="TR.NextPurchaseFundDate" l="Next Purchase Fund Date" d="This is the next date on which a purchase fund will operate." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NPD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_OldDenomination1" n="TR.OldDenomination1" l="Old Denomination 1" d="For use with re-denominated stocks only. Returns the denomination (1st occurrence) for the security prior to re-denomination to the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OLDDEN1</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_OldDenomination2" n="TR.OldDenomination2" l="Old Denomination 2" d="For use with re-denominated stocks only. Returns the denomination (2nd occurrence) for the security prior to re-denomination to the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OLDDEN2</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_OldDenomination3" n="TR.OldDenomination3" l="Old Denomination 3" d="For use with re-denominated stocks only. Returns the denomination (3rd occurrence) for the security prior to re-denomination to the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">OLDDEN3</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PartPaymentSched" n="TR.PartPaymentSched" l="Part Payment Schedules" d="This shows the part payment dates and values for an issue. Up to five dates and values can be available." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PPAY</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_RedenominationCash" n="TR.RedenominationCash" l="Redenomination Cash" d="Indicates whether the cash compensation was made. Format: Y/N. Applies to redenominations only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDCASH</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_RedenominationDate" n="TR.RedenominationDate" l="Redenomination Date" d="The redenomination date displays the date (dd/mm/yy) on which the bond changed to the Euro. Applicable to bonds originally issued in another currency and now denominated in the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_RedenominationMethod" n="TR.RedenominationMethod" l="Redenomination Method" d="Indicates the method used when redenominating. Format: H = Bottom up by individual holdings, D = By minimum denomination. F = By face value. Applies to redenominations only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDMETHOD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NewISINCode" n="TR.NewISINCode" l="New ISIN Code" d="Displays the new ISIN code assigned after redenomination. Applies to redenominations only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDNEWISN</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_NewLocalCode" n="TR.NewLocalCode" l="New Local Code" d="Displays the new local code assigned after redenomination. Applies to redenominations only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDNEWLOC</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_OldCurrency" n="TR.OldCurrency" l="Old Currency" d="Displays the security’s currency prior to redenomination. Applies to redenominations only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDOLDCUR</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_RedenominationBasis" n="TR.RedenominationBasis" l="Redenomination Basis" d="Displays the rounding basis used during redenomination. Applies to redenominations only. Format: S = Standard rounding, U = Round up, D = Round down." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDRND</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_RedenominationUnit" n="TR.RedenominationUnit" l="Redenomination Unit" d="Applies to redenominations only. Displays the units used during redenomination. Format: E = Re-denominate to whole Euros, C = Re-denominate to Eurocents, C = Other." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RDUNIT</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_EuroConDateReconvention" n="TR.EuroConDateReconvention" l="Euro Conversion - Reconvention Date" d="Returns the date of reconvention to the Euro. For use with reconvention stocks only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RECNDATE</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_AmountOutstandingDate" n="TR.AmountOutstandingDate" l="Amount Outstanding Date" d="This is the effective date for the Amount Outstanding value (AOS) for a bond, the date on which any increase or decrease in the amount is effective from." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">AOSD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallableInPart" n="TR.CallableInPart" l="Callable In Part" d="For callable bonds, Y flag indicates that bond may be called in part." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CLPT</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_CallType" n="TR.CallType" l="Call Type" d="For callable bonds only, additional information on the type of call." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CLTY</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_WhenCallable" n="TR.WhenCallable" l="When Callable" d="For callable bonds only, text field describing when the bond is callable (see list of text descriptions below). American (At Any Time) Bermudan (By Schedule) European (One Time)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CLWH</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_ConversionPriceCurrency" n="TR.ConversionPriceCurrency" l="Conversion Price Currency" d="For convertible bonds only, this is the currency unit of the Conversion Price." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">CVPC</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_MakeWholeCallEndDate" n="TR.MakeWholeCallEndDate" l="Make Whole Call End Date" d="Static datatype returning DD/MM/YY effective end date for any Make Whole Call period." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MWHED</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_MakeWholeCallStartDate" n="TR.MakeWholeCallStartDate" l="Make Whole Call Start Date" d="Static datatype returning DD/MM/YY effective start date for any Make Whole Call period." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MWHSD</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_MakeWholeCallSpread" n="TR.MakeWholeCallSpread" l="Make Whole Call Spread" d="Static datatatype returning for bonds with Make Whole Call the basis point yield premium or discount over government bond yield at call." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MWHSP</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_PrincipalProtectedbyIndexFlag" n="TR.PrincipalProtectedbyIndexFlag" l="Principal Protected by Index Flag" d="Y flag indicates if a bond has the payment of principal at maturity protected by direct link to an index." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PRNIXL</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_BondHoldersPutOptionNotice" n="TR.BondHoldersPutOptionNotice" l="Bond Holders Put Option Notice" d="The number of days notice that bondholders need to provide prior to exercising put option." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">PUTN</in:sp>
+		</i>
+		<i id="I_DSB_CA_TR_WithholdingTax" n="TR.WithholdingTax" l="Withholding Tax" d="Percentage tax rate applicable to foreign investors in domestic bonds." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">WTAX</in:sp>
+		</i>
+	</c>
+</d>

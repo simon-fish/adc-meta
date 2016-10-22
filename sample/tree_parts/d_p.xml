@@ -1,0 +1,26 @@
+﻿<d id="D_P" d="Portfolio" m="P" n="Portfolio (P)" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_P_C" d="Constituents" n="Constituents (C)" m="C">
+		<i id="I_P_C_ModifiedDate" d="Date on which portfolio was last time modified." l="Modified Date" n="P.C.ModifiedDate" s="PW_CONSTITUENTS" cc="ricPeriodValue" pc="IndConst" i="PORTFOLIO" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="s">Header</in:sp>
+			<in:sp k="f">LastModifiedDateTime</in:sp>
+			<in:sp k="t">DateTime</in:sp>
+		</i>
+		<i id="I_P_C_StatementDate" d="Statement date." l="Statement Date" n="P.C.StatementDate" s="PW_CONSTITUENTS" cc="ricPeriodValue" pc="IndConst" i="PORTFOLIO" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="s">Header</in:sp>
+			<in:sp k="f">HoldingsStatementDate</in:sp>
+			<in:sp k="t">Date</in:sp>
+		</i>
+		<i id="I_P_C_Units" d="Number of units of portfolio constituent." l="Units" n="P.C.Units" s="PW_CONSTITUENTS" cc="ricPeriodValue" pc="IndConst" i="PORTFOLIO" isScreen="false">
+			<in:sp k="s">Element</in:sp>
+			<in:sp k="f">Units</in:sp>
+			<in:sp k="t">Float</in:sp>
+		</i>
+		<!--i id="I_P_C_Weights" d="Weight of portfolio constituent." l="Weights" n="P.C.Weights" s="HOLDING" cc="ricPeriodValue" pc="IndConst" i="PORTFOLIO">
+			<in:sp k="s">Element</in:sp>
+			<in:sp k="f">Weights</in:sp>
+			<in:sp k="t">Float</in:sp>
+		</i-->
+	</c>
+</d>

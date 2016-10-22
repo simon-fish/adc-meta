@@ -1,0 +1,113 @@
+﻿<d id="D_MFH" n="Mutual Fund Holdings (MFH)" d="Mutual Fund Holdings." m="MFH" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_MFH_TO" n="Top Owners (TO)" d="Top Owners." m="TO">
+		<i id="I_MFH_TO_CountryOfDomicile" n="MFH.TO.CountryOfDomicile" d="Country of Domicile." cc="LippownDP" pc="LippownRP" l="Country of Domicile" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">DomicileName</in:sp>
+			<in:sp k="vt">5</in:sp>
+		</i>
+		<i id="I_MFH_TO_NumberOfShares" n="MFH.TO.NumberOfShares" d="Number of Shares." cc="LippownDP" pc="LippownRP" l="Number of Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_TO_PercentageOfFundAssets" n="MFH.TO.PercentageOfFundAssets" d="Percentage of Fund Assets." cc="LippownDP" pc="LippownRP" l="Percentage of Fund Assets" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">PercentageOfAssets</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_TO_NumberOfSharesChanged" n="MFH.TO.NumberOfSharesChanged" d="Number of Shares Changed." cc="LippownDP" pc="LippownRP" l="Number of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">NumberOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_TO_PercentageOfSharesChanged" n="MFH.TO.PercentageOfSharesChanged" d="Percentage of Shares Changed." cc="LippownDP" pc="LippownRP" l="Percentage of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">PercentageOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_TO_PreviousDataDate" n="MFH.TO.PreviousDataDate" d="Previous Data Date." cc="LippownDP" pc="LippownRP" l="Previous Data Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">PreviousDataDate</in:sp>
+			<in:sp k="vt">4</in:sp>
+		</i>
+		<i id="I_MFH_TO_TotalNumberOfMutualFunds" n="MFH.TO.TotalNumberOfMutualFunds" l="Total Number of Mutual Funds" d="Number of mutual funds which own the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="ricValue" vu="N" s="LIPPERFUNDS_OWN" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">TotalMutualFunds</in:sp>
+			<in:sp k="vt">3</in:sp>
+		</i>
+		<i id="I_MFH_TO_TotalNumberOfShares" n="MFH.TO.TotalNumberOfShares" l="Total Number of Shares" d="Total number of shares held by mutual funds." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="ricValue" vu="N" s="LIPPERFUNDS_OWN" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">SharesHeldByMutualFunds</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_TO_TotalPercentOfShares" n="MFH.TO.TotalPercentOfShares" l="Total Percentage of Shares" d="Total percentage of shares held by mutual funds." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="ricValue" vu="N" s="LIPPERFUNDS_OWN" isScreen="false">
+			<in:sp k="m">OwnershipTopOwners</in:sp>
+			<in:sp k="vp">PercentageHeldByMutualFunds</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+	</c>
+	<c id="C_MFH_NB" n="Net Buyers (NB)" d="Net Buyers." m="NB">
+		<i id="I_MFH_NB_CountryOfDomicile" n="MFH.NB.CountryOfDomicile" d="Country of Domicile." cc="LippownDP" pc="LippownRP" l="Country of Domicile" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">DomicileName</in:sp>
+			<in:sp k="vt">5</in:sp>
+		</i>
+		<i id="I_MFH_NB_NumberOfShares" n="MFH.NB.NumberOfShares" d="Number of Shares." cc="LippownDP" pc="LippownRP" l="Number of Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NB_PercentageOfFundAssets" n="MFH.NB.PercentageOfFundAssets" d="Percentage of Fund Assets." cc="LippownDP" pc="LippownRP" l="Percentage of Fund Assets" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">PercentageOfAssets</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NB_NumberOfSharesChanged" n="MFH.NB.NumberOfSharesChanged" d="Number of Shares Changed." cc="LippownDP" pc="LippownRP" l="Number of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">NumberOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NB_PercentageOfSharesChanged" n="MFH.NB.PercentageOfSharesChanged" d="Percentage of Shares Changed." cc="LippownDP" pc="LippownRP" l="Percentage of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">PercentageOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NB_PreviousDataDate" n="MFH.NB.PreviousDataDate" d="Previous Data Date." cc="LippownDP" pc="LippownRP" l="Previous Data Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetBuyers</in:sp>
+			<in:sp k="vp">PreviousDataDate</in:sp>
+			<in:sp k="vt">4</in:sp>
+		</i>
+	</c>
+	<c id="C_MFH_NS" n="Net Sellers (NS)" d="Net Sellers (NS)." m="NS">
+		<i id="I_MFH_NS_CountryOfDomicile" n="MFH.NS.CountryOfDomicile" d="Country of Domicile." cc="LippownDP" pc="LippownRP" l="Country of Domicile" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">DomicileName</in:sp>
+			<in:sp k="vt">5</in:sp>
+		</i>
+		<i id="I_MFH_NS_NumberOfShares" n="MFH.NS.NumberOfShares" d="Number of Shares." cc="LippownDP" pc="LippownRP" l="Number of Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">NumberOfShares</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NS_PercentageOfFundAssets" n="MFH.NS.PercentageOfFundAssets" d="Percentage of Fund Assets." cc="LippownDP" pc="LippownRP" l="Percentage of Fund Assets" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">PercentageOfAssets</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NS_NumberOfSharesChanged" n="MFH.NS.NumberOfSharesChanged" d="Number of Shares Changed." cc="LippownDP" pc="LippownRP" l="Number of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">NumberOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NS_PercentageOfSharesChanged" n="MFH.NS.PercentageOfSharesChanged" d="Percentage of Shares Changed." cc="LippownDP" pc="LippownRP" l="Percentage of Shares Changed" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">PercentageOfSharesChange</in:sp>
+			<in:sp k="vt">1</in:sp>
+		</i>
+		<i id="I_MFH_NS_PreviousDataDate" n="MFH.NS.PreviousDataDate" d="Previous Data Date." cc="LippownDP" pc="LippownRP" l="Previous Data Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="LIPPERFUNDS_OWN" vu="N" isScreen="false">
+			<in:sp k="m">OwnershipNetSellers</in:sp>
+			<in:sp k="vp">PreviousDataDate</in:sp>
+			<in:sp k="vt">4</in:sp>
+		</i>
+	</c>
+</d>

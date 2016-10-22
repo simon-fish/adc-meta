@@ -1,0 +1,78 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/vaadin-icons/vaadin-icons.html">
+
+
+<dom-module id="contact-dropdown">
+    <style>
+        iron-icon {
+            --iron-icon-fill-color: black;
+        }
+    </style>
+
+    <template>
+        <iron-ajax
+            auto 
+            url={{_url}}
+            handle-as="json"
+            last-response="{{_contacts}}" ></iron-ajax>
+        
+        <iron-icon icon="vaadin-icons:doctor"></iron-icon>
+        <paper-dropdown-menu label="Select Contact" on-iron-select="_itemSelected">
+            <paper-listbox class="dropdown-content">
+                <template is="dom-repeat" items="{{_contacts}}">
+                    <paper-item value="{{item._id}}">{{item.name}}</paper-item>
+                </template>
+            </paper-listbox>
+        </paper-dropdown-menu>
+    </template>
+
+
+    <script>
+        Polymer({
+            is: 'contact-dropdown',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                    value: '../../api'
+                },
+
+                _contacts: {
+                    type: Array,
+                    notify: true
+                },
+
+                selected: { // Only contact id.
+                    type: String,
+                    notify: true
+                },
+
+                // Computed property 'url' for iron-ajax to request contact list from REST API
+                // which computed from user supplied api-endpoint with static path.
+                _url: {
+                    type: String,
+                    computed: '_buildUrl(endpoint)'
+                }
+            }, // Properties
+
+            _buildUrl: function(endpoint){
+                console.log(endpoint + '/contact');
+                return endpoint + '/contact';
+            },
+            _itemSelected: function(e){
+                var selectItem = e.target.selectedItem;
+                if (selectItem){
+                    console.log("selected: " + selectItem.value);
+                    this.selected = selectItem.value;
+                }
+            },
+
+        });
+    </script>
+</dom-module>

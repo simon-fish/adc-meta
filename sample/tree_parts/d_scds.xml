@@ -1,0 +1,281 @@
+﻿<d id="D_SingleCDS" lid="D_CDS" n="Single Name CDS" d="Single Name CDS." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_SingleCDS_D" n="CDS Definition" d="CDS Definition.">
+		<i id="I_SingleCDS_D_SingleCDSRIC" n="TR.CDSRIC" l="RIC Code" d="The RIC for this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CDSRIC" isScreen="false" isCompany="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSRIC</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_SingleCDSCCYCode" n="TR.CDSCCYCode" l="Currency Code" d="The ISO 3 currency code for this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CDSCCYCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSCurrency</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_QuoteName" n="TR.CDSQuoteName" l="Ref Entity" d="The Quote level short name for this CDS RIC." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.QuoteName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">QuoteName</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_IsPrimaryCDSRic" n="TR.CDSIsPrimaryCDSRic" l="Primary RIC" d="Set to Y if this is the primary CDS RIC for the reference entity N otherwise." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.IsPrimaryCDSRic" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsPrimaryCDSRIC</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_IsSuperRIC" n="TR.CDSIsSuperRIC" l="Super RIC" d="Y if the RIC ends with =, N otherwise." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.IsSuperRIC" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsSuperRIC</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_SingleCDSContributorCode" n="TR.CDSContributorCode" l="Contributor Code" d="The code of the price contributor of this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CDSContributorCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSContributor</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_SingleCDSContributorShortName" n="TR.CDSContributorShortName" l="Contributor" d="The Short Name of the price contributor of this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CDSContributorShortName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSContributorShortName</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_SingleCDSType" n="TR.CDSType" l="CDS Type" d="The type of CDS e.g. C = Credit, L = Loan, P = Preferred, S = Structured Finance, O = Other." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CDSType" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">CDSType</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_IsIndex" n="TR.CDSIsIndex" l="Index" d="Y if this is an Index, N otherwise. So for Single Names this will be N." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.IsIndex" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsIndex</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_IsTranche" n="TR.CDSIsTranche" l="Is Tranche" d="Y if this is an Index Tranche, N otherwise. Always N for non-indices." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.IsTranche" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsTranche</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_RCSCode" n="TR.CDSRCSCode" l="Contract Type" d="The RCS asset class code for this contract. Not populated for indices." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.RCSCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">RCSClass</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_RicRoot" n="TR.CDSRicRoot" l="RIC Root" d="The RIC ROOT of this CDS contract." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.RicRoot" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">RICRoot</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_Tenor" n="TR.CDSTenor" l="Tenor" d="The tenor (or term) of this CDS contract." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.Tenor" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Tenor</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_Seniority" n="TR.CDSSeniority" l="Seniority" d="The seniority code for this CDS contract." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.Seniority" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Seniority</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_DocClause" n="TR.CDSDocClause" l="Doc Clause" d="The doc clause (restructuring clause) for this CDS contract." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.DocClause" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">DocClause</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_PaymentFrequency" n="TR.CDSPaymentFrequency" l="Frequency" d="The payment frequency for this CDS contract." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.PaymentFrequency" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">PaymentFrequencyDescription</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_IsConventionCCY" n="TR.CDSIsConventionCCY" l="Convention Currency" d="Set to Y if this is a 'convention' contract, N otherwise." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.IsConventionCCY" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">IsConventionCurrency</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_OrgID" n="TR.CDSOrgID" l="Org ID" d="The ORG_ID for the organisation associated with this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.OrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_ImmediateParentOrgID" n="TR.CDSImmediateParentOrgID" l="Immediate Ref Entity Id" d="The ORG_ID of the immediate parent of this organisation. Will be null if the organisation has no immediate parent. Not populated for indices." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.ImmediateParentOrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">ImmediateParentOrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_UltimateParentOrgID" n="TR.CDSUltimateParentOrgID" l="Ultimate Ref Entity Id" d="The ORG_ID of the ultimate parent of this quote's reference entity." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.UltimateParentOrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">UltimateParentOrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_OrgShortName" n="TR.CDSOrgShortName" l="Ref Entity" d="The max-20-char Short Name for the organisation associated with this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.OrgShortName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationShortName</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_RECCode" n="TR.CDSRECCode" l="REC Code" d="The Reuters Entity Code for the Reference Entity associated with this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.RECCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">REC</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_Ticker" n="TR.CDSTicker" l="Ticker" d="The TICKER for the Reference Entity associated with this CDS quote." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.Ticker" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Ticker</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_PrimaryEquityRic" n="TR.CDSPrimaryEquityRic" l="Primary Equity RIC" d="The primary equity RIC for the organisation." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.PrimaryEquityRic" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">PrimaryEquityRIC</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_FIOrganisationID" n="TR.CDSFIOrganisationID" l="FI Organisation Id" d="The Fixed Income ORGANISATION_ID for this reference entity." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.FIOrganisationID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">FixedIncomeOrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_CtryCode2" n="TR.CDSCtryCode2" l="Country Code" d="The ISO 2-character code for the reference entity’s country of HQ." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.CtryCode2" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">Country</in:sp>
+		</i>
+		<i id="I_SingleCDS_D_RBSSSectorCode" n="TR.CDSRBSSSectorCode" l="Business Sector Code" d="The industry sector code (from the 'Reuters Business Sector Schema' classification scheme) for this organisation. Not populated for indices." i="A:4I A:4J A:BP" s="CDSQUOTE" vu="N" cc="ricValue" dt="String" lid="CDS.D.RBSSSectorCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_QUOTE_DISTINCT</in:sp>
+			<in:sp k="c">RBSSSector</in:sp>
+		</i>
+	</c>
+	<c id="C_SingleCDS_RE" n="CDS Reference Entity" d="CDS Refernece Entity.">
+		<i id="I_SingleCDS_RE_OrgID" n="TR.CDSRefEntOrgID" l="Ref Entity Org Id" d="The ORG_ID of the reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.OrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationID</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_OrgShortName" n="TR.CDSRefEntOrgShortName" l="Ref Entity" d="The Short Name of the reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.OrgShortName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationShortName</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_OrgCommonName" n="TR.CDSOrgCommonName" l="Ref Entity Name" d="The long name of the reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.OrgCommonName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationCommonName</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_OrgMarkitName" n="TR.CDSOrgMarkitName" l="Markit Ref Entity" d="The Markit name of the reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.OrgMarkitName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">OrganizationMarkITName</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_ImmediateParentOrgID" n="TR.CDSRefEntImmediateParentOrgID" l="Immediate Ref Entity Id" d="The ORG_ID of the immediate parent of this organisation." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.ImmediateParentOrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">ImmediateParentOrganizationID</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_UltimateParentOrgID" n="TR.CDSRefEntUltimateParentOrgID" l="Ultimate Ref Entity Id" d="The ORG_ID of the ultimate parent of this entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.UltimateParentOrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">UltimateParentOrganizationID</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_HasCDSQuote" n="TR.CDSHasCDSQuote" l="Has CDS Quote" d="Y if this organisation has at least one associated CDS quote (including LCDS, Preferred CDS etc.) Otherwise N." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.HasCDSQuote" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">HasCDSQuote</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_PrimaryCDSRic" n="TR.CDSPrimaryCDSRic" l="Primary CDS RIC" d="The primary CDS RIC for this reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.PrimaryCDSRic" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">PrimaryCDSRIC</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_PrimaryEquityRIC" n="TR.CDSPrimaryEquityRIC" l="Primary Equity RIC" d="The primary equity RIC for this reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.PrimaryEquityRIC" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">PrimaryEquityRIC</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_Ticker" n="TR.CDSRefEntTicker" l="Ticker" d="The (Reuters) TICKER for this reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.Ticker" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">Ticker</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_RECCode" n="TR.CDSRefEntRECCode" l="REC Code" d="The Reuters Entity Code of the reference entity. This may be null e.g. for guarantors that do not have any associated quotes." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.RECCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">REC</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_PartyID" n="TR.CDSRefEntPartyID" l="Party Id" d="The EJV Party ID of the reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.PartyID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">PartyID</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_RED6" n="TR.CDSRED6" l="RED6 Code" d="The Markit Reference Entity Database 6-character code (RED6) for this reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.RED6" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">RED6</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_FIOrganisationID" n="TR.CDSFIRefEntOrganisationID" l="FI Organisation Id" d="The fixed-income ORGANISATION_ID for this reference entity." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.FIOrganisationID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">FixedIncomeOrganizationID</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_CtryCode2" n="TR.CDSRefEntCtryCode2" l="Country Code" d="The ISO 2-character code for the reference entity’s country of HQ." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.CtryCode2" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">Country</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RE_RBSSSectorCode" n="TR.CDSRefEntRBSSSectorCode" l="Business Sector Code" d="The industry sector code (from the RBSS classification scheme) for this organisation." i="A:4I A:4J A:BP A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV A:J I:21" s="EJVFIORG" vu="N" cc="ricValue" dt="String" lid="CDS.RE.RBSSSectorCode" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REF_ENTITY_DISTINCT</in:sp>
+			<in:sp k="c">RBSSSector</in:sp>
+			<in:sp k="instr">OrganizationID</in:sp>
+		</i>
+	</c>
+	<c id="C_SingleCDS_RB" n="CDS Reference Bonds" d="CDS Reference Bonds.">
+		<i id="I_SingleCDS_RB_RED9" n="TR.CDSRED9" l="Pair CLIP" d="The RED9 code which uniquely identifies the pair. Also known as the pair clip." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.RED9" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">RED9</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_PairType" n="TR.CDSPairType" l="Pair Type" d="Indicates the role of the reference entity in respect of this obligation. I=Issuer, G=Guarantor." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.PairType" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">PairType</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_PairIsPreferred" n="TR.CDSPairIsPreferred" l="Preferred Pair" d="Y if this is the preferred pair for this entity and pair type, N otherwise." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.PairIsPreferred" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">PairIsPreferred</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_RED6" n="TR.CDSRefBondRED6" l="Red Code" d="The RED6 code for the reference entity in this pair." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.RED6" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">RED6</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_OrgID" n="TR.CDSRefBondOrgID" l="Org ID" d="The ORG_ID of the reference entity that is acting as the issuer/guarantor." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.OrgID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">OrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_FIOrganisationID" n="TR.CDSFIRefBondOrganisationID" l="FI Organisation Id" d="The ORGANISATION_ID of the reference entity." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.FIOrganisationID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">FixedIncomeOrganizationID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_PartyID" n="TR.CDSRefBondPartyID" l="Party Id" d="The EJV Party ID for the associated reference entity." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.PartyID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">PartyID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_ISIN" n="TR.CDSISIN" l="Ref Oblig. ISIN" d="The (Thomson Reuters maintained) ISIN code of the reference obligation." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.ISIN" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">ISIN</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_CUSIP" n="TR.CDSCUSIP" l="Ref Oblig. CUSIP" d="The (Thomson Reuters maintained) CUSIP code of the reference obligation." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.CUSIP" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">Cusip</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_FITIID" n="TR.CDSFITIID" l="Ref Oblig FI TI ID" d="The TI_ID of the reference obligation." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.FITIID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">FixedIncomeTIID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_AssetID" n="TR.CDSAssetID" l="Ref Oblig Asset ID" d="The EJV asset_id for the reference obligation." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.AssetID" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">AssetID</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_Seniority" n="TR.CDSRefBondSeniority" l="Seniority" d="The seniority of the bond, expressed as one of the CDS seniority levels." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.Seniority" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">Seniority</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitCCY" n="TR.CDSMarkitCCY" l="Markit Currency Code" d="Markit-supplied obligation currency code." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitCCY" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITCurrency</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitCoupon" n="TR.CDSMarkitCoupon" l="Markit Coupon" d="Markit-supplied coupon of an obligation or spread of a Floating Rate Note (FRN). For example, one percent (1%) is shown as 0.01." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="Float" lid="CDS.RB.MarkitCoupon" isScreen="false" isCompany="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITCoupon</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitCouponType" n="TR.CDSMarkitCouponType" l="Markit Coupon Type" d="Markit-supplied bond coupon type - Fixed, Float or Struc." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitCouponType" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITCouponType</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitCurrentCoupon" n="TR.CDSMarkitCurrentCoupon" l="Markit Current Coupon" d="Markit-supplied current coupon of an obligation or spread of a Floating Rate Note (FRN)." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="Float" lid="CDS.RB.MarkitCurrentCoupon" isScreen="false" isCompany="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITCurrentCoupon</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitIsConvert" n="TR.CDSMarkitIsConvert" l="Markit Is Convertible" d="Markit-supplied flag indicating if this is a convertible bond." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitIsConvert" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITIsConvert</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitIsPerp" n="TR.CDSMarkitIsPerp" l="Markit Is Perpetual" d="Markit-supplied flag indicating if this is a perpetual bond." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitIsPerp" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITIsPerp</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitMaturity" n="TR.CDSMarkitMaturity" l="Markit Maturity" d="Markit-supplied maturity date." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="Date" lid="CDS.RB.MarkitMaturity" isScreen="false" isCompany="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITMaturity</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitOBName" n="TR.CDSMarkitOBName" l="Markit Ref Oblig. Name" d="Markit-supplied obligation name." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitOBName" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITObligationName</in:sp>
+		</i>
+		<i id="I_SingleCDS_RB_MarkitSeniority" n="TR.CDSMarkitSeniority" l="Markit Seniority" d="Markit-supplied seniority (also referred to as tier)." i="A:J I:21" s="CDSREFOBLIG" vu="N" cc="ricValue" dt="String" lid="CDS.RB.MarkitSeniority" isScreen="false" isCompany="false" enableHeatMap="false">
+			<in:sp k="view">CDS_REFERENCE_OBLIGATION</in:sp>
+			<in:sp k="c">MarkITSeniority</in:sp>
+		</i>
+	</c>
+</d>

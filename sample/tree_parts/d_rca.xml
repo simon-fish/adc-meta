@@ -1,0 +1,748 @@
+﻿<d id="D_RCA" m="RCA" n="Corporate Actions (RCA)" d="Corporate Actions." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_RCA_S" n="Share (S)" d="Share" m="S">
+		<i id="I_RCA_S_PrimMarketDef" n="RCA.S.PrimMarketDef" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Primary Market Default" s="SHARES" d="The default share type for the market on which the primary quote trades." pc="Sharehist" vu="N" isScreen="false">
+			<in:sp k="id">Primary Market Default</in:sp>
+			<in:sp k="field">PMD</in:sp>
+		</i>
+		<i id="I_RCA_S_Authorised" n="RCA.S.Authorised" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Authorised" s="SHARES" d="Maximum number of shares a company can legally issue according to its articles of incorporation or charter. Shares of stock outstanding, including common shares equivalents from options, warrants and other convertible tranches." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">AUT</in:sp>
+			<in:sp k="field">AUT</in:sp>
+			<in:sp k="SHARETYPEFIELD">Authorised</in:sp>
+		</i>
+		<i id="I_RCA_S_CloselyHeld" n="RCA.S.CloselyHeld" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Closely Held" s="SHARES" d="Shares held by a small number of shareholders that may or may not be closely related to the company." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">CHL</in:sp>
+			<in:sp k="field">CLH</in:sp>
+			<in:sp k="SHARETYPEFIELD">Closely Held</in:sp>
+		</i>
+		<i id="I_RCA_S_FreeFloat" n="RCA.S.FreeFloat" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Free Float" s="SHARES" d="Shares outstanding available for trading by the public. Free float would equal shares issued minus closely held shares. Closely held shares would represent the difference between the shares outstanding and float values." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">FFL</in:sp>
+			<in:sp k="field">FFL</in:sp>
+			<in:sp k="SHARETYPEFIELD">Free Float</in:sp>
+		</i>
+		<i id="I_RCA_S_Issued" n="RCA.S.Issued" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Issued" s="SHARES" d="Shares issued and are on offer to the public." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">ISS</in:sp>
+			<in:sp k="field">ISS</in:sp>
+			<in:sp k="SHARETYPEFIELD">Issued</in:sp>
+		</i>
+		<i id="I_RCA_S_Listed" n="RCA.S.Listed" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Listed" s="SHARES" d="Shares listed/traded on a registered exchange." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">LIS</in:sp>
+			<in:sp k="field">LIS</in:sp>
+			<in:sp k="SHARETYPEFIELD">Listed</in:sp>
+		</i>
+		<i id="I_RCA_S_Outstanding" n="RCA.S.Outstanding" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Outstanding" s="SHARES" d="Shares issued less any shares held in treasury or trust." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">OUT</in:sp>
+			<in:sp k="field">OUT</in:sp>
+			<in:sp k="SHARETYPEFIELD">Outstanding</in:sp>
+		</i>
+		<i id="I_RCA_S_Treasury" n="RCA.S.Treasury" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Treasury" s="SHARES" d="Shares held by the company in treasury or trust." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">TRE</in:sp>
+			<in:sp k="field">TRE</in:sp>
+			<in:sp k="SHARETYPEFIELD">Treasury</in:sp>
+		</i>
+		<i id="I_RCA_S_Unclassified" n="RCA.S.Unclassified" cc="shareHistory" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Unclassified" s="SHARES" d="This code will be used when the Reuters source does not specify one of the above and there is no standard for the market/country of issue." pc="Sharehist" vu="U" isScreen="false">
+			<in:sp k="id">UNC</in:sp>
+			<in:sp k="field">UNC</in:sp>
+			<in:sp k="SHARETYPEFIELD">Unclassified</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_NV" n="Nominal Value (NV)" d="Nominal Value." m="NV">
+		<i id="I_RCA_NV_NomVal" n="RCA.NV.NomVal" cc="nomValue" l="Nominal Value" s="NOMINALVALUE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" d="Par Value or Face Value." pc="NVhist" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">NominalValueStandard</in:sp>
+		</i>
+		<i id="I_RCA_NV_IsNoParValue" n="RCA.NV.IsNoParValue" cc="ricValue" l="Is No Par Value" s="NOMINALVALUE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" d="True/False Flag indicating if the company has a par value applicable." vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">IsNoParValue</in:sp>
+		</i>
+		<i id="I_RCA_NV_NomValCurr" n="RCA.NV.NomValCurr" cc="ricValue" l="Nominal Value Currency" s="NOMINALVALUE" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" d="The Currency the Par Value is denominated in." vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">NominalValueCurrency</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_AD" n="Annualised Dividends (AD)" d="Annualised Dividends." m="AD">
+		<i id="I_RCA_AD_DivCurr" n="RCA.AD.DivCurr" d="The currency the dividend." cc="ricValue" l="Dividend Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">RCA_AD_DivCurr</in:sp>
+			<in:sp k="field">Content</in:sp>
+		</i>
+		<i id="I_RCA_AD_PrimaryAnnMethod" n="RCA.AD.PrimaryAnnMethod" d="The Calculation Methodology that is most relevant to the company/country in question." cc="ricValue" l="Market Default Methodology" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">PrimaryAnnMethod</in:sp>
+			<in:sp k="field">AnnualisationMethodPrimaryMarketDefault</in:sp>
+		</i>
+		<i id="I_RCA_AD_PrimaryAnnTaxStatus" n="RCA.AD.PrimaryAnnTaxStatus" d="The Taxation Status that is most relevant to the company/country in question." cc="ricValue" l="Market Default Tax Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">PrimaryAnnTaxStatus</in:sp>
+			<in:sp k="field">TaxStatusPrimaryMarketDefault</in:sp>
+		</i>
+		<i id="I_RCA_AD_UnadjustedGross" n="RCA.AD.UnadjustedGross" d="Annualised Gross Dividend unadjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." cc="annualisedMethod" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="Annualised" l="Unadjusted Gross Dividend" vp="4" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">UnadjustedGross</in:sp>
+			<in:sp k="field">UnadjustedGross</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_RCA_AD_UnadjustedNet" n="RCA.AD.UnadjustedNet" d="Annualised Net Dividend unadjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." cc="annualisedMethod" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="Annualised" l="Unadjusted Net Dividend" vp="4" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">UnadjustedNet</in:sp>
+			<in:sp k="field">UnadjustedNet</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_RCA_AD_AdjustedGross" n="RCA.AD.AdjustedGross" d="Annualised Gross Dividend adjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." cc="annualisedMethod" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="Annualised" l="Adjusted Gross Dividend" vp="4" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">AdjustedGross</in:sp>
+			<in:sp k="field">AdjustedGross</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_RCA_AD_AdjustedNet" n="RCA.AD.AdjustedNet" d="Annualised Net Dividend adjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." cc="annualisedMethod" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" pc="Annualised" l="Adjusted Net Dividend" vp="4" s="ANDIVIDENDS" vu="N" isScreen="false">
+			<in:sp k="id">AdjustedNet</in:sp>
+			<in:sp k="field">AdjustedNet</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_DH" n="Dividend History (DH)" d="Dividend History." m="DH">
+		<i id="I_RCA_DH_DivCurr" n="RCA.DH.DivCurr" d="The dividend currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Currency" vp="4" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PS</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">DivCurr</in:sp>
+			<in:sp k="field">DividendAmount</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_EventStatus" n="RCA.DH.EventStatus" d="The Status of Dividend as an Event, for example, has it been Approved or simply Proposed." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Event Status" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">EventStatus</in:sp>
+			<in:sp k="field">EventStatus</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_PeriodLength" n="RCA.DH.PeriodLength" d="The duration of the financial period stated in terms days, weeks, months or years as declared in the Period Length Indicator field." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Period Length" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">PeriodLength</in:sp>
+			<in:sp k="field">FiscalPeriod</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="P_EL">PeriodLength</in:sp>
+			<in:sp k="M_EL">PeriodLength1</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_PeriodLengthIndicator" n="RCA.DH.PeriodLengthIndicator" d="The length of Period type, D – Days, W – Weeks, M – Months, Y – Years." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Period Length Indicator" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">PeriodLengthIndicator</in:sp>
+			<in:sp k="field">FiscalPeriod</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="P_EL">PeriodLength</in:sp>
+			<in:sp k="M_EL">PeriodLengthIndicator</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_PeriodType" n="RCA.DH.PeriodType" d="This field indicates the type of fiscal period to which the dividend relates." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Period Type" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">PeriodType</in:sp>
+			<in:sp k="field">FiscalPeriod</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="P_EL">FiscalPeriod</in:sp>
+			<in:sp k="M_EL">PeriodType</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_AccountingYear" n="RCA.DH.AccountingYear" d="The accounting year to which the dividend payment is attributed." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Accounting Year" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">AccountingYear</in:sp>
+			<in:sp k="field">FiscalPeriod</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="P_EL">FiscalPeriod</in:sp>
+			<in:sp k="M_EL">AccountingYear</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_PeriodEndDate" n="RCA.DH.PeriodEndDate" d="End date of the earnings period to which dividend belongs." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Period End Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">PeriodEndDate</in:sp>
+			<in:sp k="field">FiscalPeriod</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="P_EL">FiscalPeriod</in:sp>
+			<in:sp k="M_EL">PeriodEndDate</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_IsRescinded" n="RCA.DH.IsRescinded" d="Y/N flag showing whether the dividend payment has been rescinded or not." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Is Rescinded" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">IsRescinded</in:sp>
+			<in:sp k="field">RescindedDividend</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsRescindedSpecified</in:sp>
+			<in:sp k="P_EL">RescindedDividend</in:sp>
+			<in:sp k="M_EL">IsRescinded</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_RescindedDate" n="RCA.DH.RescindedDate" d="The date the company announced that the dividend payment was to be rescinded." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Rescinded Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">RescindedDate</in:sp>
+			<in:sp k="field">RescindedDividend</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">RescindedDateSpecified</in:sp>
+			<in:sp k="P_EL">RescindedDividend</in:sp>
+			<in:sp k="M_EL">RescindedDate</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_AnnouncementDate" n="RCA.DH.AnnouncementDate" d="Date on which the dividend payment was announced and should not be null for manually maintained markets. The original announcement date remains unchanged even if the capital change record is updated with new information." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Announcement Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">AnnouncementDate</in:sp>
+			<in:sp k="field">AnnouncementDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AnnouncementDateSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_RecordDate" n="RCA.DH.RecordDate" d="Date on which the company reviews the share register to determine who is entitled to receive the dividend payment. This field should normally be left null for bearer issues. Markets usually have specific rules regarding the number of days between the record date and the ex date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Record Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">RecordDate</in:sp>
+			<in:sp k="field">RecordDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">RecordDateSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_PayDate" n="RCA.DH.PayDate" d="The date when the dividend is payable to the shareholder. It is set and announced by the company. For a stock dividend the distribution date is entered. Note that dates are sometimes dummy dates in that approximations have been made." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Pay Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">PayDate</in:sp>
+			<in:sp k="field">PayDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_ExDate" n="RCA.DH.ExDate" d="The first day on which the share trades on the quoted exchange without entitlement to participate in the dividend payment event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Ex Date" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">ExDate</in:sp>
+			<in:sp k="field">MarketDetails</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ExDateSpecified</in:sp>
+			<in:sp k="P_EL">MarketDetails</in:sp>
+			<in:sp k="M_EL">ExDate</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_DividendFeature" n="RCA.DH.DividendFeature" d="Additional features of the dividend payment." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Feature" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">10</out:p>
+			<in:sp k="id">DividendFeature</in:sp>
+			<in:sp k="field">DividendFeature</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_DividendFrequency" n="RCA.DH.DividendFrequency" d="The dividend payment pattern, this may be Annual, Semi-Annual, Thrice yearly, Quarterly, Monthly, Weekly or have no set frequency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Dividend Frequency" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">3</out:p>
+			<in:sp k="id">DividendFrequency</in:sp>
+			<in:sp k="field">DividendFrequency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_SourceOfFunds" n="RCA.DH.SourceOfFunds" d="The underlying source of the dividend, this may be via retained earnings or." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Source Of Funds" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">SourceOfFunds</in:sp>
+			<in:sp k="field">SourceOfFunds</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_MandatoryVoluntaryIndicator" n="RCA.DH.MandatoryVoluntaryIndicator" d="Indicating whether participation in the dividend event is mandatory or voluntary and if instructions are required from the shareholder." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Mandatory/Voluntary Indicator" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">MandatoryVoluntaryIndicator</in:sp>
+			<in:sp k="field">MandatoryVoluntaryIndicator</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_TaxStatus" n="RCA.DH.TaxStatus" d="Indicates whether the dividend is paid net, gross or free of taxation." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Tax Status" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">1</out:p>
+			<in:sp k="id">TaxStatus</in:sp>
+			<in:sp k="field">TaxStatus</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_TaxTreatment" n="RCA.DH.TaxTreatment" d="Dividend Tax rules applicable to the domestic market." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Tax Treatment" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">TaxTreatment</in:sp>
+			<in:sp k="field">TaxTreatment</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_TaxRate" n="RCA.DH.TaxRate" d="Percentage amount of tax applied to the dividend in the domestic market." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Tax Rate" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PC</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">TaxRate</in:sp>
+			<in:sp k="field">TaxRate</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">TaxRateSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_ForeignInvestorTaxRate" n="RCA.DH.ForeignInvestorTaxRate" d="Tax rate applicable to non nationals." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Foreign Investor Tax Rate" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">ForeignInvestorTaxRate</in:sp>
+			<in:sp k="field">ForeignInvestorTaxRate</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ForeignInvestorTaxRateSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_FrankedPercent" n="RCA.DH.FrankedPercent" d="The percentage franked showing the percentage of tax deducted from a company dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Franked Percent" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">FrankedPercent</in:sp>
+			<in:sp k="field">FrankedPercent</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">FrankedPercentSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_QDIPercent" n="RCA.DH.QDIPercent" d="Indicates the percentage of dividend that is Qualified Dividend Income, and thus qualified for a tax rate." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="QDI Percent" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">QDIPercent</in:sp>
+			<in:sp k="field">QDIPercent</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">QDIPercentSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_QDIEligibility" n="RCA.DH.QDIEligibility" d="Indicates whether, and to what extent, a dividend is eligible for Qualified Dividend Income." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="QDI Eligibility" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">QDIEligibility</in:sp>
+			<in:sp k="field">QDIEligibility</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_IsReinvestmentAvailable" n="RCA.DH.IsReinvestmentAvailable" d="Y/N indicator detailing whether the company has a Dividend Reinvestment Plan." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Is Reinvestment Available" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">IsReinvestmentAvailable</in:sp>
+			<in:sp k="field">IsReinvestmentAvailable</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsReinvestmentAvailableSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_ReinvestmentPrice" n="RCA.DH.ReinvestmentPrice" d="The Reinvestment Plan Price." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Reinvestment Price" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">ReinvestmentPrice</in:sp>
+			<in:sp k="field">ReinvestmentPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_ReinvestmentDeadline" n="RCA.DH.ReinvestmentDeadline" d="The Reinvestment Plan Deadline." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Reinvestment Deadline" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">ReinvestmentDeadline</in:sp>
+			<in:sp k="field">ReinvestmentDeadline</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">ReinvestmentDeadlineSpecified</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_Notes" n="RCA.DH.Notes" d="Additional dividend payment details that are not included in other data fields." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivNoCurr" pc="Div" l="Notes" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<in:sp k="id">CorpDivNoCurr</in:sp>
+			<in:sp k="field">Notes</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_UnadjustedGross" n="RCA.DH.UnadjustedGross" d="Gross Dividend unadjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDiv" pc="Divcurr" l="Unadjusted Gross Dividend" vp="4" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PS</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">UnadjustedGross</in:sp>
+			<in:sp k="field">UnadjustedGross</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_UnadjustedNet" n="RCA.DH.UnadjustedNet" d="Net Dividend unadjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDiv" pc="Divcurr" l="Unadjusted Net Dividend" vp="4" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PS</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">UnadjustedNet</in:sp>
+			<in:sp k="field">UnadjustedNet</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_AdjustedGross" n="RCA.DH.AdjustedGross" d="Gross Dividend adjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDiv" pc="Divcurr" l="Adjusted Gross Dividend" vp="4" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PS</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">AdjustedGross</in:sp>
+			<in:sp k="field">AdjustedGross</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_AdjustedNet" n="RCA.DH.AdjustedNet" d="Net Dividend adjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDiv" pc="Divcurr" l="Adjusted Net Dividend" vp="4" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PS</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">AdjustedNet</in:sp>
+			<in:sp k="field">AdjustedNet</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RCA_DH_All</in:sp>
+		</i>
+		<i id="I_RCA_DH_All" n="RCA.DH.All" d="All Items in the Category." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="CorpDivAll" pc="Div" l="All" s="DIVIDENDHISTORY" vu="N" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="id">All</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_AE" n="Annualised Earnings (AE)" d="Annualised Earnings (AE)." m="AE">
+		<i id="I_RCA_AE_EPSCurr" n="RCA.AE.EPSCurr" d="The Original Currency of the EPS record." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="ricValue" l="EPS Currency" vp="4" s="ANNUALISEDEARNINGS" vu="N" isScreen="false">
+			<in:sp k="id">EPSCurr</in:sp>
+			<in:sp k="field">Adjusted,Unadjusted</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_RCA_AE_PrimaryAnnMethod" n="RCA.AE.PrimaryAnnMethod" d="The Calculation Methodology that is most relevant to the company/country in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="ricValue" l="Market Default Methodology" s="ANNUALISEDEARNINGS" vu="N" isScreen="false">
+			<in:sp k="id">AnnualisationMethodPrimaryMarketDefault</in:sp>
+			<in:sp k="field">AnnualisationMethodPrimaryMarketDefault</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_RCA_AE_UnadjustedEPS" n="RCA.AE.UnadjustedEPS" d="EPS unadjusted for corporate actions on a Trailing Twelve Months basis." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="AnnualisedMethodEarn" pc="AnnualisedEarn" l="Unadjusted EPS, TTM" vp="4" s="ANNUALISEDEARNINGS" vu="N" isScreen="false">
+			<in:sp k="id">Unadjusted</in:sp>
+			<in:sp k="field">Unadjusted</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+		<i id="I_RCA_AE_AdjustedEPS" n="RCA.AE.AdjustedEPS" d="EPS adjusted for corporate actions on a Trailing Twelve Months basis." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" cc="AnnualisedMethodEarn" pc="AnnualisedEarn" l="Adjusted EPS, TTM" vp="4" s="ANNUALISEDEARNINGS" vu="N" isScreen="false">
+			<in:sp k="id">Adjusted</in:sp>
+			<in:sp k="field">Adjusted</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="fpc">TRUE</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_CC" n="Capital Changes (CC)" d="Capital Changes." m="CC">
+		<i id="I_RCA_CC_CorpActDesc" n="RCA.CC.CorpActDesc" d="The full description of the Capital Change." cc="Capchange" pc="Capchng" l="Corporate Action Description" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dw">2000</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">Notes</in:sp>
+			<in:sp k="field">Notes</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_RCA_CC_AnnouncementDate" n="RCA.CC.AnnouncementDate" d="Date on which the capital change is originally announced to the public by the company." cc="Capchange" pc="Capchng" l="Announcement Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Announcement Date</in:sp>
+			<in:sp k="field">AnnouncementDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_RecordDate" n="RCA.CC.RecordDate" d="The official last date of reviewing the register of the share ownership in order to be eligible for the event." cc="Capchange" pc="Capchng" l="Record Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Record Date</in:sp>
+			<in:sp k="field">RecordDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_EffectiveDate" n="RCA.CC.EffectiveDate" d="The effective date." cc="Capchange" pc="Capchng" l="Effective Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Effective Date</in:sp>
+			<in:sp k="field">EffectiveDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_DealDate" n="RCA.CC.DealDate" d="Date on which the first securities arising from the capital change are admitted to dealing/trading on the home stock exchange. This field may contain NULL values." cc="Capchange" pc="Capchng" l="Deal Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Deal Date</in:sp>
+			<in:sp k="field">DealDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_ExDate" n="RCA.CC.ExDate" d="Date by which shareholders must notify the company of their wish to participate in the capital change event." cc="Capchange" pc="Capchng" l="Ex Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Ex Date</in:sp>
+			<in:sp k="field">ExDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">MarketAdjustment</in:sp>
+		</i>
+		<i id="I_RCA_CC_MandatoryVoluntaryIndicator" n="RCA.CC.MandatoryVoluntaryIndicator" d="Indicator of how a corporate actions event is qualified. Values are Mandatory and no instruction is required from shareholder/account holder. Choice where the event is mandatory but instruction is required from shareholder/account holder &amp; Voluntary where." cc="Capchange" pc="Capchng" l="Mandatory Voluntary Indicator" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Mandatory Voluntary Indicator</in:sp>
+			<in:sp k="field">MandatoryVoluntaryIndicator</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsSchemeOfArrangement" n="RCA.CC.IsSchemeOfArrangement" d="A True/False flag indicating whether the event is part of Scheme of Arrangement." cc="Capchange" pc="Capchng" l="Is Scheme Of Arrangement" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Scheme Of Arrangement</in:sp>
+			<in:sp k="field">IsSchemeOfArrangement</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsSchemeOfArrangementSpecified</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_AdjustmentFactor" n="RCA.CC.AdjustmentFactor" d="This is the multiplication factor expressing the effect of the capital change event on historical per share values." cc="Capchange" pc="Capchng" l="Adjustment Factor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">Adjustment Factor</in:sp>
+			<in:sp k="field">AdjustmentFactor</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">AdjustmentFactorSpecified</in:sp>
+			<in:sp k="imt">MarketAdjustment</in:sp>
+		</i>
+		<i id="I_RCA_CC_AdjustmentType" n="RCA.CC.AdjustmentType" d="The Adjustment Type." cc="Capchange" pc="Capchng" l="Adjustment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Adjustment Type</in:sp>
+			<in:sp k="field">AdjustmentType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">MarketAdjustment</in:sp>
+		</i>
+		<i id="I_RCA_CC_TermsOldShares" n="RCA.CC.TermsOldShares" d="Number of Old shares defined under the terms of the capital change. For example, in a 2-for-1 split, Terms Old Shares is 1. To be meaningful, Terms Old Shares must be viewed in relation to Terms New Shares." cc="Capchange" pc="Capchng" l="Terms Old Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Terms Old Shares</in:sp>
+			<in:sp k="field">TermsOldShares</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">TermsOldSharesSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalReturn:CapitalRestructure:Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_TermsNewShares" n="RCA.CC.TermsNewShares" d="Number of new shares defined under the terms of the capital change; for example, in a 2-for-1 split, Terms New Shares is 2." cc="Capchange" pc="Capchng" l="Terms New Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">Terms New Shares</in:sp>
+			<in:sp k="field">TermsNewShares</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">TermsNewSharesSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalReturn:CapitalRestructure:Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_SubscriptionEndDate" n="RCA.CC.SubscriptionEndDate" d="This is the last date that an investor can subscribe to the Rights Issue." cc="Capchange" pc="Capchng" l="Subscription End Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Subscription End Date</in:sp>
+			<in:sp k="field">SubscriptionEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalReturn:CapitalRestructure:Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_NewIssue" n="RCA.CC.NewIssue" d="This is the Issue that the new shares will be issued in when the Right is exercised if different to the existing issue." cc="Capchange" pc="Capchng" l="New Issue" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">New Issue</in:sp>
+			<in:sp k="field">NewIssue</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure:Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_OfferAmount" n="RCA.CC.OfferAmount" d="This is the amount of money involved in a capital increase event." cc="Capchange" pc="Capchng" l="Offer Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Offer Amount</in:sp>
+			<in:sp k="field">OfferAmount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_OfferAmountCurrency" n="RCA.CC.OfferAmountCurrency" d="The Offer Amount currency." cc="Capchange" pc="Capchng" l="Offer Amount Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Offer Amount Currency</in:sp>
+			<in:sp k="field">OfferAmount</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">Consolidated</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsRescinded" n="RCA.CC.IsRescinded" d="This indicates whether the Capital Change has been rescinded." cc="Capchange" pc="Capchng" l="Is Rescinded" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Rescinded</in:sp>
+			<in:sp k="field">IsRescinded</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsRescindedSpecified</in:sp>
+			<in:sp k="imt">RescindedCapitalChange</in:sp>
+		</i>
+		<i id="I_RCA_CC_RescindedDate" n="RCA.CC.RescindedDate" d="The date on which the rescindment was announced." cc="Capchange" pc="Capchng" l="Rescinded Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Rescinded Date</in:sp>
+			<in:sp k="field">RescindedDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">RescindedCapitalChange</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsRenounceable" n="RCA.CC.IsRenounceable" d="True/False flag indicating whether the rights for this capital change event are transferable (that is, can be sold to another investor)." cc="Capchange" pc="Capchng" l="Is Renounceable" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Renounceable</in:sp>
+			<in:sp k="field">IsRenounceable</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsRenounceableSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsStockDifferent" n="RCA.CC.IsStockDifferent" d="True/False flag indicating whether the resulting stock of the capital change event is different from the underlying stock or not." cc="Capchange" pc="Capchng" l="Is Stock Different" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Stock Different</in:sp>
+			<in:sp k="field">IsStockDifferent</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsStockDifferentSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_TotalNewShares" n="RCA.CC.TotalNewShares" d="For issuing rights this is the total number of new shares to be issued over which the Rights exist. For placing/offer This is the total number of new shares involved in the Offer for Sale or Placing." cc="Capchange" pc="Capchng" l="Total New Shares" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Total New Shares</in:sp>
+			<in:sp k="field">TotalNewShares</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">TotalNewSharesSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease</in:sp>
+		</i>
+		<i id="I_RCA_CC_SubscriptionStartDate" n="RCA.CC.SubscriptionStartDate" d="This is the date from which an investor can subscribe to an issue/offer. It is applicable to certain events such as Rights issues and Scrip issues." cc="Capchange" pc="Capchng" l="Subscription Start Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Subscription Start Date</in:sp>
+			<in:sp k="field">SubscriptionStartDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalReturn:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_RightsTradingStartDate" n="RCA.CC.RightsTradingStartDate" d="This is the date from which the rights to the capital change event start trading. The rights are separately traded securities during a given limited period." cc="Capchange" pc="Capchng" l="Rights Trading Start Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Rights Trading Start Date</in:sp>
+			<in:sp k="field">RightsTradingStartDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_RightsTradingEndDate" n="RCA.CC.RightsTradingEndDate" d="This is the date on which the rights to the capital change event cease trading. It should go hand in hand with a rights trading start date." cc="Capchange" pc="Capchng" l="Rights Trading End Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">Rights Trading End Date</in:sp>
+			<in:sp k="field">RightsTradingEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_OfferPrice" n="RCA.CC.OfferPrice" d="Subscription price per security being issued or repurchased for a cash consideration. This field also includes the Offer Price of an Exchange offer. To be meaningful, Offer Price must be viewed alongside Offer Price Currency." cc="Capchange" pc="Capchng" l="Offer Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">14</out:p>
+			<in:sp k="id">Offer Price</in:sp>
+			<in:sp k="field">OfferPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalIncrease</in:sp>
+		</i>
+		<i id="I_RCA_CC_OfferPriceCurrency" n="RCA.CC.OfferPriceCurrency" d="The Offer Price Currency." cc="Capchange" pc="Capchng" l="Offer Price Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Offer Price/ attribute"Curr"</in:sp>
+			<in:sp k="field">OfferPrice</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalIncrease</in:sp>
+		</i>
+		<i id="I_RCA_CC_OfferPricePercentage" n="RCA.CC.OfferPricePercentage" d="The amount of money involved in a capital increase event." cc="Capchange" pc="Capchng" l="Offer Price Percentage" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Offer Price Percentage</in:sp>
+			<in:sp k="field">OfferPricePercentage</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">OfferPricePercentageSpecified</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalIncrease</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsOptional" n="RCA.CC.IsOptional" d="This identifies whether the Buy Back is optional which applies to some markets." cc="Capchange" pc="Capchng" l="Is Optional" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Optional</in:sp>
+			<in:sp k="field">IsOptional</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsOptionalSpecified</in:sp>
+			<in:sp k="imt">CapitalReturn:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_PaymentAmount" n="RCA.CC.PaymentAmount" d="This is the amount per share received by the shareholder." cc="Capchange" pc="Capchng" l="Payment Amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Payment Amount</in:sp>
+			<in:sp k="field">PaymentAmount</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalReturn:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_PaymentAmountCurrency" n="RCA.CC.PaymentAmountCurrency" d="The Payment Amount Currency." cc="Capchange" pc="Capchng" l="Payment Amount Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Payment Amount Currency</in:sp>
+			<in:sp k="field">PaymentAmount</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalReturn:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_PaymentAmountPercentage" n="RCA.CC.PaymentAmountPercentage" d="Whether the Capital Return is paid as a percentage of the Nominal Value." cc="Capchange" pc="Capchng" l="Payment Amount Percentage" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Payment Amount Percentage</in:sp>
+			<in:sp k="field">PaymentAmountPercentage</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">PaymentAmountPercentageSpecified</in:sp>
+			<in:sp k="imt">CapitalReturn</in:sp>
+		</i>
+		<i id="I_RCA_CC_SharesSoughtPercentage" n="RCA.CC.SharesSoughtPercentage" d="The attribute contains the amount of shares the acquiring company intends to seek from the target company as part of the deal term." cc="Capchange" pc="Capchng" l="Shares Sought Percentage" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Shares Sought Percentage</in:sp>
+			<in:sp k="field">SharesSoughtPercentage</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">SharesSoughtPercentageSpecified</in:sp>
+			<in:sp k="imt">CapitalReturn</in:sp>
+		</i>
+		<i id="I_RCA_CC_ExchangeOfferType" n="RCA.CC.ExchangeOfferType" d="The field indicates whether the offer type is cash only, securities only, cash and securities and cash or securities." cc="Capchange" pc="Capchng" l="Exchange Offer Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Exchange Offer Type</in:sp>
+			<in:sp k="field">ExchangeOfferType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_ExchangeOfferPrice" n="RCA.CC.ExchangeOfferPrice" d="This is the price the issuer offers to the investor for the equity share exchange offer." cc="Capchange" pc="Capchng" l="Exchange Offer Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Exchange Offer Price</in:sp>
+			<in:sp k="field">OfferPrice</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_ExchangeOfferPriceCurrency" n="RCA.CC.ExchangeOfferPriceCurrency" d="The Exchange offer price currency." cc="Capchange" pc="Capchng" l="Exchange Offer Price Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Exchange Offer Price Currency</in:sp>
+			<in:sp k="field">OfferPrice</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_Size" n="RCA.CC.Size" d="Indicates Odd lot offer size." cc="Capchange" pc="Capchng" l="Size" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Size</in:sp>
+			<in:sp k="field">Size</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsAcquiringAvailable" n="RCA.CC.IsAcquiringAvailable" d="Flag to indicate whether shareholder can acquire additional shares to make Odd Lot a round lot." cc="Capchange" pc="Capchng" l="Is Acquiring Available" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Acquiring Available</in:sp>
+			<in:sp k="field">IsAcquiringAvailable</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsAcquiringAvailableSpecified</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_SharesToAcquire" n="RCA.CC.SharesToAcquire" d="Number of shares that the shareholder can acquire." cc="Capchange" pc="Capchng" l="Shares To Acquire" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Shares To Acquire</in:sp>
+			<in:sp k="field">SharesToAcquire</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsSellingAvailable" n="RCA.CC.IsSellingAvailable" d="Flag to indicate whether shareholder can sell shares to make Odd Lot a round lot." cc="Capchange" pc="Capchng" l="Is Selling Available" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Selling Available</in:sp>
+			<in:sp k="field">IsSellingAvailable</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsSellingAvailableSpecified</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_SharesToSell" n="RCA.CC.SharesToSell" d="Number of shares that the share holder can sell to make an odd lot to round lot." cc="Capchange" pc="Capchng" l="Shares To Sell" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Shares To Sell</in:sp>
+			<in:sp k="field">SharesToSell</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_IsRetainingAvailable" n="RCA.CC.IsRetainingAvailable" d="Flag to indicate whether shareholder can retain the Odd Lot shares." cc="Capchange" pc="Capchng" l="Is Retaining Available" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Is Retaining Available</in:sp>
+			<in:sp k="field">IsRetainingAvailable</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsRetainingAvailableSpecified</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_SharesToRetain" n="RCA.CC.SharesToRetain" d="Number of shares that the share holder can retain." cc="Capchange" pc="Capchng" l="Shares To Retain" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">Shares To Retain</in:sp>
+			<in:sp k="field">SharesToRetain</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="imt">CapitalRestructure.CapitalRestructureOddLot</in:sp>
+		</i>
+		<i id="I_RCA_CC_NumberOfShares" n="RCA.CC.NumberOfShares" d="This field represents the Total Shares in Issue as a result of the capital change in question." cc="Capchange" pc="Capchng" l="Total Shares in Issue" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">NumberOfShares</in:sp>
+			<in:sp k="field">NumberOfShares</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_RightsPerInst" n="RCA.CC.RightsPerInst" d="The number of rights that each old instrument receives from a proposed issue of securities." cc="Capchange" pc="Capchng" l="Rights Per Instrument" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">RightsPerInstrument</in:sp>
+			<in:sp k="field">RightsPerInstrument</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">RightsPerInstrumentSpecified</in:sp>
+			<in:sp k="imt">CapitalIncrease:CapitalRestructure</in:sp>
+		</i>
+		<i id="I_RCA_CC_NewShareNomValue" n="RCA.CC.NewShareNomValue" d="The nominal (par) value of the new shares resulting from the capital change." cc="CapchangeCurr" pc="Capchng" l="New Share Nominal Value" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">NewShareNomValue</in:sp>
+			<in:sp k="field">NominalValue</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+		<i id="I_RCA_CC_OldShareNomValue" n="RCA.CC.OldShareNomValue" d="The nominal (par) value of shares prior to the application of this capital change event." cc="CapchangeCurr" pc="Capchng" l="Old Share Nominal Value" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" isScreen="false">
+			<in:sp k="id">OldShareNomValue</in:sp>
+			<in:sp k="field">NominalValue</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="imt">CapitalChangeDetails</in:sp>
+		</i>
+	</c>
+	<c id="C_RCA_VR" n="Voting Right (VR)" d="Voting Right." m="VR">
+		<i id="I_RCA_VR_ChangeDate" n="RCA.VR.ChangeDate" d="Date when voting rights per share has changed." cc="ricPeriodValue" pc="CMOpc" l="Voting Rights Change Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VOTINGRIGHTS" vu="N" isScreen="false">
+			<in:sp k="field">ChangeDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+		</i>
+		<i id="I_RCA_VR_VotingRightsPerShare" n="RCA.VR.VotingRightsPerShare" d="The number of voting rights per share." cc="ricPeriodValue" pc="CMOpc" l="Voting Rights Per Share" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VOTINGRIGHTS" vu="N" isScreen="false">
+			<in:sp k="field">VotingRightsPerShare</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+	</c>
+</d>

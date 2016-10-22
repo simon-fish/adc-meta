@@ -1,0 +1,115 @@
+﻿<d id="D_SYS" m="SYS" n="System (SYS)" d="System items." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_SYS_SA" m="SA" n="Screen audit (SA)" d="Screen audit items.">
+		<i id="SCREENCOUNT" n="SCREENCOUNT" d="Returns identifiers count for each separate expression inside Screen function in identifiers" cc="ricValue" l="Screen count" s="SYSTEM_ITEMS" pc="ScreenCount" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="hiddenCC">ricValueHidden</in:sp>
+		</i>
+		<i id="ALLCOLUMNS" n="ALLCOLUMNS" d="Sets flag in the context to disable all columns spoofing" cc="ricValueHidden" l="Screen count" s="SYSTEM_ITEMS" isScreen="false">
+			<out:p id="hidden" />
+		</i>
+		<i id="MaxScreenRows" n="MaxScreenRows" d="Sets a threshold number of identifiers as optional parameter (default value is 5000)" cc="ricValue" pc="MaxScreenRowsPC" l="MaxScreenRows" s="SYSTEM_ITEMS" isScreen="false">
+			<out:p id="hidden" />
+      <in:sp k="hiddenCC">ricValueHidden</in:sp>
+		</i>
+    <i id="NULL" n="NULL" d="Returns a null response for each itm." cc="ricValue" l="Null" s="SYSTEM_ITEMS" pc="ScreenCount" isScreen="false">
+      <out:p id="hidden" />
+    </i>
+		<i id="TRFPCCutOff" n="TRFPCCutOff" d="Sets a number of days from current date to set the cuttoff date for screening (TRF only) as optional parameter (default value is 730, a value less than 1 will remove the cutoff date filter)" cc="ricValueHidden" pc="TRFPCCutOffPC" l="TRFPCCutOff" s="SYSTEM_ITEMS" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="hiddenCC">ricValueHidden</in:sp>
+		</i>
+	</c>
+	<c id="C_SYS_A" m="A" n="Audit (A)" d="Audit items.">
+		<i id="I_SYS_A_TopItems" n="SYS.A.TopItems" d="Top items." l="Top items" pc="AuditCommon" s="AUDIT" cc="ricValues" isScreen="false">
+			<in:sp k="map"><![CDATA[
+				function(){
+					if (!this.Items) {
+						return;
+					}
+
+          for (index in this.Items) {
+              if(this.Items[index].Name){
+                emit(this.Items[index].Name, 1);
+              }
+              else if(this.Items[index]){
+                emit(this.Items[index], 1);
+              }
+          }
+        }
+				]]></in:sp>
+			<in:sp k="reduce"><![CDATA[
+				function(key, values) {
+					var count = 0; 
+					for (index in values) {
+						count += values[index]; 
+					}
+					return count;
+				}
+				]]></in:sp>
+		</i>
+		<i id="I_SYS_A_HitsPerDataCenter" n="SYS.A.HitsPerDataCenter" d="Hits per data center." l="Hits per data center" pc="AuditCommon" s="AUDIT" cc="ricValues" isScreen="false">
+			<in:sp k="map"><![CDATA[
+				function(){
+					emit(this.DcId, 1);
+				}
+				]]></in:sp>
+			<in:sp k="reduce"><![CDATA[
+				function(key, values) {
+					var count = 0; 
+					for (index in values) {
+						count += values[index]; 
+					}
+					return count;
+				}
+				]]></in:sp>
+		</i>
+		<i id="I_SYS_A_HitsPerServer" n="SYS.A.HitsPerServer" d="Hits per server." l="Hits per server" pc="AuditCommon" s="AUDIT" cc="ricValues" isScreen="false">
+			<in:sp k="map"><![CDATA[
+				function(){
+					emit(this.Srv.toUpperCase(), 1);
+				}
+				]]></in:sp>
+			<in:sp k="reduce"><![CDATA[
+				function(key, values) {
+					var count = 0; 
+					for (index in values) {
+						count += values[index]; 
+					}
+					return count;
+				}
+				]]></in:sp>
+		</i>
+		<i id="I_SYS_A_HitsPerProduct" n="SYS.A.HitsPerProduct" d="Hits per product." l="Hits per product" pc="AuditCommon" s="AUDIT" cc="ricValues" isScreen="false">
+			<in:sp k="map"><![CDATA[
+				function(){
+					emit(this.ProdId.toUpperCase(), 1);
+				}
+				]]></in:sp>
+			<in:sp k="reduce"><![CDATA[
+				function(key, values) {
+					var count = 0; 
+					for (index in values) {
+						count += values[index]; 
+					}
+					return count;
+				}
+				]]></in:sp>
+		</i>
+		<i id="I_SYS_A_TopUsersForItem" n="SYS.A.TopUsersForItem" d="Top users for item." l="Top users for item" pc="AuditByItem" s="AUDIT" cc="ricValues" isScreen="false">
+			<in:sp k="map"><![CDATA[
+				function(){
+					emit(this.UUID.toUpperCase(), 1);
+				}
+				]]></in:sp>
+			<in:sp k="reduce"><![CDATA[
+				function(key, values) {
+					var count = 0; 
+					for (index in values) {
+						count += values[index]; 
+					}
+					return count;
+				}
+				]]></in:sp>
+		</i>
+	</c>
+</d>

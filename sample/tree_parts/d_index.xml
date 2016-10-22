@@ -1,0 +1,662 @@
+<d id="D_INDEX" n="Equity Index Information" d="Equity Index Information." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_Index_ID" n="Index Details" d="Index Details.">
+		<i id="I_Index_ID_IsCapped" n="TR.Index_IsCapped" l="Is Capped" d="Indicates whether the Index is Capped." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.IsCapped" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">IsCapped</in:sp>
+			<in:sp k="field">IsCapped</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsCappedSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_IsPremium" n="TR.IndexIsPremium" l="Is Premium" d="Indicates whether the Index contains premium data." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.IsPremium" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">IsPremium</in:sp>
+			<in:sp k="field">IsPremium</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsPremiumSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_IsDividendAdjusted" n="TR.IndexIsDividendAdjusted" l="Is Dividend Adjusted" d="Indicates whether the weighting system applies dividends to its calculation. For example, the NYSE index and the DAX both include dividends in their market weighted calculation." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.IsDividendAdjusted" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">IsDividendAdjusted</in:sp>
+			<in:sp k="field">IsDividendAdjusted</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsDividendAdjustedSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_IsDerivableWeighting" n="TR.IndexIsDerivableWeighting" l="Is Derivable Weighting" d="Indicates whether the weighting should be the same as the shares in issue." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.IsDerivableWeighting" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">1</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="id">IsDerivableWeighting</in:sp>
+			<in:sp k="field">IsDerivableWeighting</in:sp>
+			<in:sp k="type">BOOL</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IsDerivableWeightingSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_ShareNumberType" n="TR.IndexShareNumberType" l="Share Type" d="The type of Total Shares Outstanding (TSO) Figure. This may be Free-float, Listed, Issued, Authorised." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.ShareNumberType" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">ShareNumberType</in:sp>
+			<in:sp k="field">ShareNumberType</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_AveragingMethod" n="TR.IndexAveragingMethod" l="Averaging Method" d="Indicates what type of averaging is applied by an index calculation. Typically, this will either be arithmetic or geometric averaging." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.AveragingMethod" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">AveragingMethod</in:sp>
+			<in:sp k="field">AveragingMethod</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_CalculationCurrency" n="TR.IndexCalculationCurrency" l="Calculation Currency" d="Defines the conversion currency in which the index is calculated. This only applies for transnational indices. Otherwise it is assumed that the calculation is performed in the local currency." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.CalculationCurrency" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">10</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="fn">IcwHandler_CC</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">CalculationCurrency</in:sp>
+			<in:sp k="field">CalculationCurrency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_BaseValue" n="TR.IndexBaseValue" l="Base Value" d="Defines the value to which the index is set on the base date." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.BaseValue" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">BaseValue</in:sp>
+			<in:sp k="field">BaseValue</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">BaseValueSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_BaseDate" n="TR.IndexBaseDate" l="Base Date" d="Defines the date on which the base level for the index was set. For example the FT-SE 100 was set at a base level of 1000 in January 1984." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" lid="RII.ID.BaseDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">BaseDate</in:sp>
+			<in:sp k="field">BaseDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">BaseDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexBeginDate" n="TR.IndexBeginDate" l="Index Begin Date" d="Defines the earliest date on which data for the index is available (not necessarily from Reuters)." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" lid="RII.ID.IndexBeginDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">IndexBeginDate</in:sp>
+			<in:sp k="field">IndexBeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IndexBeginDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexEndDate" n="TR.Index_EndDate" l="Index End Date" d="Defines the date on which the index is terminated by the vendor - the assumption being that no data is available for the index beyond this date." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" lid="RII.ID.IndexEndDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">IndexEndDate</in:sp>
+			<in:sp k="field">IndexEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IndexEndDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_HistoryBeginDate" n="TR.IndexHistoryBeginDate" l="History Begin Date" d="The date on which Reuters first maintains a history for the index." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" lid="RII.ID.HistoryBeginDate" isScreen="false">
+			<in:sp k="fn">IcwHandler_I</in:sp>
+			<in:sp k="id">HistoryBeginDate</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">DateFromIntToShortDateColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="field">HistoryBeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_HoldingsDate" n="TR.IndexHoldingsDate" l="Holdings Date" d="The dates on which Reuters holds the data for the index." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" isScreen="false" pc="Indexconstituents">
+			<in:sp k="fn">IcwHandler_IHD</in:sp>
+			<in:sp k="id">HoldingsDate</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">DateFromIntToShortDateColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="field">HoldingsDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_HistoryEndDate" n="TR.IndexHistoryEndDate" l="History End Date" d="The date on which Reuters ceases to maintain a history for the index." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">HistoryEndDate</in:sp>
+			<in:sp k="field">HistoryEndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">HistoryEndDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_ID_OpenTime" n="TR.IndexOpenTime" l="Open Time" d="Defines the local time at which the index is first calculated." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.OpenTime" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_OT</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">OpenTime</in:sp>
+			<in:sp k="field">OpenTime</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_CloseTime" n="TR.IndexCloseTime" l="Close Time" d="Defines the local time at which the index stops being calculated." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.CloseTime" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_CT</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">CloseTime</in:sp>
+			<in:sp k="field">CloseTime</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_LocalEffectiveTime" n="TR.IndexLocalEffectiveTime" l="Local Effective Time" d="The 'local' time at which changes to an index are deemed to be effective." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.LocalEffectiveTime" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">10</out:p>
+			<out:p id="xtra_dt">9</out:p>
+			<in:sp k="id">LocalEffectiveTime</in:sp>
+			<in:sp k="field">LocalEffectiveTime</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_VendorUpdateFrequency" n="TR.IndexVendorUpdateFrequency" l="Vendor Update Frequency" d="Defines the frequency that updates to the Index are published. This will be daily in most cases but occasionally is weekly or monthly." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.VendorUpdateFrequency" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">3</out:p>
+			<in:sp k="id">VendorUpdateFrequency</in:sp>
+			<in:sp k="field">VendorUpdateFrequency</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_ComparisonLevel" n="TR.IndexComparisonLevel" l="Comparison Level" d="Defines the level in the comparison_scheme_id which is used for grouping constituents in the report of index movers." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Integer" lid="RII.ID.ComparisonLevel" isScreen="false">
+			<in:sp k="id">ComparisonLevel</in:sp>
+			<in:sp k="field">ComparisonLevel</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_PrimaryFutureChainRIC" n="TR.IndexPrimaryFutureChainRIC" l="Primary Future Chain RIC" d="The Primary Future Chain RIC." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.PrimaryFutureChainRIC" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">20</out:p>
+			<in:sp k="id">PrimaryFutureChainRIC</in:sp>
+			<in:sp k="field">PrimaryFutureChainRIC</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_PrimaryExchangeCode" n="TR.IndexPrimaryExchangeCode" l="Primary Exchange Code" d="Defines the Exchange Code for the Primary Index." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.ID.PrimaryExchangeCode" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">10</out:p>
+			<out:p id="xtra_dt">2</out:p>
+			<in:sp k="fn">IcwHandler_PEC</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">PrimaryExchangeCode</in:sp>
+			<in:sp k="field">PrimaryExchangeCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexGeography" n="TR.IndexGeography" l="Index Geography" d="ISO three country code of the Index." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.IndexGeography" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IG</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">IndexGeography</in:sp>
+			<in:sp k="field">IndexGeography</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_Name" n="TR.Index_Name" l="Index Series Name" d="Name of the Index Series." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.Name" isScreen="false" enableHeatMap="false" rid="I_Index_ID_SeriesName">
+      <out:p id="hidden"/>
+      <in:sp k="fn">IcwHandler_IN</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">Name</in:sp>
+			<in:sp k="field">Name</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+    <i id="I_Index_ID_SeriesName" n="TR.IndexSeriesName" l="Index Series Name" d="Name of the Index Series." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.Name" isScreen="false" enableHeatMap="false">
+      <in:sp k="fn">IcwHandler_IN</in:sp>
+      <in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+      <in:sp k="id">Name</in:sp>
+      <in:sp k="field">Name</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+    </i>
+		<i id="I_Index_ID_IndexWeightPercentScale" n="TR.IndexWeightPercentScale" l="Weight Percent Scale" d="Weight Percent Scaling Factor." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Integer" lid="" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IS</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">IntegerColumnObjectBuilder</in:sp>
+			<in:sp k="id">WeightPercentScale</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_IndustrialClassificationScheme" n="TR.IndexIndustrialClassificationScheme" l="Industrial Classification Scheme" d="Defines the schemes (eg Morgan Stanley Capital International) used for industrial classification of a company." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.IndustrialClassificationScheme" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_INDS</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">IndustrialClassificationScheme</in:sp>
+			<in:sp k="field">IndustrialClassificationScheme</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+    <i id="I_Index_ID_IndustrialClassificationName" n="TR.IndexIndustrialClassificationName" l="Industrial Classification Name" d="Defines the names for industrial classification." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" isScreen="false" enableHeatMap="false">
+      <in:sp k="fn">IcwHandler_INDN</in:sp>
+      <in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+      <in:sp k="id">IndustrialClassificationName</in:sp>
+      <in:sp k="field">IndustrialClassificationName</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+    </i>
+    
+    <i id="I_Index_ID_GMTOffsetHours" n="TR.IndexGMTOffsetHours" l="GMT Offset Hours" d="The number of hours (+/-) difference between GMT and the local time. It is." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="Integer" lid="RII.ID.GMTOffsetHours" isScreen="false">
+			<in:sp k="id">GMTOffsetHours</in:sp>
+			<in:sp k="field">GMTOffsetHours</in:sp>
+			<in:sp k="type">LONG</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexName" n="TR.IndexName" l="Index Name" d="The actual name of the Index." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.IndexName" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_I</in:sp>
+			<in:sp k="id">IndexId</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="field">CommonName</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexVariants" n="TR.IndexVariants" l="Index Variants" d="Lists the Variants of an Index." i="I:17 I:50" s="RII" vu="N" cc="ricVariant" dt="String" lid="RII.ID.IndexVariants" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IV</in:sp>
+			<in:sp k="id">IndexVariants</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexIssuerName" n="TR.IndexIssuerName" l="Index Issuer Name" d="Name of the Issuer of the Index." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.IndexIssuerName" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IIN</in:sp>
+			<in:sp k="id">IndexIssuerName</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">VendorNameFromPermIdUsingCacheColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexDescription" n="TR.IndexDescription" l="Index Description" d="The variant level Index Description" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.ID.IndexDescription" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler</in:sp>
+			<in:sp k="id">IndexDescription</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="field">IndexDescription</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="groupid">I_RII_ID_All</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexDivisor" n="TR.IndexDivisor" l="Index Divisor" d="Index Divisor value" i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" lid="RII.ID.IndexDivisor" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_ID</in:sp>
+			<in:sp k="id">IndexDivisor</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="field">IndexDivisor</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="groupid">I_RII_ID_All</in:sp>
+		</i>
+		<i id="I_Index_ID_IndexMktCapVendor" n="TR.IndexMktCapVendor" l="Index Market Cap" d="Index Market Capitalisation." i="I:17 I:50" s="RII" cc="ricIcwValue" dt="Float" lid="RII.ID.IndexMktCapVendor" isScreen="false" enableHeatMap="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">FU</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="fn">IcwHandler_IMCV</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">IndexMktCapVendor</in:sp>
+			<in:sp k="field">IndexMktCapVendor</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="groupid">I_RII_ID_All</in:sp>
+		</i>
+	</c>
+	<c id="C_Index_WD" n="Weighting Details" d="Weighting Details.">
+		<i id="I_Index_WD_Name" n="TR.IndexWeightingName" l="Weighting Name" d="The Name of the Index Weighting System." i="I:17 I:50" s="RII" vu="N" cc="ricIcwValue" dt="String" lid="RII.WD.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IWS</in:sp>
+			<in:sp k="id">IndexWeightingSystemName</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="field">WeightingSystemCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="WD">True</in:sp>
+		</i>
+		<i id="I_Index_WD_Type" n="TR.IndexWeightingType" l="Weighting Type" d="The Type of Weighting Index System. This may be Weighted or Unweighted." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.WD.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">Type</in:sp>
+			<in:sp k="field">WeightingSystemCode</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+			<in:sp k="WD">True</in:sp>
+		</i>
+		<i id="I_Index_WD_WeightingSource" n="TR.IndexWeightingSource" l="Weighting Source" d="The source for the weighting of the index." i="I:17 I:50" s="RII" vu="N" cc="ricValue" dt="String" lid="RII.WD.WeightingSource" isScreen="false" enableHeatMap="false">
+			<in:sp k="id">WeightingSource</in:sp>
+			<in:sp k="field">WeightingSource</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+	</c>
+	<c id="C_Index_IC" n="Index Constituents" d="Index Constituents.">
+    <i id="I_Index_IC_ConstituentRIC" n="TR.IndexConstituentRIC" l="Constituent RIC" d="The Constituent RIC Code" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstPg" cc="constituentRICnoPeriodOpenCloseDate" vc="constituentric" dt="String" isScreen="false" enableHeatMap="false" lid="RII.JL.ConstRIC">
+      <in:sp k="fn">IcwHandler_CN</in:sp>
+      <in:sp k="id">ConstituentRicValue</in:sp>
+      <in:sp k="pcode">IRWTG</in:sp>        
+      <in:sp k="valueBuilder">RicFromQuoteIdUsingCacheColumnObjectBuilder</in:sp>
+    </i>    
+		<i id="I_Index_IC_ConstituentName" n="TR.IndexConstituentName" l="Constituent Name" d="The constituent Name" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstPg" cc="constituentRICnoPeriodOpenCloseDate" dt="String" lid="RII.IC.ConstituentName" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_CN</in:sp>
+			<in:sp k="id">ConstituentName</in:sp>
+			<in:sp k="pcode">IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="field">Constituent</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+    <i id="I_Index_IC_SectorScheme" n="TR.IndexConstituentSectorScheme" l="Sector Scheme" d="The textual name of the industrial sector within which the company is classified." i="I:17 I:50" s="CONSTITUENTS" vu="N" cc="ricIcwValueRIC" dt="String" lid="RII.IC.SectorScheme" isScreen="false" enableHeatMap="false" pc="ETPDate">
+      <in:sp k="fn">IcwHandler_INDCS</in:sp>
+      <in:sp k="id">ConstituentSectorScheme</in:sp>
+      <in:sp k="pcode">IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+      <in:sp k="field">DefaultSector</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+    </i>
+    <i id="I_Index_IC_SectorName" n="TR.IndexConstituentSectorName" l="Sector Name" d="Default Sector Name." i="I:17 I:50" s="CONSTITUENTS" vu="N" cc="ricIcwValueRIC" dt="String" lid="RII.IC.SectorName" isScreen="false" enableHeatMap="false" pc="ETPDate">
+      <in:sp k="fn">IcwHandler_INDCN</in:sp>
+      <in:sp k="id">ConstituentSectorName</in:sp>
+      <in:sp k="pcode">IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+      <in:sp k="field">DefaultSector</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+    </i>
+		<i id="I_Index_IC_IndexWeightSource" n="TR.IndexConstituentWeightSource" l="Weighting Source" d="The source for the weighting of the index." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstSrc" cc="IndexconstituentRICnoPeriodSrc" vc="source" dt="String" isScreen="false" enableHeatMap="false" lid="RII.WD.WeightingSource"/>
+		<i id="I_Index_IC_IndexShares" n="TR.IndexConstituentShares" l="Index Shares" d="The Weighting of the Index." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstSrc" cc="constituentRICnoPeriodSrcOpenCloseDate" dt="Float" lid="RII.IC.IndexShares" isScreen="false">
+			<in:sp k="fn">IcwHandler_CS</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentShares</in:sp>
+			<in:sp k="field">IndexShares</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IndexSharesSpecified</in:sp>
+		</i>
+		<i id="I_Index_IC_BeginDate" n="TR.IndexConstituentBeginDate" l="Begin Date" d="The Date the company joined the Index." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstPg" cc="IndexconstituentRICnoPeriod" dt="Date" lid="RII.IC.BeginDate" isScreen="false">
+			<in:sp k="id">Begin Date</in:sp>
+			<in:sp k="field">BeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">BeginDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_IC_EndDate" n="TR.IndexConstituentEndDate" l="End Date" d="The Date the company left the Index. Note this field is only available when requesting history." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstPg" cc="IndexconstituentRICnoPeriod" dt="Date" lid="RII.IC.EndDate" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="id">End Date</in:sp>
+			<in:sp k="field">EndDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">EndDateSpecified</in:sp>
+		</i>
+		<i id="I_Index_IC_WeightPercent" n="TR.IndexConstituentWeightPercent" l="Weight percent" d="The Weighting, expressed as a percentage, of the Index." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstSrc" cc="constituentRICnoPeriodSrcOpenCloseDate" dt="Percentage" lid="RII.IC.WeightPercent" isScreen="false">
+			<in:sp k="fn">IcwHandler_CWP</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentWeightPercent</in:sp>
+			<in:sp k="field">WeightPercent</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">WeightPercentSpecified</in:sp>
+		</i>
+		<i id="I_Index_IC_NbOfResults" n="TR.IndexConstituentNbOfResults" l="Number of Results" d="Brings back number of results available." i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="IndexIndConstSrc" cc="ricValue" dt="Integer" lid="RII.IC.NbOfResults" isScreen="false">
+			<out:p id="hidden"/>
+			<in:sp k="field">Total</in:sp>
+		</i>
+		<i id="I_Index_IC_Constituent_ConstituentPrice" n="TR.Index_ConstituentPrice" l="Constituent Price" d="Price of the Constituent for MSCI only" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Money" isScreen="false" enableHeatMap="false" lid="RII.IC.ConstituentPrice" rid="I_Index_IC_Price">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CP</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentPrice</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_Constituent_ConstituentPriceCurr" n="TR.Index_ConstituentPriceCurr" l="Constituent Price Currency" d="Price of the Constituent Currency for MSCI only" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Currency" isScreen="false" lid="RII.IC.ConstituentPriceCurr" rid="I_Index_IC_PriceCurr">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CCC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentCurrencyCode</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_ConstituentAdjFactorNextDay" n="TR.Index_ConstituentAdjFactorNextDay" l="Constituent Adj Factor Next Day" d="Constituent Adj Factor Next Day for MSCI only" i="I:17 I:55" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentAdjFactorNextDay" rid="I_Index_IC_AdjFactorNextDay">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CAF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentAdjFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_ConstituentInclusionFactorNextDay" n="TR.Index_ConstituentInclusionFactorNextDay" l="Constituent Inclusion Factor Next Day" d="Constituent Foreign Inclusion Factor Next Day for MSCI only" i="I:17 I:58" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentInclusionFactorNextDay" rid="I_Index_IC_InclusionFactorNextDay">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CIF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentInclusionFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_ConstituentDomesticInclusionFactorNextDay" n="TR.Index_ConstituentDomesticInclusionFactorNextDay" l="Constituent Domestic Inclusion Factor Next Day" d="Constituent Domestic Inclusion Factor Next Day for MSCI only" i="I:17 I:58" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentDomesticInclusionFactorNextDay" rid="I_Index_IC_DomesticInclusionFactorNextDay">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CDIF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentDomesticInclusionFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_ConstituentMarketCapNextDay" n="TR.Index_ConstituentMarketCapNextDay" l="Constituent Market Cap Next Day" d="Constituent Market Cap Next Day for MSCI only" i="I:17 I:53" s="CONSTITUENTS" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentMarketCapNextDay" rid="I_Index_IC_MarketCapNextDay">
+			<out:p id="hidden"/>
+			<in:sp k="fn">IcwHandler_CMC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentMarketCapNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<!-- Changes for ADC-16694-->
+		<i id="I_Index_IC_Price" n="TR.IndexConstituentPrice" l="Constituent Price" d="Price of the Constituent for MSCI only" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Money" isScreen="false" enableHeatMap="false" lid="RII.IC.ConstituentPrice">
+			<in:sp k="fn">IcwHandler_CP</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentPrice</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_PriceCurr" n="TR.IndexConstituentPriceCurr" l="Constituent Price Currency" d="Price of the Constituent Currency for MSCI only" i="I:17 I:50" s="CONSTITUENTS" vu="N" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Currency" isScreen="false" lid="RII.IC.ConstituentPriceCurr">
+			<in:sp k="fn">IcwHandler_CCC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentCurrencyCode</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_AdjFactorNextDay" n="TR.IndexConstituentAdjFactorNextDay" l="Constituent Adj Factor Next Day" d="Constituent Adj Factor Next Day for MSCI only" i="I:17 I:55" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentAdjFactorNextDay">
+			<in:sp k="fn">IcwHandler_CAF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentAdjFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_InclusionFactorNextDay" n="TR.IndexConstituentInclusionFactorNextDay" l="Constituent Inclusion Factor Next Day" d="Constituent Foreign Inclusion Factor Next Day for MSCI only" i="I:17 I:58" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentInclusionFactorNextDay">
+			<in:sp k="fn">IcwHandler_CIF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentInclusionFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_DomesticInclusionFactorNextDay" n="TR.IndexConstituentDomesticInclusionFactorNextDay" l="Constituent Domestic Inclusion Factor Next Day" d="Constituent Domestic Inclusion Factor Next Day for MSCI only" i="I:17 I:58" s="CONSTITUENTS" pc="ETPDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentDomesticInclusionFactorNextDay">
+			<in:sp k="fn">IcwHandler_CDIF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentDomesticInclusionFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_Index_IC_MarketCapNextDay" n="TR.IndexConstituentMarketCapNextDay" l="Constituent Market Cap Next Day" d="Constituent Market Cap Next Day for MSCI only" i="I:17 I:53" s="CONSTITUENTS" pc="ICWNDAConstituentsDate" cc="constituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false" lid="RII.IC.ConstituentMarketCapNextDay">
+			<in:sp k="fn">IcwHandler_CMC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentMarketCapNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+	</c>
+	<c id="C_Index_JL" n="Index Joiners and Leavers" d="Index Joiners and Leavers.">
+		<i id="I_Index_JL_ChangeDate" n="TR.IndexJLConstituentChangeDate" l="Constituent Change Date" d="The date the Company Joined or Left the Index." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="IndexjoinerLeaverCC" vc="date" dt="Date" isScreen="false"/>
+		<i id="I_Index_JL_ConstName" n="TR.IndexJLConstituentName" l="Constituent Name" d="The Company Name of the Constituent that Joined or Left the Index." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="IndexjoinerLeaverCC" dt="String" lid="RII.JL.ConstName" isScreen="false" enableHeatMap="false">
+			<in:sp k="field">Constituent</in:sp>
+		</i>
+		<i id="I_Index_JL_ConstRIC" n="TR.IndexJLConstituentRIC" l="Constituent RIC" d="Provides the RIC code of the constituent that has left or joined the index." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="IndexjoinerLeaverCC" dt="String" lid="RII.JL.ConstRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="field">Constituent</in:sp>
+		</i>
+		<i id="I_Index_JL_ConstComName" n="TR.IndexJLConstituentComName" l="Constituent Common Name" d="The company common name of the constituent that joined or left the index." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="IndexjoinerLeaverCC" dt="String" lid="RII.JL.ConstComName" isScreen="false" enableHeatMap="false">
+			<in:sp k="field">ConstituentCommonName</in:sp>
+		</i>
+		<i id="I_Index_JL_NbOfResults" n="TR.IndexJLConstituentNbOfResults" l="Number of Results" d="Brings back number of results available." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="ricValue" dt="Integer" lid="RII.JL.NbOfResults" isScreen="false">
+			<out:p id="hidden"/>
+			<in:sp k="field">Total</in:sp>
+		</i>
+		<i id="I_Index_JL_ConstituentChange" n="TR.IndexJLConstituentituentChange" l="Constituent Change" d="Shows whether the change to index constituents was because the company joined or left the index on the date in question." i="I:17 I:50" s="JOINERSLEAVERSCC" vu="N" pc="IndexjoinerLeaver" cc="IndexjoinerLeaverCC" vc="change" dt="String" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden"/>
+		</i>
+		<i id="I_Index_JL_ConstituentName" n="TR.IndexJLConstituentituentName" l="Constituent Name" d="The Company Name of the Constituent that Joined or Left the Index." i="I:17 I:50" s="JOINERSLEAVERS" vu="N" pc="IndexjoinerLeaver" cc="IndexconstituentRIC" dt="String" lid="RII.JL.ConstituentName" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden"/>
+			<in:sp k="field">Constituent</in:sp>
+		</i>
+		<i id="I_Index_JL_Action" n="TR.IndexJLConstituentAction" l="Action" d="Whether the company Joined (J) or left (L) on the date in question." i="I:17 I:50" s="JOINERSLEAVERS" vu="N" pc="IndexjoinerLeaver" cc="IndexconstituentRIC" dt="String" lid="RII.JL.Action" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden"/>
+			<in:sp k="field">JoinerLeaver</in:sp>
+		</i>
+	</c>
+	<c id="C_Index_A" n="Analytics" d="Analytics">
+		<i id="I_Index_A_INDEX_CalcDate" n="TR.Index_CalcDate" l="Calculated Date" d="The gross dividend yield of the index as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" vc="date" dt="Date" lid="RII.A.INDEX_DIV_YLD_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+		</i>
+		<i id="I_Index_A_INDEX_DIV_YLD_RTRS" n="TR.Index_DIV_YLD_RTRS" l="Calculated Index Dividend Yield" d="The gross dividend yield of the index as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_DIV_YLD_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_DIV_YLD_RTRS</in:sp>
+			<in:sp k="field">INDEX_DIV_YLD_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_DIV_YLD_VENDOR" n="TR.Index_DIV_YLD_VENDOR" l="Index Dividend Yield Vendor" d="Index Dividend Yield." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_DIV_YLD_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_DIV_YLD_VENDOR</in:sp>
+			<in:sp k="field">INDEX_DIV_YLD_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_DIV_YLD_Y1_RTRS" n="TR.Index_EST_DIV_YLD_Y1_RTRS" l="Year 1 Calculated Gross Dividend Yield" d="The estimated Year 1 gross Dividend Yield for the index, as calculated by Thomson Reuters. Year 1 is the twelve month financial period following the year covered in the most recently reported annual results." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_DIV_YLD_Y1_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_DIV_YLD_Y1_RTRS</in:sp>
+			<in:sp k="field">INDEX_EST_DIV_YLD_Y1_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_DIV_YLD_Y1_VENDOR" n="TR.Index_EST_DIV_YLD_Y1_VENDOR" l="Index Estimate Dividend Yield Year 1 Vendor" d="Index Dividend Yield Year 1." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_DIV_YLD_Y1_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_DIV_YLD_Y1_VENDOR</in:sp>
+			<in:sp k="field">INDEX_EST_DIV_YLD_Y1_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_DIV_YLD_Y2_RTRS" n="TR.Index_EST_DIV_YLD_Y2_RTRS" l="Year 2 Calculated Gross Dividend Yield" d="The estimated Year 2 gross Dividend Yield for the index, as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="P" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_DIV_YLD_Y2_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">YD</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_DIV_YLD_Y2_RTRS</in:sp>
+			<in:sp k="field">INDEX_EST_DIV_YLD_Y2_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_PE_Y1_RTRS" n="TR.Index_EST_PE_Y1_RTRS" l="Year 1 Calculated Estimated Price Earnings" d="The estimated Year 1 Price Earnings ratio for the index, as calculated by Thomson Reuters. Year 1 is the twelve month financial period following the year covered in the most recently reported annual results." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_PE_Y1_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_PE_Y1_RTRS</in:sp>
+			<in:sp k="field">INDEX_EST_PE_Y1_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_PE_Y1_VENDOR" n="TR.Index_EST_PE_Y1_VENDOR" l="Index Estimate Price Earnings Year 2 Vendor" d="Index Price Earnings Ratio Year 1." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_PE_Y1_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_PE_Y1_VENDOR</in:sp>
+			<in:sp k="field">INDEX_EST_PE_Y1_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_PE_Y2_RTRS" n="TR.Index_EST_PE_Y2_RTRS" l="Year 2 Calculated Estimated Price Earnings" d="The estimated Year 2 Price Earnings ratio for the index, as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_PE_Y2_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_PE_Y2_RTRS</in:sp>
+			<in:sp k="field">INDEX_EST_PE_Y2_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_EST_PE_Y2_VENDOR" n="TR.Index_EST_PE_Y2_VENDOR" l="Index Estimate Price Earnings Year 2 Vendor" d="Index Price Earnings Ratio Year 2 Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_EST_PE_Y2_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_EST_PE_Y2_VENDOR</in:sp>
+			<in:sp k="field">INDEX_EST_PE_Y2_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_MKT_CAP_RTRS" n="TR.Index_MKT_CAP_RTRS" l="Calculated Index Market Capitalisation" d="The market capitalisation of the index in the index's local currency, as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="U" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_MKT_CAP_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">FU</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_MKT_CAP_RTRS</in:sp>
+			<in:sp k="field">INDEX_MKT_CAP_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_MKT_CAP_USD_RTRS" n="TR.Index_MKT_CAP_USD_RTRS" l="Calculated Market Cap in Dollars" d="The market capitalisation of the index in US Dollars, as calculated by Thomson Reuters." i="I:17 I:50" s="NDAANALYTICSRII" vu="U" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_MKT_CAP_USD_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">FU</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_MKT_CAP_USD_RTRS</in:sp>
+			<in:sp k="field">INDEX_MKT_CAP_USD_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_MKT_CAP_USD_VENDOR" n="TR.Index_MKT_CAP_USD_VENDOR" l="Index Market Capitalisation USD Vendor" d="Index Market Capitalisation USD." i="I:17 I:50" s="NDAANALYTICSRII" vu="U" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_MKT_CAP_USD_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">FU</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_MKT_CAP_USD_VENDOR</in:sp>
+			<in:sp k="field">INDEX_MKT_CAP_USD_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_MKT_CAP_VENDOR" n="TR.Index_MKT_CAP_VENDOR" l="Index Market Capitalisation Vendor" d="Index Market Capitalisation." i="I:17 I:50" s="NDAANALYTICSRII" vu="U" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_MKT_CAP_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">FU</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_MKT_CAP_VENDOR</in:sp>
+			<in:sp k="field">INDEX_MKT_CAP_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_PE_RTRS" n="TR.Index_PE_RTRS" l="Calculated PE Ratio" d="The Price Earnings ratio of the index as calculated by Thomson Reuters. Please refer to PE for the definition of the Price Earnings ratio." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_PE_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_PE_RTRS</in:sp>
+			<in:sp k="field">INDEX_PE_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_PE_VENDOR" n="TR.Index_PE_VENDOR" l="Index Price Earnings Vendor" d="Index Price Earnings Ratio." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_PE_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_PE_VENDOR</in:sp>
+			<in:sp k="field">INDEX_PE_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_PRICE_TO_BOOK_RTRS" n="TR.Index_PRICE_TO_BOOK_RTRS" l="Calculated Price to Book" d="The notional Price to Book ratio for the index as calculated by Thomson Reuters. Please refer to PRICE_TO_BOOK for a definition of the Price to Book ratio." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_PRICE_TO_BOOK_RTRS" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_PRICE_TO_BOOK_RTRS</in:sp>
+			<in:sp k="field">INDEX_PRICE_TO_BOOK_RTRS</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_PRICE_TO_BOOK_VENDOR" n="TR.Index_PRICE_TO_BOOK_VENDOR" l="Index Price To Book Vendor" d="Index Price To Book." i="I:17 I:50" s="NDAANALYTICSRII" vu="N" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_PRICE_TO_BOOK_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dr">PR</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_PRICE_TO_BOOK_VENDOR</in:sp>
+			<in:sp k="field">INDEX_PRICE_TO_BOOK_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+		<i id="I_Index_A_INDEX_VOLUME_VENDOR" n="TR.Index_VOLUME_VENDOR" l="Index Volume Vendor" d="Index Volume." i="I:17 I:50" s="NDAANALYTICSRII" vu="U" pc="Indexconstituents" cc="IndexpriceHistory" dt="Float" lid="RII.A.INDEX_VOLUME_VENDOR" isScreen="false">
+			<out:p id="xtra_dw">15</out:p>
+			<out:p id="xtra_dt">5</out:p>
+			<in:sp k="id">INDEX_VOLUME_VENDOR</in:sp>
+			<in:sp k="field">INDEX_VOLUME_VENDOR</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+		</i>
+	</c>
+</d>

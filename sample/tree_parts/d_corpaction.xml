@@ -1,0 +1,1045 @@
+﻿<d id="D_CorpAction" n="Corporate Actions" d="Corporate Actions." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+  <c id="C_CorpAction_S" n="Share" d="Share">
+    <i id="I_CorpAction_S_ShareType" n="TR.SharesType" l="Share Type" d="The Share Type requested" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="N" pc="CorpActionSharehist" cc="CorpActionshareHistory" vc="ShareType" dt="String" isScreen="false" enableHeatMap="false">
+      <in:sp k="id">Primary Market Default</in:sp>
+      <in:sp k="field">PMD</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_ShareDate" n="TR.SharesDate" l="Share Date" d="The Share Date requested" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="N" pc="CorpActionSharehist" cc="CorpActionshareHistory" vc="date" dt="Date" isScreen="false">
+      <in:sp k="id">Primary Market Default</in:sp>
+      <in:sp k="field">PMD</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_PrimMarketDef" n="TR.SharesPrimMarketDef" l="Primary Market Default" d="The default share type for the market on which the primary quote trades." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehist" cc="CorpActionshareHistory" dt="Float" isScreen="false" enableHeatMap="false">
+      <in:sp k="id">Primary Market Default</in:sp>
+      <in:sp k="field">PMD</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_Authorised" n="TR.SharesAuthorised" l="Authorised" d="Maximum number of shares a company can legally issue according to its articles of incorporation or charter. Shares of stock outstanding, including common shares equivalents from options, warrants and other convertible tranches." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">AUT</in:sp>
+      <in:sp k="field">AUT</in:sp>
+      <in:sp k="SHARETYPEFIELD">Authorised</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_CloselyHeld" n="TR.SharesCloselyHeld" l="Closely Held" d="Shares held by a small number of shareholders that may or may not be closely related to the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">CHL</in:sp>
+      <in:sp k="field">CLH</in:sp>
+      <in:sp k="SHARETYPEFIELD">Closely Held</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <!--
+        <i id="I_CorpAction_S_FreeFloat" n="TR.SharesFreeFloat" l="Free Float" d="Shares outstanding available for trading by the public. Free float would equal shares issued minus closely held shares. Closely held shares would represent the difference between the shares outstanding and float values." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+            <in:sp k="id">FFL</in:sp>
+            <in:sp k="field">FFL</in:sp>
+            <in:sp k="SHARETYPEFIELD">Free Float</in:sp>
+        </i> -->
+    <i id="I_CorpAction_S_FreeFloat" n="TR.SharesFreeFloat" l="Free Float" d="The Free Float represents the issue level free float shares. Free float is the number of outstanding shares that are available for trading by the public and it does not include restricted shares." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISEMARKETCAP" ss="VECTORWISE" vu="U" pc="UnityTimeSeriesNC" cc="CCUHSRNoCur" dt="Float" isScreen="false" isAggs="false" alias="shares, shares outstanding, TSO, free float">
+      <in:sp k="fn">fflissueshareshandler</in:sp>
+      <in:sp k="id">shares</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_Issued" n="TR.SharesIssued" l="Issued" d="Shares issued and are on offer to the public." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">ISS</in:sp>
+      <in:sp k="field">ISS</in:sp>
+      <in:sp k="SHARETYPEFIELD">Issued</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_Listed" n="TR.SharesListed" l="Listed" d="Shares listed/traded on a registered exchange." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">LIS</in:sp>
+      <in:sp k="field">LIS</in:sp>
+      <in:sp k="SHARETYPEFIELD">Listed</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <!--
+		<i id="I_CorpAction_S_Outstanding" n="TR.SharesOutstanding" l="Shares Outstanding" d="Shares issued less any shares held in treasury or trust." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false" rnk="99999">
+            <in:sp k="id">OUT</in:sp>
+            <in:sp k="field">OUT</in:sp>
+            <in:sp k="SHARETYPEFIELD">Outstanding</in:sp>
+        </i > -->
+    <i id="I_CorpAction_S_Outstanding" n="TR.SharesOutstanding" l="Outstanding Shares" d="The Outstanding Shares represents the issue level outstanding shares. The outstanding share is the number of shares that have been issued and are currently owned by investors. This may include shares that are publicly traded and not traded, such as restricted shares owned by Issue employees etc. Shares that have been repurchased by the Issue as treasury stock are excluded." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISEMARKETCAP" ss="VECTORWISE" vu="U" pc="UnityTimeSeriesNC" cc="CCUHSRNoCur" dt="Float" isScreen="false" isAggs="false" alias="shares, shares outstanding, TSO" lid="RCA.S.Outstanding">
+      <in:sp k="fn">outissueshareshandler</in:sp>
+      <in:sp k="id">shares</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_Treasury" n="TR.SharesTreasury" l="Treasury" d="Shares held by the company in treasury or trust." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">TRE</in:sp>
+      <in:sp k="field">TRE</in:sp>
+      <in:sp k="SHARETYPEFIELD">Treasury</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_S_Unclassified" n="TR.SharesUnclassified" l="Unclassified" d="This code will be used when the Reuters source does not specify one of the above and there is no standard for the market/country of issue." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="SHARES" vu="U" pc="CorpActionSharehistScale" cc="CorpActionshareHistory" dt="Float" isScreen="false">
+      <in:sp k="id">UNC</in:sp>
+      <in:sp k="field">UNC</in:sp>
+      <in:sp k="SHARETYPEFIELD">Unclassified</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_TSR_H_IssueSharesOutstanding" n="TR.IssueSharesOutstanding" l="Issue Default Shares Outstanding" d="The default type Issue Shares Outstanding represents issue level default type outstanding shares. The default shares type is the most widely reported outstanding shares for a market and it’s most commonly Issued, Outstanding, or Listed shares." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISEMARKETCAP" ss="VECTORWISE" vu="U" pc="UnityTimeSeriesNC" cc="CCUHSRNoCur" dt="Float" isScreen="false" isAggs="false" alias="shares, shares outstanding, TSO" lid="RCA.S.Outstanding">
+      <in:sp k="fn">issueshareshandler</in:sp>
+      <in:sp k="id">shares</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_NV" n="Nominal Value" d="Nominal Value.">
+    <i id="I_CorpAction_NV_NomVal" n="TR.NomVal" l="Nominal Value" d="Par Value or Face Value." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NOMINALVALUE" vu="N" pc="CorpActionNVhist" cc="CorpActionnomValue" dt="Float" isScreen="false" lid="RCA.NV.NomVal">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="id">NominalValueStandard</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_NV_IsNoParValue" n="TR.NomValIsNoParValue" l="Is No Par Value" d="True/False Flag indicating if the company has a par value applicable." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NOMINALVALUE" vu="N" pc="CorpActionNVhist" cc="CorpActionnomValue" vc="IsNoParValue" dt="String" isScreen="false" enableHeatMap="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="id">IsNoParValue</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_NV_NomValCurr" n="TR.NomValCurr" l="Nominal Value Currency" d="The Currency the Par Value is denominated in." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NOMINALVALUE" vu="N" pc="CorpActionNVhist" cc="CorpActionnomValue" vc="currency" dt="Currency" isScreen="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="id">NominalValueCurrency</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_NV_NomValDate" n="TR.NomValDate" l="Nominal Value date" d="The date of the record." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="NOMINALVALUE" vu="N" pc="CorpActionNVhist" cc="CorpActionnomValue" vc="date" dt="Date" isScreen="false" lid="RCA.NV.NomVal">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="id">NominalValueCurrency</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_AD" n="Annualised Dividends" d="Annualised Dividends.">
+    <i id="I_CorpAction_AD_DivCurr" n="TR.AnnDivDivCurr" l="Dividend Currency" d="The currency the dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false" lid="RCA.AD.DivCurr">
+      <in:sp k="id">RCA_AD_DivCurr</in:sp>
+      <in:sp k="field">Content</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_PrimaryAnnMethod" n="TR.AnnDivPrimaryAnnMethod" l="Market Default Methodology" d="The Calculation Methodology that is most relevant to the company/country in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false" lid="RCA.AD.PrimaryAnnMethod">
+      <in:sp k="id">PrimaryAnnMethod</in:sp>
+      <in:sp k="field">AnnualisationMethodPrimaryMarketDefault</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_PrimaryAnnTaxStatus" n="TR.AnnDivPrimaryAnnTaxStatus" l="Market Default Tax Status" d="The Taxation Status that is most relevant to the company/country in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+      <in:sp k="id">PrimaryAnnTaxStatus</in:sp>
+      <in:sp k="field">TaxStatusPrimaryMarketDefault</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_Method" n="TR.AnnDivMethod" l="Calculation Methodology" d="Annualised Dividend methodology, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" vc="annualisationmethod" dt="String" isScreen="false" enableHeatMap="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_Date" n="TR.AnnDivDate" l="Annualised Dividend Date" d="Annualised Dividend Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" vc="date" dt="Date" isScreen="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_currency" n="TR.AnnDivCurrency" l="Annualised Dividend Currency" d="Annualised Dividend Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" vc="currency" dt="Currency" isScreen="false" lid="RCA.AD.DivCurr">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_UnadjustedGross" n="TR.AnnDivUnadjustedGross" l="Annualised Gross Dividend" d="Annualised Gross Dividend unadjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" dt="Float" isScreen="false" lid="RCA.AD.UnadjustedGross">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="id">UnadjustedGross</in:sp>
+      <in:sp k="field">UnadjustedGross</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_UnadjustedNet" n="TR.AnnDivUnadjustedNet" l="Annualised Net Dividend" d="Annualised Net Dividend unadjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" dt="Float" isScreen="false" lid="RCA.AD.UnadjustedNet">
+      <in:sp k="id">UnadjustedNet</in:sp>
+      <in:sp k="field">UnadjustedNet</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_AdjustedGross" n="TR.AnnDivAdjustedGross" l="Annualised Adjusted Gross Dividend" d="Annualised Gross Dividend adjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" dt="Float" isScreen="false" lid="RCA.AD.AdjustedGross">
+      <in:sp k="id">AdjustedGross</in:sp>
+      <in:sp k="field">AdjustedGross</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AD_AdjustedNet" n="TR.AnnDivAdjustedNet" l="Annualised Adjusted Net Dividend" d="Annualised Net Dividend adjusted for corporate actions, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual Dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANDIVIDENDS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionannualisedMethod" dt="Float" isScreen="false" lid="RCA.AD.AdjustedNet">
+      <in:sp k="id">AdjustedNet</in:sp>
+      <in:sp k="field">AdjustedNet</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_DH" n="Dividend History" d="Dividend History.">
+    <i id="I_CorpAction_DH_DivpaymentDate" n="TR.DivPaymentType" l="Dividend Payment Type" d="Dividend Payment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendPaymentType</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+      <!--in:sp k="idt">INSTRUMENTID</in:sp-->
+    </i>
+    <i id="I_CorpAction_DH_DivType" n="TR.DivType" l="Dividend Type" d="The dividend type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMarkerType</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivDate" n="TR.DivDate" l="Date" d="The dividend date as defined by the Date Type parameter." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptCashPayDate</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivOrigCurr" n="TR.DivOriginalCurr" l="Original Dividend Currency" d="The original dividend currency as provided by the the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Currency" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOriginalCurrency</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_EventStatus" n="TR.DivEventStatus" l="Dividend Event Status" d="The Status of Dividend as an Event, for example, has it been Approved or simply Proposed." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.EventStatus" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCAEventStatus</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_PeriodLength" n="TR.DivPeriodLength" l="Period Length" d="The duration of the financial period stated in terms days, weeks, months or years as declared in the Period Length Indicator field." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.PeriodLength" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">LONG</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendDivPeriodLength</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_PeriodLengthIndicator" n="TR.DivPeriodLengthIndicator" l="Period Length Indicator" d="The length of Period type, D - Days, W - Weeks, M - Months, Y - Years." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.PeriodLengthIndicator" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendPeriodLengthLengthIndicator</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_PeriodType" n="TR.DivPeriodType" l="Dividend Period Type" d="This field indicates the type of fiscal period to which the dividend relates." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="DIVIDENDHISTORY" vu="N" pc="CorpActionDiv" cc="CorpActionDivNoCurr" dt="String" isScreen="false" isGrid="false">
+      <in:sp k="id">PeriodType</in:sp>
+      <in:sp k="field">FiscalPeriod</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+      <in:sp k="P_EL">FiscalPeriod</in:sp>
+      <in:sp k="M_EL">PeriodType</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AccountingYear" n="TR.DivAccountingYear" l="Accounting Year" d="The accounting year to which the dividend payment is attributed." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="DIVIDENDHISTORY" vu="N" pc="CorpActionDiv" cc="CorpActionDivNoCurr" dt="String" isScreen="false" isGrid="false">
+      <in:sp k="id">AccountingYear</in:sp>
+      <in:sp k="field">FiscalPeriod</in:sp>
+      <in:sp k="type">LONG</in:sp>
+      <in:sp k="isSpec">FALSE</in:sp>
+      <in:sp k="P_EL">FiscalPeriod</in:sp>
+      <in:sp k="M_EL">AccountingYear</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_PeriodEndDate" n="TR.DivPeriodEndDate" l="Dividend Period End Date" d="End date of the earnings period to which dividend belongs." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendDivPeriodEnd</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_IsRescinded" n="TR.DivIsRescinded" l="Dividend Is Rescinded" d="Y/N flag showing whether the dividend payment has been rescinded or not." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="DIVIDENDHISTORY" vu="N" pc="CorpActionDiv" cc="CorpActionDivNoCurr" dt="String" isScreen="false" isGrid="false">
+      <in:sp k="id">IsRescinded</in:sp>
+      <in:sp k="field">RescindedDividend</in:sp>
+      <in:sp k="type">BOOL</in:sp>
+      <in:sp k="isSpec">TRUE</in:sp>
+      <in:sp k="P_EL">RescindedDividend</in:sp>
+      <in:sp k="M_EL">IsRescinded</in:sp>
+      <in:sp k="isSpecField">IsRescindedSpecified</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_RescindedDate" n="TR.DivRescindedDate" l="Dividend Rescinded Date" d="The date the company announced that the dividend payment was to be rescinded." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" lid="RCA.DH.RescindedDate" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCARescindedDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AnnouncementDate" n="TR.DivAnnouncementDate" l="Dividend Announcement Date" d="Date on which the dividend payment was announced and should not be null for manually maintained markets. The original announcement date remains unchanged even if the capital change record is updated with new information." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCAAnnounceDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_RecordDate" n="TR.DivRecordDate" l="Dividend Record Date" d="Date on which the company reviews the share register to determine who is entitled to receive the dividend payment. This field should normally be left null for bearer issues. Markets usually have specific rules regarding the number of days between the record date and the ex date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" lid="RCA.DH.RecordDate" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCARecordDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_PayDate" n="TR.DivPayDate" l="Dividend Pay Date" d="The date when the dividend is payable to the shareholder. It is set and announced by the company. For a stock dividend the distribution date is entered. Note that dates are sometimes dummy dates in that approximations have been made." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" lid="RCA.DH.PayDate" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DivPayDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_ExDate" n="TR.DivExDate" l="Dividend Ex Date" d="The first day on which the share trades on the quoted exchange without entitlement to participate in the dividend payment event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.ExDate">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCAExDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DividendFeature" n="TR.DividendFeature" l="Dividend Feature" d="Additional features of the dividend payment." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.DividendFeature" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendDivFeatures</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DividendFrequency" n="TR.DividendFrequency" l="Dividend Frequency" d="The dividend payment pattern, this may be Annual, Semi-Annual, Thrice yearly, Quarterly, Monthly, Weekly or have no set frequency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.DividendFrequency" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendPayFrequency</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_SourceOfFunds" n="TR.DivSourceOfFunds" l="Source Of Funds" d="The underlying source of the dividend, this may be via retained earnings or." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.SourceOfFunds" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendSourceOfFunds</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_BookClosureStartDate" n="TR.DivBookClosureStartDate" l="Dividend Book Closure Start Date" d="Dividend Book Closure Start date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCABookClosureStartDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_BookClosureEndDate" n="TR.DivBookClosureEndDate" l="Dividend Book Closure End Date" d="Dividend Book Closure End date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCABookClosureEndDate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_MandatoryVoluntaryIndicator" n="TR.DivMandatoryVoluntaryIndicator" l="Dividend Mandatory/Voluntary Indicator" d="Indicating whether participation in the dividend event is mandatory or voluntary and if instructions are required from the shareholder." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.MandatoryVoluntaryIndicator" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMandVolInd</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_TaxStatus" n="TR.DivTaxStatus" l="Tax Status" d="Indicates whether the dividend is paid net, gross or free of taxation." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.TaxStatus" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendTaxStatus</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_TaxTreatment" n="TR.DivTaxTreatment" l="Tax Treatment" d="Dividend Tax rules applicable to the domestic market." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.TaxTreatment" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendTaxType</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_TaxRate" n="TR.DivTaxRate" l="Tax Rate" d="Percentage amount of tax applied to the dividend in the domestic market." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Float" lid="RCA.DH.TaxRate" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendTaxRate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_ForeignInvestorTaxRate" n="TR.DivForeignInvestorTaxRate" l="Foreign Investor Tax Rate" d="Tax rate applicable to non nationals." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Float" lid="RCA.DH.ForeignInvestorTaxRate" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendForeignTaxRate</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivMktExDate" n="TR.DivMktExDate" l="Dividend Market Ex Date" d="Market Ex date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.ExDate">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMktExDate</in:sp>
+      <in:sp k="table">DividendMarketKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivMktTaxRate" n="TR.DivMktTaxRate" l="Dividend Market Tax Rate" d="Market Tax rate" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Percentage" isScreen="false" isGrid="true" lid="RCA.DH.TaxRate">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMktWithholdTaxRate</in:sp>
+      <in:sp k="table">DividendMarketKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivMktTaxType" n="TR.DivMktTaxType" l="Dividend Market Tax Type" d="Market Tax type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMktTaxType</in:sp>
+      <in:sp k="table">DividendMarketKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_FrankedPercent" n="TR.DivFrankedPercent" l="Franked Percent" d="The percentage franked showing the percentage of tax deducted from a company dividend." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Percentage" lid="RCA.DH.FrankedPercent" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendFrankedPercent</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_QDIPercent" n="TR.DivQDIPercent" l="QDI Percent" d="Indicates the percentage of dividend that is Qualified Dividend Income, and thus qualified for a tax rate." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Percentage" lid="RCA.DH.QDIPercent" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendDivQdiPct</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_QDIEligibility" n="TR.DivQDIEligibility" l="QDI Eligibility" d="Indicates whether, and to what extent, a dividend is eligible for Qualified Dividend Income." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.QDIEligibility" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendDivQdiElligibility</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_IsReinvestmentAvailable" n="TR.DivIsReinvestmentAvailable" l="Is Reinvestment Available" d="Y/N indicator detailing whether the company has a Dividend Reinvestment Plan." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Boolean" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DivIsReinvestmentAvailable</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_ReinvestmentPrice" n="TR.DivReinvestmentPrice" l="Reinvestment Price" d="The Reinvestment Plan Price." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" ss="VECTORWISE" vu="N" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" lid="RCA.DH.ReinvestmentPrice" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptReinvestmentPrice</in:sp>
+      <in:sp k="table">DividendSecurityMoveKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivCharge" n="TR.DivCharge" l="Dividend Fee" d="Dividend fee amount" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">CoraxDivCharge</in:sp>
+      <in:sp k="table">DividendOptionCashMoveKey|DividendSecurityMoveKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivChargeCurr" n="TR.DivChargeCurr" l="Dividend Fee Currency" d="Dividend fee amount Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Currency" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptSecuChargeCurrencyId</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivAdditionalSec" n="TR.DivAdditionalSec" l="Dividend Additional Security" d="Additional Securities paid" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Float" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptNumAdditionalSec</in:sp>
+      <in:sp k="table">DividendSecurityMoveKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivExistingSec" n="TR.DivExistingSec" l="Dividend Existing Security" d="Existing Securities" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Float" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptNumExistingSec</in:sp>
+      <in:sp k="table">DividendSecurityMoveKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_ReinvestmentDeadline" n="TR.DivReinvestmentDeadline" l="Reinvestment Deadline" d="The Reinvestment Plan Deadline." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" lid="RCA.DH.ReinvestmentDeadline" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">DATE</out:p>
+      <out:p id="xtra_dt">TRUE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendOptMarketDate</in:sp>
+      <in:sp k="table">DividendOptionKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_Notes" n="TR.DivNotes" l="Notes" d="Additional dividend payment details that are not included in other data fields." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" lid="RCA.DH.Notes" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCAAdditionalText</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_DivCurr" n="TR.DivCurr" l="Dividend Currency" d="The dividend currency as defined by the currency parameter." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Currency" lid="RCA.AD.DivCurr" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">STRING</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendCurrency</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_UnadjustedGross" n="TR.DivUnadjustedGross" l="Gross Dividend Amount" d="Gross Dividend unadjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" lid="RCA.DH.UnadjustedGross" isScreen="false" isGrid="true" enableHeatMap="false">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendGrossAmount</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_UnadjustedNet" n="TR.DivUnadjustedNet" l="Net Dividend Amount" d="Net Dividend unadjusted for corporate actions" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" isScreen="false" isGrid="true" lid="RCA.AD.UnadjustedNet">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendNettAmount</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AdjustedGross" n="TR.DivAdjustedGross" l="Adjusted Gross Dividend Amount" d="Gross Dividend adjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" lid="RCA.DH.AdjustedGross" isScreen="false" isGrid="true">
+      <out:p id="xtra_dr">FLOAT</out:p>
+      <out:p id="xtra_dt">FALSE</out:p>
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendAdjustedGrossAmount</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AdjustedNet" n="TR.DivAdjustedNet" l="Adjusted Net Dividend Amount" d="Net Dividend adjusted for corporate actions." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividend" cc="CoraxDividendCurr" dt="Money" lid="RCA.DH.AdjustedNet" ss="VECTORWISE" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendAdjustedNettAmount</in:sp>
+      <in:sp k="table">DividendEventKey</in:sp>
+      <in:sp k="idt">INSTRUMENTID</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AdjustmentFactor" n="TR.DivAdjustmentFactor" l="Dividend Market Adjustment factor" d="Dividend Adjustment Factor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Percentage" isScreen="false" isGrid="true" lid="RCA.CC.AdjustmentFactor">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorAdjustmentFactor</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_AdjustmentType" n="TR.DivAdjustmentType" l="Dividend Market Adjustment factor type" d="Dividend Adjustment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorAdjustmentType</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_DH_MktRecordDate" n="TR.DivMktRecordDate" l="Dividend Market Record Date" d="Market Record date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxDividendNoCurr" cc="CoraxDividendCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.RecordDate">
+      <in:sp k="fn">CoraxDividendContentHandler</in:sp>
+      <in:sp k="id">DividendMktRecordDate</in:sp>
+      <in:sp k="table">DividendMarketKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_AE" n="Annualised Earnings" d="Annualised Earnings.">
+    <i id="I_CorpAction_AE_EPSCurr" n="TR.AnnEPSCurr" l="EPS Currency" d="The Original Currency of the EPS record." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false" lid="RCA.AE.EPSCurr">
+      <in:sp k="id">EPSCurr</in:sp>
+      <in:sp k="field">Adjusted,Unadjusted</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_PrimaryAnnMethod" n="TR.AnnPrimaryAnnMethod" l="Market Default Methodology" d="The Calculation Methodology that is most relevant to the company/country in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false" lid="RCA.AD.PrimaryAnnMethod">
+      <in:sp k="id">AnnualisationMethodPrimaryMarketDefault</in:sp>
+      <in:sp k="field">AnnualisationMethodPrimaryMarketDefault</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_Method" n="TR.AnnEPSMethod" l="Calculation Methodology" d="Annualised EPS methodology, available in three methodologies, Trailing Twelve Months, Latest Financial Year &amp; Indicated Annual EPS." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionAnnualisedMethodEarn" vc="annualisationmethod" dt="String" isScreen="false" enableHeatMap="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_Date" n="TR.AnnEPSDate" l="EPS Date" d="Annualised EPS Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionAnnualisedMethodEarn" vc="date" dt="Date" isScreen="false">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_currency" n="TR.AnnEPSCurrency" l="EPS Currency" d="Annualised EPS Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionAnnualisedMethodEarn" vc="currency" dt="Currency" isScreen="false" lid="RCA.AE.EPSCurr">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_taxStatus" n="TR.AnnEPSTaxStatus" l="EPS Tax Status" d="Annualised EPS Tax Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionannualised" cc="CorpActionAnnualisedMethodEarn" vc="taxstatus" dt="String" isScreen="false" enableHeatMap="false" lid="RCA.DH.TaxStatus">
+      <out:p id="xtra_dw">15</out:p>
+      <out:p id="xtra_dt">5</out:p>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_UnadjustedEPS" n="TR.AnnUnadjustedEPS" l="Unadjusted EPS, TTM" d="EPS unadjusted for corporate actions on a Trailing Twelve Months basis." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionAnnualisedEarn" cc="CorpActionAnnualisedMethodEarn" dt="Money" isScreen="false" enableHeatMap="false">
+      <in:sp k="id">Unadjusted</in:sp>
+      <in:sp k="field">Unadjusted</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AE_AdjustedEPS" n="TR.AnnAdjustedEPS" l="Adjusted EPS, TTM" d="EPS adjusted for corporate actions on a Trailing Twelve Months basis." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="ANNUALISEDEARNINGS" vu="N" vp="4" pc="CorpActionAnnualisedEarn" cc="CorpActionAnnualisedMethodEarn" dt="Money" isScreen="false" enableHeatMap="false">
+      <in:sp k="id">Adjusted</in:sp>
+      <in:sp k="field">Adjusted</in:sp>
+      <in:sp k="fpc">TRUE</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_CC" n="Capital Changes" d="Capital Changes.">
+    <i id="I_CorpAction_CC_CorpActDesc" n="TR.CACorpActDesc" l="Corporate Action Description" d="The full description of the Capital Change." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.CC.CorpActDesc" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCACorpActDesc</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_AnnouncementDate" n="TR.CAAnnouncementDate" l="Capital Change Announcement Date" d="Date on which the capital change is originally announced to the public by the company." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.AnnouncementDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureAnnounceDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RecordDate" n="TR.CARecordDate" l="Capital Change Record Date" d="The official last date of reviewing the register of the share ownership in order to be eligible for the event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.RecordDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureRecordDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_EffectiveDate" n="TR.CAEffectiveDate" l="Capital Change Effective Date" d="The effective date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.EffectiveDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureEffectiveDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_DealDate" n="TR.CADealDate" l="Capital Change Deal Date" d="Date on which the first securities arising from the capital change are admitted to dealing/trading on the home stock exchange. This field may contain NULL " i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.DealDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureDealingDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_ExDate" n="TR.CAExDate" l="Capital Change Ex Date" d="Date by which shareholders must notify the company of their wish to participate in the capital change event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.ExDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CAExDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MandatoryVoluntaryIndicator" n="TR.CAMandatoryVoluntaryIndicator" l="Capital Change Mandatory Voluntary Indicator" d="Indicator of how a corporate actions event is qualified. Values are Mandatory and no instruction is required from shareholder/account holder. Choice where the " i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.DH.MandatoryVoluntaryIndicator" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMandVolInd</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsSchemeOfArrangement" n="TR.CAIsSchemeOfArrangement" l="Is Scheme Of Arrangement" d="A True/False flag indicating whether the event is part of Scheme of Arrangement." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsSchemeOfArrangement" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureIsSchemeOfArrangement</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_AdjustmentFactor" n="TR.CAAdjustmentFactor" l="Adjustment Factor" d="This is the multiplication factor expressing the effect of the capital change event on historical per share values." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" lid="RCA.CC.AdjustmentFactor" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureAdjustmentFactor</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_AdjustmentType" n="TR.CAAdjustmentType" l="Adjustment Type" d="The Adjustment Type." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.CC.AdjustmentType" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureAdjustmentType</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_TermsOldShares" n="TR.CATermsOldShares" l="Terms Old Shares" d="Number of Old shares defined under the terms of the capital change. For example, in a 2-for-1 split, Terms Old Shares is 1. To be meaningful, Terms Old Shares " i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" lid="RCA.CC.TermsOldShares" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCATermsOldShares</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_TermsNewShares" n="TR.CATermsNewShares" l="Terms New Shares" d="Number of new shares defined under the terms of the capital change; for example, in a 2-for-1 split, Terms New Shares is 2." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" lid="RCA.CC.TermsNewShares" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCATermsNewShares</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SubscriptionEndDate" n="TR.CASubscriptionEndDate" l="Subscription End Date" d="This is the last date that an investor can subscribe to the Rights Issue." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.SubscriptionEndDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptPeriodActionEndDate</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_NewIssue" n="TR.CANewIssue" l="New Issue" d="This is the Issue that the new shares will be issued in when the Right is exercised if different to the existing issue." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.CC.NewIssue" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureResultantInstrumentId</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OfferAmount" n="TR.CAOfferAmount" l="Offer Amount" d="This is the amount of money involved in a capital increase event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Float" isScreen="false" isGrid="false">
+      <in:sp k="id">Offer Amount</in:sp>
+      <in:sp k="field">OfferAmount</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="imt">Consolidated</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OfferAmountCurrency" n="TR.CAOfferAmountCurrency" l="Offer Amount Currency" d="The Offer Amount currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Currency" isScreen="false" isGrid="false">
+      <in:sp k="id">Offer Amount Currency</in:sp>
+      <in:sp k="field">OfferAmount</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="imt">Consolidated</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsRescinded" n="TR.CAIsRescinded" l="Capital Change Is Rescinded" d="This indicates whether the Capital Change has been rescinded." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsRescinded" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCAIsRescinded</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RescindedDate" n="TR.CARescindedDate" l="Capital Change Rescinded Date" d="The date on which the rescindment was announced." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.RescindedDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureRescindedDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsRenounceable" n="TR.CAIsRenounceable" l="Is Renounceable" d="True/False flag indicating whether the rights for this capital change event are transferable (that is, can be sold to another investor)." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.CC.IsRenounceable" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureEntitlementRenStatus</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsStockDifferent" n="TR.CAIsStockDifferent" l="Is Stock Different" d="True/False flag indicating whether the resulting stock of the capital change event is different from the underlying stock or not." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsStockDifferent" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptIsDifferentStock</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_TotalNewShares" n="TR.CATotalNewShares" l="Total New Shares" d="For issuing rights this is the total number of new shares to be issued over which the Rights exist. For placing/offer This is the total number of new shares " i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" lid="RCA.CC.TotalNewShares" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureTotalNewShares</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SubscriptionStartDate" n="TR.CASubscriptionStartDate" l="Subscription Start Date" d="This is the date from which an investor can subscribe to an issue/offer. It is applicable to certain events such as Rights issues and Scrip issues." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.SubscriptionStartDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptPeriodActionStartDate</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_NewToRights" n="TR.CANewToRights" l="New To Rights" d="New To Rights" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptNumNewToRights</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_Rights" n="TR.CARights" l="Rights" d="Rights" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" isScreen="false" isGrid="true" lid="RCA.CC.RightsPerInst">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptNumRights</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RightsTradingStartDate" n="TR.CARightsTradingStartDate" l="Rights Trading Start Date" d="This is the date from which the rights to the capital change event start trading. The rights are separately traded securities during a given limited period." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.RightsTradingStartDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureIntermedSecRightsTradStartDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RightsTradingEndDate" n="TR.CARightsTradingEndDate" l="Rights Trading End Date" d="This is the date on which the rights to the capital change event cease trading. It should go hand in hand with a rights trading start date." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" lid="RCA.CC.RightsTradingEndDate" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureIntermedSecRightsTradEndDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RightsExpireDate" n="TR.CARightsExpireDate" l="Rights Expire Date" d="Rights Expire Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCARestructureIntermedSecRightsTradEndDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OfferPrice" n="TR.CAOfferPrice" l="Offer Price" d="Subscription price per security being issued or repurchased for a cash consideration. This field also includes the Offer Price of an Exchange offer. To be meaningful, Offer Price must be viewed alongside Offer Price Currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChange" cc="CoraxCapitalChangeCurr" dt="Money" lid="RCA.CC.OfferPrice" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptOfferPrice</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OfferPriceCurrency" n="TR.CAOfferPriceCurrency" l="Offer Price Currency" d="The Offer Price Currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Currency" lid="RCA.CC.OfferPriceCurrency" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptOfferPricecurrencyId</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OfferPricePercentage" n="TR.CAOfferPricePercentage" l="Offer Price Percentage" d="The amount of money involved in a capital increase event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Percentage" isScreen="false" isGrid="false">
+      <in:sp k="id">Offer Price Percentage</in:sp>
+      <in:sp k="field">OfferPricePercentage</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="isSpec">TRUE</in:sp>
+      <in:sp k="isSpecField">OfferPricePercentageSpecified</in:sp>
+      <in:sp k="imt">CapitalIncrease</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsOptional" n="TR.CAIsOptional" l="Is Optional" d="This identifies whether the Buy Back is optional which applies to some markets." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="String" isScreen="false" isGrid="false">
+      <in:sp k="id">Is Optional</in:sp>
+      <in:sp k="field">IsOptional</in:sp>
+      <in:sp k="type">BOOL</in:sp>
+      <in:sp k="isSpec">TRUE</in:sp>
+      <in:sp k="isSpecField">IsOptionalSpecified</in:sp>
+      <in:sp k="imt">CapitalReturn:CapitalRestructure</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_PaymentAmount" n="TR.CAPaymentAmount" l="Payment Amount" d="This is the amount per share received by the shareholder." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChange" cc="CoraxCapitalChangeCurr" dt="Money" lid="RCA.CC.PaymentAmount" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCAPaymentAmount</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_PaymentAmountCurrency" n="TR.CAPaymentAmountCurrency" l="Payment Amount Currency" d="The Payment Amount Currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Currency" lid="RCA.CC.PaymentAmountCurrency" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptCashConsiderationcurrencyId</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_PaymentAmountPercentage" n="TR.CAPaymentAmountPercentage" l="Payment Amount Percentage" d="Whether the Capital Return is paid as a percentage of the Nominal Value." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Percentage" isScreen="false" isGrid="false">
+      <in:sp k="id">Payment Amount Percentage</in:sp>
+      <in:sp k="field">PaymentAmountPercentage</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="isSpec">TRUE</in:sp>
+      <in:sp k="isSpecField">PaymentAmountPercentageSpecified</in:sp>
+      <in:sp k="imt">CapitalReturn</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SharesSoughtPercentage" n="TR.CASharesSoughtPercentage" l="Shares Sought Percentage" d="The attribute contains the amount of shares the acquiring company intends to seek from the target company as part of the deal term." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Percentage" isScreen="false" isGrid="false">
+      <in:sp k="id">Shares Sought Percentage</in:sp>
+      <in:sp k="field">SharesSoughtPercentage</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="isSpec">TRUE</in:sp>
+      <in:sp k="isSpecField">SharesSoughtPercentageSpecified</in:sp>
+      <in:sp k="imt">CapitalReturn</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_ExchangeOfferType" n="TR.CAExchangeOfferType" l="Exchange Offer Type" d="The field indicates whether the offer type is cash only, securities only, cash and securities and cash or securities." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" lid="RCA.CC.ExchangeOfferType" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptType</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_ExchangeOfferPrice" n="TR.CAExchangeOfferPrice" l="Exchange Offer Price" d="This is the price the issuer offers to the investor for the equity share exchange offer." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChange" cc="CoraxCapitalChangeCurr" dt="Money" lid="RCA.CC.ExchangeOfferPrice" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCAExchangeOfferPrice</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_ExchangeOfferPriceCurrency" n="TR.CAExchangeOfferPriceCurrency" l="Exchange Offer Price Currency" d="The Exchange offer price currency." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Currency" lid="RCA.CC.ExchangeOfferPriceCurrency" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCARestructureOptCashConsiderationcurrencyId</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_Size" n="TR.CASize" l="Size" d="Indicates Odd lot offer size." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Integer" lid="RCA.CC.Size" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOddLotSize</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsAcquiringAvailable" n="TR.CAIsAcquiringAvailable" l="Is Acquiring Available" d="Flag to indicate whether shareholder can acquire additional shares to make Odd Lot a round lot." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsAcquiringAvailable" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CAOptTypeAcquirer</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SharesToAcquire" n="TR.CASharesToAcquire" l="Shares To Acquire" d="Number of shares that the shareholder can acquire." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Integer" lid="RCA.CC.SharesToAcquire" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptOddSharesAcq</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsSellingAvailable" n="TR.CAIsSellingAvailable" l="Is Selling Available" d="Flag to indicate whether shareholder can sell shares to make Odd Lot a round lot." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsSellingAvailable" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CAOptTypeSelling</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SharesToSell" n="TR.CASharesToSell" l="Shares To Sell" d="Number of shares that the share holder can sell to make an odd lot to round lot." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Integer" lid="RCA.CC.SharesToSell" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptOddSharesSold</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_IsRetainingAvailable" n="TR.CAIsRetainingAvailable" l="Is Retaining Available" d="Flag to indicate whether shareholder can retain the Odd Lot shares." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Boolean" lid="RCA.CC.IsRetainingAvailable" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CAIsRetainingAvailable</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SharesToRetain" n="TR.CASharesToRetain" l="Shares To Retain" d="Number of shares that the share holder can retain." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Integer" lid="RCA.CC.SharesToRetain" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptOddSharesRetained</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_NumberOfShares" n="TR.CANumberOfShares" l="Total Shares in Issue" d="This field represents the Total Shares in Issue as a result of the capital change in question." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchange" dt="Float" isScreen="false" isGrid="false">
+      <in:sp k="id">NumberOfShares</in:sp>
+      <in:sp k="field">NumberOfShares</in:sp>
+      <in:sp k="type">LONG</in:sp>
+      <in:sp k="imt">CapitalChangeDetails</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RightsPerInst" n="TR.CARightsPerInst" l="Rights Per Instrument" d="The number of rights that each old instrument receives from a proposed issue of securities." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" lid="RCA.CC.RightsPerInst" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureIntermedSecNumIntermedSec</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_CorpActDate" n="TR.CACorpActDate" l="Date" d="The Capital Change Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.RescindedDate">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureExDate</in:sp>
+      <in:sp k="table">query</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_BookClosureStartDate" n="TR.CABookClosureStartDate" l="Capital Change Book Closure Start Date" d="Capital Change Book Closure Start Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureBookClosureStartDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_BookClosureEndDate" n="TR.CABookClosureEndDate" l="Capital Change Book Closure End Date" d="Capital Change Book Closure End Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureBookClosureEndDate</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_CorpActEventType" n="TR.CACorpActEventType" l="Corporate Change Event Type" d="The Capital Change Event Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureEventType</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_EventStatus" n="TR.CAEventStatus" l="Capital Change Event Status" d="Capital Change Event Status" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true" lid="RCA.DH.EventStatus">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureEventStatus</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_CorpActCurrency" n="TR.CACorpActCurrency" l="Corporate Action Currency" d="The Capital Change Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Currency" isScreen="false" isGrid="true" lid="RCA.CC.CorpActDesc">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CoraxCACorpActCurrency</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_NewShareNomValue" n="TR.CANewShareNomValue" l="New Share Nominal Value" d="The nominal (par) value of the new shares resulting from the capital change." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchangeCurr" dt="Float" isScreen="false" isGrid="false">
+      <in:sp k="id">NewShareNomValue</in:sp>
+      <in:sp k="field">NominalValue</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="imt">CapitalChangeDetails</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_OldShareNomValue" n="TR.CAOldShareNomValue" l="Old Share Nominal Value" d="The nominal (par) value of shares prior to the application of this capital change event." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="CAPITALCHANGES" vu="N" pc="CorpActionCapchnge" cc="CorpActionCapchangeCurr" dt="Float" isScreen="false" isGrid="false">
+      <in:sp k="id">OldShareNomValue</in:sp>
+      <in:sp k="field">NominalValue</in:sp>
+      <in:sp k="type">FLOAT</in:sp>
+      <in:sp k="imt">CapitalChangeDetails</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_Underlying" n="TR.CAUnderlying" l="Underlying" d="Underlying" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Float" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureIntermedSecNumUndSec</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_SharesTakenUp" n="TR.CASharesTakenUp" l="Shares Taken Up" d="Shares Taken Up" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureOptSharesTakenUp</in:sp>
+      <in:sp k="table">RestructureOptionsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketRecordDate" n="TR.CAMarketRecordDate" l="Capital Change Market Record Date" d="Capital Change Market Record Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.RecordDate">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktRecordDate</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketExDateDate" n="TR.CAMarketExDateDate" l="Capital Change Market Ex Date" d="Capital Change Market Ex Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Date" isScreen="false" isGrid="true" lid="RCA.DH.ExDate">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktExDate</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketOfferPrice" n="TR.CAMarketOfferPrice" l="Capital Change Market Offer Price" d="Capital Change Market Offer Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChange" cc="CoraxCapitalChangeCurr" dt="Float" isScreen="false" isGrid="true" lid="RCA.CC.ExchangeOfferPrice">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktOfferPrice</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketOfferPriceCurrency" n="TR.CAMarketOfferPriceCurrency" l="Capital Change Market Offer Price Currency" d="Capital Change Market Offer Price Currency" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="Currency" isScreen="false" isGrid="true" lid="RCA.CC.ExchangeOfferPriceCurrency">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktOfferPricecurrencyId</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketAdjustmentFactor" n="TR.CAMarketAdjustmentFactor" l="Capital Change Market Adjustment Factor" d="Capital Change Adjustment Factor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true" lid="RCA.CC.AdjustmentFactor">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktAdjustmentFactor</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_MarketAdjustmentType" n="TR.CAMarketAdjustmentType" l="Capital Change Market Adjustment Type" d="Capital Change Adjustment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true" lid="RCA.CC.AdjustmentType">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureMktAdjustmentType</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_TheoriticalExPrice" n="TR.CATheoriticalExPrice" l="Capital Change Theoritical Ex Price" d="Capital Change Theoritical Ex Price" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChange" cc="CoraxCapitalChangeCurr" dt="Money" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">CARestructureTheoreticalMktExPrice</in:sp>
+      <in:sp k="table">RestructureMarketDetailsKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_CC_RightsInstrumentId" n="TR.CARightsInstrumentId" l="Capital Change Rights Instrument Id" d="Capital Change Rights Instrument Id" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxCapitalChangeNoCurr" cc="CoraxCapitalChangeCurr" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxCapitalChangesContentHandler</in:sp>
+      <in:sp k="id">carestructureintermedinstrumentid</in:sp>
+      <in:sp k="table">RestructureEventKey</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_VR" n="Voting Right" d="Voting Right.">
+    <i id="I_CorpAction_VR_ChangeDate" n="TR.CAChangeDate" l="Voting Rights Change Date" d="Date when voting rights per share has changed." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VOTINGRIGHTS" vu="N" pc="CorpActionCMOpc" cc="CorpActionricPeriodValue" vc="date" dt="Date" isScreen="false">
+      <in:sp k="field">ChangeDate</in:sp>
+      <in:sp k="type">DATE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_VR_VotingRightsPerShare" n="TR.CAVotingRightsPerShare" l="Voting Rights Per Share" d="The number of voting rights per share." i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VOTINGRIGHTS" vu="N" pc="CorpActionCMOpc" cc="CorpActionricPeriodValue" dt="String" isScreen="false" enableHeatMap="false">
+      <in:sp k="field">VotingRightsPerShare</in:sp>
+      <in:sp k="type">STRING</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+  </c>
+  <c id="C_CorpAction_AF" n="Adjustment Factor" d="Adjustment Factor">
+    <i id="I_CorpAction_AF_AdjmtFactorAdjustmentDate" n="TR.AdjmtFactorAdjustmentDate" l="Corporate Action Adjustment Factor Date" d="Corporate Action Adjustment Factor Date" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="Date" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorAdjustmentDate</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="type">DATE</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AF_AdjmtFactorAdjustmentFactor" n="TR.AdjmtFactorAdjustmentFactor" l="Corporate Action Adjustment factor" d="Corporate Action Adjustment factor" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="Percentage" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorAdjustmentFactor</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AF_AdjmtFactorAdjustmentType" n="TR.AdjmtFactorAdjustmentType" l="Corporate Action Adjustment Type" d="Corporate Action Adjustment Type" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorAdjustmentType</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AF_AdjmtFactorIsApplied" n="TR.AdjmtFactorIsApplied" l="Corporate Action Adjustment Factor Applied" d="Corporate Action Adjustment Factor Applied" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="Boolean" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorIsApplied</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AF_AdjmtFactorUnderlyingEventId" n="TR.AdjmtFactorUnderlyingEventId" l="Corporate Action Adjustment Factor Underlying Id" d="Corporate Action Adjustment Factor Underlying Id" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorUnderlyingEventId</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+    </i>
+    <i id="I_CorpAction_AF_AdjmtFactorInternalId" n="TR.AdjmtFactorInternalId" l="Corporate Action Adjustment Factor Internal Id" d="Corporate Action Adjustment Factor Internal Id" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorInternalId</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+      <out:p id="hidden" />
+    </i>
+    <i id="I_CorpAction_AF_QuoteId" n="TR.AdjmtFactorQuoteId" l="Corporate Action Adjustment Factor Quote Id" d="Corporate Action Adjustment Factor Quote Id" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="VECTORWISECORAX" vu="N" vp="4" pc="CoraxAdjmtFactor" cc="CoraxAdjustmentfactor" dt="String" isScreen="false" isGrid="true">
+      <in:sp k="fn">CoraxAdjustmentFactorContentHandler</in:sp>
+      <in:sp k="id">AdjmtFactorQuoteId</in:sp>
+      <in:sp k="table">CAAdjmtFactor</in:sp>
+      <in:sp k="src">CORAX</in:sp>
+      <out:p id="hidden" />
+    </i>
+  </c>
+</d>

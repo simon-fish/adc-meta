@@ -1,0 +1,1439 @@
+﻿<d id="D_COMPA" n="Commodities Physical Assets" d="Commodities Physical Assets" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_COMPA_O" n="Oil/Oil Product" d="Oil/Oil Product." m="">
+		<i id="I_COMPA_O_Name" n="TR.AssetName" l="Name" d="Name" i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_O_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_O_Status" n="TR.AssetStatus" l="Status" d="Status" i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Status" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Shareholders" n="TR.AssetShareholders" l="Shareholders" d="Shareholders" i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Shareholders" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRIMARY SHAREHOLDERS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_OwnershipPercentage" n="TR.AssetOwnershipPercentage" l="Ownership Percentage" d="Ownership percentage." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OwnershipPercentage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OWNERSHIP %</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_CapacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:8 F:24 F:25" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_O_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:8 F:24 F:25" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_O_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement unit." i="F:8 F:24 F:25" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_O_PADDRegion" n="TR.AssetPADDRegion" l="PADD (region)" d="Petroleum Administration for Defense District region - U.S. only." i="F:8 F:24 F:25" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PADDRegion" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PADD(REGION)</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_IIRPlantID" n="TR.AssetIIRPlantID" l="IIR Plant ID" d="The IIR unique plant identifier." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRPlantID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR PLANT ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_IIRSICCode" n="TR.AssetIIRSICCode" l="IIR SIC Code" d="The IIR SIC Code (U.S. Government Standard Industrial Classification Code)." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRSICCode" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR SIC CODE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_IIROperatingCompanyID" n="TR.AssetIIROperatingCompanyID" l="IIR Operating Company ID" d="The IIR operating company unique identifier." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIROperatingCompanyID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR OPERATING COMPANY ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_IIROperatingCompany" n="TR.AssetIIROperatingCompany" l="IID Operating Company" d="The IIR Operating company name." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIROperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_ChildRIC" n="TR.AssetChildRIC" l="Child RIC" d="The RICs for this refinery's units." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ChildRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD RICS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_O_Child" n="TR.AssetChild" l="Child" d="The names of the refinery units." i="F:8" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Child" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_OR" n="Oil Refinery Unit" d="Oil Refinery Unit." m="">
+		<i id="I_COMPA_OR_Name" n="TR.AssetName" l="Name" d="Name" i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Shareholders" n="TR.AssetShareholders" l="Shareholders" d="Shareholders" i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Shareholders" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRIMARY SHAREHOLDERS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_OwnershipPercentage" n="TR.AssetOwnershipPercentage" l="Ownership Percentage" d="Ownership percentage." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OwnershipPercentage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OWNERSHIP %</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_COMPApacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRCapacity" n="TR.AssetIIRCapacity" l="IIR Capacity" d="The IIR capacity of the unit." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.IIRCapacity" isScreen="false">
+			<in:sp k="FIELD">IIR CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRCapacityMeasurement" n="TR.AssetIIRCapacityMeasurement" l="IIR Capacity Measurement" d="The IIR unit of capacity measurement." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRCapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRUnitID" n="TR.AssetIIRUnitID" l="IIR Unit ID" d="The IIR unique unit identifier." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRUnitID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR UNIT ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRAareID" n="TR.AssetIIRAareID" l="IIR Area ID" d="The IIR unique area identifier." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRAareID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR AREA ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRAreaName" n="TR.AssetIIRAreaName" l="IIR Area Name" d="The IIR refining plant complex section name." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRAreaName" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR AREA NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRUnitStatus" n="TR.AssetIIRUnitStatus" l="IIR Unit Status" d="The IIR unit status." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRUnitStatus" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR UNIT STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRStartUp" n="TR.AssetIIRStartUp" l="IIR Start Up" d="The IIR date of unit startup (4 digit Year + 2 Digit Month + 2 Digit Day)." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="DateTime" lid="CA.C.IIRStartUp" isScreen="false">
+			<in:sp k="FIELD">IIR START UP</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRUnitType" n="TR.AssetIIRUnitType" l="IIR Unit Type" d="The IIR type of processing unit." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRUnitType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR UNIT TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_IIRSTRClass" n="TR.AssetIIRSTRClass" l="IIR STR Class" d="The IIR product stream class." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IIRSTRClass" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IIR STR CLASS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_PADDRegion" n="TR.AssetPADDRegion" l="PADDRegion" d="Petroleum Administration for Defense District region - U.S. only." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PADDRegion" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PADD(REGION)</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_ParentRIC" n="TR.AssetParentRIC" l="Parent RIC" d="RIC of the asset that this asset belongs to." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ParentRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OR_Parent" n="TR.AssetParent" l="Parent" d="The name of the asset that this asset belongs to." i="F:4D,F:4E,F:4F,F:4G,F:4H,F:4I,F:4J,F:4K,F:4L,F:4M,F:4N,F:4P,F:4Q,F:4R,F:4S,F:4T,F:4U,F:4V,F:4W,F:4X,F:4Y,F:4Z,F:50" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Parent" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_C" n="Coal" d="Coal" m="">
+		<i id="I_COMPA_C_Name" n="TR.AssetName" l="Name" d="Name" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_Status" n="TR.AssetStatus" l="Status" d="Status" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Status" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Shareholders" n="TR.AssetShareholders" l="Shareholders" d="Shareholders" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Shareholders" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRIMARY SHAREHOLDERS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_OwnershipPercentage" n="TR.AssetOwnershipPercentage" l="Ownership Percentage" d="Ownership percentage." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OwnershipPercentage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OWNERSHIP %</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_CapacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement unit." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_ProductionDate" n="TR.AssetProductionDate" l="Production Date" d="Production date." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.ProductionDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_Production" n="TR.AssetProduction" l="Production" d="Production value." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Production" isScreen="false">
+			<in:sp k="FIELD">PRODUCTION</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_ProductionMeasurement" n="TR.AssetProductionMeasurement" l="Production Measurement" d="Production measurement unit." i="F:22" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.ProductionMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_C_Coalfield" n="TR.AssetCoalfield" l="Coalfield" d="Coalfield" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Coalfield" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COALFIELD</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_Province" n="TR.AssetProvince" l="Province" d="Province" i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Province" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COAL MINE PROVINCE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_MineOpened" n="TR.AssetMineOpened" l="Mine Opened" d="Actual or expected year of production start up." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.MineOpened" isScreen="false">
+			<in:sp k="FIELD">MINE OPENED</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_MineLife" n="TR.AssetMineLife" l="Mine Life (years)" d="Estimated length of mine life in years." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.MineLife" isScreen="false">
+			<in:sp k="FIELD">MINE LIFE(YEARS)</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_Close" n="TR.AssetClose" l="Close" d="Actual or expected year of closure." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Close" isScreen="false">
+			<in:sp k="FIELD">CLOSE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_MineType" n="TR.AssetMineType" l="Mine Type" d="Open pit, Underground, or both." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.MineType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COAL MINE TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_NoSeams" n="TR.AssetNoSeams" l="Number of Seams" d="The number of seams from which production is obtained. Does not necessarily include unworkable seams within the same Geological sequence." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.NoSeams" isScreen="false">
+			<in:sp k="FIELD">NO. SEAMS</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_AvgSeamThickness" n="TR.AssetAvgSeamThickness" l="Average Seam Thickness (meters)" d="Average thickness (or thickness range) of the seams being worked." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.AvgSeamThickness" isScreen="false">
+			<in:sp k="FIELD">AVG. SEAM THICKNESS(METERS)</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_TotalSeamThickness" n="TR.AssetTotalSeamThickness" l="Total Seam Thickness (meters)" d="Total thickness (or thickness range) of the seams being worked." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.TotalSeamThickness" isScreen="false">
+			<in:sp k="FIELD">TOTAL SEAM THICKNESS(METERS)</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_StripRatio" n="TR.AssetStripRatio" l="Strip Ratio" d="The number of units of waste material in a surface mine that must be removed in order to extract one unit of ore (coal)." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.StripRatio" isScreen="false">
+			<in:sp k="FIELD">STRIP RATIO</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_C_CoalRank" n="TR.AssetCoalRank" l="Coal Rank" d="Coal occurs in four principal types, depending on the degree of coalification of the original vegetative source material. The lowest grade, lignite or brown coal, has the least heating content, lowest fixed carbon and higher volatile matter contents. Further coalification leads to the conversion of lignite to sub-bituminous coal, then to bituminous coal as the fixed carbon content and heating value increase. The final stage in coalification, to anthracite, produces a high heating-value, low volatile coal, typically with less than 10% volatile matter." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CoalRank" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COAL MINE RANK</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_CoalVolatility" n="TR.AssetCoalVolatility" l="Coal Volatility" d="Used to differentiate between different qualities of bituminous coals. High-volatile bituminous grades through medium-volatile to low-volatile as the fixed carbon content and heating value increase with increasing rank." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CoalVolatility" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COAL MINE VOLATILITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_C_CoalUse" n="TR.AssetCoalUse" l="Coal Use" d="Metallurgical coal is used to produce coke for steelmaking and other applications where its chemical properties are valuable as well as its heating capabilities. Thermal coal is burnt to raise steam, principally for electricity generation, but also for other industrial processes. PCI coal is used for pulverised coal injection in steelmaking, as a lower-cost replacement for metallurgical coke." i="F:22" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CoalUse" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COAL MINE USE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_P" n="Power" d="Power" m="">
+		<i id="I_COMPA_P_Name" n="TR.AssetName" l="Name" d="Name" i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_P_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_P_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_CapacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement unit." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_ProductionDate" n="TR.AssetProductionDate" l="Production Date" d="Production date." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.ProductionDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_Production" n="TR.AssetProduction" l="Production" d="Production value." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Production" isScreen="false">
+			<in:sp k="FIELD">PRODUCTION</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_ProductionMeasurement" n="TR.AssetProductionMeasurement" l="Production Measurement" d="Production measurement unit." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.ProductionMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_P_RegionNERC" n="TR.AssetRegionNERC" l="Region - NERC" d="NERC (North American Electric Reliability Corporation) system operator." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.RegionNERC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">REGION - NERC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_RegionISO" n="TR.AssetRegionISO" l="Region - ISO" d="ISO (Independent System Operator) system operator." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.RegionISO" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">REGION - ISO</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_FuelType" n="TR.AssetFuelType" l="Fuel Type" d="Power plant fuel type." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.FuelType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FUEL TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_GeneratorTechnology" n="TR.AssetGeneratorTechnology" l="Generator Technology" d="The technology used by this generator." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.GeneratorTechnology" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">GENERATOR TECHNOLOGY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_AssetFacilityType" n="TR.AssetAssetFacilityType" l="Asset Facility Type" d="The type of facility (e.g. &quot;generator&quot; or &quot;plant&quot;)." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.AssetFacilityType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ASSET FACILITY TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_COMPApacityDateFrom" n="TR.AssetCapacityDateFrom" l="Capacity Date From" d="The date the capacity value is valid from." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="Date" lid="CA.C.CapacityDateFrom" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="FIELD">CAPACITY VALID FROM</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+		</i>
+		<i id="I_COMPA_P_COMPApacityDateTo" n="TR.AssetCapacityDateTo" l="Capacity Date To" d="The date the capacity value is valid to (blank means present day)." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="Date" lid="CA.C.CapacityDateTo" isScreen="false">
+			<out:p id="xtra_dt">7</out:p>
+			<in:sp k="FIELD">CAPACITY VALID TO</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+		</i>
+		<i id="I_COMPA_P_ChildRIC" n="TR.AssetChildRIC" l="Child RIC" d="RICs of the assets that belong to this asset." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ChildRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD RICS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_Child" n="TR.AssetChild" l="Child" d="The name of the assets that belong to this asset." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Child" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_ParentRIC" n="TR.AssetParentRIC" l="Parent RIC" d="RIC of the asset that this asset belongs to." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ParentRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_P_Parent" n="TR.AssetParent" l="Parent" d="The name of the asset that this asset belongs to." i="F:1U U:ES U:ET F:1Y U:EU F:42 U:EW U:BN U:BP U:BQ U:BS" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Parent" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_VD" n="Vessel Details" d="Vessel Details." m="">
+		<i id="I_COMPA_VD_Name" n="TR.AssetName" l="Name" d="Name" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_ExName" n="TR.AssetExName" l="Ex Name" d="The previous names of the vessel (to a maximum of 8 names)" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ExName" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">EX-NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Status" n="TR.AssetStatus" l="Status" d="Status" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Status" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Type" n="TR.AssetType" l="Type" d="Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_SubType" n="TR.AssetSubType" l="Sub-Type" d="Sub-Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.SubType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">VESSEL SUB_TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_SubSubType" n="TR.AssetSubSubType" l="Sub-Sub-Type" d="Sub-Sub-Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.SubSubType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">VESSEL SUB_SUB_TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_IMO" n="TR.AssetIMO" l="IMO" d="The seven-digit number of the IMO ship identification number assigned to all ships when constructed." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IMO" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IMO</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_MMSI" n="TR.AssetMMSI" l="MMSI" d="A Maritime Mobile Service Identity (MMSI) is a series of nine digits which are sent in digital form over a radio frequency channel in order to uniquely identify ship stations, ship earth stations, coast stations, coast earth stations, and group calls." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.MMSI" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">MMSI</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Flag" n="TR.AssetFlag" l="Flag" d="Flag" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Flag" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLAG</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_DWT" n="TR.AssetDWT" l="Dead weight tonnage" d="Deadweight tonnage (also known as deadweight and &quot;payload&quot;, abbreviated to DWT, D.W.T., d.w.t., or dwt) is a measure of how much weight a ship is carrying or can safely carry." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.DWT" isScreen="false">
+			<in:sp k="FIELD">DWT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_LOA" n="TR.AssetLOA" l="Overall Length" d="Length overall, often abbreviated as (LOA, o/a, o.a. or oa) refers to the maximum length of a vessel from the two points on the hull measured perpendicular to the waterline." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.LOA" isScreen="false">
+			<in:sp k="FIELD">LOA</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_CubicCapacity" n="TR.AssetCubicCapacity" l="Cubic Capacity" d="Cubic capacity in cubic meters, the total capacity of goods a vessel can handle in its holds or tanks." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.CubicCapacity" isScreen="false">
+			<in:sp k="FIELD">CUBIC CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Beam" n="TR.AssetBeam" l="Beam" d="The beam of a ship is its width at the widest point." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Beam" isScreen="false">
+			<in:sp k="FIELD">BEAM</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Draught" n="TR.AssetDraught" l="Draught" d="The draft (or draught) of a ship's hull is the vertical distance between the waterline and the bottom of the hull (keel), with the thickness of the hull included; in the case of not being included the draft outline would be obtained. Draft determines the minimum depth of water a ship or boat can safely navigate." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Draught" isScreen="false">
+			<in:sp k="FIELD">DRAUGHT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_HullType" n="TR.AssetHullType" l="Hull Type" d="A double hull is a ship hull design and construction method where the bottom and sides of the ship have two complete layers of watertight hull surface: one outer layer forming the normal hull of the ship, and a second inner hull which is somewhat further into the ship, perhaps a few feet, which forms a redundant barrier to seawater in case the outer hull is damaged." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.HullType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">HULL TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_NoTwentyfoot" n="TR.AssetNoTwentyFoot" l="Number of Twenty-foot Equivalent Units" d="A TEU is a standard-sized metal box which can be easily transferred between different modes of transportation, such as ships, trains and trucks. This is used to describe the size of container vessels." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.NoTwentyFoot" isScreen="false">
+			<in:sp k="FIELD">NBR OF TEU</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Coated" n="TR.AssetCoated" l="Coated" d="Tanker only, coated tankers can carry both crude oil and oil products." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Coated" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COATED</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_RegisteredOwner" n="TR.AssetRegisteredOwner" l="Registered Owner" d="Registered owner." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.RegisteredOwner" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">REGISTERED OWNER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Manager" n="TR.AssetManager" l="Manager" d="Manager" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Manager" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">MANAGER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_BottomType" n="TR.AssetBottomType" l="Bottom Type" d="A double bottom is a ship hull design and construction method where the bottom of the ship has two complete layers of watertight hull surface: one outer layer forming the normal hull of the ship, and a second inner hull which is somewhat higher in the ship, perhaps a few feet, which forms a redundant barrier to seawater in case the outer hull is damaged and leaks Double bottoms are significantly safer than single bottoms." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.BottomType" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">BOTTOM STYLE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_SideType" n="TR.AssetSideType" l="Side Type" d="A tanker with a single outer shell between the product and the ocean is said to be single-hulled. Most new tankers are double-hulled, with an extra space between the hull and the storage tanks. Hybrid designs such as double-bottom and double-sided combine aspects of single and double-hull designs. All single-hulled tankers around the world will be phased out by 2026, in accordance with amendments to Annex I of the MARPOL Convention." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.SideType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">SIDE STYLE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_Built" n="TR.AssetBuilt" l="Built" d="Date the Vessel was actually built." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="DateTime" lid="CA.C.Built" isScreen="false">
+			<in:sp k="FIELD">BUILT</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VD_BuiltInitial" n="TR.AssetBuiltInitial" l="Built Initial" d="Initial indication of when a Vessel will be built." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="DateTime" lid="CA.C.BuiltInitial" isScreen="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">BUILT INITIAL</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VD_BuiltDemolition" n="TR.AssetBuiltDemolition" l="Built Demolition" d="Date of demolition of the Vessel." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="DateTime" lid="CA.C.BuiltDemolition" isScreen="false">
+			<in:sp k="FIELD">BUILT DEMOLITION</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VD_IsDeactivated" n="TR.AssetIsDeactivated" l="Is Deactivated" d="Vessel Is Deactivated (Yes/No)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.IsDeactivated" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">IS DEACTIVED</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VD_TPC" n="TR.AssetTPC" l="Tons Per Centimeter" d="Measure of the amount of mass, in tons, which is required to change a vessels draught by one centimeter. The value of TPC is not static, it varies with a vessels condition of load, and the density of the water. Usually given for summer salt water (SSW)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.TPC" isScreen="false">
+			<in:sp k="FIELD">TPC</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_VL" n="Vessel Locations" d="Vessel Locations." m="">
+		<i id="I_COMPA_VL_LocationDate" n="TR.AssetLocationDate" l="Date" d="Date of the vessel location." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationZoneType" n="TR.AssetLocationZoneType" l="Zone Type" d="Zone Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" vc="zone" dt="String" lid="CA.C.LocationLatitude" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">LOCATION LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_PolygonZoneType" n="TR.AssetPolygonZoneType" l="Polygon Zone Type" d="Zone Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" vc="zone" dt="String" lid="CA.C.EventType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationLatitude" n="TR.AssetLocationLatitude" l="Latitude" d="Latitude of the vessel location." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.LocationLatitude" isScreen="false">
+			<in:sp k="FIELD">LOCATION LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationLongitude" n="TR.AssetLocationLongitude" l="Longitude" d="Longitude of the vessel location." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.LocationLongitude" isScreen="false">
+			<in:sp k="FIELD">LOCATION LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_DateTime" n="TR.AssetDateTime" l="AIS Date Time" d="Timestamp of the current vessel location." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="DateTime" lid="CA.C.DateTime" isScreen="false">
+			<in:sp k="FIELD">LOCATION DATETIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_Destination" n="TR.AssetDestination" l="AIS Destination" d="Destination where the vessel is going." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSParDT" cc="COMVESSCol" dt="String" lid="CA.C.Destination" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION</in:sp>
+			<in:sp k="TYPE">EXPLSTRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_DestinationPrevious" n="TR.AssetDestinationPrevious" l="AIS Destination Previous" d="The previous destination value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.DestinationPrevious" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS DESTINATION</in:sp>
+			<in:sp k="TYPE">EXPLSTRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_DestinationChangeTime" n="TR.AssetDestinationChangeTime" l="AIS Destination Change Time" d="The date time the destination changed from the previous to the current value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.DestinationChangeTime" isScreen="false">
+			<in:sp k="FIELD">DESTINATION CHANGE TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_ETA" n="TR.AssetETA" l="ETA" d="Estimated time of arrival." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSParDT" cc="COMVESSCol" dt="DateTime" lid="CA.C.ETA" isScreen="false">
+			<in:sp k="FIELD">ETA</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_ETAPrevious" n="TR.AssetETAPrevious" l="ETA Previous" d="The previous ETA value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.ETAPrevious" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS ETA</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_ETAChangeTime" n="TR.AssetETAChangeTime" l="ETA Change Time" d="The date time the ETA changed from the previous to the current value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.ETAChangeTime" isScreen="false">
+			<in:sp k="FIELD">ETA CHANGE TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_Heading" n="TR.AssetHeading" l="AIS Heading" d="The degree the vessel is heading toward." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.Heading" isScreen="false">
+			<in:sp k="FIELD">HEADING</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_Speed" n="TR.AssetSpeed" l="AIS Speed" d="Speed of the vessel while it is moving." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.Speed" isScreen="false">
+			<in:sp k="FIELD">SPEED</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationDraught" n="TR.AssetLocationDraught" l="AIS Draught" d="The draft (or draught) of a ship's hull is the vertical distance between the waterline and the bottom of the hull (keel), with the thickness of the hull included." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.LocationDraught" isScreen="false">
+			<in:sp k="FIELD">LOCATION DRAUGHT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationWidth" n="TR.AssetLocationWidth" l="AIS Width" d="Width of the vessel." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.LocationWidth" isScreen="false">
+			<in:sp k="FIELD">LOCATION WIDTH</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationLength" n="TR.AssetLocationLength" l="AIS Length" d="Length of the vessel." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.LocationLength" isScreen="false">
+			<in:sp k="FIELD">LOCATION LENGTH</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationStatus" n="TR.AssetLocationStatus" l="AIS Status" d="Describes the status of the vessel in the sea for example: under way." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSParDT" cc="COMVESSCol" dt="String" lid="CA.C.LocationStatus" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationStatusPrevious" n="TR.AssetLocationStatusPrevious" l="AIS Status Previous" d="The previous location status value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.LocationStatusPrevious" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS LOCATION STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationStatusChangeTime" n="TR.AssetLocationStatusChangeTime" l="AIS Status Change Time" d="The date time the location status changed from the previous to the current value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.LocationStatusChangeTime" isScreen="false">
+			<in:sp k="FIELD">LOCATION STATUS CHANGE TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationName" n="TR.AssetLocationName" l="Vessel Name" d="Vessel name provided in the signal that a vessel sends out with their location." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.LocationName" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">LOCATION NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_COMPAllSign" n="TR.AssetCallSign" l="Call Sign" d="The call sign assigned to a vessel, e.g. 3EZX7." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.CallSign" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CALL SIGN</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationDatasource" n="TR.AssetLocationDatasource" l="Location Data Source" d="Whether the vessel location is sourced from a satellite or a shore-based receiver." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSParDT" cc="COMVESSCol" dt="String" lid="CA.C.LocationDatasource" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION DATASOURCE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationShipType" n="TR.AssetLocationShipType" l="Location Ship Type" d="Vessel type that is supplied in the AIS location radio signal." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.LocationShipType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">SHIPTYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VL_LocationDraughtPercentage" n="TR.AssetLocationDraughtPercentage" l="Location Draught Percentage" d="The current (AIS) draught as a percentage of the vessel's maximum draught." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSParDT" cc="COMVESSCol" dt="Float" lid="CA.C.LocationDraughtPercentage" isScreen="false">
+			<in:sp k="FIELD">LOCATION DRAUGHT PERCENTAGE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_VM" n="Vessel Movements" d="Vessel Movements." m="">
+		<i id="I_COMPA_VM_PolygonDate" n="TR.AssetPolygonDate" l="Polygon Date" d="The Polygon Date" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" vc="date" dt="String" lid="CA.C.PolygonName" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">POLYGON NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PolygonZone" n="TR.AssetPolygonZoneType" l="Polygon Zone Type" d="The Polygon Zone Type" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" vc="zone" dt="String" lid="CA.C.EventType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">POLYGON NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PolygonName" n="TR.AssetPolygonName" l="Polygon Name" d="The lowest level polygon that the vessel is within. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.PolygonName" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">POLYGON NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_CentrePoint" n="TR.AssetCentrePoint" l="Polygon Centre Point" d="The centre point of the lowest level polygon that the vessel is within. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.CentrePoint" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CENTRE POINT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_EnterTimestamp" n="TR.AssetEnterTimestamp" l="Polygon Entry Time" d="The date time when the vessel entered the polygon. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="DateTime" lid="CA.C.EnterTimestamp" isScreen="false">
+			<in:sp k="FIELD">ENTER TIMESTAMP</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_OutTimestamp" n="TR.AssetOutTimestamp" l="Polygon Exit Time" d="The date time when the vessel exited the polygon. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="DateTime" lid="CA.C.OutTimestamp" isScreen="false">
+			<in:sp k="FIELD">OUT TIMESTAMP</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_RCSID" n="TR.AssetRCSID" l="Polygon RCS ID" d="The RCS ID of the lowest level polygon that the vessel is within. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.RCSID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ZONE RCSID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_EventType" n="TR.AssetEventType" l="Polygon Type" d="The type of the lowest level polygon that the vessel is within. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.EventType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">EVENT TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_EventTypeId" n="TR.AssetEventTypeId" l="Polygon Type ID" d="The ID of the type of the lowest level polygon that the vessel is within. Historical track data can be requested for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.EventTypeId" isScreen="false">
+			<in:sp k="FIELD">EVENT TYPE ID</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VM_LocationType" n="TR.AssetLocationType" l="Polygon Location Type" d="It can take the following values: Entry (a vessel enters the region or zone), Exit (the vessel leaves the region or zone), Within Zone (the vessel is within the region or zone)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.LocationType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_Product" n="TR.AssetProduct" l="Product" d="Classification of the zone and whether it is applicable to Dry bulk, Tankers, Liners, Terminals, Offshore, General and SNP. The product can take multiple values (i.e. dry, tanker)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.Product" isScreen="false" enableHeatMap="false">
+			<out:p id="hidden" />
+			<in:sp k="FIELD">PRODUCT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_FacilityType" n="TR.AssetFacilityType" l="Berth Type" d="The type of berth. Historical track data can be provided for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="String" lid="CA.C.FacilityType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FACILITY TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_FacilityTypeId" n="TR.AssetFacilityTypeId" l="Berth Type ID" d="The id for the type of berth. Historical track data can be provided for this field." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSPar" cc="COMVESSCol" dt="Float" lid="CA.C.FacilityTypeId" isScreen="false">
+			<in:sp k="FIELD">FACILITY TYPE ID</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VM_Location" n="TR.AssetLocation" l="Current Location" d="Consolidated field containing all polygons that the vessel is within." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_Port" n="TR.AssetPort" l="Current Port" d="The current port. Blank if a vessel is not in a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.Port" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PORT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PortRIC" n="TR.AssetPortRIC" l="Current Port RIC" d="The RIC of the current port. Blank if the vessel is not in a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PortRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PORT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PortEntryTime" n="TR.AssetPortEntryTime" l="Current Port Entry Time" d="The date time when the vessel entered the port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PortEntryTime" isScreen="false">
+			<in:sp k="FIELD">PORT ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationPort" n="TR.AssetDestinationPort" l="Destination Port" d="The port the vessel is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationPort" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION PORT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationPortRIC" n="TR.AssetDestinationPortRIC" l="Destination Port RIC" d="The port RIC the vessels is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationPortRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION PORT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationCountry" n="TR.AssetDestinationCountry" l="Destination Country" d="The country of the port where the vessels is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationCountry" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION COUNTRY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationCountryRCSID" n="TR.AssetDestinationCountryRCSID" l="Destination Country RCS ID" d="The RCS ID for the country of the port where the vessels is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationCountryRCSID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION COUNTRY RCSID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationZone" n="TR.AssetDestinationZone" l="Destination Zone" d="The zone of the port where the vessels is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationZone" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION ZONE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_DestinationZoneRCSID" n="TR.AssetDestinationZoneRCSID" l="Destination Zone RCS ID" d="The RCS ID of the zone of the port where the vessels is going to based on the destination field. The field is blank if the destination field cannot be matched to a port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DestinationZoneRCSID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DESTINATION ZONE RCSID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousPort" n="TR.AssetPreviousPort" l="Previous Port" d="The previous port a vessel visited." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousPort" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS PORT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousPortRIC" n="TR.AssetPreviousPortRIC" l="Previous Port RIC" d="The RIC for the previous port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousPortRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS PORT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousEntryTime" n="TR.AssetPreviousEntryTime" l="Previous Port Entry Time" d="The date and time the vessel entered the previous port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousEntryTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS PORT ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousExitTime" n="TR.AssetPreviousExitTime" l="Previous Port Exit Time" d="The date and time when the vessel exited the previous port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousExitTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS PORT OUT TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousPortEntryDraft" n="TR.AssetPreviousPortEntryDraft" l="Previous Port Entry Draft" d="The draft when the vessel entered the port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.PreviousPortEntryDraft" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS PORT ENTRY DRAFT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousPortExitDraft" n="TR.AssetPreviousPortExitDraft" l="Previous Port Exit Draft" d="The draft when the vessel exited the port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.PreviousPortExitDraft" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS PORT EXIT DRAFT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_VM_Berth" n="TR.AssetBerth" l="Current Berth" d="The current berth. Blank if the vessel is not in a berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.Berth" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">BERTH</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_BerthRIC" n="TR.AssetBerthRIC" l="Current Berth RIC" d="The current berth RIC. Blank if the vessel is not in a berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.BerthRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">BERTH RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_BerthEntryTime" n="TR.AssetBerthEntryTime" l="Current Berth Entry Time" d="The date time the vessel entered the berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.BerthEntryTime" isScreen="false">
+			<in:sp k="FIELD">BERTH ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousBerth" n="TR.AssetPreviousBerth" l="Previous Berth" d="The berth the vessel visited in this port (if available)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousBerth" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS BERTH</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousBerthRIC" n="TR.AssetPreviousBerthRIC" l="Previous Berth RIC" d="The RIC for the previous berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousBerthRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS BERTH RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousBerthEntryTime" n="TR.AssetPreviousBerthEntryTime" l="Previous Berth Entry Time" d="The date time the vessel entered the previous berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousBerthEntryTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS BERTH ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousBerthExitTime" n="TR.AssetPreviousBerthExitTime" l="Previous Berth Exit Time" d="The date time the vessel exited the previous berth." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousBerthExitTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS BERTH OUT TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousBerthType" n="TR.AssetPreviousBerthType" l="Previous Berth Type" d="The type of the berth the vessel visited in this port." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PreviousBerthType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS BERTH TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_Anchorage" n="TR.AssetAnchorage" l="Current Anchorage" d="The anchorage that the vessel is in. Blank if the vessel is not in an anchorage." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.Anchorage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ANCHORAGE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_AnchorageRIC" n="TR.AssetAnchorageRIC" l="Current Anchorage RIC" d="The RIC of the current anchorage. Blank if the vessel is not in an anchorage." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.AnchorageRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ANCHORAGE RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_AnchorageEntryTime" n="TR.AssetAnchorageEntryTime" l="Current Anchorage Entry Time" d="The date time the vessel entered the current anchorage. Blank if the vessel is not in an anchorage." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.AnchorageEntryTime" isScreen="false">
+			<in:sp k="FIELD">ANCHORAGE ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousAnchorage" n="TR.AssetPreviousAnchorage" l="Previous Anchorage" d="The previous anchorage the vessel visited." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousAnchorage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS ANCHORAGE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousAnchorageRIC" n="TR.AssetPreviousAnchorageRIC" l="Previous Anchorage RIC" d="The RIC of the previous anchorage the vessel visited." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="String" lid="CA.C.PreviousAnchorageRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS ANCHORAGE RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousAnchorageEntryTime" n="TR.AssetPreviousAnchorageEntryTime" l="Previous Anchorage Entry Time" d="The date time the vessel entered the previous anchorage." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousAnchorageEntryTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS ANCHORAGE ENTER TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousAnchorageExitTime" n="TR.AssetPreviousAnchorageExitTime" l="Previous Anchorage Exit Time" d="The date time the vessel exited the previous anchorage." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="COMVESSDT" cc="ricValue" dt="DateTime" lid="CA.C.PreviousAnchorageExitTime" isScreen="false">
+			<in:sp k="FIELD">PREVIOUS ANCHORAGE OUT TIME</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousZone" n="TR.AssetPreviousZone" l="Previous Zone" d="The zone the previous port is in." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PreviousZone" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS ZONE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousZoneRCSID" n="TR.AssetPreviousZoneRCSID" l="Previous Zone RCS ID" d="The RCS ID of the zone of the port that the vessel previously visited." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PreviousZoneRCSID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS ZONE RCSID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousCountry" n="TR.AssetPreviousCountry" l="Previous Country" d="The country the previous port is in." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PreviousCountry" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS COUNTRY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_VM_PreviousCountryRCSID" n="TR.AssetPreviousCountryRCSID" l="Previous Country RCS ID" d="The RCS ID of the country of the port that the vessel previously visited." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PreviousCountryRCSID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PREVIOUS COUNTRY RCSID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_CF" n="Commodity Flows" d="Commodity Flows." m="">
+		<i id="I_COMPA_CF_CleanDirty" n="TR.AssetCleanDirty" l="Clean Dirty" d="Whether the tanker is carrying a dirty product (specifically, crude oil or fuel oil) or a clean (refined) product. Source: Thomson Reuters Dirty/Clean Tanker Assessment." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CleanDirty" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CLEAN/DIRTY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_CF_CleanDirtyAssessmentDate" n="TR.AssetCleanDirtyAssessmentDate" l="Clean Dirty Assessment Date" d="The date that the clean dirty assessment was made." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CleanDirtyAssessmentDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CLEAN/DIRTY ASSESSMENT DATE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_CF_CleanDirtySource" n="TR.AssetCleanDirtySource" l="Clean Dirty Source" d="The data source used to determine the clean dirty assessment." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CleanDirtySource" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CLEAN/DIRTY SOURCE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_CF_FlowLocationDateTime" n="TR.AssetFlowLocationDate" l="Location Date" d="Location Date" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" vc="date" dt="DateTime" lid="CA.C.Location" isScreen="false">
+			<in:sp k="FIELD">FLOW PERM ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowPermID" n="TR.AssetFlowPermID" l="Flow Perm ID" d="Flow Perm ID." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowPermID" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW PERM ID</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowRIC" n="TR.AssetFlowRIC" l="RIC" d="RIC" i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingPort" n="TR.AssetLoadingPort" l="Loading Port" d="The port that the cargo was loaded." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.LoadingPort" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW LOAD PORT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingGeography" n="TR.AssetLoadingGeography" l="Loading Geography" d="The region, country or country sub-division that the cargo was loaded." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.LoadingGeography" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW LOAD GEO</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingDateFrom" n="TR.AssetLoadingDateFrom" l="Loading Date From" d="Earliest loading date (laycan)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.LoadingDateFrom" isScreen="false">
+			<in:sp k="FIELD">FLOW LOAD DATE FROM</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingDateTo" n="TR.AssetLoadingDateTo" l="Loading Date To" d="Latest loading date (laycan)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.LoadingDateTo" isScreen="false">
+			<in:sp k="FIELD">FLOW LOAD DATE TO</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingGeographyForecastActual" n="TR.AssetLoadingGeographyForecastActual" l="Loading Geography Forecast Or Actual" d="Indicates whether the Load Geography/Port is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.LoadingGeographyForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW LOAD GEO F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_LoadingDateForecastActual" n="TR.AssetLoadingDateForecastActual" l="Loading Date Forecast Or Actual" d="Indicates whether the Load Date range is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.LoadingDateForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW LOAD DATE F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DischargingPort" n="TR.AssetDischargingPort" l="Discharging Port" d="The name of the discharge port for the cargo." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DischargingPort" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DISCHARGE PORT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DischargingGeography" n="TR.AssetDischargingGeography" l="Discharging Geography" d="The region, country or country sub-division that the cargo is discharged." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DischargingGeography" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DISCHARGE GEO</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DischargingGeographyForecastActual" n="TR.AssetDischargingGeographyForecastActual" l="Discharging Geography Forecast Or Actual" d="Indicates whether the Discharge Geography/Port is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DischargingGeographyForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DISCHARGE GEO F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DischargingDateForecastActual" n="TR.AssetDischargingDateForecastActual" l="Discharging Date Forecast or Actual" d="Indicates whether the Load Date is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DischargingDateForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DISCHARGE DATE F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DepartureDate" n="TR.AssetDepartureDate" l="Departure Date" d="Date that an asset (vessel) departs (Load Port)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.DepartureDate" isScreen="false">
+			<in:sp k="FIELD">FLOW DEPARTURE DATE</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DepartureDateForecastActual" n="TR.AssetDepartureDateForecastActual" l="Departure Date Forecast Or Actual" d="Indicates whether the Departure Date is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DepartureDateForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DEPARTURE DATE F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DepartureEstimateType" n="TR.AssetDepartureEstimateType" l="Departure Estimate Type" d="Indicates that the Departure Date is not a specific date but a general date (i.e. Week Starting, Month Starting, etc)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.DepartureEstimateType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW DEPARTURE ESTIMATE TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_ArrivalDateFrom" n="TR.AssetArrivalDateFrom" l="Arrival Date From" d="Earliest date that an asset (vessel) arrives (Discharge Port)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="DateTime" lid="CA.C.ArrivalDateFrom" isScreen="false">
+			<in:sp k="FIELD">FLOW ARRIVAL DATE FROM</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_ArrivalDateTo" n="TR.AssetArrivalDateTo" l="Arrival Date To" d="Latest date that an asset (vessel) arrives (Discharge Port)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="DateTime" lid="CA.C.ArrivalDateTo" isScreen="false">
+			<in:sp k="FIELD">FLOW ARRIVAL DATE TO</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_ArrivalDateForecastActual" n="TR.AssetArrivalDateForecastActual" l="Arrival Date Forecast Or Actual" d="Indicates whether the Discharge Date is a Forecast or Actual value." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.ArrivalDateForecastActual" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW ARRIVAL DATE F OR A</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_ArrivalEstimateType" n="TR.AssetArrivalEstimateType" l="Arrival Estimate Type" d="Indicates that the Arrival Date is not a specific date but a general date (i.e. Week Starting, Month Starting, etc)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.ArrivalEstimateType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW ARRIVAL ESTIMATE TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_DischargeDate" n="TR.AssetDischargeDate" l="Discharge Date" d="Date that an asset (vessel) discharges." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.DischargeDate" isScreen="false">
+			<in:sp k="FIELD">FLOW DISCHARGE DATE</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowCommodity" n="TR.AssetFlowCommodity" l="Cargo" d="The commodity type for this cargo." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowCommodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowCommodityRCSCode" n="TR.AssetFlowCommodityRCSCode" l="Commodity RCS Code" d="Commodity RCS code." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowCommodityRCSCode" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW COMMODITY RCSCODE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowGrade" n="TR.AssetFlowGrade" l="Grade of Cargo" d="Name of Commodity Grade or Sub-Type." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowGrade" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW GRADE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_GradeAF" n="TR.AssetGradeAF" l="Grade A or F" d="Whether the flow grade is an Actual or Forecast." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.GradeAF" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW GRADE A OR F</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Charterer" n="TR.AssetCharterer" l="Charterer" d="The charterer of this vessel." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Charterer" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW CHARTERER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Freight" n="TR.AssetFreight" l="Freight" d="Freight Cost." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Float" lid="CA.C.Freight" isScreen="false">
+			<in:sp k="FIELD">FLOW FREIGHT</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FreightType" n="TR.AssetFreightType" l="Freight Type" d="The type of freight value (i.e. &quot;Lumpsum&quot; or &quot;Worldscale&quot;)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FreightType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW FREIGHT TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Volume" n="TR.AssetVolume" l="Volume" d="The cargo volume." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Float" lid="CA.C.Volume" isScreen="false">
+			<in:sp k="FIELD">FLOW TRADE VOLUME</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_VolumeMeasurement" n="TR.AssetVolumeMeasurement" l="Volume Measurement" d="Measurement for Volume (i.e. KB, KT, Barrels, Bushells,etc)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.VolumeMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE VOLUME MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowStatus" n="TR.AssetFlowStatus" l="Flow Status" d="The status for the commodity flow." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowStatus" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowComments" n="TR.AssetFlowComments" l="Comments" d="A comment for the commodity flow." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowComments" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW COMMENTS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_FlowTradeComments" n="TR.AssetFlowTradeComments" l="Trade Comments" d="A comment for the trade." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.FlowTradeComments" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE COMMENTS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_TradeType" n="TR.AssetTradeType" l="Trade Type" d="Type of deal in which the cargo is transacted (i.e. &quot;Spot&quot; or &quot;Term&quot;)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.TradeType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_PriceDiscountPremium" n="TR.AssetPriceDiscountPremium" l="Price Discount or Premium" d="Indicates whether the prices is a Discount or Premium." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.PriceDiscountPremium" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE DISCOUNT PREMIUM</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_PriceLow" n="TR.AssetPriceLow" l="Price Low" d="Low for price range." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Float" lid="CA.C.PriceLow" isScreen="false">
+			<in:sp k="FIELD">FLOW TRADE PRICE LOW</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_PriceHigh" n="TR.AssetPriceHigh" l="Price High" d="High for price range." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Float" lid="CA.C.PriceHigh" isScreen="false">
+			<in:sp k="FIELD">FLOW TRADE PRICE HIGH</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_PriceMeasurement" n="TR.AssetPriceMeasurement" l="Price Measurement" d="The name of the trade measurement." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.PriceMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE PRICE MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_PriceBasis" n="TR.AssetPriceBasis" l="Price Basis" d="Basis on which the cargo is priced (i.e. &quot;BL Basis&quot; or &quot;Month Average&quot;)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.PriceBasis" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE PRICE BASIS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Terms" n="TR.AssetTerms" l="Terms" d="T&amp;C's for transaction (i.e. &quot;FOB&quot;: Free-on-board, &quot;C&amp;F&quot;: Coast-and-Freight, &quot;DDP&quot;: Delivered-Duty-Paid)." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Terms" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE TERM</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Benchmark" n="TR.AssetBenchmark" l="Benchmark" d="Benchmark for Trade." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Benchmark" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE BENCHMARK</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Buyer" n="TR.AssetBuyer" l="Buyer" d="Name of the trade buyer." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Buyer" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE BUYER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Seller" n="TR.AssetSeller" l="Seller" d="Name of the trade seller." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Seller" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE SELLER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Issuer" n="TR.AssetIssuer" l="Issuer" d="Name of the issuer." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Issuer" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE ISSUER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_IssuerBuySell" n="TR.AssetIssuerBuySell" l="Issuer is Buy or Sell" d="Indicates whether a tender type trade is to buy or sell." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.IssuerBuySell" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW ISSUER B OR S</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_Awardee" n="TR.AssetAwardee" l="Awardee" d="Name of the trade awardee." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="String" lid="CA.C.Awardee" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">FLOW TRADE AWARDEE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_TradingDate" n="TR.AssetTradingDate" l="Trading Date" d="Date of trade." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.TradingDate" isScreen="false">
+			<in:sp k="FIELD">FLOW TRADE DATE</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+		<i id="I_COMPA_CF_ClosingDate" n="TR.AssetClosingDate" l="Closing Date" d="Issued tender closing date." i="F:2K F:2L F:2M F:2N F:2P F:2Q F:2R F:2U F:2V F:32 F:33 F:34 F:35 F:36 F:37 F:38 F:39 F:3A F:3L F:3M F:3P F:3Q F:3R F:3S F:3T F:3U F:3V F:3W F:3X F:3Z F:40 F:2S F:2X F:2Y F:2Z F:3B F:3C F:3E F:3F F:3G F:3I F:3J" s="Commodities" vu="N" pc="UnityComParTop" cc="UnityComColTop" dt="Date" lid="CA.C.ClosingDate" isScreen="false">
+			<in:sp k="FIELD">FLOW TRADE CLOSED DATE</in:sp>
+			<in:sp k="TYPE">DATE</in:sp>
+			<in:sp k="dropNullsDisabled" />
+		</i>
+	</c>
+	<c id="C_COMPA_PB" n="Port/Berth/Anchorage" d="Port/Berth/Anchorage" m="">
+		<i id="I_COMPA_PB_Name" n="TR.AssetName" l="Name" d="Name" i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_AssetFacilityType" n="TR.AssetAssetFacilityType" l="Asset Facility Type" d="The type of berth." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.AssetFacilityType" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ASSET FACILITY TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_PB_ChildRIC" n="TR.AssetChildRIC" l="Child RICs" d="RICs of the assets that belong to this asset." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ChildRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD RICS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Child" n="TR.AssetChild" l="Child" d="The name of the assets that belong to this asset." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Child" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CHILD</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_ParentRIC" n="TR.AssetParentRIC" l="Parent RIC" d="RIC of the asset that this asset belongs to." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ParentRIC" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT RIC</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_PB_Parent" n="TR.AssetParent" l="Parent" d="The name of the asset that this asset belongs to." i="F:N F:4B F:4C" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Parent" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PARENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_M" n="Metals" d="Metals" m="">
+		<i id="I_COMPA_M_Name" n="TR.AssetName" l="Name" d="Name" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_M_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_M_Status" n="TR.AssetStatus" l="Status" d="Status" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Status" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_Shareholders" n="TR.AssetShareholders" l="Shareholders" d="Shareholders" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Shareholders" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRIMARY SHAREHOLDERS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_OwnershipPercentage" n="TR.AssetOwnershipPercentage" l="Ownership Percentage" d="Ownership percentage." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OwnershipPercentage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OWNERSHIP %</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_Type" n="TR.AssetType" l="Type" d="Type" i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_M_CapacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement unit." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_ProductionDate" n="TR.AssetProductionDate" l="Production Date" d="Production date." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.ProductionDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_Production" n="TR.AssetProduction" l="Production" d="Production value." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Production" isScreen="false">
+			<in:sp k="FIELD">PRODUCTION</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_ProductionMeasurement" n="TR.AssetProductionMeasurement" l="Production Measurement" d="Production measurement unit." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.ProductionMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_M_LabourContractExpiryDate" n="TR.AssetLabourContractExpiryDate" l="Labour Contract Expiry Date" d="Labour Contract Expiry Date for the Plant." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="DateTime" lid="CA.C.LabourContractExpiryDate" isScreen="false">
+			<in:sp k="FIELD">LABOUR CONTRACT EXPIRY DATE</in:sp>
+			<in:sp k="TYPE">DATETIME</in:sp>
+		</i>
+		<i id="I_COMPA_M_LabourStatus" n="TR.AssetLabourStatus" l="Labour Status" d="Labour Status of the plant." i="F:21 F:23 F:28 F:2B F:2C F:2D F:2E F:2F" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.LabourStatus" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LABOUR STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_A" n="Agriculture Assets" d="Agriculture Assets." m="">
+		<i id="I_COMPA_A_Name" n="TR.AssetName" l="Name" d="Name" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_RCSCode" n="TR.AssetRCSCode" l="RCS Code" d="RCS code." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.RCSCode" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY RCS CODE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_AssetTypeRCSCode" n="TR.AssetAssetTypeRCSCode" l="Asset Type RCS Code" d="Asset type RCS code." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.AssetTypeRCSCode" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">ASSETTYPE RCS CODE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Address" n="TR.AssetAddress" l="Address" d="Address" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Address" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">AGS ADDRESS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_City" n="TR.AssetCity" l="City" d="City" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.City" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">AGS CITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_CropDistrict" n="TR.AssetCropDistrict" l="Crop District" d="Crop district." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CropDistrict" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CROP DISTRICT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_State" n="TR.AssetState" l="State" d="State" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.State" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">AGS STATE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Country" n="TR.AssetCountry" l="Country" d="Country" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Country" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">AGS COUNTRY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_NopaMember" n="TR.AssetNopaMember" l="Nopa Member" d="National Oilseed Processors Association Member." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.NopaMember" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NOPA MEMBER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_BNSFNumber" n="TR.AssetBNSFNumber" l="BNSF Number" d="BNSF railway number." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.BNSFNumber" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">BNSF NUMBER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Phone" n="TR.AssetPhone" l="Phone Number" d="Phone number." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Phone" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PHONE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_CCLCode" n="TR.AssetCCLCode" l="CCL Code" d="CME/CBOT�Common Clearing Link Code." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.CCLCode" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CCL CODE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Owner" n="TR.AssetOwner" l="Owner" d="Facility owner." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Owner" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">AGS OWNER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Type" n="TR.AssetType" l="Type" d="Type of asset." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_ClearingAgent" n="TR.AssetClearingAgent" l="Clearing Agent" d="An organization that acts as an intermediary to facilitate the validation, delivery, and settlement of securities transactions through an exchange." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.ClearingAgent" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CLEARING AGENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_SwitchingDistrict" n="TR.AssetSwitchingDistrict" l="Switching District" d="An area where railcars are �switched� from one operator�s lines to another, used to handoff shipments to another carrier for transportation to another destination." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.SwitchingDistrict" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">SWITCHING DISTRICT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_MileMarker" n="TR.AssetMileMarker" l="Mile Marker" d="The location of a facility along a river is indicated by the number of miles to the river end." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.MileMarker" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">MILE MARKER</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement value." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_PlannedCapacity" n="TR.AssetPlannedCapacity" l="Planned Capacity" d="Planned capacity value." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.PlannedCapacity" isScreen="false">
+			<in:sp k="FIELD">PLANNED CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_PlannedCapacityMeasurement" n="TR.AssetPlannedCapacityMeasurement" l="Planned Capacity Measurement" d="Planned capacity measurement value." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.PlannedCapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PLANNED CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_MaxCertificates" n="TR.AssetMaxCertificates" l="Max Certificates" d="Maximum certificates that can be accommodated by the facility." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.MaxCertificates" isScreen="false">
+			<in:sp k="FIELD">MAX CERTIFICATES</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_DailyLoading" n="TR.AssetDailyLoading" l="Daily Loading" d="Total amount of a commodity that can be loaded to barge or railcar per day." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.DailyLoading" isScreen="false">
+			<in:sp k="FIELD">DAILY LOADING</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_DailyLoadingMeasurement" n="TR.AssetDailyLoadingMeasurement" l="Daily Loading Measurement" d="Measurement unit of amount of a commodity that can be loaded to barge or railcar per day." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.DailyLoadingMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">DAILY LOADING MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_MaxReceiptsDelivery" n="TR.AssetMaxReceiptsDelivery" l="Max Receipts Delivery" d="Maximum amount of grain that a facility can deliver during a given time period." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.MaxReceiptsDelivery" isScreen="false">
+			<in:sp k="FIELD">MAX RECEIPTS DELIVERY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_StorageRate" n="TR.AssetStorageRate" l="Storage Rate" d="Storage cost of grain. Typically quoted as a unit of cost per quantity per day." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.StorageRate" isScreen="false">
+			<in:sp k="FIELD">STORAGE RATE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_StorageRateMeasurement" n="TR.AssetStorageRateMeasurement" l="Storage Rate Measurement" d="Measurement unit typically quoted as a unit of cost per quantity per day." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.StorageRateMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STORAGE RATE MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_LoadOutRate" n="TR.AssetLoadOutRate" l="Load Out Rate" d="Charge per amount of commodity to load the commodity onto a barge or railcar." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.LoadOutRate" isScreen="false">
+			<in:sp k="FIELD">LOAD OUT RATE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_LoadOutRateMeasurement" n="TR.AssetLoadOutRateMeasurement" l="Load Out Rate Measurement" d="Measurement unit for the charge per amount of commodity to load the commodity onto a barge or railcar." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.LoadOutRateMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOAD OUT RATE MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_LocationDifferential" n="TR.AssetLocationDifferential" l="Location Differential" d="Price difference that is accepted due to the distance from a particular location. Typically determined by the distance to the expected destination (export port).�For example grain delivery locations closer to the Gulf of Mexico will have a premium location differential and further away will have a lower location differential because it will cost more or less respectively to ship the grain from the delivery location to the port." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.LocationDifferential" isScreen="false">
+			<in:sp k="FIELD">LOCATION DIFFERENTIAL</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+		<i id="I_COMPA_A_LocationDiffMeasurement" n="TR.AssetLocationDiffMeasurement" l="Location Differential Measurement" d="Measurement unit for the unit price difference that is accepted due to the distance from a particular location. Typically determined by the distance to the expected destination (export port). For example grain delivery locations closer to the Gulf of Mexico will have a premium location differential and further away will have a lower location differential because it will cost more or less respectively to ship the grain from the delivery location to the port." i="F:2G F:46 F:47 F:48" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.LocationDiffMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION DIFF MEAS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="AGS">TRUE</in:sp>
+		</i>
+	</c>
+	<c id="C_COMPA_OA" n="Other Asset Types" d="Other Asset Types." m="">
+		<i id="I_COMPA_OA_Name" n="TR.AssetName" l="Name" d="Name" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Name" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">NAME</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_OperatingCompany" n="TR.AssetOperatingCompany" l="Operating Company" d="Operating company." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OperatingCompany" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OPERATING COMPANY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Location" n="TR.AssetLocation" l="Location" d="Location" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Location" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">LOCATION</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Longitude" n="TR.AssetLongitude" l="Longitude" d="Longitude coordinate." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Longitude" isScreen="false">
+			<in:sp k="FIELD">LONGITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Latitude" n="TR.AssetLatitude" l="Latitude" d="Latitude coordinate." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="Float" lid="CA.C.Latitude" isScreen="false">
+			<in:sp k="FIELD">LATITUDE</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Status" n="TR.AssetStatus" l="Status" d="Status" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Status" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">STATUS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Shareholders" n="TR.AssetShareholders" l="Shareholders" d="Shareholders" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Shareholders" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRIMARY SHAREHOLDERS</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_OwnershipPercentage" n="TR.AssetOwnershipPercentage" l="Ownership Percentage" d="Ownership percentage." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.OwnershipPercentage" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">OWNERSHIP %</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Commodity" n="TR.AssetCommodity" l="Commodity" d="Commodity" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Commodity" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">COMMODITY</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Type" n="TR.AssetType" l="Type" d="Type" i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" cc="ricValue" dt="String" lid="CA.C.Type" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">TYPE</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+		</i>
+		<i id="I_COMPA_OA_CapacityDate" n="TR.AssetCapacityDate" l="Capacity Date" d="Capacity date." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.CapacityDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Capacity" n="TR.AssetCapacity" l="Capacity" d="Capacity value." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Capacity" isScreen="false">
+			<in:sp k="FIELD">CAPACITY</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_OA_CapacityMeasurement" n="TR.AssetCapacityMeasurement" l="Capacity Measurement" d="Capacity measurement." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.CapacityMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">CAPACITY MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">CAPACITY STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_OA_ProductionDate" n="TR.AssetProductionDate" l="Production Date" d="Production date." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" vc="date" dt="String" lid="CA.C.ProductionDate" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION STATISTIC YEAR</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_OA_Production" n="TR.AssetProduction" l="Production" d="Production value." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="Float" lid="CA.C.Production" isScreen="false">
+			<in:sp k="FIELD">PRODUCTION</in:sp>
+			<in:sp k="TYPE">FLOAT</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+		<i id="I_COMPA_OA_ProductionMeasurement" n="TR.AssetProductionMeasurement" l="Production Measurement" d="Production measurement." i="F:2 F:26 F:27 F:29 F:2A F:2G F:2H F:J" s="Commodities" vu="N" pc="COMPAPar" cc="COMPACol" dt="String" lid="CA.C.ProductionMeasurement" isScreen="false" enableHeatMap="false">
+			<in:sp k="FIELD">PRODUCTION MEASUREMENT</in:sp>
+			<in:sp k="TYPE">STRING</in:sp>
+			<in:sp k="YF">PRODUCTION STATISTIC YEAR</in:sp>
+		</i>
+	</c>
+</d>

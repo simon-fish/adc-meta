@@ -1,0 +1,192 @@
+﻿<d id="D_DSE" n="Economic" d="Economic" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_DSE_SE" d="Security &amp; Quotation" n="Security &amp; Quotation" >
+		<i id="I_DSE_SE_TR_Name" d="This is the name of the entity or list, as stored on Datastream's databases." l="Name" n="TR.Name" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_Mnem" d="Datastream Mnemonic" l="Mnemonic" n="TR.Mnem" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_DRIC" d="DRIC" l="DRIC" n="TR.DRIC" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RIC</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_Type" d="This datatype indicates the type of instrument requested." l="Type of Instrument" n="TR.Type" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_EuroInstrumentType" d="Full name of the Euro traded instrument type." l="Euro Instrument Type" n="TR.EuroInstrumentType" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EINTYP</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_DiscontinuedSeries" d="This datatype gives status of the Economics series - N for active and Y for discontinued." l="Discontinued Series" n="TR.DiscontinuedSeries" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DISC</in:sp>
+		</i>
+		<i id="I_DSE_SE_TR_EuroCode" d="Datastream code for the Euro data series." l="Datastream Euro Code" n="TR.EuroCode" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSE_D" d="Descriptive" n="Descriptive" >
+		<i id="I_DSE_D_TR_ExpandedName" d="It is the expanded name of the equity/company/index as stored on the Datastream database." l="Expanded Name" n="TR.ExpandedName" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ENAME</in:sp>
+		</i>
+		<i id="I_DSE_D_TR_Title" d="Economics Title" l="Title" n="TR.Title" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TITLE</in:sp>
+		</i>
+		<i id="I_DSE_D_TR_GeogGroupName" d="Geography Group Name" l="Geography Group Name" n="TR.GeogGroupName" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">GEOGN</in:sp>
+		</i>
+		<i id="I_DSE_D_TR_BaseDate" d="The base date is the date from which Datastream holds information about the series." l="Base Date" n="TR.BaseDate" s="DATASTREAM" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">BDATE</in:sp>
+		</i>
+	</c>
+	<c id="C_DSE_E" n="Economics" d="Economics">
+		<i id="I_DSE_E_TR_EconSeries" n="TR.EconSeries" l="Economic Series" d="Allows users to request an econimic indicator Time Series" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="U" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">ES</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Adjustment" n="TR.Adjustment" l="Adjustment" d="This datatype provides adjustment indicators for economics." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EADJ</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Frequency" n="TR.Frequency" l="Frequency" d="This datatype gives the frequency of the series - Monthly, quarterly, etc.,." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ESFREQ</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Magnitude" n="TR.Magnitude" l="Magnitude" d="Magnitude" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">ESMAG</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Conversion" n="TR.Conversion" l="Conversion" d="Conversion" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ECONV</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_EconCurr" n="TR.EconCurr" l="Economic Currency" d="This datatype gives the currency of the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ESCUR</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_DecimalPlaces" n="TR.DecimalPlaces" l="Decimal Places" d="This datatype gives the number of decimal places for the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ESDP</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_EconSource" n="TR.EconSource" l="Econ Source" d="This datatype gives the name of the source of the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ESRCE</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Unit" n="TR.Unit" l="Unit" d="This datatype gives the unit quotation of the series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">ESUNT</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_UnitQualifier" n="TR.UnitQualifier" l="Unit Qualifier" d="This datatype gives the unit qualifier (for example, 1995=100)" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EUNAM</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_Update" n="TR.Update" l="Last Update Date" d="The UPDATE datatype shows the day on which the series was last changed – this could be last observation, or an update to an earlier observation." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">UPDATE</in:sp>
+		</i>		
+		<i id="I_DSE_E_TR_FirstForecast" n="TR.FirstForecast" l="Date of First Forecast" d="A definition for this datatype is being prepared and will be available soon." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DS.FIRSTFOR</in:sp>
+		</i>		
+		<i id="I_DSE_E_TR_UnderlyingCurrBefEuro" n="TR.UnderlyingCurrBefEuro" l="Underlying Currency Before Euro" d="This datatype gives the currency of the series prior to the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EUNCCY</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_UnitofDisplayBefEuro" n="TR.UnitofDisplayBefEuro" l="Unit of Display Before Euro" d="This datatype gives the unit of the series prior to the Euro." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSPUT</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_EarliestObservationDate" n="TR.EarliestObservationDate" l="Earliest Observation Date" d="Earliest Observation Date" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RELEOP</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_FirstReleasebyObservation" n="TR.FirstReleasebyObservation" l="First Release by Observation" d="A time series datatype which displays the unrevised values, as originally announced. The default data type for Economics displays a time series of the latest revisions. REL1 displays unrevised data, aligned by period, using the underlying frequency of the series." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">REL1</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_FirstReleasebyReleasePeriod" n="TR.FirstReleasebyReleasePeriod" l="First Release by Release Period" d="A time series datatype which displays the unrevised value, as originally announced aligned by announcement date, rather than by period." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELD1</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_FirstRevisionbyObservation" n="TR.FirstRevisionbyObservation" l="First Revision by Observation" d="A time series datatype which displays the first revisions following the initial announcements. All values are aligned by period, using the underlying frequency of the series." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">REL2</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_FirstRevisionbyReleasePeriod" n="TR.FirstRevisionbyReleasePeriod" l="First Revision by Release Period" d="A daily time series of first revisions following the initial announcements. All values are aligned by announcement date, rather than by period." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELD2</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_HistoryforanObservationPeriod" n="TR.HistoryforanObservationPeriod" l="History for an Observation Period" d="The first 20 reported announcements for a single Economic period.  RELH is a static datatype which displays the first 20 (as) reported announcements issued for a chosen observation period." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELH</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_ReleaseHistory50" n="TR.ReleaseHistory50" l="Release History 50" d="Release History 50" cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELH50</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_SecondRevisionbyObservation" n="TR.SecondRevisionbyObservation" l="Second Revision by Observation" d="A time series datatype which displays the second revisions following the initial announcements. All values are aligned by period, using the underlying frequency of the series." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">REL3</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_SecondRevisionReleasePeriod" n="TR.SecondRevisionReleasePeriod" l="Second Revision Release Period" d="A daily time series of second revisions following the initial announcements. All values are aligned by announcement date, rather than by period." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELD3</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_VintageData" n="TR.VintageData" l="Vintage Data" d="A time series datatype which allows a user to view vintage data for a series, i.e. to roll back time and see the values that were known for that series on a specific date (the end date).The specified start and end dates control the number of values displayed. The end date is compared with the announcement dates for each observation to determine the last known announcement to create the vintage time series." cc="CCDSTimeSeries" pc="PCDSTimeSeries" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Timeseries</in:sp>
+			<in:sp k="f">RELV</in:sp>
+		</i>
+		<i id="I_DSE_E_TR_ValueUpdated" n="TR.ValueUpdated" l="Value Updated" d="The VALUPD has the date the most current value was updated on Datastream." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">VALUPD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSE_SQ" n="Security &amp; Quotation" d="Security &amp; Quotation">
+		<i id="I_DSE_SQ_TR_Name" n="TR.Name" l="Name" d="This is the name of the entity or list, as stored on Datastream’s databases." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NAME</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_Mnem" n="TR.Mnem" l="Mnemonic" d="Datastream Mnemonic" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">MNEM</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_DRIC" n="TR.DRIC" l="DRIC" d="DRIC" cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">RIC</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_Type" n="TR.Type" l="Type of Instrument" d="This datatype indicates the type of instrument requested." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">TYPE</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_EuroInstrumentType" n="TR.EuroInstrumentType" l="Euro Instrument Type" d="Full name of the Euro traded instrument type." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EINTYP</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_DiscontinueDSFXies" n="TR.DiscontinuedSeries" l="Discontinued Series" d="This datatype gives status of the Economics series - N for active and Y for discontinued." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">DISC</in:sp>
+		</i>
+		<i id="I_DSE_SQ_TR_EuroCode" n="TR.EuroCode" l="Datastream Euro Code" d="Datastream code for the Euro data series." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">EDSCD</in:sp>
+		</i>
+	</c>
+	<c id="C_DSE_CA" n="Corporate Actions" d="Corporate Actions">
+		<i id="I_DSE_CA_TR_EuroSDate" n="TR.EuroSDate" l="Date of Earliest Euro Value" d="Date of earliest Euro value provided by source. Applies to economics only." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">SDATE</in:sp>
+		</i>
+		<i id="I_DSE_CA_TR_CurrencyBeforeEuroEDate" n="TR.CurrencyBeforeEuroEDate" l="Date of Last Currency Value Before Euro" d="Date of the last national currency value provided by source prior to Euro conversion." cc="CCDSStaticNC" pc="PCDSStaticNC" vu="N" s="DATASTREAM" isScreen="false">
+			<in:sp k="m">Static</in:sp>
+			<in:sp k="f">NDATE</in:sp>
+		</i>
+	</c>
+</d>

@@ -1,0 +1,109 @@
+<d id="D_ETP" n="Exchange Traded Product" d="Exchange Traded Product Information." xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_ETP_ID" n="Exchange Traded Product Details" d="Exchange Traded Product Details." m="">
+		<i id="I_ETP_ID_ETPGeography" n="TR.ETPGeography" l="ETP Geography" d="ISO three country code of the ETP." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IG</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">IndexGeography</in:sp>
+			<in:sp k="field">IndexGeography</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_ETP_ID_ETPName" n="TR.ETPName" l="ETP Name" d="The actual name of the ETP." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_I</in:sp>
+			<in:sp k="id">IndexId</in:sp>
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>      
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="field">CommonName</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_ETP_ID_ETPHistoryBeginDate" n="TR.ETPHistoryBeginDate" l="History Begin Date" d="The date on which Reuters first maintains a history for the ETP." i="I:17 I:50" s="VECTORWISEICW" vu="N" cc="ricValue" dt="Date" isScreen="false">
+			<in:sp k="fn">IcwHandler_I</in:sp>
+			<in:sp k="id">HistoryBeginDate</in:sp>      
+			<in:sp k="pcode">ALL</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="field">HistoryBeginDate</in:sp>
+			<in:sp k="type">DATE</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_ETP_ID_ETPIssuerName" n="TR.ETPIssuerName" l="ETP Issuer Name" d="The actual Issuer Name of the ETP." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" cc="ricValue" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_IIN</in:sp>
+			<in:sp k="id">IndexIssuerName</in:sp>
+			<in:sp k="pcode">IALL,IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="idt">RIC</in:sp>
+			<in:sp k="type">STRING</in:sp>
+		</i>
+	</c>
+	<c id="C_ETP_IC" n="Exchange Traded Product Constituents" d="Exchange Traded Product Constituents." m="">
+    <i id="I_ETP_IC_ConstituentRIC" n="TR.ETPConstituentRIC" l="Constituent RIC" d="The Constituent RIC Code" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPConstPg" cc="ETPConstituentRICnoPeriodOpenCloseDate" vc="constituentric" dt="String" isScreen="false" enableHeatMap="false">
+      <in:sp k="fn">IcwHandler_CN</in:sp>
+      <in:sp k="id">ConstituentRicValue</in:sp>
+      <in:sp k="pcode">IRWTG</in:sp>        
+      <in:sp k="valueBuilder">RicFromQuoteIdUsingCacheColumnObjectBuilder</in:sp>
+    </i>  
+		<i id="I_ETP_IC_ConstituentName" n="TR.ETPConstituentName" l="Constituent Name" d="The constituent Name" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPConstPg" cc="ETPConstituentRICnoPeriodOpenCloseDate" dt="String" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_CN</in:sp>
+			<in:sp k="id">ConstituentName</in:sp>
+			<in:sp k="pcode">IRWTG</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="field">Constituent</in:sp>
+			<in:sp k="type">STRING</in:sp>
+			<in:sp k="isSpec">FALSE</in:sp>
+		</i>
+		<i id="I_ETP_IC_ETPShares" n="TR.ETPConstituentShares" l="ETP Shares" d="The Weighting of the ETP." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPConstSrc" cc="ETPConstituentRICnoPeriodSrc" dt="Float" isScreen="false">
+			<in:sp k="fn">IcwHandler_CS</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentShares</in:sp>
+			<in:sp k="field">IndexShares</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">IndexSharesSpecified</in:sp>
+		</i>
+		<i id="I_ETP_IC_WeightPercent" n="TR.ETPConstituentWeightPercent" l="Weight percent" d="The Weighting, expressed as a percentage, of the ETP." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPConstSrc" cc="ETPConstituentRICnoPeriodSrc" dt="Percentage" isScreen="false">
+			<in:sp k="fn">IcwHandler_CWP</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+      <in:sp k="id">ConstituentWeightPercent</in:sp>
+			<in:sp k="field">WeightPercent</in:sp>
+			<in:sp k="type">FLOAT</in:sp>
+			<in:sp k="isSpec">TRUE</in:sp>
+			<in:sp k="isSpecField">WeightPercentSpecified</in:sp>
+		</i>
+		<i id="I_ETP_IC_NbOfResults" n="TR.ETPConstituentNbOfResults" l="Number of Results" d="Brings back number of results available." i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPConstSrc" cc="ricValue" dt="Integer" isScreen="false">
+			<out:p id="hidden"/>
+		</i>
+		<i id="I_ETP_IC_Constituent_ConstituentPrice" n="TR.ETPConstituentPrice" l="Constituent Price" d="Price of the Constituent" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPICWConstituentsDate" cc="ETPConstituentRICnoPeriodOpenCloseDate"  dt="Money" isScreen="false" enableHeatMap="false">
+			<in:sp k="fn">IcwHandler_CP</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentPrice</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_ETP_IC_Constituent_ConstituentPriceCurr" n="TR.ETPConstituentPriceCurr" l="Constituent Price Currency" d="Price of the Constituent Currency" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" vu="N" pc="ETPICWConstituentsDate" cc="ETPConstituentRICnoPeriodOpenCloseDate" dt="Currency" isScreen="false">
+			<in:sp k="fn">IcwHandler_CCC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">StringColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentCurrencyCode</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_ETP_IC_ConstituentAdjFactorNextDay" n="TR.ETPConstituentAdjFactorNextDay" l="Constituent Adj Factor Next Day" d="Constituent Adj Factor Next Day" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" pc="ETPDate" cc="ETPConstituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false">
+			<in:sp k="fn">IcwHandler_CAF</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentAdjFactorNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+		<i id="I_ETP_IC_ConstituentMarketCapNextDay" n="TR.ETPConstituentMarketCapNextDay" l="Constituent Market Cap Next Day" d="Constituent Market Cap Next Day" i="A:5E A:5E A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:KR A:KR A:BU A:BU A:KX A:KY A:KX A:KY" s="VECTORWISEICW" pc="ETPDate" cc="ETPConstituentRICnoPeriodOpenCloseDate" dt="Float" isScreen="false">
+			<in:sp k="fn">IcwHandler_CMC</in:sp>
+			<in:sp k="pcode">NONE</in:sp>
+      <in:sp k="valueBuilder">DecimalColumnObjectBuilder</in:sp>
+			<in:sp k="id">ConstituentMarketCapNextDay</in:sp>
+			<in:sp k="idt">IndexId</in:sp>
+		</i>
+	</c>
+</d>

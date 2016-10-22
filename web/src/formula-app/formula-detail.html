@@ -1,0 +1,92 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/font-roboto/roboto.html">
+<link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="./formula-contact.html">
+
+<!-- parent item will only provide the information about formula
+    However, this component have to make Ajax query for datasource/contact
+    by itself
+-->
+
+<dom-module id="formula-detail">
+    <template>
+        <style>
+            paper-card {
+                --paper-card-header-color: #FFFFFF;
+                --paper-card-background-color: #F1F8E9;
+                max-width: 500px;
+                font-family: Roboto;
+            }
+            div.datasource {
+                margin-top: 20px;
+            }
+            div.contact {
+                margin-top: 20px;
+            }
+        </style>
+
+        <iron-ajax
+            id="ajax"
+            auto 
+            url={{_url}}
+            handle-as="json"
+            last-response="{{datasource}}"></iron-ajax>
+
+        <paper-card elevation="3" heading="{{formula.name}}" 
+            image="https://placeholdit.imgix.net/~text?bg=4285f4&txtclr=000000&w=500&h=100">
+            <div class="card-content">
+                <h3>{{formula.label}}</h3>
+                <span>{{formula.description}}</span>
+                <div class="datasource">
+                    <iron-icon icon="social:poll"></iron-icon>
+                    <span>{{datasource.name}}</span>
+                </div>
+            </div>
+            <div class="card-action">
+                <formula-contact contact="{{datasource.contact}}">
+                </formula-contact>
+            </div>
+        </paper-card>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'formula-detail',
+
+            properties: {
+                datasource: {
+                    type: Object,
+                    notify: true,
+                },
+                formula: {
+                    type: Object,
+                    notify: true,
+                    observer: '_updateContact'
+                },
+                endpoint: {
+                    type: String,
+                },
+
+                _url: {
+                    type: String,
+                    computed: '_buildURL(endpoint, formula.datasource)'
+                }
+
+            },
+
+            _buildURL: function(endpoint, id){
+                return endpoint + '/api/datasource/' + id;
+            },
+            _updateContact: function(){
+                var ajax = this.$.ajax;
+                ajax.generateRequest();
+            }
+
+        });
+    </script>
+</dom-module>

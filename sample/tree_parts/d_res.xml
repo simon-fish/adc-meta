@@ -1,0 +1,520 @@
+﻿<d id="D_RES" n="Earnings (RES)" d="Earnings" m="RES" xmlns:in="http://schemas.reuters.com/ns/2007/08/snapshotmeta_internal" xmlns:out="http://schemas.reuters.com/ns/2007/08/snapshotmeta" xmlns="http://schemas.reuters.com/ns/2007/08/snapshotmeta_parts">
+	<c id="C_RES_EH" n="Earnings History (EH)" d="Earnings History." m="EH">
+		<c id="C_RES_EH_C" n="Consolidated (C)" d="Consolidated" m="C">
+			<i id="I_RES_EH_C_IsProforma" n="RES.EH.C.IsProforma" d="A flag to define whether the value is from proforma accounts." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Proforma Flag" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsProforma</in:sp>
+				<in:sp k="field">IsProforma</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsProformaSpecified</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AuditStatus" n="RES.EH.C.AuditStatus" d="The Audit Status of the accounts, this may be Yes for Audited or No for Unaudited." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Audit Status" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">AuditStatus</in:sp>
+				<in:sp k="field">AuditStatus</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_IsRolling" n="RES.EH.C.IsRolling" d="Defines whether the value is for a Rolling 12 month period as opposed to a Fiscal Period." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Rolling Period Flag" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsRolling</in:sp>
+				<in:sp k="field">IsRolling</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsRollingSpecified</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_ConsolidationBasis" n="RES.EH.C.ConsolidationBasis" d="The Consolidation basis of the accounts, this may be Consolidated or Parent." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidation Basis" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Consolidation</in:sp>
+				<in:sp k="field">Consolidation</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AnnouncementDate" n="RES.EH.C.AnnouncementDate" d="The Announcement Date of the EPS in question." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Announcement Date" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dt">7</out:p>
+				<in:sp k="id">AnnouncementDate</in:sp>
+				<in:sp k="field">AnnouncementDate</in:sp>
+				<in:sp k="type">DATE</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">AnnouncementDateSpecified</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_EndDate" n="RES.EH.C.EndDate" d="The Period End Date for the EPS in question." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Period End Date" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dt">7</out:p>
+				<in:sp k="id">EndDate</in:sp>
+				<in:sp k="field">EndDate</in:sp>
+				<in:sp k="type">DATE</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">EndDateSpecified</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_EPSCurr" n="RES.EH.C.EPSCurr" d="The original currency of the Value." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="EPS Currency" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dw">15</out:p>
+				<out:p id="xtra_dr">PS</out:p>
+				<out:p id="xtra_dt">5</out:p>
+				<in:sp k="id">EPSCurr</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare,AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_UnadjustedGrossBeforeExtra" n="RES.EH.C.UnadjustedGrossBeforeExtra" d="Basic EPS Before Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Unadjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dw">15</out:p>
+				<out:p id="xtra_dr">PS</out:p>
+				<out:p id="xtra_dt">5</out:p>
+				<in:sp k="id">Basic/Consolidated/Gross/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">GrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AdjustedGrossBeforeExtra" n="RES.EH.C.AdjustedGrossBeforeExtra" d="Basic EPS Before Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Adjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dw">15</out:p>
+				<out:p id="xtra_dr">PS</out:p>
+				<out:p id="xtra_dt">5</out:p>
+				<in:sp k="id">Basic/Consolidated/Gross/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">GrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_UnadjustedGrossAfterExtra" n="RES.EH.C.UnadjustedGrossAfterExtra" d="Basic EPS After Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Unadjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Gross/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">GrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AdjustedGrossAfterExtra" n="RES.EH.C.AdjustedGrossAfterExtra" d="Basic EPS After Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Adjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Gross/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">GrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_UnadjustedNetBeforeExtra" n="RES.EH.C.UnadjustedNetBeforeExtra" d="Basic EPS Before Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Unadjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Net/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">NetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AdjustedNetBeforeExtra" n="RES.EH.C.AdjustedNetBeforeExtra" d="Basic EPS Before Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Adjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Net/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">NetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_UnadjustedNetAfterExtra" n="RES.EH.C.UnadjustedNetAfterExtra" d="Basic EPS After Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Unadjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Net/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">NetAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_AdjustedNetAfterExtra" n="RES.EH.C.AdjustedNetAfterExtra" d="Basic EPS After Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Adjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Consolidated/Net/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">NetAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilUnadjustedGrossBeforeExtra" n="RES.EH.C.DilUnadjustedGrossBeforeExtra" d="Diluted EPS Before Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Unadjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Gross/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilGrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilAdjustedGrossBeforeExtra" n="RES.EH.C.DilAdjustedGrossBeforeExtra" d="Diluted EPS Before Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Adjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Gross/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilGrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilUnadjustedGrossAfterExtra" n="RES.EH.C.DilUnadjustedGrossAfterExtra" d="Diluted EPS After Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Unadjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Gross/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilGrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilAdjustedGrossAfterExtra" n="RES.EH.C.DilAdjustedGrossAfterExtra" d="Diluted EPS After Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Adjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Gross/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilGrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilUnadjustedNetBeforeExtra" n="RES.EH.C.DilUnadjustedNetBeforeExtra" d="Diluted EPS Before Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Unadjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Net/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilNetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilAdjustedNetBeforeExtra" n="RES.EH.C.DilAdjustedNetBeforeExtra" d="Diluted EPS Before Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Adjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Net/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilNetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilUnadjustedNetAfterExtra" n="RES.EH.C.DilUnadjustedNetAfterExtra" d="Diluted EPS After Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Unadjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dw">15</out:p>
+				<out:p id="xtra_dt">5</out:p>
+				<in:sp k="id">Diluted/Consolidated/Net/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilNetAfterExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_DilAdjustedNetAfterExtra" n="RES.EH.C.DilAdjustedNetAfterExtra" d="Diluted EPS After Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidated Diluted Adjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Consolidated/Net/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+				<in:sp k="PN">DilNetAfterExt</in:sp>
+				<in:sp k="SEPDIL">FUL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_C_IsRestated" n="RES.EH.C.IsRestated" d="A flag to define whether the accounts are restated." l="Restated Flag" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsRestated</in:sp>
+				<in:sp k="field">IsRestated</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsRestatedSpecified</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_EarningsSource" n="RES.EH.C.EarningsSource" d="The Source of the Information, this may be &quot;As Reported&quot; in the company accounts, &quot;Reuters&quot;, &quot;Third Party&quot; or &quot;No Reported Source&quot;." l="Earnings Source" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">EarningsSource</in:sp>
+				<in:sp k="field">EarningsSource</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_CalculationMethod" n="RES.EH.C.CalculationMethod" d="Indicates how the Shares value in the EPS calculation was calculated. This may be &quot;Unspecified&quot;, &quot;Weighted Average&quot;, &quot;Simple Average&quot; or &quot;Period End Number&quot;." l="Calculation Method" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">CalculationMethod</in:sp>
+				<in:sp k="field">CalculationMethod</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+			<i id="I_RES_EH_C_ShareBasisNumber" n="RES.EH.C.ShareBasisNumber" d="The Number of Shares used in the EPS Calculation." l="Share Basis Number" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">ShareBasisNumber</in:sp>
+				<in:sp k="field">ShareBasisNumber</in:sp>
+				<in:sp k="type">LONG</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">C</in:sp>
+			</i>
+		</c>
+		<c id="C_RES_EH_P" n="Parent (P)" d="Parent" m="P">
+			<i id="I_RES_EH_P_EPSCurr" n="RES.EH.P.EPSCurr" d="The original currency of the Value." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="EPS Currency" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dw">15</out:p>
+				<out:p id="xtra_dr">PS</out:p>
+				<out:p id="xtra_dt">5</out:p>
+				<in:sp k="id">EPSCurr</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare,AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+			</i>
+			<i id="I_RES_EH_P_IsProforma" n="RES.EH.P.IsProforma" d="A flag to define whether the value is from proforma accounts." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Proforma Flag" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsProforma</in:sp>
+				<in:sp k="field">IsProforma</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsProformaSpecified</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AuditStatus" n="RES.EH.P.AuditStatus" d="The Audit Status of the accounts, this may be Yes for Audited or No for Unaudited." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Audit Status" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id" />
+				<in:sp k="field">AuditStatus</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_IsRolling" n="RES.EH.P.IsRolling" d="Is Rolling." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Rolling Period Flag" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsRolling</in:sp>
+				<in:sp k="field">IsRolling</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsRollingSpecified</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_ConsolidationBasis" n="RES.EH.P.ConsolidationBasis" d="The Consolidation basis of the accounts, this may be Consolidated or Parent." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Consolidation Basis" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Consolidation</in:sp>
+				<in:sp k="field">Consolidation</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AnnouncementDate" n="RES.EH.P.AnnouncementDate" d="The Announcement Date of the EPS in question." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Announcement Date" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dt">7</out:p>
+				<in:sp k="id">AnnouncementDate</in:sp>
+				<in:sp k="field">AnnouncementDate</in:sp>
+				<in:sp k="type">DATE</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">AnnouncementDateSpecified</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_EndDate" n="RES.EH.P.EndDate" d="The Period End Date for the EPS in question." cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Earning Period End Date" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<out:p id="xtra_dt">7</out:p>
+				<in:sp k="id">EndDate</in:sp>
+				<in:sp k="field">EndDate</in:sp>
+				<in:sp k="type">DATE</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">EndDateSpecified</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_UnadjustedGrossBeforeExtra" n="RES.EH.P.UnadjustedGrossBeforeExtra" d="Basic EPS Before Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Basic Unadjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Gross/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">GrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AdjustedGrossBeforeExtra" n="RES.EH.P.AdjustedGrossBeforeExtra" d="Basic EPS Before Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Basic Adjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Gross/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">GrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_UnadjustedGrossAfterExtra" n="RES.EH.P.UnadjustedGrossAfterExtra" d="Basic EPS After Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Unadjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Gross/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">GrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AdjustedGrossAfterExtra" n="RES.EH.P.AdjustedGrossAfterExtra" d="Basic EPS After Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Adjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Gross/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">GrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_UnadjustedNetBeforeExtra" n="RES.EH.P.UnadjustedNetBeforeExtra" d="Basic EPS Before Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Unadjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Net/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">NetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AdjustedNetBeforeExtra" n="RES.EH.P.AdjustedNetBeforeExtra" d="Basic EPS Before Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Adjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Net/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">NetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_UnadjustedNetAfterExtra" n="RES.EH.P.UnadjustedNetAfterExtra" d="Basic EPS After Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Basic Unadjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Net/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">NetAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_AdjustedNetAfterExtra" n="RES.EH.P.AdjustedNetAfterExtra" d="Basic EPS After Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Basic Adjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Basic/Parent/Net/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">NetAfterExt</in:sp>
+				<in:sp k="SEPDIL">BAS</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilUnadjustedGrossBeforeExtra" n="RES.EH.P.DilUnadjustedGrossBeforeExtra" d="Diluted EPS Before Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Unadjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Gross/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilGrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilAdjustedGrossBeforeExtra" n="RES.EH.P.DilAdjustedGrossBeforeExtra" d="Diluted EPS Before Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Adjusted Gross EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Gross/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilGrossBeforeExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilUnadjustedGrossAfterExtra" n="RES.EH.P.DilUnadjustedGrossAfterExtra" d="Diluted EPS After Extraordinary Items, Gross of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Unadjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Gross/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilGrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilAdjustedGrossAfterExtra" n="RES.EH.P.DilAdjustedGrossAfterExtra" d="Diluted EPS After Extraordinary Items, Gross of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Adjusted Gross EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Gross/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilGrossAfterExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilUnadjustedNetBeforeExtra" n="RES.EH.P.DilUnadjustedNetBeforeExtra" d="Diluted EPS Before Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Unadjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Net/BeforeExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilNetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilAdjustedNetBeforeExtra" n="RES.EH.P.DilAdjustedNetBeforeExtra" d="Diluted EPS Before Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Adjusted Net EPS Before Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Net/BeforeExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilNetBeforeExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">BEFORE</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilUnadjustedNetAfterExtra" n="RES.EH.P.DilUnadjustedNetAfterExtra" d="Diluted EPS After Extraordinary Items, Net of Tax &amp; Unadjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Unadjusted Net EPS After Extraordinary Items" vp="4" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Net/AfterExtraordinary/UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="field">UnadjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilNetAfterExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_DilAdjustedNetAfterExtra" n="RES.EH.P.DilAdjustedNetAfterExtra" d="Diluted EPS After Extraordinary Items, Net of Tax &amp; Adjusted for Corporate Actions." cc="CorpEarn" pc="EarnCurr" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" l="Parent Diluted Adjusted Net EPS After Extraordinary Items" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">Diluted/Parent/Net/AfterExtraordinary/AdjustedEarningsPerShare</in:sp>
+				<in:sp k="field">AdjustedEarningsPerShare</in:sp>
+				<in:sp k="type">FLOAT</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="PN">DilNetAfterExt</in:sp>
+				<in:sp k="SEPDIL">DIL</in:sp>
+				<in:sp k="EXTRA">AFTER</in:sp>
+			</i>
+			<i id="I_RES_EH_P_IsRestated" n="RES.EH.P.IsRestated" d="A flag to define whether the accounts are restated." l="Restated Flag" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">IsRestated</in:sp>
+				<in:sp k="field">IsRestated</in:sp>
+				<in:sp k="type">BOOL</in:sp>
+				<in:sp k="isSpec">TRUE</in:sp>
+				<in:sp k="isSpecField">IsRestatedSpecified</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_EarningsSource" n="RES.EH.P.EarningsSource" d="The Source of the Information, this may be &quot;As Reported&quot; in the company accounts, &quot;Reuters&quot;, &quot;Third Party&quot; or &quot;No Reported Source&quot;." l="Earnings Source" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">EarningsSource</in:sp>
+				<in:sp k="field">EarningsSource</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_CalculationMethod" n="RES.EH.P.CalculationMethod" d="Indicates how the Shares value in the EPS calculation was calculated. This may be &quot;Unspecified&quot;, &quot;Weighted Average&quot;, &quot;Simple Average&quot; or &quot;Period End Number&quot;." l="Calculation Method" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">CalculationMethod</in:sp>
+				<in:sp k="field">CalculationMethod</in:sp>
+				<in:sp k="type">STRING</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+			<i id="I_RES_EH_P_ShareBasisNumber" n="RES.EH.P.ShareBasisNumber" d="The Number of Shares used in the EPS Calculation." l="Share Basis Number" cc="CorpEarnNoCurr" pc="Earn" i="A:1L A:AN A:AP A:FP A:FR A:FQ A:AQ A:FN A:1W A:31 A:FS A:AR A:32 A:AT A:AU A:33 A:34 A:35 A:36 A:37 A:FU A:FT A:10 A:39 A:3A A:AS A:2R A:BF A:BG A:BH A:BI A:BJ A:3C A:3B A:3F A:1X A:FV A:FX A:FW A:18 A:FZ A:FY A:AV I:17 I:50 A:2X A:KZ A:L0 A:L1 A:L2 A:L3 A:L4 A:L5 A:L6 A:5M" s="REUTERSEARNINGSSERVICE" vu="N" isScreen="false">
+				<in:sp k="id">ShareBasisNumber</in:sp>
+				<in:sp k="field">ShareBasisNumber</in:sp>
+				<in:sp k="type">LONG</in:sp>
+				<in:sp k="isSpec">FALSE</in:sp>
+				<in:sp k="CAT">P</in:sp>
+				<in:sp k="DIL">FUL</in:sp>
+			</i>
+		</c>
+	</c>
+</d>
