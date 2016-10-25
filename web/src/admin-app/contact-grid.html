@@ -1,0 +1,331 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-datatable/paper-datatable.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="../../bower_components/iron-a11y-keys/iron-a11y-keys.html">
+
+
+<dom-module id="contact-grid">
+    <template>
+        <style is="custom-style">
+            #status {
+                width: 100px;
+                margin-top: 0px;
+                margin-right: 0px;
+            }
+            paper-button {
+                background: #4285f4;
+                color: white;
+            }
+            paper-button:hover {
+                background: #62A5f4;
+                color: white;
+            }
+
+            #addButton {
+                margin-top: 20px;
+            }
+
+            #addContact {
+                width: 50%;
+            }
+
+            #grid {
+                margin-top: 30px;
+            }
+
+            paper-input {
+                align-text: right;
+            }
+
+        </style>
+        <iron-ajax id="ajaxList" auto url=[[_url]] handle-as="json" last-response={{contacts}}></iron-ajax>
+        <iron-ajax id="ajaxDelete" url={{_url}} handle-as="json" method="DELETE"
+            on-response="_onDeleteResponse"></iron-ajax>
+        <iron-ajax id="ajaxUpdate" url=[[_url]] on-response="_onUpdateResponse" on-error="_onRequestError"
+                 method="PUT" headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+
+        <iron-ajax id="ajaxCreate" url=[[_url]] on-response="_onCreateResponse" on-error="_onRequestError"
+                method="POST" headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+
+
+        <div id="content">
+            <paper-toast id="status"></paper-toast>
+            <div id="addContact">
+                <iron-a11y-keys target="[[target]]" keys="enter" on-keys-pressed='onEnter'></iron-a11y-keys>
+                <paper-input id="nameInput" label="Name" value="{{_created.name}}">
+                    <iron-icon icon="icons:account-circle" prefix></iron-icon>
+                </paper-input>
+                <paper-input id="emailInput" label="Email" value="{{_created.email}}">
+                    <iron-icon icon="mail" prefix></iron-icon>
+                    <div suffix>@thomsonreuters.com</div>
+                </paper-input>
+                <paper-button id="addButton" disabled on-click='_createContact'>SAVE</paper-button>
+                <paper-button id="deleteButton" on-click='_deleteContact'>DELETE</paper-button>
+                <paper-button id="reloadButton" on-click='_reloadContact'>RELOAD</paper-button>
+                
+
+            </div>
+            <div id="grid">
+                <paper-datatable id="datatable" multi-selection selectable data={{contacts}} selected-items={{selectedContacts}}>
+                    <paper-datatable-column header="Name" property="name" type="String" dialog edit-icon editable>
+                        <template>
+                            <iron-a11y-keys target="[[targetName]]" keys="enter" on-keys-pressed='onEditName'></iron-a11y-keys>
+                            <paper-input id="editedName" value="{{item.name}}" name="{{item._id}}" no-label-float>
+                                <iron-icon icon="icons:account-circle" prefix></iron-icon>
+                            </paper-input>
+                        </template>
+                    </paper-datatable-column>
+                    <paper-datatable-column header="Email" property="email" type="String" dialog edit-icon editable>
+                        <template>
+                            <iron-a11y-keys target="[[targetEmail]]" keys="enter" on-keys-pressed='onEditEmail'></iron-a11y-keys>
+                            <paper-input id="editedEmail" value="{{item.email}}" name="{{item._id}}" no-label-float>
+                                <iron-icon icon="mail" prefix></iron-icon>
+                                <iron-item></iron-item>
+                            </paper-input>
+                        </template>
+                    </paper-datatable-column>
+                    <paper-datatable-column header="Created" property="created" type="Date" sortable sorted></paper-datatable-column>
+                </paper-datatable>
+                <div>[[item._id]]</div>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'contact-grid',
+
+            properties: {
+
+                endpoint : {
+                    type: String,
+                },
+                selectedContacts : {
+                    type: Array
+                },
+                _url : {
+                    type: String,
+                    computed: '_computedURL(endpoint)'
+                },
+                _created: {
+                    type: Object,
+                    value: {
+                        name: '',
+                        email: ''
+                    }
+                },
+
+                // number of contacts to be deleted
+                _toDeleted : {
+                    type: Object,
+                    value: {
+                        total: 0,
+                        success: 0,
+                        failed: 0
+                    }
+                },
+
+                /**
+                 * These properties are just for iron-a11y-keys components
+                 * target: for Add mechanism so that user does not need to press button
+                 * targetEmail: when user edit inline contact's email
+                 * targetName: when user edit inline contact's name
+                 */
+                target : {
+                    type: Object,
+                    value: function() {
+                        return this.$.emailInput;
+                    }
+                },
+                targetEmail : {
+                    type: Object,
+                    value: function() {
+                        return this.$.editedEmail;
+                    }
+                },
+                targetName : {
+                    type: Object,
+                    value: function() {
+                        return this.$.editedName;
+                    }
+                },
+            },
+
+            _reloadContact: function(){
+                //this.$.datatable.reset();
+                this.$.ajaxList.generateRequest();
+            },
+
+            _deleteContact: function(e){
+                var ajax = this.$.ajaxDelete
+                var rootUrl = this._url
+                var contacts = this.selectedContacts.slice();
+                this.$.datatable.deselectAll();
+
+                this._toDeleted.total = contacts.length;
+                this._toDeleted.success = 0;
+                this._toDeleted.failed = 0;
+
+                console.log("Contact to delete: " + this._toDeleted.total);
+
+                contacts.forEach(function(item){
+                    ajax.url = rootUrl + '/' + item._id;
+                    ajax.generateRequest();
+                    ajax.url = rootUrl;
+                });
+            },
+
+            _createContact: function(){
+                var ajax = this.$.ajaxCreate
+                var payload = {
+                    name: this._created.name,
+                    email: this._created.email + '@thomsonreuters.com'
+                };
+
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+
+                console.log('Send REST request to create contact.');
+            },
+
+
+            // Callback for update contact.
+            _onUpdateResponse: function(e){
+                // Check return status
+                var t = this.$.status
+                if (e.detail.xhr.status >= 200 && e.detail.xhr.status < 300){
+                    // Success code
+                    t.text = "Update contact successfully"
+                }
+                else{
+                    // Failure code
+                    t.text = "Error!! HTTP(" + e.detail.xhr.status + ')';
+                    this.$.ajaxList.generateRequest();
+                }
+                this.$.ajaxList.generateRequest();
+                t.open();
+            },
+
+             // Callback for Create contact.
+            _onCreateResponse: function(e){
+                // Check return status
+                var t = this.$.status;
+                if (e.detail.xhr.status >= 200 && e.detail.xhr.status < 300){
+                    // Success code
+
+                    t.text = "Contact created (" + this._created.name + ')';
+                    // Reload grid
+                    this.$.ajaxList.generateRequest();
+                    // Clear input
+                    this._created = {name: '', email: ''};
+                }
+                else{
+                    // Failure code
+                    t.text = "Error!! HTTP(" + e.detail.xhr.status + ')';
+                }
+                t.open();
+            },
+
+             _onDeleteResponse: function(e){
+                // Check return status
+                
+                if (e.detail.xhr.status >= 200 && e.detail.xhr.status < 300){
+                    // Success code
+                    this._toDeleted.success += 1;
+                }
+                else{
+                    // Failure code
+                    this._toDeleted.failed += 1;
+                    //t.text = "Error!! HTTP(" + e.detail.xhr.status + ')';
+                    
+                }
+
+                var left = this._toDeleted.total - (this._toDeleted.success + this._toDeleted.failed);
+
+                if (left == 0){
+                    var t = this.$.status;
+                    t.text = "Contacts deleted. " + this._toDeleted.success + " success, " +
+                        this._toDeleted.failed + " failed.";
+                    t.open();
+                    this._reloadContact();
+                }
+                else {
+
+                }
+            },
+
+            _onRequestError: function(e, detail){
+                var t = this.$.status;
+                t.text = 'Error!!! HTTP(' + e.detail.request.status + '): ' + e.detail.request.statusText;
+                t.open();
+                this.$.ajaxList.generateRequest();
+            },
+
+            _saveButtonStatus: function(name, email){
+                var btn = this.$.addButton;
+                console.log('something changed');
+                if (name == '' || email == ''){
+                    btn.disabled = true;
+                }
+                else {
+                    btn.disabled = false;
+                }
+            },
+
+            _computedURL: function(endpoint){ return endpoint + '/contact'},
+
+            ready: function(){
+                this.$.status.fitInto = this.$.content;
+                this.$.status.verticalAlign = "top";
+                this.$.status.horizontalAlign = "right";
+            },
+
+            onEditEmail: function(){
+                var grid = this.$.grid
+                var inEmail = grid.querySelector("paper-datatable").shadowRoot.querySelector('#editedEmail')
+
+                var ajax = this.$.ajaxUpdate;
+                var payload = {
+                    _id: inEmail.name,
+                    email: inEmail.value
+                }
+
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+                
+            },
+
+            onEditName: function(){
+                var grid = this.$.grid
+                var inName = grid.querySelector("paper-datatable").shadowRoot.querySelector('#editedName');
+
+                var ajax = this.$.ajaxUpdate;
+                var payload = {
+                    _id: inName.name,
+                    name: inName.value
+                };
+
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+                
+            },
+
+            onEnter: function(){
+                if (this._created.name == '' || this._created.email == '') {
+                    return;
+                }
+                this._createContact();
+            },
+
+            observers : [
+                '_saveButtonStatus(_created.name, _created.email)',
+            ]
+        });
+    </script>
+</dom-module>

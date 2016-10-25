@@ -1,0 +1,73 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/vaadin-grid/vaadin-grid.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-datatable/paper-datatable.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+
+
+
+
+
+
+
+
+<dom-module id="datasource-list">
+
+    <template>
+        <style>
+           
+        </style>
+
+       <div>
+           <paper-datatable data={{items}} id="datatable" selectable selected-item={{selectedItem}}>
+               <paper-datatable-column header="Name" property="name" type="String"></paper-datatable-column>
+               <paper-datatable-column header="# of Formulas" property="numOfFormulas" type="Number"></paper-datatable-column>
+               <paper-datatable-column header="Contact" property="contact.name" type="String">
+               </paper-datatable-column>
+               <paper-datatable-column>
+                   <iron-icon icon="icons:list"></iron-icon>
+               </paper-datatable-column>
+           </paper-datatable>
+       </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'datasource-list',
+
+            properties: {
+                items: {
+                    type: Array,
+                    notify: true
+                },
+                // The selection event happen here, so this component need to be able to 
+                // pass the data upward to its parent, especial the information about which item
+                // that have been selected. set 'notify' --> true.
+                selected: {
+                    type: Number,
+                    notify: true
+                },
+
+                selectedItem : {
+                    type: Object,
+                    notify: true,
+                }
+
+            },
+
+            // When this component is loaded. Register event listener on grid
+            ready: function(){
+               
+              },
+
+              _obs: function(item){
+                  console.log('Item has changed: ' + item.name);
+                  this.selectedItem = item;
+              }
+
+
+        });
+    </script>
+
+
+</dom-module>

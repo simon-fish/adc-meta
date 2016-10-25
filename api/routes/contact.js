@@ -61,7 +61,7 @@ module.exports = [
             validate: {
                 payload: {
                     _id: Joi.string().required(),
-                    name: Joi.string().required(),
+                    name: Joi.string(),
                     email: Joi.string().email()
                 },
 

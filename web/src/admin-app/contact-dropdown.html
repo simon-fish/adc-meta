@@ -22,8 +22,7 @@
             handle-as="json"
             last-response="{{_contacts}}" ></iron-ajax>
         
-        <iron-icon icon="vaadin-icons:doctor"></iron-icon>
-        <paper-dropdown-menu label="Select Contact" on-iron-select="_itemSelected">
+        <paper-dropdown-menu on-iron-select="_itemSelected">
             <paper-listbox class="dropdown-content">
                 <template is="dom-repeat" items="{{_contacts}}">
                     <paper-item value="{{item._id}}">{{item.name}}</paper-item>

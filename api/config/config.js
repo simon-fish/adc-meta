@@ -1,7 +1,7 @@
 
 exports.DBConfig = function(){
     var MONGO_DB;
-    var DOCKER_DB = process.env.DB_PORT;
+    var DOCKER_DB = process.env.MONGO_PORT;
     console.log(process.env);
 
     if (DOCKER_DB){

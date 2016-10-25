@@ -1,20 +1,38 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-scroll-target-behavior/iron-scroll-target-behavior.html">
 
 <link rel="import" href="./datasource-list.html">
+<link rel="import" href="datasource-grid.html">
 <link rel="import" href="./datasource-detail.html">
 <link rel="import" href="./admin-upload.html">
 <link rel="import" href="./stats-dashboard.html">
+<link rel="import" href="datasource-selected.html">
+
+<link rel="import" href="shared-styles.html">
 
 <dom-module id="datasource-app">
-    <style is="custom">
-        datasource-list {
-            margin: 20px;
-        }
-
-    </style>
 
     <template>
+         <style include="shared-styles">
+        :host {
+            display: block;
+
+            padding: 10px;
+        }
+
+         #header {
+            height: 20vh;
+           
+        }
+
+        #region {
+            height: 60vh;
+            overflow: auto;
+            
+        }
+
+        </style>
         <iron-ajax
             auto 
             method="GET"
@@ -24,8 +42,18 @@
         <div>
             <datasource-detail items={{datasourceItems}} selected={{selectedIndex}}></datasource-detail>
             <stats-dashboard items=[[datasourceItems]]></stats-dashboard>
-        <div>
-        <datasource-list items={{datasourceItems}} selected={{selectedIndex}}></datasource-list>
+        <div/>
+        <div class="card">
+            <div id="header">
+                <datasource-selected id="detail" item=[[selected]]></datasource-selected>
+            </div>
+            <div id="region">
+                <x-scrollable scroll-target="region"></x-scrollable>
+                <datasource-list items={{datasourceItems}} selectedItem={{selected}}></datasource-list>
+            </div>
+            
+        </div>
+
         <admin-upload></admin-upload>
 
     </template>
@@ -35,10 +63,12 @@
             is: 'datasource-app',
 
             properties: {
+
+                /*
                 datasourceItems : {
                     type: Array,
                     notify: true
-                },
+                },*/
                 selectedIndex: {
                     type: Number,
                     notify: true,
@@ -58,6 +88,10 @@
             // Computed properties
             _computedURL: function(endpoint){
                 return endpoint + '/datasource'
+            },
+            _updateSelectedItem: function(item){
+                console.log('item is changed!!!!');
+                this.$.detail.item = item;
             }
         }); 
     </script>

@@ -1,0 +1,30 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="contact-grid.html">
+<link rel="import" href="shared-styles.html">
+
+
+<dom-module id="contact-app">
+    <style include="shared-styles">
+
+    </style>
+
+    <template>
+       <div class="card">
+           <contact-grid endpoint="[[endpoint]]"></contact-grid>
+       </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'contact-app',
+
+            properties: {
+                endpoint: {
+                    type: String,
+                }
+            }
+          
+        });
+    </script>
+</dom-module>

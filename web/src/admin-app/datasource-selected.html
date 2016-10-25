@@ -1,0 +1,45 @@
+
+
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+
+<dom-module id="datasource-selected">
+    <template>
+        <style>
+            .datetime {
+                font-size: 10px;
+            }
+
+            paper-icon-button {
+                --iron-icon-height: 32px;
+                --iron-icon-width: 32px;
+            }
+
+        </style>
+        <div>
+            <h1>[[item.name]]</h1>
+            <div class="datetime"><iron-icon icon="icons:alarm-add"></iron-icon><span>{{item.created}}</span></div>
+            <div class="datetime"><iron-icon icon="icons:alarm-on"></iron-icon><span>{{item.modified}}</span></div>
+            <contact-dropdown selected="{{selectedContact}}"></contact-dropdown>
+            <paper-icon-button icon="save"></paper-icon-button>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is : 'datasource-selected',
+
+            properties: {
+                item: {
+                    type: Object,
+                    observer: '_itemChanged'
+                }
+            },
+
+            _itemChanged : function(it){
+                this.item = it;
+                console.log('I know!!');
+            }
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,55 @@
+<!--> </!-->
+
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/polymer-bootstrap/polymer-bootstrap.html">
+
+
+<dom-module id="datasource-grid">
+
+    <template>
+        <style include="polymer-bootstrap"></style>
+        <iron-ajax
+            auto 
+            url=[[_url]]
+            handle-as="json"
+            method="GET"
+            last-response={{items}}></iron-ajax>
+
+        <div class="card">
+            <table data-toggle="table" data-url="[[_url]]" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th data-field="name">Name</th>
+                        <th data-field="numOfFormulas"># of formulas</th>
+                        <th data-field="contact.name">Contact</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+
+
+    </template>
+    <script>
+        Polymer({
+            is: 'datasource-grid',
+
+            properties: {
+                
+                endpoint : {
+                    type: String,
+                },
+                _url : {
+                    type: String,
+                    computed: '_computedURL(endpoint)'
+                },    
+
+            },
+
+            _computedURL : function(endpoint){ return endpoint + '/datasource';},
+                        
+        });
+    </script>
+
+</dom-module>
