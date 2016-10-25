@@ -1,0 +1,127 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-a11y-keys/iron-a11y-keys.html">
+
+
+<dom-module id="login-app">
+    <template>
+        <style is="custom-style">
+            :host {
+                --app-primary-color: #4285f4;
+                --app-secondary-color: black;
+
+                display: block;
+                background: #2196F3;
+                color: white;
+
+            }
+
+            #content {
+                position:fixed;
+                padding:0;
+                margin:0;
+
+                top:0;
+                left:0;
+
+                width: 100%;
+                height: 100%;
+                background: #2196F3;
+                color: white;
+            }
+            .center {
+                margin: 0 auto;
+                top: 30%;
+                left: 30%;
+                width: 30%;
+                height: auto;
+                position: relative;
+
+            }
+            paper-input.login {
+                color: white;
+                --paper-input-container-color: #90CAF9;
+                --paper-input-container-focus-color: #90CAF9;
+                --paper-input-container-invalid-color: green;
+                --paper-input-container-input-color: white;
+            }
+
+        </style>
+
+        <div id="content">
+            <div class="center">
+            <iron-ajax id="ajaxLogin" url="[[_url]]" method="POST" 
+                handle-as="json" on-response="onLoginResponse" last-response={{token}}
+                headers='{"Content-Type": "application/json",
+                        "Accept": "application/json"}'></iron-ajax>
+            <iron-a11y-keys target=[[target]] keys="enter" on-keys-pressed='onEnter'></iron-a11y-keys>
+            <paper-input class="login" label="Username" value="{{login.username}}"></paper-input>
+            <paper-input id="pwdInput" class="login" type="password" label="Password" value="{{login.password}}"></paper-input>
+            <paper-button on-click='doLogin'>LOGIN</paper-button>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'login-app',
+
+            properties: {
+                login: {
+                    type: Object,
+                    value: {
+                        username: '',
+                        password: ''
+                    }
+                },
+
+                endpoint : {
+                    type: String,
+                },
+                _url : {
+                    type: String,
+                    computed: '_computedURL(endpoint)'
+                },
+                target: {
+                    type: Object,
+                    value: function(){
+                        return this.$.pwdInput;
+                    }
+                }
+            },
+            onEnter: function(){
+                this.doLogin();
+            },
+
+            doLogin: function(){
+                var ajax = this.$.ajaxLogin;
+                var payload = this.login;
+                console.log(JSON.stringify(payload));
+                ajax.body = JSON.stringify(payload);
+                ajax.generateRequest();
+            },
+
+            onLoginResponse: function(e){
+                if (e.detail.xhr.status >= 200 && e.detail.xhr.status < 300){
+                    // success.
+                    console.log('Login success');
+                    console.log(e.detail.response);
+                    var token = e.detail.response.token;
+                    if (token!=''){
+                        localStorage.setItem('access_token', token);
+                        console.log('got token: ' + token);
+                        window.location.assign('/webapp/admin');
+                    }
+                }
+                else{
+                    console.log('Login Failed.');
+                }
+            },
+
+            _computedURL: function(endpoint){ return endpoint + '/user/login'; }
+
+        })
+    </script>
+</dom-module>

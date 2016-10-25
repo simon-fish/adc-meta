@@ -22,3 +22,5 @@ exports.ServerConfig = function(){
         cors_enabled: false
     }
 }
+
+exports.Secret = "PR@W1TchaiV0ngTrin.netST1meS3ries";
