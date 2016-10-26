@@ -2,3 +2,4 @@ node_modules/
 web/bower_components/
 uploads/
 .DS_Store/
+sample/
