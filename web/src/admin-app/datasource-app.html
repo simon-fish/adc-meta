@@ -2,12 +2,10 @@
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../../bower_components/iron-scroll-target-behavior/iron-scroll-target-behavior.html">
 
-<link rel="import" href="./datasource-list.html">
+
 <link rel="import" href="datasource-grid.html">
-<link rel="import" href="./datasource-detail.html">
 <link rel="import" href="./admin-upload.html">
-<link rel="import" href="./stats-dashboard.html">
-<link rel="import" href="datasource-selected.html">
+
 
 <link rel="import" href="shared-styles.html">
 
@@ -21,40 +19,14 @@
             padding: 10px;
         }
 
-         #header {
-            height: 20vh;
-           
-        }
-
-        #region {
-            height: 60vh;
-            overflow: auto;
-            
-        }
-
         </style>
-        <iron-ajax
-            auto 
-            method="GET"
-            handle-as="json"
-            last-response={{datasourceItems}}
-            url={{_url}}></iron-ajax>
-        <div>
-            <datasource-detail items={{datasourceItems}} selected={{selectedIndex}}></datasource-detail>
-            <stats-dashboard items=[[datasourceItems]]></stats-dashboard>
-        <div/>
-        <div class="card">
-            <div id="header">
-                <datasource-selected id="detail" item=[[selected]]></datasource-selected>
-            </div>
-            <div id="region">
-                <x-scrollable scroll-target="region"></x-scrollable>
-                <datasource-list items={{datasourceItems}} selectedItem={{selected}}></datasource-list>
-            </div>
-            
-        </div>
 
-        <admin-upload></admin-upload>
+        <div class="card">
+            <datasource-grid endpoint="[[endpoint]]"></datasource-grid>
+        </div>
+        <div>
+            <admin-upload endpoint="[[endpoint]]"></admin-upload>
+        </div>
 
     </template>
 

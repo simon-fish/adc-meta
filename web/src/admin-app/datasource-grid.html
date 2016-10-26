@@ -1,55 +1,102 @@
-<!--> </!-->
+
 
 <link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-datatable/paper-datatable.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
-<link rel="import" href="../../bower_components/polymer-bootstrap/polymer-bootstrap.html">
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
+<link rel="import" href="contact-dropdown.html">
 
 <dom-module id="datasource-grid">
-
     <template>
-        <style include="polymer-bootstrap"></style>
-        <iron-ajax
-            auto 
-            url=[[_url]]
-            handle-as="json"
-            method="GET"
-            last-response={{items}}></iron-ajax>
+        <style is="custom-styles">
+            #region {
+                height: 60vh;
+                overflow: auto; 
+            }
+        </style>
+        <iron-ajax id="ajaxList" auto url=[[_url]] handle-as="json" last-response={{sources}}></iron-ajax>
 
-        <div class="card">
-            <table data-toggle="table" data-url="[[_url]]" class="table table-hover">
-                <thead>
-                    <tr>
-                        <th data-field="name">Name</th>
-                        <th data-field="numOfFormulas"># of formulas</th>
-                        <th data-field="contact.name">Contact</th>
-                    </tr>
-                </thead>
+        <iron-ajax id="ajaxUpdate" url=[[_url]] handle-as="json" on-response="_onUpdateResponse" method="PUT"
+                headers='{"Content-Type": "application/json",
+                    "Accept": "application/json"}'></iron-ajax>
+        
 
-            </table>
+        <div id="content">
+            <paper-dialog id="dialog">
+            <h2>Select Contact</h2>
+            <h1>[[selectedSource.name]]</h1>
+            <contact-dropdown endpoint="[[endpoint]]" selected={{selectedContact}}></contact-dropdown>
+            <div class="buttons">
+                <paper-button dialog-confirm autofocus on-click='_doUpdate'>SAVE</paper-button>
+                <paper-button dialog-dismiss autofocus>CANCEL</paper-button>
+            </div>
+        </paper-dialog>
+            <div id="overview">
+                <h1>[[selectedSource.name]]</h1>
+                <div><iron-icon icon="icons:delete"></iron-icon><span>[[selectedSource.numOfFormulas]]</span></div>
+                <div>
+                    <iron-icon icon="icons:delete"></iron-icon><span>[[selectedSource.contact.name]]</span>
+                    <paper-icon-button icon="icons:create" on-click='_openDialog'></paper-icon-button>
+                </div>
+            </div>
+            <div id="region">
+                <x-scrollable scroll-target="region"></x-scrollable>
+                <paper-datatable data={{sources}} selected-item={{selectedSource}} selectable>
+                    <paper-datatable-column header="Name" property="name" type="String" sortable></paper-datatable-column>
+                    <paper-datatable-column header="# of formulas" property="numOfFormulas" type="Number" sortable></paper-datatable-column>
+                    <paper-datatable-column header="Contact" property="contact" type="Object" sortable>
+                        <template>{{value.name}}</template>
+                    </paper-datatable-column>
+                </paper-datatable>
+            </div>
         </div>
 
-
     </template>
+
     <script>
         Polymer({
             is: 'datasource-grid',
 
             properties: {
-                
-                endpoint : {
-                    type: String,
+                endpoint: {
+                    type: String
                 },
-                _url : {
+                _url: {
                     type: String,
                     computed: '_computedURL(endpoint)'
-                },    
-
+                }
             },
 
-            _computedURL : function(endpoint){ return endpoint + '/datasource';},
-                        
+            _openDialog: function(){
+                this.$.dialog.open();
+            },
+            _doUpdate: function(){
+                var ajax = this.$.ajaxUpdate;
+                var payload = {
+                    id: this.selectedSource.id,
+                    contact: this.selectedContact
+                };
+
+                ajax.body = JSON.stringify(payload);
+
+                console.log(JSON.stringify(payload));
+                ajax.generateRequest();
+            },
+            _onUpdateResponse: function(e){
+                if (e.detail.xhr.status >= 200 && e.detail.xhr.status < 300){
+                    console.log('Fucking great!!!!');
+                    this.$.ajaxList.generateRequest();
+                }
+                else {
+                    console.log('Some shit happend');
+                }
+            },
+
+            _computedURL: function(endpoint){ return endpoint + '/datasource'; }
         });
     </script>
-
 </dom-module>
