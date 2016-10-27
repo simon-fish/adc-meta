@@ -13,12 +13,9 @@ RUN npm install bower -g
 # Bundle app source
 
 COPY . /usr/src/adcapp
-VOLUME /usr/src/adcapp
 
-WORKDIR /usr/src/adcapp/web
-RUN bower install --allow-root
+RUN cd web && bower install --allow-root --config.interactive=false
 
-WORKDIR /usr/src/adcapp
 
 EXPOSE 3000
 
