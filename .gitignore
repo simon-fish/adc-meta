@@ -3,3 +3,4 @@ web/bower_components/
 uploads/
 .DS_Store/
 sample/
+.vscode/
