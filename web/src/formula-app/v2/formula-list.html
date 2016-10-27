@@ -1,0 +1,54 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../../bower_components/paper-item/paper-item.html">
+
+
+<dom-module is="formula-list">
+    <template>
+        <style is="custom-styles">
+            #region {
+                height: 60vh;
+                overflow: auto; 
+            }
+        </style>
+
+        <div>
+            <div><span>[[found]]</span> Found</div>
+            <div id="region">
+                <x-scrollable scroll-target="region"></x-scrollable>
+                <paper-listbox>
+                    <template is="dom-repeat" items={{data}} selected-item={{selected}}>
+                        <paper-item><span>[[item.name]]</span></paper-item>
+                    </template>
+                </paper-listbox>
+            </div>
+        </div>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: 'formula-list',
+            properties: {
+                data: {
+                    type: Array,
+                },
+                selected: {
+                    type: Object,
+                    notify: true
+                },
+                found: {
+                    type: Number,
+                    computed: '_countItems(data)'
+                }
+            },
+
+            _countItems: function(data){
+                if (!data){
+                    return 0;
+                }
+                return data.lenght;
+            },
+        });
+    </script>
+</dom-module>
