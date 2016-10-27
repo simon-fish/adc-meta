@@ -1,7 +1,7 @@
 node_modules/
 web/bower_components/
 uploads/
-.DS_Store/
-web/.DS_Store/
+.DS_Store
+web/.DS_Store
 sample/
 .vscode/
