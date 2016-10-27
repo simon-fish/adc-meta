@@ -1,26 +1,70 @@
 <link rel="import" href="../../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../../bower_components/paper-listbox/paper-listbox.html">
 <link rel="import" href="../../../bower_components/paper-item/paper-item.html">
+<link rel="import" href="../../../bower_components/paper-item-body/paper-item-body.html">
+<link rel="import" href="../../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 
+
+<link rel="import" href="../shared-styles.html">
 
 <dom-module is="formula-list">
     <template>
-        <style is="custom-styles">
+        <style include="iron-flex">
+            :host {
+                margin-left: 30px;
+            }
             #region {
                 height: 60vh;
-                overflow: auto; 
+                width: 50%;
+                overflow: auto;
+                padding: auto;
+                background: #1976D2;
             }
+            paper-listbox {
+                color: white;
+                margin-left: 30px;
+                min-width: 100px;
+                width: 60%;
+                background: #1976D2;
+            }
+            paper-item {
+                border-top: solid;
+                border-top-width: 1px;
+                border-top-color: #BBDEFB;
+                font-weight: bold;
+            }
+            .label {
+                font-size: small;
+                font-weight: normal;
+                font-style: italic;
+            }
+            #detail {
+                width: 50%;
+                height: 60vh;
+                background: #1976D2;
+                padding: auto;
+            }
+
         </style>
 
-        <div>
-            <div><span>[[found]]</span> Found</div>
+        <div class="layout horizontal">
             <div id="region">
                 <x-scrollable scroll-target="region"></x-scrollable>
-                <paper-listbox>
-                    <template is="dom-repeat" items={{data}} selected-item={{selected}}>
-                        <paper-item><span>[[item.name]]</span></paper-item>
+                <paper-listbox items={{data}} selected={{selectedFormula}} attr-for-selected="value">
+                    <template is="dom-repeat" items={{data}}>
+                        <paper-item value="[[item._id]]">
+                            <paper-item-body two-line>
+                                <div>[[item.name]]</div>
+                                <div class="label" secondary>[[item.label]]</div>
+                            </paper-item-body>
+                        </paper-item>
                     </template>
                 </paper-listbox>
+            </div>
+            <div id="detail">
+
+                <h1>{{selectedFormula}}</h1>
             </div>
         </div>
 
@@ -33,22 +77,19 @@
                 data: {
                     type: Array,
                 },
-                selected: {
-                    type: Object,
-                    notify: true
+                selectedFormula: {
+                    type: String,
+                    notify: true,
+                    observer: '_onSelected'
+
                 },
-                found: {
-                    type: Number,
-                    computed: '_countItems(data)'
-                }
             },
 
-            _countItems: function(data){
-                if (!data){
-                    return 0;
-                }
-                return data.lenght;
+            _onSelected: function(value){
+                console.log('Selected: ' + value);
+                this.notifyPath('selectedFormula.name');
             },
+
         });
     </script>
 </dom-module>
