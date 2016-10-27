@@ -10,7 +10,6 @@
     "paper-input": "PolymerElements/paper-input#^1.1.20",
     "paper-item": "PolymerElements/paper-item#^1.2.1",
     "paper-listbox": "polymerelements/paper-listbox#^1.1.2",
-    "vaadin-core-elements": "^1.1.2",
     "paper-dialog": "PolymerElements/paper-dialog#^1.1.0",
     "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.4.1",
     "vaadin-icons": "^1.0.2",
@@ -29,5 +28,10 @@
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
     "web-component-tester": "^4.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "resolutions": {
+    "paper-item": "^1.2.1",
+    "polymer": "^1.6.0",
+    "paper-styles": "^1.1.4"
   }
 }
