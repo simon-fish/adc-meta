@@ -14,6 +14,22 @@ a contact directly and hopefully reduce the time to resolve the problem and redu
 + bower
 + MongoDB (server)
 
+### Production setup
+#### Prerequitsists
++ Mostly support Windows/Mac/Linux, but we highly recommended Linux or Mac
++ Docker (www.docker.com)
+
+#### Instructions
+* Build image `docker build -t adcweb:latest https://github.com/simon-fish/adc-meta.git`
+* Create container for database `docker run --name db -d mongo`
+* Create container for webapp `docker run -p 3000:3000 -itd --link db:mongo --name web adcweb`
+* Above command can be executed in any path
+* Because this is a production, we don't need to download any source code to machine. We can just build image from github repository
+#### Service management
+* Stop services `docker stop web && docker stop db`
+* Start services `docker start db && docker start web`
+* Restart service `docker restart db && docker restart web`
+
 ### Development environment setup
 * Checkout source code from repository
 * Run command `npm install` (Ensure that you are in the same directory as `package.json`)
